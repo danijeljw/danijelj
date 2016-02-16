@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://danijelj.com
+title: danijelj [p.f.h]
+subtitle: photography.french.hacking
+author: Danijel James
 simple_search: https://www.google.com/search
 description:
 
@@ -70,7 +70,7 @@ github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: danijeljames
 twitter_tweet_button: true
 
 # Google +1
@@ -99,3 +99,12 @@ google_analytics_tracking_id:
 
 # Facebook Like
 facebook_like: false
+
+# Facebook ID
+facebook_user: 1027690367
+
+# Instagram User
+instagram_user: danijeljames
+
+# Flickr User
+flicker_user: danijeljames
