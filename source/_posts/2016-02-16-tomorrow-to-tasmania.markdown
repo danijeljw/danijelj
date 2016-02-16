@@ -9,4 +9,6 @@ Tomorrow I'm headed to Tasmania to join my French boyfriend explore Tasmania. I 
 
 I really should be going to sleep soon but I figured sitting here that I can quickly dart across the road to McDonald's and grab a chocolate sundae before laying down to sleep.
 
+{% img /images/16-02-2016_sundae_inception.jpg 200 200 '' 'McDonalds Large Sundae' %}
+
 I expect there to be some amazing shots available on this island!
