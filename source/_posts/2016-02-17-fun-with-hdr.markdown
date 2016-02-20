@@ -4,6 +4,7 @@ title: "Fun with HDR"
 date: 2016-02-17 15:45:49 +1100
 comments: true
 categories: photography
+author: Danijel James
 ---
 Grenouille and I were walking along Lagon Beach and he was just out in front of me. Not wanting to be part of my public images _(boring, I know right?)_ I can't post his face, but he did jump as he stepped onto a slippery rock and I couldn't help but take this shot as my trusty 600D was poised and ready to fire.
 

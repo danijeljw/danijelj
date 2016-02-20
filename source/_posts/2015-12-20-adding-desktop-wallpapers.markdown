@@ -4,6 +4,7 @@ title: "Adding Desktop Wallpapers"
 date: 2015-12-20 11:32:42 +1100
 comments: true
 categories: hacking
+author: Danijel James
 ---
 To move images you love to the default Wallpapers section of OS X, move them using Terminal.
 

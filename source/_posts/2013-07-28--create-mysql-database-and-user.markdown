@@ -4,6 +4,7 @@ title: "Create MySQL Database and User"
 date: 2013-07-28 17:02:46 +1100
 comments: true
 categories: hacking
+author: Danijel James
 ---
 Install MySQL and set a default password for root. Failure to do so is a security leak.
 

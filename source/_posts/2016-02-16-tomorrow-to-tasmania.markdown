@@ -4,6 +4,7 @@ title: "Tomorrow to Tasmania"
 date: 2016-02-16 22:59:32 +1100
 comments: true
 categories: photography
+author: Danijel James
 ---
 Tomorrow I'm headed to Tasmania to join my French boyfriend explore Tasmania. I don't know how I ever agreed to this wild adventure, but I'm sure it's gonna be crazy and most probably full of awesome opportunities to capture the essence that is Tasmania.
 
