@@ -5,6 +5,7 @@ date: 2016-02-20 15:14:09 +1100
 comments: true
 categories: [french,photography]
 author: Danijel James
+published: false
 ---
 Tasmania has got to be one of the worst places for hospitality in all of Australia. Never more often in my life have I happily gone on to Yelp! to write a bad review about venue as through our travel of Tasmania. It's disgusting. What happened to the good framework that this country was built upon? My travelling companion Grenouille (🐸), may not have been able to understand the dymanics of the situation that played out at hand but I certainly did!
 
