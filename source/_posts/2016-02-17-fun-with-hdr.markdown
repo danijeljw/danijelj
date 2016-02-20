@@ -5,15 +5,15 @@ date: 2016-02-17 15:45:49 +1100
 comments: true
 categories: photography
 author: Danijel James
-published: false
+published: true
 ---
 Grenouille and I were walking along Lagon Beach and he was just out in front of me. Not wanting to be part of my public images _(boring, I know right?)_ I can't post his face, but he did jump as he stepped onto a slippery rock and I couldn't help but take this shot as my trusty 600D was poised and ready to fire.
 
 {% img /images/DJW.20160217.600D.9902.HDR_sml.jpg 200 200 '' 'Genouille HDR Silver' %}
 
-The full image can be found on Flickr here: [DJW.20160217.600D.9902.HDR](!flickr.com/danijeljames/img.jpg)
+The full image can be found on Flickr here: <a href="https://www.flickr.com/photos/danijeljames/24851378680/">DJW.20160217.600D.9902.HDR</a>
 
-I love this style of [HDR](!en.wikipedai.org/wiki/HDR) that I developed as I explored earlier images _(again, with Grenouille as the subject)_. I take the original image and apply my Adelaide Filter, Fireworks T2, and then Fireworks T2 with greyscale. The result combination gives me this silver effect to the image and brings out the high grain and contrast that is normally not visible to the naked eye.
+I love this style of [HDR](https://en.wikipedia.org/wiki/High-dynamic-range_imaging) that I developed as I explored earlier images _(again, with Grenouille as the subject)_. I take the original image and apply my Adelaide Filter, Fireworks T2, and then Fireworks T2 with greyscale. The result combination gives me this silver effect to the image and brings out the high grain and contrast that is normally not visible to the naked eye.
 
 Unfortunately a side-effect can be the final image will give any skin a "rippened" effect and all the small contours, spots and stains on your skin will show up.
 
