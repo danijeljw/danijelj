@@ -116,6 +116,7 @@ task :new_post, :title do |t, args|
     post.puts "comments: true"
     post.puts "categories: "
     post.puts "author: Danijel James"
+    post.puts "published: true"
     post.puts "---"
   end
 end
