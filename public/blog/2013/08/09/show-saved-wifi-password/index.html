@@ -3,11 +3,11 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>format with fat16 on mac os x - danijelj [p.f.h]</title>
+	<title>Show Saved WiFi Password - danijelj [p.f.h]</title>
 	<meta name="author" content="Danijel James">
 
 	
-	<meta name="description" content="Using the following formats a partition with fat16 on OS X: diskutil partitionDisk /Volumes/NDS 1 MBRFormat "MS-DOS FAT16" "NDS" 1000M That is: / &hellip;">
+	<meta name="description" content="Source for script that spits out WiFi password saved in Windows 7 or 8. Haven’t tested this on XP or Vista. ::===START &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -80,25 +80,22 @@
 		
 	
 	<div id="content" class="inner"><article class="post">
-	<h2 class="title">Format With Fat16 on Mac Os X</h2>
-	<div class="entry-content"><p>Using the following formats a partition with <code>fat16</code> on OS X:</p>
+	<h2 class="title">Show Saved WiFi Password</h2>
+	<div class="entry-content"><p>Source for script that spits out WiFi password saved in Windows 7 or 8. Haven’t tested this on XP or Vista.</p>
 
-<pre><code>diskutil partitionDisk /Volumes/NDS 1 MBRFormat "MS-DOS FAT16" "NDS" 1000M
+<pre><code>::===START=========================================
+@echo off
+netsh wlan show profiles
+echo.
+echo.
+set /p UserInputPath=" Reveal which WiFi connection password:  "
+netsh wlan show %UserInputPath% key=clear
+netsh wlan show gs key=clear
+pause
+::===END===========================================
 </code></pre>
 
-<p>That is:</p>
-
-<ul>
-<li>/Volumes/NDS: the mount point to partition, could also be /dev/disk1</li>
-<li>1: the number of partitions</li>
-<li>MBRFormat: the partition format, MBR is the usual default for removable storage</li>
-<li>&ldquo;MS-DOS FAT16&rdquo;: partition type</li>
-<li>&ldquo;NDS&rdquo;: partition name</li>
-<li>1000M: 1000 megabytes (size of the partition, if it is the last, it will span to the end of the drive)</li>
-</ul>
-
-
-<p>🍷🍷🍷</p>
+<p>I cannot claim copyright to this code, as it is pretty much just a mouthful of commands, so it shall be freely available in the Public Domain.</p>
 
 <p><code>#MigratedPost</code></p>
 </div>
@@ -110,7 +107,7 @@
 
 
 
-Aug 4th, 2014</div>
+Aug 9th, 2013</div>
 	<div class="tags">
 
 

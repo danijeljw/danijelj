@@ -3,11 +3,11 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>format with fat16 on mac os x - danijelj [p.f.h]</title>
+	<title>Create MySQL Database and User - danijelj [p.f.h]</title>
 	<meta name="author" content="Danijel James">
 
 	
-	<meta name="description" content="Using the following formats a partition with fat16 on OS X: diskutil partitionDisk /Volumes/NDS 1 MBRFormat "MS-DOS FAT16" "NDS" 1000M That is: / &hellip;">
+	<meta name="description" content="Install MySQL and set a default password for root. Failure to do so is a security leak. Firstly, you need to login to the root user on MySQL: mysql - &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -80,25 +80,54 @@
 		
 	
 	<div id="content" class="inner"><article class="post">
-	<h2 class="title">Format With Fat16 on Mac Os X</h2>
-	<div class="entry-content"><p>Using the following formats a partition with <code>fat16</code> on OS X:</p>
+	<h2 class="title">Create MySQL Database and User</h2>
+	<div class="entry-content"><p>Install MySQL and set a default password for root. Failure to do so is a security leak.</p>
 
-<pre><code>diskutil partitionDisk /Volumes/NDS 1 MBRFormat "MS-DOS FAT16" "NDS" 1000M
+<p>Firstly, you need to login to the root user on MySQL:</p>
+
+<pre><code>mysql -u root -p
+Enter password:
 </code></pre>
 
-<p>That is:</p>
+<p>Now that you are logged in, create the database you need. Here I have created a database called wordpress:</p>
 
-<ul>
-<li>/Volumes/NDS: the mount point to partition, could also be /dev/disk1</li>
-<li>1: the number of partitions</li>
-<li>MBRFormat: the partition format, MBR is the usual default for removable storage</li>
-<li>&ldquo;MS-DOS FAT16&rdquo;: partition type</li>
-<li>&ldquo;NDS&rdquo;: partition name</li>
-<li>1000M: 1000 megabytes (size of the partition, if it is the last, it will span to the end of the drive)</li>
-</ul>
+<pre><code>mysql&gt; CREATE DATABASE wordpress;
+Query OK, 1 row affected (0.00 sec)
+</code></pre>
 
+<p>Create a user called wpUser to connect to the server from localhost using password Password1:</p>
 
-<p>🍷🍷🍷</p>
+<pre><code>mysql&gt; GRANT USAGE ON *.* TO wpUser@localhost IDENTIFIED BY  'Password1';
+Query OK, 0 rows affected (0.00 sec)
+</code></pre>
+
+<p>Now grant all privileges on wordpress database to wpUser:</p>
+
+<pre><code>mysql&gt; GRANT ALL PRIVILEGES ON wordpress.* TO 'wpUser'@'localhost';
+Query OK, 0 rows affected (0.00 sec)
+</code></pre>
+
+<p>Exit from the mysql> prompt by typing <strong>exit</strong>. Then you can test your connection settings by typing:</p>
+
+<pre><code>mysql -u wpUser -p'Password1' wordpress
+</code></pre>
+
+<p>You will be greeted with something like the following:</p>
+
+<pre><code>Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+Welcome to the MySQL monitor.
+Commands end with ; or \g.
+Your MySQL connection id is 254
+Server version: 5.1.66-0+squeeze1 (Debian)
+Copyright (c) 2000, 2012, Oracle and/or its affiliates.
+All rights reserved. Oracle is a registered trademark of
+Oracle Corporation and/or its affiliates. Other names may be
+trademarks of their respective owners. Type ‘help;’ or ‘\h’ for
+help. Type ‘\c’ to clear the current input statement.
+
+mysql&gt;
+</code></pre>
 
 <p><code>#MigratedPost</code></p>
 </div>
@@ -110,7 +139,7 @@
 
 
 
-Aug 4th, 2014</div>
+Jul 28th, 2013</div>
 	<div class="tags">
 
 

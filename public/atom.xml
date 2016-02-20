@@ -4,7 +4,7 @@
   <title><![CDATA[danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-02-17T08:13:48+11:00</updated>
+  <updated>2016-02-20T19:48:09+11:00</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel James]]></name>
@@ -29,13 +29,40 @@
   </entry>
   
   <entry>
+    <title type="html"><![CDATA[Adding Desktop Wallpapers]]></title>
+    <link href="http://danijelj.com/blog/2015/12/20/adding-desktop-wallpapers/"/>
+    <updated>2015-12-20T11:32:42+11:00</updated>
+    <id>http://danijelj.com/blog/2015/12/20/adding-desktop-wallpapers</id>
+    <content type="html"><![CDATA[<p>To move images you love to the default Wallpapers section of OS X, move them using Terminal.</p>
+
+<p>TO move a file from my desktop called <strong>DWAD Danijel.jpg</strong> I do the following:</p>
+
+<pre><code>sudo mv ~/Desktop/DWAD\ Danijel.jpg /Library/Desktop\ Wallpapers/
+</code></pre>
+
+<p>You&rsquo;ll be asked for your Admin password and then feel free to change your desktop wallpaper and select the image.</p>
+
+<p><img src="http://danijelj.com/images/2015-12-20_adding_desktop_wallpapers.png"></p>
+
+<p>If you have a folder with multiple images <em>(JPG format)</em> on your desktop, try the following instead:</p>
+
+<pre><code>sudo mv ~/Desktop/wallpapers/* /Library/Desktop\ Wallpapers/
+</code></pre>
+
+<p>That should do the trick! 😎</p>
+
+<p><em><strong>Note:</strong> I used <code>mv</code> instead your can use <code>cp</code> if you prefer; but <code>sudo</code> is required!</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[format with fat16 on mac os x]]></title>
     <link href="http://danijelj.com/blog/2014/08/04/format-with-fat16-on-mac-os-x/"/>
     <updated>2014-08-04T07:11:15+10:00</updated>
     <id>http://danijelj.com/blog/2014/08/04/format-with-fat16-on-mac-os-x</id>
     <content type="html"><![CDATA[<p>Using the following formats a partition with <code>fat16</code> on OS X:</p>
 
-<pre><code>1 diskutil partitionDisk /Volumes/NDS 1 MBRFormat "MS-DOS FAT16" "NDS" 1000M
+<pre><code>diskutil partitionDisk /Volumes/NDS 1 MBRFormat "MS-DOS FAT16" "NDS" 1000M
 </code></pre>
 
 <p>That is:</p>
@@ -49,6 +76,157 @@
 <li>1000M: 1000 megabytes (size of the partition, if it is the last, it will span to the end of the drive)</li>
 </ul>
 
+
+<p>🍷🍷🍷</p>
+
+<p><code>#MigratedPost</code></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Permission Denied with Terminal]]></title>
+    <link href="http://danijelj.com/blog/2013/08/19/permission-denied-with-terminal/"/>
+    <updated>2013-08-19T16:22:59+10:00</updated>
+    <id>http://danijelj.com/blog/2013/08/19/permission-denied-with-terminal</id>
+    <content type="html"><![CDATA[<p>Getting a Permission Denied when trying to run a file in Terminal <em>(OS X or *NIX)</em> can be frustrating, especially if you’re new to this. Try running the following:</p>
+
+<pre><code>chmod +x FileName
+</code></pre>
+
+<p>Then to run the program/file, type:</p>
+
+<pre><code>./FileName
+</code></pre>
+
+<p>🍐🍐🍐</p>
+
+<p><code>#MigratedPost</code></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Install Java JVM on OS X 10.8]]></title>
+    <link href="http://danijelj.com/blog/2013/08/10/install-java-jvm-on-os-x-10-dot-8/"/>
+    <updated>2013-08-10T16:13:36+10:00</updated>
+    <id>http://danijelj.com/blog/2013/08/10/install-java-jvm-on-os-x-10-dot-8</id>
+    <content type="html"><![CDATA[<p>Via Terminal:</p>
+
+<pre><code>java -version
+</code></pre>
+
+<p>👍🏻👍🏻👍🏻👍🏻</p>
+
+<p><code>#MigratedPost</code></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Show Saved WiFi Password]]></title>
+    <link href="http://danijelj.com/blog/2013/08/09/show-saved-wifi-password/"/>
+    <updated>2013-08-09T16:09:31+10:00</updated>
+    <id>http://danijelj.com/blog/2013/08/09/show-saved-wifi-password</id>
+    <content type="html"><![CDATA[<p>Source for script that spits out WiFi password saved in Windows 7 or 8. Haven’t tested this on XP or Vista.</p>
+
+<pre><code>::===START=========================================
+@echo off
+netsh wlan show profiles
+echo.
+echo.
+set /p UserInputPath=" Reveal which WiFi connection password:  "
+netsh wlan show %UserInputPath% key=clear
+netsh wlan show gs key=clear
+pause
+::===END===========================================
+</code></pre>
+
+<p>I cannot claim copyright to this code, as it is pretty much just a mouthful of commands, so it shall be freely available in the Public Domain.</p>
+
+<p><code>#MigratedPost</code></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Create MySQL Database and User]]></title>
+    <link href="http://danijelj.com/blog/2013/07/28/-create-mysql-database-and-user/"/>
+    <updated>2013-07-28T16:02:46+10:00</updated>
+    <id>http://danijelj.com/blog/2013/07/28/-create-mysql-database-and-user</id>
+    <content type="html"><![CDATA[<p>Install MySQL and set a default password for root. Failure to do so is a security leak.</p>
+
+<p>Firstly, you need to login to the root user on MySQL:</p>
+
+<pre><code>mysql -u root -p
+Enter password:
+</code></pre>
+
+<p>Now that you are logged in, create the database you need. Here I have created a database called wordpress:</p>
+
+<pre><code>mysql&gt; CREATE DATABASE wordpress;
+Query OK, 1 row affected (0.00 sec)
+</code></pre>
+
+<p>Create a user called wpUser to connect to the server from localhost using password Password1:</p>
+
+<pre><code>mysql&gt; GRANT USAGE ON *.* TO wpUser@localhost IDENTIFIED BY  'Password1';
+Query OK, 0 rows affected (0.00 sec)
+</code></pre>
+
+<p>Now grant all privileges on wordpress database to wpUser:</p>
+
+<pre><code>mysql&gt; GRANT ALL PRIVILEGES ON wordpress.* TO 'wpUser'@'localhost';
+Query OK, 0 rows affected (0.00 sec)
+</code></pre>
+
+<p>Exit from the mysql> prompt by typing <strong>exit</strong>. Then you can test your connection settings by typing:</p>
+
+<pre><code>mysql -u wpUser -p'Password1' wordpress
+</code></pre>
+
+<p>You will be greeted with something like the following:</p>
+
+<pre><code>Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+Welcome to the MySQL monitor.
+Commands end with ; or \g.
+Your MySQL connection id is 254
+Server version: 5.1.66-0+squeeze1 (Debian)
+Copyright (c) 2000, 2012, Oracle and/or its affiliates.
+All rights reserved. Oracle is a registered trademark of
+Oracle Corporation and/or its affiliates. Other names may be
+trademarks of their respective owners. Type ‘help;’ or ‘\h’ for
+help. Type ‘\c’ to clear the current input statement.
+
+mysql&gt;
+</code></pre>
+
+<p><code>#MigratedPost</code></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Fix Corrupt Recycle Bin]]></title>
+    <link href="http://danijelj.com/blog/2013/07/28/fix-corrupt-recycle-bin/"/>
+    <updated>2013-07-28T15:58:04+10:00</updated>
+    <id>http://danijelj.com/blog/2013/07/28/fix-corrupt-recycle-bin</id>
+    <content type="html"><![CDATA[<p>Sometimes you need to reset the Recycle Bin because it’s giving you an error message saying it’s corrupt. I have seen a few posts around on the internet that try to deal with this issue but none of them were what I needed. Rather than fiddling with the Windows interface, just 2 commands will fix this for you. Remember, if you are getting an error message for a different drive, then change to that drive instead.</p>
+
+<pre><code>C:\&gt; takeown /f $Recycle.bin /r /a
+C:\&gt; rd /s C:\$Recycle.bin
+</code></pre>
+
+<p>If you need to run the commands for another drive, change to that drive and replace the C:\ in C:\$Recycle.bin on the second line. Problem solved.</p>
+
+<p>This script will ask which drive is causing the problems, and attempt to resolve it. Save it as a BAT file type and run this (may require to be run as Admin).</p>
+
+<pre><code>::==BEGIN CODE==================
+COLOR 0A
+set /p drive=Enter drive letter:
+%drive%:
+takeown /f $Recycle.bin /r /a
+rd /s %drive%:\$Recycle.bin
+::==END CODE====================
+</code></pre>
+
+<p><code>#MigratedPost</code></p>
 ]]></content>
   </entry>
   
