@@ -7,7 +7,7 @@ categories: hacking
 ---
 Using the following formats a partition with `fat16` on OS X:
 
-    1 diskutil partitionDisk /Volumes/NDS 1 MBRFormat "MS-DOS FAT16" "NDS" 1000M
+    diskutil partitionDisk /Volumes/NDS 1 MBRFormat "MS-DOS FAT16" "NDS" 1000M
 
 That is:
 
@@ -17,3 +17,7 @@ That is:
 - "MS-DOS FAT16": partition type
 - "NDS": partition name
 - 1000M: 1000 megabytes (size of the partition, if it is the last, it will span to the end of the drive)
+
+🍷🍷🍷
+
+`#MigratedPost`
