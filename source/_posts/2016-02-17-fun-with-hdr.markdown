@@ -11,7 +11,7 @@ Grenouille and I were walking along Lagon Beach and he was just out in front of 
 
 {% img /images/DJW.20160217.600D.9902.HDR_sml.jpg 200 200 '' 'Genouille HDR Silver' %}
 
-The full image can be found on Flickr here: <a href="https://www.flickr.com/photos/danijeljames/24851378680/">DJW.20160217.600D.9902.HDR</a>
+The full-res image can be found on Flickr here: <a href="https://www.flickr.com/photos/danijeljames/24851378680/">DJW.20160217.600D.9902.HDR</a>
 
 I love this style of [HDR](https://en.wikipedia.org/wiki/High-dynamic-range_imaging) that I developed as I explored earlier images _(again, with Grenouille as the subject)_. I take the original image and apply my Adelaide Filter, Fireworks T2, and then Fireworks T2 with greyscale. The result combination gives me this silver effect to the image and brings out the high grain and contrast that is normally not visible to the naked eye.
 
