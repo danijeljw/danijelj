@@ -10,7 +10,7 @@ published: true
 Numbers can seem easy, but they get hard really quickly!
 
 | No. | French |
-|:--:|:---:|
+|:--:|:---|
 | 1 | un |
 | 2 | deux |
 | 3 | trois |
