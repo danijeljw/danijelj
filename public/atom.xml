@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[danijelj [p.f.h]]]></title>
+  <link href="http://danijelj.com/atom.xml" rel="self"/>
+  <link href="http://danijelj.com/"/>
+  <updated>2016-02-17T08:13:48+11:00</updated>
+  <id>http://danijelj.com/</id>
+  <author>
+    <name><![CDATA[Danijel James]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Tomorrow to Tasmania]]></title>
+    <link href="http://danijelj.com/blog/2016/02/16/tomorrow-to-tasmania/"/>
+    <updated>2016-02-16T22:59:32+11:00</updated>
+    <id>http://danijelj.com/blog/2016/02/16/tomorrow-to-tasmania</id>
+    <content type="html"><![CDATA[<p>Tomorrow I&rsquo;m headed to Tasmania to join my French boyfriend explore Tasmania. I don&rsquo;t know how I ever agreed to this wild adventure, but I&rsquo;m sure it&rsquo;s gonna be crazy and most probably full of awesome opportunities to capture the essence that is Tasmania.</p>
+
+<p>I really should be going to sleep soon but I figured sitting here that I can quickly dart across the road to McDonald&rsquo;s and grab a chocolate sundae before laying down to sleep.</p>
+
+<p><img src="http://danijelj.com/images/16-02-2016_sundae_inception.jpg" width="200" height="200"  alt="McDonalds Large Sundae"></p>
+
+<p>I expect there to be some amazing shots available on this island!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[format with fat16 on mac os x]]></title>
+    <link href="http://danijelj.com/blog/2014/08/04/format-with-fat16-on-mac-os-x/"/>
+    <updated>2014-08-04T07:11:15+10:00</updated>
+    <id>http://danijelj.com/blog/2014/08/04/format-with-fat16-on-mac-os-x</id>
+    <content type="html"><![CDATA[<p>Using the following formats a partition with <code>fat16</code> on OS X:</p>
+
+<pre><code>1 diskutil partitionDisk /Volumes/NDS 1 MBRFormat "MS-DOS FAT16" "NDS" 1000M
+</code></pre>
+
+<p>That is:</p>
+
+<ul>
+<li>/Volumes/NDS: the mount point to partition, could also be /dev/disk1</li>
+<li>1: the number of partitions</li>
+<li>MBRFormat: the partition format, MBR is the usual default for removable storage</li>
+<li>&ldquo;MS-DOS FAT16&rdquo;: partition type</li>
+<li>&ldquo;NDS&rdquo;: partition name</li>
+<li>1000M: 1000 megabytes (size of the partition, if it is the last, it will span to the end of the drive)</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>
