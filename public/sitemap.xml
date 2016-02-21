@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://danijelj.com/blog/2016/02/17/fun-with-hdr/</loc>
+<lastmod>2016-02-17T15:45:49+11:00</lastmod>
+</url>
+<url>
 <loc>http://danijelj.com/blog/2016/02/16/tomorrow-to-tasmania/</loc>
 <lastmod>2016-02-16T22:59:32+11:00</lastmod>
+</url>
+<url>
+<loc>http://danijelj.com/blog/2016/02/12/learning-numbers/</loc>
+<lastmod>2016-02-12T19:52:09+11:00</lastmod>
 </url>
 <url>
 <loc>http://danijelj.com/blog/2015/12/20/adding-desktop-wallpapers/</loc>
@@ -25,7 +33,7 @@
 <lastmod>2013-08-09T16:09:31+10:00</lastmod>
 </url>
 <url>
-<loc>http://danijelj.com/blog/2013/07/28/-create-mysql-database-and-user/</loc>
+<loc>http://danijelj.com/blog/2013/07/28/create-mysql-database-and-user/</loc>
 <lastmod>2013-07-28T16:02:46+10:00</lastmod>
 </url>
 <url>
@@ -40,6 +48,9 @@
 </url>
 <url>
 <loc>http://danijelj.com/blog/categories/hacking/</loc>
+</url>
+<url>
+<loc>http://danijelj.com/blog/categories/french/</loc>
 </url>
 <url>
 <loc>http://danijelj.com/blog/categories/photography/</loc>

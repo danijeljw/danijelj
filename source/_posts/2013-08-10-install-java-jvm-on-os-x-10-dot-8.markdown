@@ -10,6 +10,6 @@ Via Terminal:
 
     java -version
 
-👍🏻👍🏻👍🏻👍🏻
+🏻👍🏻👍🏻👍🏻
 
 `#MigratedPost`
