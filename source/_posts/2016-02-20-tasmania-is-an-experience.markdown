@@ -24,12 +24,12 @@ Bringing it right down to a shorter post, we travelled around Tasmania on Mercre
 ######Sorell Fruit Farm
 Amazing little farm a short stint out of Hobart. Bit annoyed that we couldn't go into the farm with just a single bucket between the two of us. We didn't really need two buckets _(large punnets)_ between us to collect 3 apples, 2 pears and a handful of strawberries. Was fun! Grenouille couldn't pick a strawberry to save a life, but decided to steal mine to make the punnet look nice and plump. Pears were small but juicy. Nashi pears to be exact. Apples were yellow-ish in colour but nice. Strawberries were almost all gone but having worked on the Beerenberg Farm myself a few years back I knew how to pick them. The staff were a bit touchy with some of the Asian tourists who just wanted to walk around the orchards to look whilst one of them picked them. So they too were forced to buy a bucket each. Maybe they could fix this business model?
 
-{% img center /images/20160217I.iPhone6Plus.0277.JPG 'Sorell Farm Strawberries' %}
+{% img center /images/20160217.iPhone6Plus.121409.jpg 'Sorell Farm Strawberries' %}
 
 ######Tasmanian Devil Park
 This was a little bit of a disappointment. It's the Tasmanian Devil Park Unzoo. It's not a "zoo" per se, but they help in the breeding and conservation of the Tasmanian Devil. Unbeknown to most, the Tasmanian Devil suffers from a cancer that is transmitted by blood - much like the HIV virus. And also like the HIV virus, we don't know where it came from _(the cancer)_. My favourite part was going out to the Kangaroos to play, watching Quolls devour an animal carcass and the feeding of the Tasmanian Devil. So voracious! Both of them! Who ever thought a Quoll was such a savage eater! 😰
 
-{% img center /images/20160217.iPhone6Plus.0280.JPG 'Kangaroo Ain\'t Impressed' %}
+{% img center /images/20160217.iPhone6Plus.163226.jpg 'Kangaroo Ain\'t Impressed' %}
 
 ######Eaglehawk Neck Historic Site
 Eaglehawk Neck had some natural formations that really take a moment to let sink into the mind. The Tessellated Pavement Slate Reserve down on the beach shore looked like tiles laid by man from above, upon closer inspection we reaslised it was natural formations from erosion of the stone over years from the ocean.
@@ -42,10 +42,44 @@ I didn't take my camera with me, so I have no real images of this place. It's a 
 {% img center /images/GC.20160217.iPhone6.115154.jpg 800 600 'Grenouille\'s Echidna' 'Grenouille\'s Short Billed Echidna' %}
 
 ######Port Arthur
+Resting on Port Arthur for the night, everything closes at 8pm. Literally, everything. Grenouille and I got a châlet at [Port Arthur Villas](www.portarthurvillas.com.au) and they took us in late at night without much ado. A bit pricey for my liking, but what the hell, we're on holidays afterall! Wonderful room with amazing views. Awesome breakfast in the morning too!
 
-{% img center /images/20160217.iPhone6Plus.0282.JPG 'Yummy!' 400 %}
+{% center /images/20160217.iPhone6Plus.091545.jpg 800 800 'Continental Breakfast at Port Arthur Villas' 'Continental Breakfast at Port Arthur Villas' %}
+
+Before we turned it in we headed down the road to a recommendation from our innkeeper to the [Port Arthur Historic Site](www.portarthur.org.au) bistro restuarant. Greeted by the lovliest old queen _(yasss, kween 🙌🏻)_ who tended to our whims and needs. Heck, he even gave up 4 of his own cigarettes because no shops where open when we were leaving! 5-Stars! ⭐️⭐️⭐️⭐️⭐️ Dinner was an amazing salmon dish served on a bed of noodles. Wonderful!
+
+{% img center /images/20160217.iPhone6Plus.203923.jpg 800 800 'Crispy Skin Salmon served on Soba Noodle Base' 'Crispy Skin Salmon served on Soba Noodle Base at Port Arthur Historic Site Felons Restaurant' %}
 
 #####Day 2 Thursday _(jour deux jeudi)_
+
+######Callington Mill - Oatlands
+
+After a brief stop for petrol at the town before, I ducked in quickly to the local candy store leaving Grenouille wondering where I was! 😁
+
+{% img center /images/20160218.iPhone6Plus.142116.jpg.jpg 600 800 '' '' %}
+
+On we headed to see the local windmill which was easy to see from afar, just proving tricky to find up close. The Callington Mill is a working Gregorian windmill built in 1837. That's all I can say about it. It's not really that exciting, and there's nothing to tell about it. 😕 To make the story more exciting, there were `#wasps` nearby.
+
+{% img center /images/DJW.20160218.600D.0145.800res.jpg 533 800 'Callington Mill' 'Callington Windmill' %}
+
+Being a little hungry we headed into town to try the Pancake and Crepe Shop. Without going into it too much here on this page, please feel free to head over to [Yelp!](www.yelp.com.au) to check out my review [here](www.yelp.com.au/biz/pancake-and-crepe-shop-oatlands?hrid=MMilTdyaqky-Y6WBopiu6g&utm_source=oshare). In short, it was crap. Everything about this place was crap. I'd love to know that in time, people are able to go here and give a higher rating than I was.
+
+{% img center /images/20160218.iPhone6Plus.132555.jpg 800 800 '' '' %}
+
+######Spring Vale Vineyards - Cranbrook
+Whenever I think of Vineyards, I think of rich snobby cunts or those that like to think they're rich snobby cunts - the complete opposite here! Greeted warmly and with welcome that reminds me of my father inviting people to the dinner table to share a meal. We tried every type of white and red on the menu walking away with a 750mL of white and smaller bottle of red. I'll keep these as a memory to share with Grenouille in a month from now when I see him on Adelaide. We had a quick tour of the vineyards and just enjoyed a casual stroll amongst the vines. Lovely.
+
+######Coles Bay
+Unfortunately I can't find my pictures from this location and will have to go back through my Lightroom catalog to see where they went. I hope I haven't lost them! 😰 I took some amazing photos here and almost fell off a cliff getting them! 😡 Coles Bay gives you surmountable views of the ocean.
+
+######Wineglass Bay
+Wineglass Bay is a bit of a hike up the mountain. You need to purchase access for your car at the local centre on the way down or risk getting a fine. At least the car ticket allows up to 8 people to access the park and climb up. I met a young couple who were taking _(or trying to)_ romantic photos of one another. Being a complete sucker to help people capture memories the way their imagination sees it, I took her camera and snapped a few wonderful shots of them wit hthe view of the water behind them. She was a bit stuck up. But meh. 😏
+
+{% img center /images/DJW.20160218.600D.0160.800res.jpg 800 533 'Wineglass Bay' 'Wineglass Bay' %}
+
+I quickly also snuck in an image of these Asian tourists sitting down to rest. When Grenouille and I were reviewing photos he asked me _"Do you know these people? Are they your friends?" LOL, no dear. I love you because you're so silly sometimes. 😘 I'm a photographer in the making, I capture memories.
+
+{% img center /images/DJW.20160218.600D.0166.800res.jpg 800 533 'Random Asian Tourists' 'Random Asian Tourists' %}
 
 #####Day 3 Friday _(jour trois vendredi)_
 
