@@ -5,17 +5,17 @@ date: 2016-02-20 15:14:09 +1100
 comments: true
 categories: [french, photography]
 author: Danijel James
-published: false
+published: true
 ---
 Sitting on my Jetstar flight back to Sydney, QF77, retrospectivey I have mixed emotions about the hospitality of people from Tasmania. In this hand it had to be one of the worst places for anyone to experience a welcome in all of Australia. And that includes Sydney. Disgusting. What happened to the good framework that this country was built upon? My travelling companion Grenouille (🐸), may not have been able to understand the dymanics of three particular situations that played out at hand but I certainly did! On the other hand we were greeted like a lost stranger that had a reservation waiting to be fulfilled.
 
-I arrived at [Hobart Internaitional Airport](!www.hotbartinternational.com.au) and was taken back at how small this place was. Really? This is an international travel destination? It's not even half the size of the old Adelaide International Airport before it was revamped a few years ago. Weird.
+I arrived at [Hobart Internaitional Airport](www.hotbartinternational.com.au) and was taken back at how small this place is. Really? This is an international travel destination? It's not even half the size of the old Adelaide International Airport before it was revamped a few years ago. Weird.
 
 Getting off the plane my first messages from Grenouille warm and fuzzy until I was told the car licence was forgot and left behind. LOL! Double LOL! So Grenouille went back towards his place of stay and I resorted to my UK licence. Yes, scary as it may be for a lot of people, I do have a valid international licence and it won't be taken away from me. Yet. 😝
 
 <!-- more -->
 
-First up was Thank you for the welcome at [RedSpot](!www.redspot.com.au), your assistance was amazing! 5-Stars! ⭐️⭐️⭐️⭐️⭐️ You were friendly, welcoming, and extremely helpful. I would just like to mention you with a shout-out here on my blog. Thank you! 👍🏻
+First up was Thank you for the welcome at [RedSpot](www.redspot.com.au), your assistance was amazing! 5-Stars! ⭐️⭐️⭐️⭐️⭐️ You were friendly, welcoming, and extremely helpful. I would just like to mention you with a shout-out here on my blog. Thank you! 👍🏻
 
 Bringing it right down to a shorter post, we travelled around Tasmania on Mercredi, Jeudi, Vendredi and Samedi.
 
@@ -56,13 +56,13 @@ Before we turned it in we headed down the road to a recommendation from our innk
 
 After a brief stop for petrol at the town before, I ducked in quickly to the local candy store leaving Grenouille wondering where I was! 😁
 
-{% img center /images/20160218.iPhone6Plus.142116.jpg.jpg 600 800 '' '' %}
+{% img center /images/20160218.iPhone6Plus.142116.jpg.jpg 600 800 'Danijel in the candy store' 'Cochon in a candy store' %}
 
 On we headed to see the local windmill which was easy to see from afar, just proving tricky to find up close. The Callington Mill is a working Gregorian windmill built in 1837. That's all I can say about it. It's not really that exciting, and there's nothing to tell about it. 😕 To make the story more exciting, there were `#wasps` nearby.
 
 {% img center /images/DJW.20160218.600D.0145.800res.jpg 533 800 'Callington Mill' 'Callington Windmill' %}
 
-Being a little hungry we headed into town to try the Pancake and Crepe Shop. Without going into it too much here on this page, please feel free to head over to [Yelp!](www.yelp.com.au) to check out my review [here](www.yelp.com.au/biz/pancake-and-crepe-shop-oatlands?hrid=MMilTdyaqky-Y6WBopiu6g&utm_source=oshare). In short, it was crap. Everything about this place was crap. I'd love to know that in time, people are able to go here and give a higher rating than I was.
+Being a little hungry we headed into town to try the Pancake and Crepe Shop. Without going into it too much here on this page, please feel free to head over to [Yelp!](www.yelp.com.au) to check out my review [here](www.yelp.com.au/biz/pancake-and-crepe-shop-oatlands). In short, it was crap. Everything about this place was crap. I'd love to know that in time, people are able to go here and give a higher rating than I was.
 
 {% img center /images/20160218.iPhone6Plus.132555.jpg 800 800 '' '' %}
 
@@ -141,30 +141,49 @@ After the Bay of Fires, we headed back to St Helens to grab some grapes, local c
 Unfortunately I have no photos of the estate itself, but they can be found on [Google Images](images.google.com). Greeted by _(what I believe is the husband)_ of the lady that I spoke to on the phone, I was ushered through the manor to the dining room, the reading room, the the breakfast room and then to a book on the [Salamanca Markets](www.hobartcity.com.au/hobart/hobart_events/salamanca_market). She has a fried that runs the bee stall closest to the entrance. Grenouille and I dropped off our things, had a spa, shower, got dressed then headed to town for dinner. If you're ever in the area, give it a go. It's wonderful. Very old fashioned and run the way a manor should and you'd not want or need for anything as the family-run estate has it all. It is a little behind the times but you'll love the feel if you miss your grandma's house from when you were a child. Re-living it as an adult gives you a sense of when things were simpler and people were innocent.
 
 ######Rockwall Bar and Grill
-How this place is a bar is beyong me. You walk to the end of Salamanca Pl 
+How this place is a bar is beyond me. You walk to the end of Salamanca Pl and see a small sign hinged above a door giving indication of where it is. Walk through a sliding electronic glass door and almost immediately you're greeted by friendly and warm staff from all angles asking you for a drink whilst you wait and what was the reservation. This a no-bullshit kind of venue! Immediately after getting your wine _(we took the bottle of some local Tasmanian label)_ you notice the ambient atmosphere is signature to the venue - this place has some intense class!
+
+Before getting through 2 sips we're ushered to our table and sat down between a couple of where about to have their first child and a couple who've been together for so many years the lines on their faces showed all the good times, the bad times and all the times in between. Discussions on one side of the table ranged from talk of holidays taken to holidays to be taken. Such extremes to create a balance.
+
+Grenouille and I ordered the Pumpkin Risotto and onion rings. It hadn't even occured to me that maybe this kind of dish would normally be sold in America, UK and Australia predominately with maybe a few locations scattered around the globe in tow! None the wiser what it was until I explained.
+
+{% img center /images/20160219.iPhone6Plus.205458.jpg 800 800 'Pumpkin Risotta' 'Pumpkin Risotto' %}
+
+After dinner we headed off back to Tynwald to rest the night before heading off back to see MONA and the Salmanaca Markets in the morning.
 
 #####Day 4 Saturday _(jour quatre samedi)_
 
 ######Salamanca Markets
+Quoted as _"The best markets in Australia"_ is not a title short of being deserved! A complete immersion in the siggts, sounds, flavours, action and colour that makes Tasmania unique can be found here. Every Saturday from 8:30 until 15:00 is where the action is. The highlight of my visit? This coffee cup, of course!
+
+{% img center /images/20120220.iPhone6Plus.103456.jpg 800 800 'Glorious coffee cup' 'Awesomely glorious coffee cup' %}
 
 ######MONA - Museum of Old and New Art
+Before I headed down this week to join Grenouille I spoke about my intended journey with the Chief of Operations Executive Assistant and she told me to take some time to see the Museum of Old and New Art _(MONA)_. Luckily, I took that advise. Sure, some of the art is weird or something I can't consider to be art, but I implore this above all - visit MONA if you visit Tasmania for the sake of exploring art not artists.
 
-Bringing it down to a brief outline, we travelled on day 1 _(jour un)_ to 
+I could write more about this but it's better to leave you with this single image from the artwork that helped me decide to ask Grenouille to add this to our itinerary.
 
-Day 3 _(jour trois)_ Grenouille and I went to [Sea Life Centre](!www.yelp.com.au/biz/sea-life-centre-bicheno) and wow! That's all I can say. Not a good _wow_ like [Lydia](!youtu.be/Z5C6vd3blq0) gives, a REALLY bad kind of _Wow!_. What the fuck was wrong with these people? The menu has been translated to English and yet you treat your Asian customers with a direct sense of distain and contempt! I don't know what allowed me to sit silently and watch, I wanted to butt in but the family of three conceeded to take a seat at a different table than the one they wanted.
+{% img center /images/20160220.iPhone6Plus.115201.jpg 800 800 'vagina art MONA' 'vagina art at MONA, Hobart' %}
 
-There was a language barrier, I admit that, but the family only asked if they could have that table by the window - and you agreed. So why didn't you just sit them down at the table and clear it for them? Honestly the amount of time you spent berrating that poor family and sitting on the couches before they could have the table because you had to clear it wasn't all that bad, was it? I've been to many a restaurant and been sat at the table and had someone clear it quickly. All you had to do was put down 3 small plates, forks, knives and serviettes. Clearly it was an obstacle or you just really hate that family? I don't know.
+######Hobart International Airport
+_"All good things must come to an end" -Geoffrey Chaucer_ are the only words that come to mind when we arrived here. This destination in our journey across Tasmania means that Grenouille and Cochon were about to go separate ways on separate journeys.
 
-Anyway, on behalf of that family, I'd like to extend a really big and warm "Fuck you, Sea Life Centre! Fuck you and your shitty service and treating people like children!"
+We had our last meal together and off he flew to his next leg as did I back to Sydney. So here I am, on flight Jetstar flight QF77 going back over the memories that should not be forgotten lest left off the pages that make up the story of this world.
 
-If you don't want to be nice to Asian people, don't have a fucking Asian translated menu. In fact, don't serve me. Don't serve the other patrons. Don't serve anyone. Get on a boat and fuck off down to Antartica. Let a polar bear eat you, or something.
+-----
+Dear Hobart,
 
-![Polar Bear](/images/2016-02-20_polarbear.jpg)
+I didn't know I was thirsty until I tasted your wine with love from France. Now I know I'm dying without another sip.
+
+Regards,
+Danijel James
+
+-----
 
 In short - don't eat at the following places until they improve their customer service to a standard:
 
-- Pancake &amp; Crepe Shop
-- Sea Life Centre
+- Pancake &amp; Crepe Shop, Oatlands, TAS
+- Sea Life Centre, Bicheno, TAS
 
 Everywhere else is OK 😉
 
