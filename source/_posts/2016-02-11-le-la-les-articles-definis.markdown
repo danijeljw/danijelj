@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "le, la, les (articles définis)
+title: "le, la, les (articles définis)"
 date: 2016-02-11 15:32:52 +1100
 comments: true
 categories: french
@@ -17,7 +17,7 @@ In the instance when there is a combination of _(m)_ and _(f)_ objects, the prec
 
 | Anglais | Français |
 |:---|:---|
-| the| le _(m)_ |
+| the | le _(m)_ |
 | | la _(f)_ |
 | | les _(plural)_ |
 

@@ -14,7 +14,7 @@ Struggling with Personal Pronouns? There's 5 main ones we use in English: me, yo
 | Singular | je | me |
 | | tu | you |
 | | il, elle, on | he, she, we |
-| | nous | we |
+| Plural | nous | we |
 | | vous | you _(formal)_ |
 | | ils, elles | they _(m)_, they _(f)_ |
 
