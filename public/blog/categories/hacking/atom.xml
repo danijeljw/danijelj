@@ -4,7 +4,7 @@
   <title><![CDATA[Category: hacking | danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/blog/categories/hacking/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-02-22T08:30:41+11:00</updated>
+  <updated>2016-02-22T09:42:34+11:00</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel James]]></name>
@@ -12,6 +12,35 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Securely Erase SSD MacBook Air]]></title>
+    <link href="http://danijelj.com/blog/2015/12/21/securely-erase-ssd-macbook-air/"/>
+    <updated>2015-12-21T09:27:23+11:00</updated>
+    <id>http://danijelj.com/blog/2015/12/21/securely-erase-ssd-macbook-air</id>
+    <content type="html"><![CDATA[<p>Using DBAN or other tools will not work as they&rsquo;re built for non EFI-based machines. They will also unecessarily write to your SSD and the data may still be recoverabe.</p>
+
+<p>Boot MacBook Air from a <a href="https://support.apple.com/kb/dl1433">Recovery USB</a>.</p>
+
+<p>Launch Terminal from <code>Utilities</code> menu.</p>
+
+<p>Find list of hard drives by running <code>diskutil list</code></p>
+
+<pre><code>| =&gt; diskutil list
+/dev/disk0
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *121.3 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                  Apple_HFS Macintosh HD            120.3 GB   disk0s2
+   3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3
+</code></pre>
+
+<p>Erase with US DoE 3-pass secure erase:</p>
+
+<pre><code>diskutil secureErase 4 /dev/disk0
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Adding Desktop Wallpapers]]></title>
@@ -100,31 +129,6 @@
 </code></pre>
 
 <p>🏻👍🏻👍🏻👍🏻</p>
-
-<p><code>#MigratedPost</code></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Show Saved WiFi Password]]></title>
-    <link href="http://danijelj.com/blog/2013/08/09/show-saved-wifi-password/"/>
-    <updated>2013-08-09T16:09:31+10:00</updated>
-    <id>http://danijelj.com/blog/2013/08/09/show-saved-wifi-password</id>
-    <content type="html"><![CDATA[<p>Source for script that spits out WiFi password saved in Windows 7 or 8. Haven’t tested this on XP or Vista.</p>
-
-<pre><code>::===START=========================================
-@echo off
-netsh wlan show profiles
-echo.
-echo.
-set /p UserInputPath=" Reveal which WiFi connection password:  "
-netsh wlan show %UserInputPath% key=clear
-netsh wlan show gs key=clear
-pause
-::===END===========================================
-</code></pre>
-
-<p>I cannot claim copyright to this code, as it is pretty much just a mouthful of commands, so it shall be freely available in the Public Domain.</p>
 
 <p><code>#MigratedPost</code></p>
 ]]></content>
