@@ -81,11 +81,73 @@ I quickly also snuck in an image of these Asian tourists sitting down to rest. W
 
 {% img center /images/DJW.20160218.600D.0166.800res.jpg 800 533 'Random Asian Tourists' 'Random Asian Tourists' %}
 
+######Bicheno &amp; Penguin Tour
+Aren't penguins just the darnest little things? Theys're so adorable and the firs thing that comes to mind when I say penguin in most kids my age is Pengu! We arrived in the town of Bicheno but unfortunately as I hadn't booked far enough in advance like Grenouille asked me to we didn't rest here for the night. We had to continue on to St Helens - much further down the way!
+
+The town of Bicheno is quite small, almost just a tourist destination. We had dinner at [Sea Life Centre]() and unfortunately it's the second place that I was absolutely disgusted at the level of service and hospitality received. Not for myself and Grenouille, but for this poor Asian tourist family of 3 _(trois personnes)_. It wasn't anything short of dispicable. I'm yet to write up a review on Yelp! about this place, but believe me it won't be anything short of the truth. The food here was also a bit of a let down. Fish of the Day was Broadfish and really was a reflection of their patronage.
+
+{@ img center /images/20160218.iPhone6Plus.200417.jpg 800 800 'Fish of the Day - Broadfish' 'Fish of the Day - Broadfish' %}
+
+After dinner we moved over to the [Bicheno Penguin Tour](www.bichenopenguintours.com.au) carpark and bought our tickets ready to board bus no. 4 _(autobus qnumero quatre)_ to head off and see these darling little birds. Unknown to me, these are the same penguins on Granite Island off the coast of Victor Harbour, SA.
+
+The tour was licensed by some commission and they help in the repopulation of penguins in Australia. As penguins are light sensitive animals, photography of any kind wasn't allowed so I couldn't snap any photos for the two of us. We were supposed to write to them asking for photos but I've forgotten to do this at the time of writing so when this post gets re-edited, I'll have to add a pic of what we saw to this article. Grenouille has the pics already. I'm just a banana! _(Je suis un banane!)_ 🍌
+
+######Tidal Waters Resort St Helens
+Wow...remember people to book your accomodation WELL in advance of travel, else end up like us travelling for an hour to the town a few clicks down the road for a night stay! I don't have much to say about this place except the accomodation was great, the in-house services was amazing and if you ever want to get married give this place a look. They have all the services you'd expect from a 4&#189; star accomodation rating. Beautiful! And the best part wasn't even having to move the car to the carpark. The night manager let us keep it slap-bang in the middle of the driveway! We were up early enough to have breakfast but didn't make it in time. 😁 A fantastic recommendation from the said manager in the morning started our journey the very next day, jour trois vendredi! 
+
 #####Day 3 Friday _(jour trois vendredi)_
+
+######Mohr and Smith
+
+Following the recommendation from our place of stay, we left our car in place and walked the 8 mins to the shop. Yes, this was much against my desire to walk but what choice did I have? I am the lazy Cochon (🐷) and he is the Grenouille! So around the corner we did walk with a quick stop to grab some cash _(rub your chin when you say that aloud, it has a good effect!)_ and to be honest - it looked like a Mercerella Bros venue than somewhere you'd expect to have brunch. First impressions from the outside blew me away the moment we stepped through the door and greeted by the wonderful man serving coffee at the bar who politely told us to discover a place we feel comfortable and he'll be right over.
+
+We grabbed a menu at the door as we walked in so that means I could start to devour the food mentally without having to wait hand and foot on the service of the staff. In this case the only staff member in sight!
+
+I went with the French Toast 🇫🇷 served with caramelised apples and marscapone. This was nothing short of amazing! 😍 The bread was lightly toasted, brioche in style, with a sufficient drizzle of flavour begging you to take more. It was like the devil had created a dish to keep the gluttons being glutonous!
+
+{% img center /images/2016.0219.iPhone6Plus.103404.jpg 800 800 'French Toast' 'French toast, caramelised apples & marscapone cheese' %}
+
+Wonderful fast service, friendly atmosphere, a real Sydney _chic_ vibe to be found here right in the heart of Tasmanian country. This place deserves its 5-star rating on Yelp! If I could move this to anywhere, it would be Pyrmont in Sydney. Perfect all round! Try it if you ever get to pass through on the way to anywhere!
+
+######Bay of Fires
+Bay of Fires _(named so in 1773)_ is an amazing secluded beach stretching from Binnalong Bay right up around the coast. It took us a few tries to get close enough to the rocks we could see in the distance and listening to some of my favourite tracks on the iPhone and then braving the wilderness barefoot to get there, but we did in the end. Poor Grenouille really is delicate and couldn't stand on the hot Australian sand or rough ground without hurting his poor soles! I should have been nice enough to pick him up, but in my usual I was too busy laughing or well, just laughing.
+
+Apart from the wasps, and nearly being dragged out to the ocean trying to catch an amazing shot of the water splashing against the foot of the orange hued rocks, there is nothing here short of paradise.
+
+Rather than talk about it, look over these images. I've also uploaded an album to my Flickr account that you can look at with the hi-res images of all these pics and more.
+
+{% img center /images/DJW.20160219.600D.0198.800res.jpg 800 533 'Birds on a Broken Jetty' 'Birds on a broken jetty at Binalong Bay near the Bay of Fires' %}
+
+{% img center /images/DJW.20160219.600D.0202.800res.jpg 533 800 'Another view of Broken Jetty' 'Another view of Broken Jetty at Binalong Bay near the Bay of Fires %}
+
+{% img center /images/DJW.20160219.600D.0229.800res.jpg 800 533 'Feet in Binalong Bay' 'Feet in Binalong Bay' %}
+
+{% img center /images/DJW.20160219.600D.0241.800res.jpg 800 533 'Binalong Bay Beach' 'Binalong Bay at Bay of Fires' %}
+
+{% img center /images/DJW.20160219.600D.0269.800res.jpg 800 533 'Water splash' 'Water splash against rocks at Binalong Bay' %}
+
+{% img center /images/DJW.20160219.600D.0304.800res.jpg 800 533 'Orange hued rocks at Bay of Fires, Tasmania' 'Orange hued rocks at Bay of Fires, Tasmania' %}
+
+{% img center /images/DJW.20160219.600D.0316.800res.jpg 800 533 'View from rocks at Bay of Fires, Tasmania' 'View from rocks at Bay of Fires, Tasmania' %}
+
+{% img center /images/DJW.20160219.600D.0318.800res.jpg 533 800 'Orange hued rocks with wasps' 'Orange hued rocks, wasps, Bay of Fires, Tasmania' %}
+
+{% img center /images/DJW.20160219.600D.0342.800res.jpg 533 800 'Last jetty I made Grenouille stop at' 'This is the last jetty I made Grenouille stop at before heading back to St Helens for lunch' %}
+
+After the Bay of Fires, we headed back to St Helens to grab some grapes, local cheeses, crackers and soda water before our trip back to Hobart. Unfortunately, as luck would have it, we didn't rest where we expected for the night and ended up in a town about 30min west of Hobart called Tynwald at an amazing home-run cottage called Tynwald Willow Bend Estate.
+
+######Tynwald Willow Bend Estate
+
+Unfortunately I have no photos of the estate itself, but they can be found on [Google Images](images.google.com). Greeted by _(what I believe is the husband)_ of the lady that I spoke to on the phone, I was ushered through the manor to the dining room, the reading room, the the breakfast room and then to a book on the [Salamanca Markets](www.hobartcity.com.au/hobart/hobart_events/salamanca_market). She has a fried that runs the bee stall closest to the entrance. Grenouille and I dropped off our things, had a spa, shower, got dressed then headed to town for dinner. If you're ever in the area, give it a go. It's wonderful. Very old fashioned and run the way a manor should and you'd not want or need for anything as the family-run estate has it all. It is a little behind the times but you'll love the feel if you miss your grandma's house from when you were a child. Re-living it as an adult gives you a sense of when things were simpler and people were innocent.
+
+######Rockwall Bar and Grill
+How this place is a bar is beyong me. You walk to the end of Salamanca Pl 
 
 #####Day 4 Saturday _(jour quatre samedi)_
 
+######Salamanca Markets
 
+######MONA - Museum of Old and New Art
 
 Bringing it down to a brief outline, we travelled on day 1 _(jour un)_ to 
 
