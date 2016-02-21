@@ -20,3 +20,17 @@ In the instance when there is a combination of _(m)_ and _(f)_ objects, the prec
 | the| le _(m)_ |
 | | la _(f)_ |
 | | les _(plural)_ |
+
+le légume _(m)_ > the vegetable  
+la mer _(f)_ > the sea
+
+les légumes _(m,p)_ > the vegetables  
+les mers _(f,p)_ > the seas
+
+When the following article begins with a vowel, le or la becomes **l'**
+
+L'ordinateur _(m)_ > the computer  
+L'île _(f)_ > the island
+
+Les ordinateur _(m,p)_ > the computers  
+Les îles _(f,p)_ > the islands
