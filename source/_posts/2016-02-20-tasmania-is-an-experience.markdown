@@ -24,23 +24,26 @@ Bringing it right down to a shorter post, we travelled around Tasmania on Mercre
 ######Sorell Fruit Farm
 Amazing little farm a short stint out of Hobart. Bit annoyed that we couldn't go into the farm with just a single bucket between the two of us. We didn't really need two buckets _(large punnets)_ between us to collect 3 apples, 2 pears and a handful of strawberries. Was fun! Grenouille couldn't pick a strawberry to save a life, but decided to steal mine to make the punnet look nice and plump. Pears were small but juicy. Nashi pears to be exact. Apples were yellow-ish in colour but nice. Strawberries were almost all gone but having worked on the Beerenberg Farm myself a few years back I knew how to pick them. The staff were a bit touchy with some of the Asian tourists who just wanted to walk around the orchards to look whilst one of them picked them. So they too were forced to buy a bucket each. Maybe they could fix this business model?
 
-{% img /images/20160217I.iPhone6Plus.0277.JPG 'Sorell Farm Strawberries' %}
+{% img center /images/20160217I.iPhone6Plus.0277.JPG 'Sorell Farm Strawberries' %}
 
 ######Tasmanian Devil Park
 This was a little bit of a disappointment. It's the Tasmanian Devil Park Unzoo. It's not a "zoo" per se, but they help in the breeding and conservation of the Tasmanian Devil. Unbeknown to most, the Tasmanian Devil suffers from a cancer that is transmitted by blood - much like the HIV virus. And also like the HIV virus, we don't know where it came from _(the cancer)_. My favourite part was going out to the Kangaroos to play, watching Quolls devour an animal carcass and the feeding of the Tasmanian Devil. So voracious! Both of them! Who ever thought a Quoll was such a savage eater! 😰
 
-{% img /images/20160217.iPhone6Plus.0280.JPG 'Kangaroo Ain\'t Impressed' %}
+{% img center /images/20160217.iPhone6Plus.0280.JPG 'Kangaroo Ain\'t Impressed' %}
 
 ######Eaglehawk Neck Historic Site
 Eaglehawk Neck had some natural formations that really take a moment to let sink into the mind. The Tessellated Pavement Slate Reserve down on the beach shore looked like tiles laid by man from above, upon closer inspection we reaslised it was natural formations from erosion of the stone over years from the ocean.
 
-{% img /images/DJW.20160217.600D.9874.800res.jpg %}
+{% img center /images/DJW.20160217.600D.9874.800res.jpg 800 533 'Tessellated Pavement' 'Tessellated Pavement Slate Reserve' %}
 
 ######Coal Mines
+I didn't take my camera with me, so I have no real images of this place. It's a long walk of scattered ruins and a quarry that goes deep in to the ground. An eerie Silent Hill effect wavers over this point of interest. If you're easily scared, don't go here. We did see this little cute echidna and Grenouille managed to snap 
+
+{% img center /images/GC.20160217.iPhone6.115154.jpg 800 600 'Grenouille\'s Echidna' 'Grenouille\'s Short Billed Echidna' %}
 
 ######Port Arthur
 
-{% img /images/20160217.iPhone6Plus.0282.JPG 'Yummy!' 400 %}
+{% img center /images/20160217.iPhone6Plus.0282.JPG 'Yummy!' 400 %}
 
 #####Day 2 Thursday _(jour deux jeudi)_
 
