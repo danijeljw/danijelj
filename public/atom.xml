@@ -4,7 +4,7 @@
   <title><![CDATA[danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-02-22T14:20:11+11:00</updated>
+  <updated>2016-02-22T14:35:55+11:00</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel James]]></name>
@@ -14,13 +14,15 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Apple Keyboard Map]]></title>
-    <link href="http://danijelj.com/blog/2016/02/22/apple-keyboard-map/"/>
-    <updated>2016-02-22T13:52:57+11:00</updated>
-    <id>http://danijelj.com/blog/2016/02/22/apple-keyboard-map</id>
-    <content type="html"><![CDATA[<p>To make life easier, these are the Apple Keyboards mapped out.</p>
+    <title type="html"><![CDATA[emoji domain]]></title>
+    <link href="http://danijelj.com/blog/2016/02/22/emoji-domain/"/>
+    <updated>2016-02-22T14:32:22+11:00</updated>
+    <id>http://danijelj.com/blog/2016/02/22/emoji-domain</id>
+    <content type="html"><![CDATA[<p>I now have an emoji domain redirect to danijelj.com</p>
 
-<p><img src="http://danijelj.com/images/Apple-Keyboard-Shortcuts.jpg" width="2272" height="1144" title="Apple Keyboard Map" alt="Apple Keyboard Map"></p>
+<p>Here it is: <a href="http://%F0%9F%9A%B0%F0%9F%8D%8B%F0%9F%92%8E%F0%9F%8D%86%F0%9F%8D%AD%F0%9F%8D%94%F0%9F%8D%9C%F0%9F%91%8D.%F0%9F%8D%95%F0%9F%92%A9.ws">http://%F0%9F%9A%B0%F0%9F%8D%8B%F0%9F%92%8E%F0%9F%8D%86%F0%9F%8D%AD%F0%9F%8D%94%F0%9F%8D%9C%F0%9F%91%8D.%F0%9F%8D%95%F0%9F%92%A9.ws</a></p>
+
+<p>Enjoy!</p>
 ]]></content>
   </entry>
   
@@ -274,6 +276,17 @@ Danijel James</p>
 <p>I expect there to be some amazing shots available on this island!</p>
 
 <p><code>#EditedPost</code></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Apple Keyboard Map]]></title>
+    <link href="http://danijelj.com/blog/2016/02/15/apple-keyboard-map/"/>
+    <updated>2016-02-15T13:52:57+11:00</updated>
+    <id>http://danijelj.com/blog/2016/02/15/apple-keyboard-map</id>
+    <content type="html"><![CDATA[<p>To make life easier, these are the Apple Keyboards mapped out.</p>
+
+<p><img src="http://danijelj.com/images/Apple-Keyboard-Shortcuts.jpg" width="2272" height="1144" title="Apple Keyboard Map" alt="Apple Keyboard Map"></p>
 ]]></content>
   </entry>
   

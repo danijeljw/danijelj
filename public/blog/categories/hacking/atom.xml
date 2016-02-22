@@ -4,7 +4,7 @@
   <title><![CDATA[Category: hacking | danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/blog/categories/hacking/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-02-22T14:20:11+11:00</updated>
+  <updated>2016-02-22T14:35:55+11:00</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel James]]></name>
@@ -14,10 +14,23 @@
 
   
   <entry>
+    <title type="html"><![CDATA[emoji domain]]></title>
+    <link href="http://danijelj.com/blog/2016/02/22/emoji-domain/"/>
+    <updated>2016-02-22T14:32:22+11:00</updated>
+    <id>http://danijelj.com/blog/2016/02/22/emoji-domain</id>
+    <content type="html"><![CDATA[<p>I now have an emoji domain redirect to danijelj.com</p>
+
+<p>Here it is: <a href="http://%F0%9F%9A%B0%F0%9F%8D%8B%F0%9F%92%8E%F0%9F%8D%86%F0%9F%8D%AD%F0%9F%8D%94%F0%9F%8D%9C%F0%9F%91%8D.%F0%9F%8D%95%F0%9F%92%A9.ws">http://%F0%9F%9A%B0%F0%9F%8D%8B%F0%9F%92%8E%F0%9F%8D%86%F0%9F%8D%AD%F0%9F%8D%94%F0%9F%8D%9C%F0%9F%91%8D.%F0%9F%8D%95%F0%9F%92%A9.ws</a></p>
+
+<p>Enjoy!</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Apple Keyboard Map]]></title>
-    <link href="http://danijelj.com/blog/2016/02/22/apple-keyboard-map/"/>
-    <updated>2016-02-22T13:52:57+11:00</updated>
-    <id>http://danijelj.com/blog/2016/02/22/apple-keyboard-map</id>
+    <link href="http://danijelj.com/blog/2016/02/15/apple-keyboard-map/"/>
+    <updated>2016-02-15T13:52:57+11:00</updated>
+    <id>http://danijelj.com/blog/2016/02/15/apple-keyboard-map</id>
     <content type="html"><![CDATA[<p>To make life easier, these are the Apple Keyboards mapped out.</p>
 
 <p><img src="/images/Apple-Keyboard-Shortcuts.jpg" width="2272" height="1144" title="&lsquo;Apple Keyboard Map&rsquo; &lsquo;Apple Keyboard Map&rsquo;" ></p>
@@ -103,27 +116,6 @@
 
 
 <p>🍷🍷🍷</p>
-
-<p><code>#MigratedPost</code></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Permission Denied with Terminal]]></title>
-    <link href="http://danijelj.com/blog/2013/08/19/permission-denied-with-terminal/"/>
-    <updated>2013-08-19T16:22:59+10:00</updated>
-    <id>http://danijelj.com/blog/2013/08/19/permission-denied-with-terminal</id>
-    <content type="html"><![CDATA[<p>Getting a Permission Denied when trying to run a file in Terminal <em>(OS X or *NIX)</em> can be frustrating, especially if you’re new to this. Try running the following:</p>
-
-<pre><code>chmod +x FileName
-</code></pre>
-
-<p>Then to run the program/file, type:</p>
-
-<pre><code>./FileName
-</code></pre>
-
-<p>🍐🍐🍐</p>
 
 <p><code>#MigratedPost</code></p>
 ]]></content>

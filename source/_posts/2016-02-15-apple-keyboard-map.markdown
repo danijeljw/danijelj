@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Apple Keyboard Map"
-date: 2016-02-22 13:52:57 +1100
+date: 2016-02-15 13:52:57 +1100
 comments: true
 categories: hacking
 author: Danijel James

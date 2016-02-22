@@ -7,7 +7,7 @@
 	<meta name="author" content="Danijel James">
 
 	
-	<meta name="description" content="Getting a Permission Denied when trying to run a file in Terminal (OS X or *NIX) can be frustrating, especially if you’re new to this. Try running &hellip;">
+	<meta name="description" content="Using the following formats a partition with fat16 on OS X: diskutil partitionDisk /Volumes/NDS 1 MBRFormat "MS-DOS FAT16" "NDS" 1000M That is: / &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -80,6 +80,59 @@
 		
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2014/08/04/format-with-fat16-on-mac-os-x/">
+		
+			Format With Fat16 on Mac Os X</a>
+	</h2>
+	<div class="entry-content">
+		<p>Using the following formats a partition with <code>fat16</code> on OS X:</p>
+
+<pre><code>diskutil partitionDisk /Volumes/NDS 1 MBRFormat "MS-DOS FAT16" "NDS" 1000M
+</code></pre>
+
+<p>That is:</p>
+
+<ul>
+<li>/Volumes/NDS: the mount point to partition, could also be /dev/disk1</li>
+<li>1: the number of partitions</li>
+<li>MBRFormat: the partition format, MBR is the usual default for removable storage</li>
+<li>&ldquo;MS-DOS FAT16&rdquo;: partition type</li>
+<li>&ldquo;NDS&rdquo;: partition name</li>
+<li>1000M: 1000 megabytes (size of the partition, if it is the last, it will span to the end of the drive)</li>
+</ul>
+
+
+<p>🍷🍷🍷</p>
+
+<p><code>#MigratedPost</code></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Aug 4th, 2014</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
 
 
     <article class="post">
