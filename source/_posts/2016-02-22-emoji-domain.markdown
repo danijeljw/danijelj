@@ -9,6 +9,6 @@ published: true
 ---
 I now have an emoji domain redirect to danijelj.com
 
-Here it is: http://🚰🍋💎🍆🍭🍔🍜👍.🍕💩.ws
+Here it is: `http://🚰🍋💎🍆🍭🍔🍜👍.🍕💩.ws`
 
 Enjoy!

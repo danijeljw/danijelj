@@ -4,7 +4,7 @@
   <title><![CDATA[danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-02-22T14:35:55+11:00</updated>
+  <updated>2016-02-22T18:14:23+11:00</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel James]]></name>
@@ -20,7 +20,7 @@
     <id>http://danijelj.com/blog/2016/02/22/emoji-domain</id>
     <content type="html"><![CDATA[<p>I now have an emoji domain redirect to danijelj.com</p>
 
-<p>Here it is: <a href="http://%F0%9F%9A%B0%F0%9F%8D%8B%F0%9F%92%8E%F0%9F%8D%86%F0%9F%8D%AD%F0%9F%8D%94%F0%9F%8D%9C%F0%9F%91%8D.%F0%9F%8D%95%F0%9F%92%A9.ws">http://%F0%9F%9A%B0%F0%9F%8D%8B%F0%9F%92%8E%F0%9F%8D%86%F0%9F%8D%AD%F0%9F%8D%94%F0%9F%8D%9C%F0%9F%91%8D.%F0%9F%8D%95%F0%9F%92%A9.ws</a></p>
+<p>Here it is: <code>http://🚰🍋💎🍆🍭🍔🍜👍.🍕💩.ws</code></p>
 
 <p>Enjoy!</p>
 ]]></content>
@@ -291,6 +291,90 @@ Danijel James</p>
   </entry>
   
   <entry>
+    <title type="html"><![CDATA[sentence structure]]></title>
+    <link href="http://danijelj.com/blog/2016/02/14/sentence-structure/"/>
+    <updated>2016-02-14T18:08:27+11:00</updated>
+    <id>http://danijelj.com/blog/2016/02/14/sentence-structure</id>
+    <content type="html"><![CDATA[<p>It is the same as in English. Most sentences are built on the same template:</p>
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center;"> Sujet </th>
+<th style="text-align:center;">Verbe </th>
+<th style="text-align:left;"> Complément </th>
+<th style="text-align:left;"> Translation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;"> La pluie </td>
+<td style="text-align:center;"> frappe </td>
+<td style="text-align:left;"> sur les carreaux. </td>
+<td style="text-align:left;"> <em>The rain hits windows-panes.</em> </td>
+</tr>
+<tr>
+<td style="text-align:center;"> Les arbres </td>
+<td style="text-align:center;"> perdent </td>
+<td style="text-align:left;"> leurs feuilles. </td>
+<td style="text-align:left;"> <em>The trees are losing their leaves.</em> </td>
+</tr>
+<tr>
+<td style="text-align:center;"> Caroline </td>
+<td style="text-align:center;"> cueille </td>
+<td style="text-align:left;"> des pommes. </td>
+<td style="text-align:left;"> <em>Caroline picks some apples.</em> </td>
+</tr>
+</tbody>
+</table>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[un, une, des (articles indéfinis)]]></title>
+    <link href="http://danijelj.com/blog/2016/02/13/un-une-des-articles-definis/"/>
+    <updated>2016-02-13T17:58:54+11:00</updated>
+    <id>http://danijelj.com/blog/2016/02/13/un-une-des-articles-definis</id>
+    <content type="html"><![CDATA[<p><strong>un</strong>, <strong>une</strong> and <strong>des</strong> are the French equivalents for <strong>a</strong> and <strong>some</strong>.</p>
+
+<p>un <em>(m)</em> and une <em>(f)</em> are used for persons/things.</p>
+
+<p>Plural form of all objecs is des <em>(pl)</em> regardless of whatever gender is occupied.</p>
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center;"> Anglais </th>
+<th style="text-align:left;"> Français </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;"> a </td>
+<td style="text-align:left;"> un <em>(m)</em> </td>
+</tr>
+<tr>
+<td style="text-align:center;"> </td>
+<td style="text-align:left;"> une <em>(f)</em> </td>
+</tr>
+<tr>
+<td style="text-align:center;"> some </td>
+<td style="text-align:left;"> des <em>(pl)</em> </td>
+</tr>
+</tbody>
+</table>
+
+
+<p>un légume <em>(m)</em> > a vegetable<br/>
+une mer <em>(f)</em> > a sea</p>
+
+<p>des légumes <em>(m,pl)</em> > vegetables<br/>
+des mers <em>(f,pl)</em> > seas</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Learning Numbers]]></title>
     <link href="http://danijelj.com/blog/2016/02/12/learning-numbers/"/>
     <updated>2016-02-12T19:52:09+11:00</updated>
@@ -455,21 +539,21 @@ Danijel James</p>
 <table>
 <thead>
 <tr>
-<th style="text-align:left;"> Anglais </th>
+<th style="text-align:center;"> Anglais </th>
 <th style="text-align:left;"> Français </th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left;"> the </td>
+<td style="text-align:center;"> the </td>
 <td style="text-align:left;"> le <em>(m)</em> </td>
 </tr>
 <tr>
-<td style="text-align:left;"> </td>
+<td style="text-align:center;"> </td>
 <td style="text-align:left;"> la <em>(f)</em> </td>
 </tr>
 <tr>
-<td style="text-align:left;"> </td>
+<td style="text-align:center;"> </td>
 <td style="text-align:left;"> les <em>(plural)</em> </td>
 </tr>
 </tbody>

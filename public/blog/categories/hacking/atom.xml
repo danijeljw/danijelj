@@ -4,7 +4,7 @@
   <title><![CDATA[Category: hacking | danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/blog/categories/hacking/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-02-22T14:35:55+11:00</updated>
+  <updated>2016-02-22T18:14:23+11:00</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel James]]></name>
@@ -20,7 +20,7 @@
     <id>http://danijelj.com/blog/2016/02/22/emoji-domain</id>
     <content type="html"><![CDATA[<p>I now have an emoji domain redirect to danijelj.com</p>
 
-<p>Here it is: <a href="http://%F0%9F%9A%B0%F0%9F%8D%8B%F0%9F%92%8E%F0%9F%8D%86%F0%9F%8D%AD%F0%9F%8D%94%F0%9F%8D%9C%F0%9F%91%8D.%F0%9F%8D%95%F0%9F%92%A9.ws">http://%F0%9F%9A%B0%F0%9F%8D%8B%F0%9F%92%8E%F0%9F%8D%86%F0%9F%8D%AD%F0%9F%8D%94%F0%9F%8D%9C%F0%9F%91%8D.%F0%9F%8D%95%F0%9F%92%A9.ws</a></p>
+<p>Here it is: <code>http://🚰🍋💎🍆🍭🍔🍜👍.🍕💩.ws</code></p>
 
 <p>Enjoy!</p>
 ]]></content>
