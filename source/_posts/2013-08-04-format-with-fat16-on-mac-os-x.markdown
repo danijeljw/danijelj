@@ -4,6 +4,7 @@ title: "format with fat16 on mac os x"
 date: 2014-08-04 08:11:15 +1100
 comments: true
 categories: hacking
+author: Danijel James
 ---
 Using the following formats a partition with `fat16` on OS X:
 

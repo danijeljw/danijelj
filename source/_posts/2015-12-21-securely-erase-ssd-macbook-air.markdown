@@ -26,3 +26,6 @@ Find list of hard drives by running `diskutil list`
 Erase with US DoE 3-pass secure erase:
 
     diskutil secureErase 4 /dev/disk0
+
+`#MigratedPost`
+

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tomorrow to Tasmania"
+title: "tomorrow to tasmania"
 date: 2016-02-16 22:59:32 +1100
 comments: true
 categories: photography

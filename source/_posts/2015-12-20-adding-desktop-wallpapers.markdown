@@ -23,3 +23,6 @@ If you have a folder with multiple images _(JPG format)_ on your desktop, try th
 That should do the trick! 😎
 
 _**Note:** I used `mv` instead your can use `cp` if you prefer; but `sudo` is required!_
+
+`#MigratedPost`
+

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: hacking | danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/blog/categories/hacking/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-02-22T18:14:23+11:00</updated>
+  <updated>2016-02-22T22:57:55+11:00</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel James]]></name>
@@ -63,6 +63,8 @@
 
 <pre><code>diskutil secureErase 4 /dev/disk0
 </code></pre>
+
+<p><code>#MigratedPost</code></p>
 ]]></content>
   </entry>
   
@@ -90,6 +92,8 @@
 <p>That should do the trick! 😎</p>
 
 <p><em><strong>Note:</strong> I used <code>mv</code> instead your can use <code>cp</code> if you prefer; but <code>sudo</code> is required!</em></p>
+
+<p><code>#MigratedPost</code></p>
 ]]></content>
   </entry>
   
