@@ -38,18 +38,18 @@ footer: true
 </table>
 <table class="tg">
   <tr>
-    <th class="tg-yw4l" colspan="2"><h3>Kurohitsugi</h3></th>
+    <th class="tg-yw4l" colspan="2"><h3>Kurohitsugi (黒棺)</h3></th>
   </tr>
   <tr>
-    <td class="tg-yw4l"></td>
-    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"><h4>Japanese</h4></td>
+    <td class="tg-yw4l">滲み出す混濁の紋章. 不遜なる狂気の器! 湧き上がり否定し! 痺れ瞬き! 眠りを妨げる! 爬行する鉄の王女! 絶えず自壊する泥の人形! 結合せよ! 反発せよ! 地に満ち己の無力を知れ! 破道 九 十黒棺!</td>
   </tr>
   <tr>
-    <td class="tg-yw4l"></td>
-    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"><h4>Verbal</h4></td>
+    <td class="tg-yw4l">Nijimidasu kondaku no monshō. Fusonnaru kyōki no utsuwa! Wakiagari hiteishi! Shibire matataki! Nemuri wo samatageru! Hakōsuru tetsu no ōjō! Taezu jikaisuru doro no ningyō! Ketsugōseyo! Hanpatsuseyo! Chi ni michi onore no muryoku wo shire! Hadō kyuu jyuu Kurohitsugi!</td>
   </tr>
   <tr>
-    <td class="tg-yw4l"></td>
-    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"><h4>English</h4></td>
+    <td class="tg-yw4l">Seeping crest of turbidity. Arrogant vessel of lunacy! Boil forth and deny! Grow numb and flicker! Disrupt sleep! Crawling queen of iron! Eternally self-destructing doll of mud! Unite! Repulse! Fill with soil and know your own powerlessness! Way of Destruction number 90 Black Coffin!</td>
   </tr>
-</table>###Kurohitsugi#####ENGLISH  Seeping crest of turbidity. Arrogant vessel of lunacy! Boil forth and deny! Grow numb and flicker! Disrupt sleep! Crawling queen of iron! Eternally self-destructing doll of mud! Unite! Repulse! Fill with soil and know your own powerlessness! Way of Destruction number 90 Black Coffin!  #####JAPANESE  滲み出す混濁の紋章. 不遜なる狂気の器! 湧き上がり否定し! 痺れ瞬き! 眠りを妨げる! 爬行する鉄の王女! 絶えず自壊する泥の人形! 結合せよ! 反発せよ! 地に満ち己の無力を知れ! 破道 九 十黒棺!  #####VERBAL  Nijimidasu kondaku no monshō. Fusonnaru kyōki no utsuwa! Wakiagari hiteishi! Shibire matataki! Nemuri wo samatageru! Hakōsuru tetsu no ōjō! Taezu jikaisuru doro no ningyō! Ketsugōseyo! Hanpatsuseyo! Chi ni michi onore no muryoku wo shire! Hadō kyuu jyuu Kurohitsugi!  
+</table>   
