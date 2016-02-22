@@ -11,7 +11,7 @@ published: true
 
 Making the distinction between masculine _(m)_ and feminine _(f)_ objects, we use le for masculine and la for feminine.
 
-Plural form of all objecs is les regardless of whatever gender is occupied.
+Plural form of all objects is les regardless of whatever gender is occupied.
 
 In the instance when there is a combination of _(m)_ and _(f)_ objects, the precedence always falls back on the _(m)_. This applies to true to ils and elles too.
 

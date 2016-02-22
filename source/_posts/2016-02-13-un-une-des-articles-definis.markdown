@@ -11,7 +11,7 @@ published: true
 
 un _(m)_ and une _(f)_ are used for persons/things.
 
-Plural form of all objecs is des _(pl)_ regardless of whatever gender is occupied.
+Plural form of all objects is des _(pl)_ regardless of whatever gender is occupied.
 
 | Anglais | Français |
 |:--:|:---|
