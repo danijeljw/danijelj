@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "codecademy battleship! project"
-date: 2016-02-23 20:38:43 +1100
+date: 2014-04-26 20:38:43 +1100
 comments: true
 categories: hacking
 author: Danijel James
