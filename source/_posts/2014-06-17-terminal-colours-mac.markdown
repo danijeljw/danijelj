@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "terminal colours mac"
-date: 2016-02-23 20:33:27 +1100
+date: 2014-06-17 20:33:27 +1100
 comments: true
 categories: hacking
 author: Danijel James
