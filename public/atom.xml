@@ -4,7 +4,7 @@
   <title><![CDATA[danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-02-23T21:06:45+11:00</updated>
+  <updated>2016-02-23T21:44:38+11:00</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel James]]></name>
@@ -899,6 +899,65 @@ Les îles <em>(f,p)</em> > the islands</p>
   </entry>
   
   <entry>
+    <title type="html"><![CDATA[counting fibonacci numbers with python]]></title>
+    <link href="http://danijelj.com/blog/2014/03/10/counting-fibonacci-numbers-with-python/"/>
+    <updated>2014-03-10T21:17:31+11:00</updated>
+    <id>http://danijelj.com/blog/2014/03/10/counting-fibonacci-numbers-with-python</id>
+    <content type="html"><![CDATA[<p>I want a job at <a href="http://www.google.com.au/about/jobs/">Google</a> which means I need to be good at <a href="http://python.org">Python</a>. Got a bit stuck on the 4th module task, to make a counter of the <a href="http://en.wikipedia.org/wiki/Fibonacci_number">Fibonacci</a> number sequence up to the firs digit beyond 100. This is the simplest solution when I worked it out. Finally.</p>
+
+<pre><code>#!/usr/bin/env python -tt
+##  Fn = Fn[-2] + Fn[-1]
+Fn = [0,1]
+while Fn[-1] &lt; 100:
+  Fn.append(Fn[-2] + Fn[-1])
+  print(Fn)
+</code></pre>
+
+<p>To update that, so the output isn’t so large, modify like so:</p>
+
+<pre><code>#!/usr/bin/env python -tt
+##  Fn = Fn[-2] + Fn[-1]
+Fn = [0,1]
+while Fn[-1] &lt; 100:
+  Fn.append(Fn[-2] + Fn[-1])
+if Fn[-1] &gt; 100:
+  print(Fn)     # prints the whole sequence
+  print(Fn[-1]) # prints only last number above 100
+</code></pre>
+
+<p>Can add further to this, using strings to make it more clear to the end-user (brackets removed for aesthetics in final result):</p>
+
+<pre><code>#!/usr/bin/env python -tt
+##  Fn = Fn[-2] + Fn[-1]
+Fn = [0,1]
+while Fn[-1] &lt; 100:
+  Fn.append(Fn[-2] + Fn[-1])
+if Fn[-1] &gt; 100:
+  print'Fibonacci numbers up to 1st number over 100: ',Fn
+  print'First Fibonacci number over 100: ',Fn[-1]
+</code></pre>
+
+<p><code>#MigratedPost</code></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[using env with shebang]]></title>
+    <link href="http://danijelj.com/blog/2014/03/09/using-env-with-shebang/"/>
+    <updated>2014-03-09T21:39:08+11:00</updated>
+    <id>http://danijelj.com/blog/2014/03/09/using-env-with-shebang</id>
+    <content type="html"><![CDATA[<p>Starting a script with <code>#!/bin/bash</code> instead of <code>#!/usr/bin/env</code> bash will assume that the user has <code>bash</code> installed at <code>/bin</code>. This makes the script portable and asks the enviornment to find the correct <code>$PATH</code> to the required interpreter.</p>
+
+<p>Bottom line rule:</p>
+
+<pre><code>#!/usr/bin/env (sh|bash|python|ruby|csh|ksh|tcsh)
+</code></pre>
+
+<p><code>#MigratedPost</code></p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[dock icons that won't go away]]></title>
     <link href="http://danijelj.com/blog/2013/11/09/dock-icons-that-wont-go-away/"/>
     <updated>2013-11-09T22:52:35+11:00</updated>
@@ -911,59 +970,6 @@ Les îles <em>(f,p)</em> > the islands</p>
 </code></pre>
 
 <p>Restart your Mac, problem solved.</p>
-
-<p><code>#MigratedPost</code></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[make os x screensaver your wallpaper]]></title>
-    <link href="http://danijelj.com/blog/2013/10/21/make-os-x-screensaver-your-wallpaper/"/>
-    <updated>2013-10-21T22:44:52+11:00</updated>
-    <id>http://danijelj.com/blog/2013/10/21/make-os-x-screensaver-your-wallpaper</id>
-    <content type="html"><![CDATA[<p>If you have a fancy screensaver and you want to see it all the time, use then all you need to do is run the following command in Terminal (Applications/Utilities) and it will automatically set the current screensaver to your wallpaper:</p>
-
-<pre><code>/System/Library/Frameworks/Screensaver.framework/Resources/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine -background
-</code></pre>
-
-<p>Then press enter and voila! If it doesn’t work for you right away, you may need to restart your Mac.</p>
-
-<p><code>#MigratedPost</code></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[add spacers to the dock]]></title>
-    <link href="http://danijelj.com/blog/2013/10/16/add-spacers-to-the-dock/"/>
-    <updated>2013-10-16T21:35:11+11:00</updated>
-    <id>http://danijelj.com/blog/2013/10/16/add-spacers-to-the-dock</id>
-    <content type="html"><![CDATA[<p>The <a href="http://en.wikipedia.org/wiki/Dock_(OS_X">Dock</a> is great, but sometimes it gets cluttered with all your favourite apps and you want a way to keep it organised. There is a great <a href="http://www.dummies.com/how-to/content/how-to-work-with-the-mac-dock.html">Dummies article</a> if you are interested in a starting point, but what if you need to “group” your applications together instead?</p>
-
-<p>There is a Terminal command that can add spacers to your Dock. Open Terminal <em>(Applications > Utilities)</em>, then type the following:</p>
-
-<pre><code>defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'
-</code></pre>
-
-<p>This will add a spacer to your Dock. If you need more than one, type it for as many as you need and then type:</p>
-
-<pre><code>killall Dock
-</code></pre>
-
-<p>Your Dock will restart and you’ll see the spacers to the right of your applications. Drag spacers around to create “groups” in your Dock. To remove a spacer, simply drag it off the Dock.</p>
-
-<p>Here is a nice version of the way to automate the process with a shell script. It will prompt you with how many spacers you need and add them, then restart the Dock.</p>
-
-<pre><code>#!/bin/bash
-echo "Enter number of spacers required: "
-read noSpacers
-c=1
-while [ $c -le $noSpacers ]
-do
-  defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'
-  (( c++ ))
-done
-killall Dock
-</code></pre>
 
 <p><code>#MigratedPost</code></p>
 ]]></content>
