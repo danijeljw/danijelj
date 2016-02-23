@@ -22,25 +22,25 @@ NTFS support is available for OS X for free on:
 
 Install FUSE for OS X first, it's the base for connecting 3rd party file systems to the machine.
 
-{% img /images/2016/02/2016-02-21_FUSE.for.OSX.png 732 550 'ensure all options are checked' 'FUSE for OS X' %}
+{% img /images/2016/02/2016-02-21_FUSE.for.OSX.png 312 219 'ensure all options are checked' 'FUSE for OS X' %}
 
 **Download:** <a href="http://osxfuse.github.io/">FUSE for OS X</a>
 
-####Install NTFS-3G
+###Install NTFS-3G
 
 Installing NTFS-3G enables the actual read/write to NTFS formatted drives. During install there is an option to use `No caching` or `UBLIO caching`. In my experience it's better to use `No caching`.
 
-{% img /images/2016/02/2016-02-21_to.cache.or.not.to.cache.png 732 550 'to cache or not to cache' 'UBLIO caching NTFS-3G' %}
+{% img /images/2016/02/2016-02-21_to.cache.or.not.to.cache.png 312 220 'to cache or not to cache' 'UBLIO caching NTFS-3G' %}
 
 Once this has been installed restart the machine.
 
 **Download:** <a href="http://macntfs-3g.blogspot.com/2010/10/ntfs-3g-for-mac-os-x-2010102.html">NTFS-3G</a>
 
-####Install fuse-wait
+###Install fuse-wait
 
 Post-reboot you will get the following error message:
 
-{% img /images/2016/02/2016-02-21_reboot.error.png 532 329 'NTFS-3G post install error' 'NTFS-3G post install error' %}
+{% img /images/2016/02/2016-02-21_reboot.error.png 211 109 'NTFS-3G post install error' 'NTFS-3G post install error' %}
 
 fuse-wait is a patch for NTFS-3G that just stops this annoying error messages from appearing on your system.
 
