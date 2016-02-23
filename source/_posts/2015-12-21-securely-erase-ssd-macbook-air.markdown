@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Securely Erase SSD MacBook Air"
+title: "securely erase SSD MacBook Air"
 date: 2015-12-21 09:27:23 +1100
 comments: true
 categories: hacking

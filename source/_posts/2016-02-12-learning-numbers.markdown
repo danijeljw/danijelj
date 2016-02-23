@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Learning Numbers"
+title: "learning numbers"
 date: 2016-02-12 19:52:09 +1100
 comments: true
 categories: french

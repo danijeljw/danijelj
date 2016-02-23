@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Show Saved WiFi Password"
+title: "show saved wifi password"
 date: 2013-08-09 17:09:31 +1100
 comments: true
 categories: hacking

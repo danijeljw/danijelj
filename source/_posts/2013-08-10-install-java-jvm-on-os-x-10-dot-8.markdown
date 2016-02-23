@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Install Java JVM on OS X 10.8"
+title: "nstall java JVM on os x 10.8"
 date: 2013-08-10 17:13:36 +1100
 comments: true
 categories: hacking

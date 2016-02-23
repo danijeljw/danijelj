@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Permission Denied with Terminal"
+title: "permission denied with terminal"
 date: 2013-08-19 17:22:59 +1100
 comments: true
 categories: hacking

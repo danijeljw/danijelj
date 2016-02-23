@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Location of Photos on iPhone via SSH"
+title: "location of photos on iPhone via ssh"
 date: 2013-09-23 20:02:24 +1100
 comments: true
 categories: hacking

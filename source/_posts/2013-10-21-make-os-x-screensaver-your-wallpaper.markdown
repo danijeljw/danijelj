@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Make OS X Screensaver Your Wallpaper"
+title: "make os x screensaver your wallpaper"
 date: 2013-10-21 22:44:52 +1100
 comments: true
 categories: hacking

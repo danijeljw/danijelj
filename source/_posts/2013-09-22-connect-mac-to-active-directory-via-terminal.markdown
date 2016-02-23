@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Connect Mac to Active Directory via Terminal"
+title: "connect mac to active directory via terminal"
 date: 2013-09-22 19:52:21 +1100
 comments: true
 categories: hacking

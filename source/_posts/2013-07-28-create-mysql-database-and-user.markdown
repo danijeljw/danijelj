@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Create MySQL Database and User"
+title: "create MySQL database and user"
 date: 2013-07-28 17:02:46 +1100
 comments: true
 categories: hacking

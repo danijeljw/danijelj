@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Personal Pronouns"
+title: "personal pronouns"
 date: 2016-02-10 09:14:28 +1100
 comments: true
 categories: french

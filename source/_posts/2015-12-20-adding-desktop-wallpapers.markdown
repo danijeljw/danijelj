@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Adding Desktop Wallpapers"
+title: "adding desktop wallpapers"
 date: 2015-12-20 11:32:42 +1100
 comments: true
 categories: hacking

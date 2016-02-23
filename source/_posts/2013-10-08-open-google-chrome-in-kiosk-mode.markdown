@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Open Google Chrome in Kiosk Mode"
+title: "open google chrome in kiosk mode"
 date: 2013-10-08 20:10:10 +1100
 comments: true
 categories: hacking
