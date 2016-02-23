@@ -7,7 +7,7 @@
 	<meta name="author" content="Danijel James">
 
 	
-	<meta name="description" content="Getting a Permission Denied when trying to run a file in Terminal (OS X or *NIX) can be frustrating, especially if you’re new to this. Try running &hellip;">
+	<meta name="description" content="Connecting Mac OS X to Windows AD via Terminal: dsconfigad –f –a $compName –domain $sub.$domain.$tld –u $ADaccount –p $ADpassword –lu $ladminAcc –lp &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -86,9 +86,60 @@
     <article class="post">
 	<h2 class="title">
 		
+		<a href="/blog/2013/09/22/connect-mac-to-active-directory-via-terminal/">
+		
+			connect mac to active directory via terminal</a>
+	</h2>
+	<div class="entry-content">
+		<p>Connecting Mac OS X to Windows AD via Terminal:</p>
+
+<pre><code>dsconfigad –f –a $compName –domain $sub.$domain.$tld –u $ADaccount –p $ADpassword –lu $ladminAcc –lp $ladminPass
+
+$compName = name of the computer _(in quotations if necessary)_
+
+$sub    = subdomain
+$domain = domain
+$tld    = tld
+
+$ADaccount  = AD admin account
+$ADpassword = AD admin password
+
+$ladminAcc  = Mac local admin account
+$ladminPass = Mac local admin password
+</code></pre>
+
+<p><code>#MigratedPost</code></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Sep 22nd, 2013</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
 		<a href="/blog/2013/08/19/permission-denied-with-terminal/">
 		
-			Permission Denied With Terminal</a>
+			permission denied with terminal</a>
 	</h2>
 	<div class="entry-content">
 		<p>Getting a Permission Denied when trying to run a file in Terminal <em>(OS X or *NIX)</em> can be frustrating, especially if you’re new to this. Try running the following:</p>
@@ -134,7 +185,7 @@ Aug 19th, 2013</div>
 		
 		<a href="/blog/2013/08/10/install-java-jvm-on-os-x-10-dot-8/">
 		
-			Install Java JVM on OS X 10.8</a>
+			nstall java JVM on os x 10.8</a>
 	</h2>
 	<div class="entry-content">
 		<p>Via Terminal:</p>
@@ -175,7 +226,7 @@ Aug 10th, 2013</div>
 		
 		<a href="/blog/2013/08/09/show-saved-wifi-password/">
 		
-			Show Saved WiFi Password</a>
+			show saved wifi password</a>
 	</h2>
 	<div class="entry-content">
 		<p>Source for script that spits out WiFi password saved in Windows 7 or 8. Haven’t tested this on XP or Vista.</p>
@@ -225,7 +276,7 @@ Aug 9th, 2013</div>
 		
 		<a href="/blog/2013/07/28/create-mysql-database-and-user/">
 		
-			Create MySQL Database and User</a>
+			create MySQL database and user</a>
 	</h2>
 	<div class="entry-content">
 		<p>Install MySQL and set a default password for root. Failure to do so is a security leak.</p>
@@ -307,7 +358,7 @@ Jul 28th, 2013</div>
 		
 		<a href="/blog/2013/07/28/fix-corrupt-recycle-bin/">
 		
-			Fix Corrupt Recycle Bin</a>
+			fix corrupt recycle bin</a>
 	</h2>
 	<div class="entry-content">
 		<p>Sometimes you need to reset the Recycle Bin because it’s giving you an error message saying it’s corrupt. I have seen a few posts around on the internet that try to deal with this issue but none of them were what I needed. Rather than fiddling with the Windows interface, just 2 commands will fix this for you. Remember, if you are getting an error message for a different drive, then change to that drive instead.</p>

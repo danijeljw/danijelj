@@ -1,0 +1,218 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>NTFS support on osx - danijelj [p.f.h]</title>
+	<meta name="author" content="Danijel James">
+
+	
+	<meta name="description" content="NTFS support is available for OS X for free on: v.N°
+v.Name 10.6
+Snow Leopard 10.7
+Lion 10.8
+Mountain Lion 10.9
+Mavericks 10.10
+Yosemite 10.11
+El &hellip;">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="/atom.xml" rel="alternate" title="danijelj [p.f.h]" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script async="true" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+</head>
+
+
+<body>
+	<header id="header" class="inner"><h1><a href="/">danijelj [p.f.h]</a></h1>
+<nav id="main-nav"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="https://www.google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:danijelj.com">
+			</form>
+		</div>
+	</div>
+</nav>
+<nav id="sub-nav" class="alignright">
+	<div class="social">
+		
+		<a class="facebook" href="http://www.facebook.com/1027690367" title="Facebook">Facebook</a>
+		
+		
+		
+		<a class="twitter" href="http://twitter.com/danijeljames" title="Twitter">Twitter</a>
+		
+		
+    
+		
+		
+		
+		
+		
+		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
+		
+    
+    <a class="instagram" href="http://instagram.com/danijeljames" title="Instagram">Instagram</a>
+		
+	</div>
+	<form class="search" action="https://www.google.com/search" method="get">
+		<input class="alignright" type="text" name="q" results="0">
+		<input type="hidden" name="q" value="site:danijelj.com">
+	</form>
+</nav>
+
+</header>
+	
+		
+	
+	<div id="content" class="inner"><article class="post">
+	<h2 class="title">NTFS support on osx</h2>
+	<div class="entry-content"><p>NTFS support is available for OS X for free on:</p>
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center;">v.N°</th>
+<th style="text-align:left;">v.Name</th>
+<th style="text-align:center;"> </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">10.6</td>
+<td style="text-align:left;">Snow Leopard</td>
+<td style="text-align:center;"><font color="green"><i class="fa fa-check"></i></font></td>
+</tr>
+<tr>
+<td style="text-align:center;">10.7</td>
+<td style="text-align:left;">Lion</td>
+<td style="text-align:center;"><font color="green"><i class="fa fa-check"></i></font></td>
+</tr>
+<tr>
+<td style="text-align:center;">10.8</td>
+<td style="text-align:left;">Mountain Lion</td>
+<td style="text-align:center;"><font color="green"><i class="fa fa-check"></i></font></td>
+</tr>
+<tr>
+<td style="text-align:center;">10.9</td>
+<td style="text-align:left;">Mavericks</td>
+<td style="text-align:center;"><font color="green"><i class="fa fa-check"></i></font></td>
+</tr>
+<tr>
+<td style="text-align:center;">10.10</td>
+<td style="text-align:left;">Yosemite</td>
+<td style="text-align:center;"><font color="green"><i class="fa fa-check"></i></font></td>
+</tr>
+<tr>
+<td style="text-align:center;">10.11</td>
+<td style="text-align:left;">El Capitan</td>
+<td style="text-align:center;"><font color="green"><i class="fa fa-check"></i></font></td>
+</tr>
+</tbody>
+</table>
+
+
+<h4>Install FUSE for OS X</h4>
+
+<p>Install FUSE for OS X first, it&rsquo;s the base for connecting 3rd party file systems to the machine.</p>
+
+<p><img src="/images/2016/02/2016-02-21_FUSE.for.OSX.png" width="312" height="219" title="ensure all options are checked" alt="FUSE for OS X"></p>
+
+<p><strong>Download:</strong> <a href="http://osxfuse.github.io/">FUSE for OS X</a></p>
+
+<h3>Install NTFS-3G</h3>
+
+<p>Installing NTFS-3G enables the actual read/write to NTFS formatted drives. During install there is an option to use <code>No caching</code> or <code>UBLIO caching</code>. In my experience it&rsquo;s better to use <code>No caching</code>.</p>
+
+<p><img src="/images/2016/02/2016-02-21_to.cache.or.not.to.cache.png" width="312" height="220" title="to cache or not to cache" alt="UBLIO caching NTFS-3G"></p>
+
+<p>Once this has been installed restart the machine.</p>
+
+<p><strong>Download:</strong> <a href="http://macntfs-3g.blogspot.com/2010/10/ntfs-3g-for-mac-os-x-2010102.html">NTFS-3G</a></p>
+
+<h3>Install fuse-wait</h3>
+
+<p>Post-reboot you will get the following error message:</p>
+
+<p><img src="/images/2016/02/2016-02-21_reboot.error.png" width="211" height="109" title="NTFS-3G post install error" alt="NTFS-3G post install error"></p>
+
+<p>fuse-wait is a patch for NTFS-3G that just stops this annoying error messages from appearing on your system.</p>
+
+<p><strong>Download:</strong> <a href="https://github.com/bfleischer/fuse_wait/downloads">fuse-wait</a></p>
+</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Feb 21st, 2016</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
+
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+		
+		
+		<a class="addthis_button_tweet"></a>
+		
+		
+		
+	</div>
+	
+</div>
+
+
+</div>
+	<footer id="footer" class="inner">Copyright &copy; 2016
+
+    Danijel James
+
+</footer>
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+
+
+
+
+</body>
+</html>
