@@ -114,7 +114,9 @@ Bay of Fires _(named so in 1773)_ is an amazing secluded beach stretching from B
 
 Apart from the wasps, and nearly being dragged out to the ocean trying to catch an amazing shot of the water splashing against the foot of the orange hued rocks, there is nothing here short of paradise.
 
-Rather than talk about it, look over these images. I've also uploaded an album to my Flickr account that you can look at with the hi-res images of all these pics and more.
+Rather than talk about it, look over these images. I've also uploaded an album to my [Flickr](https://www.flickr.com/photos/danijeljames) account that you can look at with the hi-res images of all these pics and more.
+
+%{ img /images/2016/02/25094235811_906f3a3c40_z.jpg 640 155 'Bay of Fires Panorama' 'Bay of Fires Panorama' %}
 
 {% img /images/DJW.20160219.600D.0198.800res.jpg 800 533 'Birds on a Broken Jetty' 'Birds on a broken jetty at Binalong Bay near the Bay of Fires' %}
 
