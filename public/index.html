@@ -7,7 +7,7 @@
 	<meta name="author" content="Danijel James">
 
 	
-	<meta name="description" content=" I now have an emoji domain redirect to danijelj.com Here it is: http://🚰🍋💎🍆🍭🍔🍜👍.🍕💩.ws Enjoy! Feb 22nd, 2016 hacking ">
+	<meta name="description" content="Been playing with Codecademy to learn some more on Python. Their Battleship! tutorial I must say is one of the hardest I have tried, and &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -81,6 +81,139 @@
 		
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2016/02/23/codeacademy-battleship-project/">
+		
+			codecademy battleship! project</a>
+	</h2>
+	<div class="entry-content">
+		<p>Been playing with Codecademy to learn some more on Python. Their Battleship! tutorial I must say is one of the hardest I have tried, and instructions aren’t as solid as they should be. Below is the project solution that I used.</p>
+
+<pre><code>from random import randint
+
+board = []
+
+for x in range(5):
+    board.append(["O"] * 5)
+
+def print_board(board):
+    for row in board:
+        print " ".join(row)
+
+print "Let's play Battleship!"
+
+for turn in range(4):
+    print "Turn ", turn + 1
+    print_board(board)
+
+    def random_row(board):
+        return randint(0, len(board) - 1)
+
+    def random_col(board):
+        return randint(0, len(board[0]) - 1)
+
+    ship_row = random_row(board)
+    ship_col = random_col(board)
+    print ship_row
+    print ship_col
+
+    # Everything from here on should go in your for loop!
+    # Be sure to indent four spaces!
+    guess_row = int(raw_input("Guess Row:"))
+    guess_col = int(raw_input("Guess Col:"))
+
+    if guess_row == ship_row and guess_col == ship_col:
+        print "Congratulations! You sunk my battleship!"
+        break
+    else:
+        if (guess_row &lt; 0 or guess_row &gt; 4) or (guess_col &lt; 0 or guess_col &gt; 4):
+            print "Oops, that's not even in the ocean."
+            if turn == int(3):
+                turn = turn - 1
+        elif(board[guess_row][guess_col] == "X"):
+             print "You guessed that one already."
+            if turn == int(3):
+                turn = turn - 1
+        else:
+            print "You missed my battleship!"
+            board[guess_row][guess_col] = "X"
+        # Print (turn + 1) here!
+        print_board(board)
+if turn == int(3):
+    print "Game Over"
+</code></pre>
+
+<p><code>#MigratedPost</code></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Feb 23rd, 2016</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2016/02/23/terminal-colours-mac/">
+		
+			terminal colours mac</a>
+	</h2>
+	<div class="entry-content">
+		<p>Create a new <code>.bash_profile</code> in the users home directory with:</p>
+
+<pre><code>export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
+export PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:[01;34m\]\w\[\033[00m\]\$ '
+</code></pre>
+
+<p>👅👅👅</p>
+
+<p><code>#MigratedPost</code></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Feb 23rd, 2016</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
 
 
     <article class="post">
@@ -517,258 +650,6 @@ des mers <em>(f,pl)</em> > seas</p>
 
 
 Feb 13th, 2016</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/french/'>french</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2016/02/12/learning-numbers/">
-		
-			learning numbers</a>
-	</h2>
-	<div class="entry-content">
-		<p>Numbers can seem easy, but they get hard really quickly!</p>
-
-<table>
-<thead>
-<tr>
-<th style="text-align:center;"> No. </th>
-<th style="text-align:left;"> French </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center;"> 1 </td>
-<td style="text-align:left;"> un </td>
-</tr>
-<tr>
-<td style="text-align:center;"> 2 </td>
-<td style="text-align:left;"> deux </td>
-</tr>
-<tr>
-<td style="text-align:center;"> 3 </td>
-<td style="text-align:left;"> trois </td>
-</tr>
-<tr>
-<td style="text-align:center;"> 4 </td>
-<td style="text-align:left;"> quatre </td>
-</tr>
-<tr>
-<td style="text-align:center;"> 5 </td>
-<td style="text-align:left;"> cinq </td>
-</tr>
-<tr>
-<td style="text-align:center;"> 6 </td>
-<td style="text-align:left;"> six </td>
-</tr>
-<tr>
-<td style="text-align:center;"> 7 </td>
-<td style="text-align:left;"> sept </td>
-</tr>
-<tr>
-<td style="text-align:center;"> 8 </td>
-<td style="text-align:left;"> huit </td>
-</tr>
-<tr>
-<td style="text-align:center;"> 9 </td>
-<td style="text-align:left;"> neuf </td>
-</tr>
-<tr>
-<td style="text-align:center;"> 10 </td>
-<td style="text-align:left;"> dix </td>
-</tr>
-<tr>
-<td style="text-align:center;"> 11 </td>
-<td style="text-align:left;"> onze </td>
-</tr>
-<tr>
-<td style="text-align:center;"> 12 </td>
-<td style="text-align:left;"> douze </td>
-</tr>
-<tr>
-<td style="text-align:center;"> 13 </td>
-<td style="text-align:left;"> treize </td>
-</tr>
-<tr>
-<td style="text-align:center;"> 14 </td>
-<td style="text-align:left;"> quatorze </td>
-</tr>
-<tr>
-<td style="text-align:center;"> 15 </td>
-<td style="text-align:left;"> quinze </td>
-</tr>
-<tr>
-<td style="text-align:center;"> 16 </td>
-<td style="text-align:left;"> seize </td>
-</tr>
-<tr>
-<td style="text-align:center;"> 17 </td>
-<td style="text-align:left;"> dix-sept </td>
-</tr>
-<tr>
-<td style="text-align:center;"> 18 </td>
-<td style="text-align:left;"> dix-huit </td>
-</tr>
-<tr>
-<td style="text-align:center;"> 19 </td>
-<td style="text-align:left;"> dix-neuf </td>
-</tr>
-<tr>
-<td style="text-align:center;"> 20 </td>
-<td style="text-align:left;"> vingt </td>
-</tr>
-<tr>
-<td style="text-align:center;"> 30 </td>
-<td style="text-align:left;"> trente </td>
-</tr>
-<tr>
-<td style="text-align:center;"> 40 </td>
-<td style="text-align:left;"> quatrante </td>
-</tr>
-<tr>
-<td style="text-align:center;"> 50 </td>
-<td style="text-align:left;"> cinquante </td>
-</tr>
-<tr>
-<td style="text-align:center;"> 60 </td>
-<td style="text-align:left;"> soixante </td>
-</tr>
-<tr>
-<td style="text-align:center;"> 70 </td>
-<td style="text-align:left;"> soixante-dix </td>
-</tr>
-<tr>
-<td style="text-align:center;"> 80 </td>
-<td style="text-align:left;"> quatre-vingt </td>
-</tr>
-<tr>
-<td style="text-align:center;"> 90 </td>
-<td style="text-align:left;"> quatre-vingt-dix </td>
-</tr>
-<tr>
-<td style="text-align:center;"> 100 </td>
-<td style="text-align:left;"> cent </td>
-</tr>
-<tr>
-<td style="text-align:center;"> 200 </td>
-<td style="text-align:left;"> duex cents </td>
-</tr>
-<tr>
-<td style="text-align:center;"> 1,000 </td>
-<td style="text-align:left;"> mille </td>
-</tr>
-<tr>
-<td style="text-align:center;"> 2,000 </td>
-<td style="text-align:left;"> deux mille </td>
-</tr>
-</tbody>
-</table>
-
-
-<p>1780 mille sept cent quatre vingt</p>
-
-<p><code>#EditedPost</code></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Feb 12th, 2016</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/french/'>french</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2016/02/11/le-la-les-articles-definis/">
-		
-			le, la, les (articles définis)</a>
-	</h2>
-	<div class="entry-content">
-		<p><strong>le</strong>, <strong>la</strong> and <strong>les</strong> are French for <strong>the</strong>.</p>
-
-<p>Making the distinction between masculine <em>(m)</em> and feminine <em>(f)</em> objects, we use le for masculine and la for feminine.</p>
-
-<p>Plural form of all objects is les regardless of whatever gender is occupied.</p>
-
-<p>In the instance when there is a combination of <em>(m)</em> and <em>(f)</em> objects, the precedence always falls back on the <em>(m)</em>. This applies to true to ils and elles too.</p>
-
-<table>
-<thead>
-<tr>
-<th style="text-align:center;"> Anglais </th>
-<th style="text-align:left;"> Français </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center;"> the </td>
-<td style="text-align:left;"> le <em>(m)</em> </td>
-</tr>
-<tr>
-<td style="text-align:center;"> </td>
-<td style="text-align:left;"> la <em>(f)</em> </td>
-</tr>
-<tr>
-<td style="text-align:center;"> </td>
-<td style="text-align:left;"> les <em>(plural)</em> </td>
-</tr>
-</tbody>
-</table>
-
-
-<p>le légume <em>(m)</em> > the vegetable<br/>
-la mer <em>(f)</em> > the sea</p>
-
-<p>les légumes <em>(m,p)</em> > the vegetables<br/>
-les mers <em>(f,p)</em> > the seas</p>
-
-<p>When the following article begins with a vowel, le or la becomes <strong>l'</strong></p>
-
-<p>L'ordinateur <em>(m)</em> > the computer<br/>
-L'île <em>(f)</em> > the island</p>
-
-<p>Les ordinateur <em>(m,p)</em> > the computers<br/>
-Les îles <em>(f,p)</em> > the islands</p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Feb 11th, 2016</div>
 	<div class="tags">
 
 

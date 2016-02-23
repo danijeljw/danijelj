@@ -4,7 +4,7 @@
   <title><![CDATA[Category: hacking | danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/blog/categories/hacking/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-02-23T16:38:55+11:00</updated>
+  <updated>2016-02-23T21:06:45+11:00</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel James]]></name>
@@ -12,6 +12,89 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[codecademy battleship! project]]></title>
+    <link href="http://danijelj.com/blog/2016/02/23/codeacademy-battleship-project/"/>
+    <updated>2016-02-23T20:38:43+11:00</updated>
+    <id>http://danijelj.com/blog/2016/02/23/codeacademy-battleship-project</id>
+    <content type="html"><![CDATA[<p>Been playing with Codecademy to learn some more on Python. Their Battleship! tutorial I must say is one of the hardest I have tried, and instructions aren’t as solid as they should be. Below is the project solution that I used.</p>
+
+<pre><code>from random import randint
+
+board = []
+
+for x in range(5):
+    board.append(["O"] * 5)
+
+def print_board(board):
+    for row in board:
+        print " ".join(row)
+
+print "Let's play Battleship!"
+
+for turn in range(4):
+    print "Turn ", turn + 1
+    print_board(board)
+
+    def random_row(board):
+        return randint(0, len(board) - 1)
+
+    def random_col(board):
+        return randint(0, len(board[0]) - 1)
+
+    ship_row = random_row(board)
+    ship_col = random_col(board)
+    print ship_row
+    print ship_col
+
+    # Everything from here on should go in your for loop!
+    # Be sure to indent four spaces!
+    guess_row = int(raw_input("Guess Row:"))
+    guess_col = int(raw_input("Guess Col:"))
+
+    if guess_row == ship_row and guess_col == ship_col:
+        print "Congratulations! You sunk my battleship!"
+        break
+    else:
+        if (guess_row &lt; 0 or guess_row &gt; 4) or (guess_col &lt; 0 or guess_col &gt; 4):
+            print "Oops, that's not even in the ocean."
+            if turn == int(3):
+                turn = turn - 1
+        elif(board[guess_row][guess_col] == "X"):
+             print "You guessed that one already."
+            if turn == int(3):
+                turn = turn - 1
+        else:
+            print "You missed my battleship!"
+            board[guess_row][guess_col] = "X"
+        # Print (turn + 1) here!
+        print_board(board)
+if turn == int(3):
+    print "Game Over"
+</code></pre>
+
+<p><code>#MigratedPost</code></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[terminal colours mac]]></title>
+    <link href="http://danijelj.com/blog/2016/02/23/terminal-colours-mac/"/>
+    <updated>2016-02-23T20:33:27+11:00</updated>
+    <id>http://danijelj.com/blog/2016/02/23/terminal-colours-mac</id>
+    <content type="html"><![CDATA[<p>Create a new <code>.bash_profile</code> in the users home directory with:</p>
+
+<pre><code>export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
+export PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:[01;34m\]\w\[\033[00m\]\$ '
+</code></pre>
+
+<p>👅👅👅</p>
+
+<p><code>#MigratedPost</code></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[emoji domain]]></title>
@@ -114,66 +197,6 @@
     <content type="html"><![CDATA[<p>To make life easier, these are the Apple Keyboards mapped out.</p>
 
 <p><img src="/images/Apple-Keyboard-Shortcuts.jpg" width="2272" height="1144" title="&lsquo;Apple Keyboard Map&rsquo; &lsquo;Apple Keyboard Map&rsquo;" ></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[securely erase SSD MacBook Air]]></title>
-    <link href="http://danijelj.com/blog/2015/12/21/securely-erase-ssd-macbook-air/"/>
-    <updated>2015-12-21T09:27:23+11:00</updated>
-    <id>http://danijelj.com/blog/2015/12/21/securely-erase-ssd-macbook-air</id>
-    <content type="html"><![CDATA[<p>Using DBAN or other tools will not work as they&rsquo;re built for non EFI-based machines. They will also unecessarily write to your SSD and the data may still be recoverabe.</p>
-
-<p>Boot MacBook Air from a <a href="https://support.apple.com/kb/dl1433">Recovery USB</a>.</p>
-
-<p>Launch Terminal from <code>Utilities</code> menu.</p>
-
-<p>Find list of hard drives by running <code>diskutil list</code></p>
-
-<pre><code>| =&gt; diskutil list
-/dev/disk0
-   #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      GUID_partition_scheme                        *121.3 GB   disk0
-   1:                        EFI EFI                     209.7 MB   disk0s1
-   2:                  Apple_HFS Macintosh HD            120.3 GB   disk0s2
-   3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3
-</code></pre>
-
-<p>Erase with US DoE 3-pass secure erase:</p>
-
-<pre><code>diskutil secureErase 4 /dev/disk0
-</code></pre>
-
-<p><code>#MigratedPost</code></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[adding desktop wallpapers]]></title>
-    <link href="http://danijelj.com/blog/2015/12/20/adding-desktop-wallpapers/"/>
-    <updated>2015-12-20T11:32:42+11:00</updated>
-    <id>http://danijelj.com/blog/2015/12/20/adding-desktop-wallpapers</id>
-    <content type="html"><![CDATA[<p>To move images you love to the default Wallpapers section of OS X, move them using Terminal.</p>
-
-<p>TO move a file from my desktop called <strong>DWAD Danijel.jpg</strong> I do the following:</p>
-
-<pre><code>sudo mv ~/Desktop/DWAD\ Danijel.jpg /Library/Desktop\ Wallpapers/
-</code></pre>
-
-<p>You&rsquo;ll be asked for your Admin password and then feel free to change your desktop wallpaper and select the image.</p>
-
-<p><img src="/images/2015-12-20_adding_desktop_wallpapers.png"></p>
-
-<p>If you have a folder with multiple images <em>(JPG format)</em> on your desktop, try the following instead:</p>
-
-<pre><code>sudo mv ~/Desktop/wallpapers/* /Library/Desktop\ Wallpapers/
-</code></pre>
-
-<p>That should do the trick! 😎</p>
-
-<p><em><strong>Note:</strong> I used <code>mv</code> instead your can use <code>cp</code> if you prefer; but <code>sudo</code> is required!</em></p>
-
-<p><code>#MigratedPost</code></p>
 ]]></content>
   </entry>
   
