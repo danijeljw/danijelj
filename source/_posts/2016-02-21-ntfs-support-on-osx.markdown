@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NTFS support on osx"
+title: "ntfs support on os x"
 date: 2016-02-21 12:06:07 +1100
 comments: true
 categories: hacking

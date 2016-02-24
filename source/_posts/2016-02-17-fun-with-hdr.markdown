@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "fun with HDR"
+title: "fun with hdr"
 date: 2016-02-17 15:45:49 +1100
 comments: true
 categories: photography
