@@ -4,6 +4,6 @@ rake deploy
 git add -A -f *
 git commit -m 'auto-update'
 git push origin master
-rake notify
+#rake notify
 echo "Pushed and Published!"
 
