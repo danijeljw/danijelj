@@ -4,7 +4,7 @@
   <title><![CDATA[danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-02-24T16:15:33+11:00</updated>
+  <updated>2016-02-24T23:15:59+11:00</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel James]]></name>
@@ -12,6 +12,104 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[avoir (to have)]]></title>
+    <link href="http://danijelj.com/blog/2016/02/24/avoir-to-have/"/>
+    <updated>2016-02-24T23:03:06+11:00</updated>
+    <id>http://danijelj.com/blog/2016/02/24/avoir-to-have</id>
+    <content type="html"><![CDATA[<p>Like être, avoir is an irregular verb.</p>
+
+<table>
+<thead>
+<tr>
+<th style="text-align:left;"> avoir </th>
+<th style="text-align:left;"> to have </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;"> j'ai (=je ai} </td>
+<td style="text-align:left;"> I have </td>
+</tr>
+<tr>
+<td style="text-align:left;"> tu as </td>
+<td style="text-align:left;"> you have </td>
+</tr>
+<tr>
+<td style="text-align:left;"> il/elle a </td>
+<td style="text-align:left;"> he/she has </td>
+</tr>
+<tr>
+<td style="text-align:left;"> nous avons </td>
+<td style="text-align:left;"> we have <em>(n)</em> </td>
+</tr>
+<tr>
+<td style="text-align:left;"> vous avez </td>
+<td style="text-align:left;"> you have <em>(n)</em> </td>
+</tr>
+<tr>
+<td style="text-align:left;"> ils ont </td>
+<td style="text-align:left;"> they have <em>m/f)</em> </td>
+</tr>
+</tbody>
+</table>
+
+
+<p>Il a un voitre. > He has a bus.
+J'ai une montre. > I have a watch.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[être (to be)]]></title>
+    <link href="http://danijelj.com/blog/2016/02/23/etre-to-be/"/>
+    <updated>2016-02-23T09:36:37+11:00</updated>
+    <id>http://danijelj.com/blog/2016/02/23/etre-to-be</id>
+    <content type="html"><![CDATA[<p>The most common verb is être (to be).</p>
+
+<p>&ldquo;être&rdquo; is an irregular verb whatever the tense is. Here is the conjugation in the present:</p>
+
+<table>
+<thead>
+<tr>
+<th style="text-align:left;"> être </th>
+<th style="text-align:left;"> to be </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;"> je suis </td>
+<td style="text-align:left;"> I am </td>
+</tr>
+<tr>
+<td style="text-align:left;"> tu es </td>
+<td style="text-align:left;"> you are </td>
+</tr>
+<tr>
+<td style="text-align:left;"> il/elle est </td>
+<td style="text-align:left;"> he/she is </td>
+</tr>
+<tr>
+<td style="text-align:left;"> nous sommes </td>
+<td style="text-align:left;"> we are <em>(n)</em> </td>
+</tr>
+<tr>
+<td style="text-align:left;"> vous êtes </td>
+<td style="text-align:left;"> you are <em>(n)</em> </td>
+</tr>
+<tr>
+<td style="text-align:left;"> ils/elles sont </td>
+<td style="text-align:left;"> they are <em>(m/f)</em> </td>
+</tr>
+</tbody>
+</table>
+
+
+<p>Nous sommes á la plage. <em>(f)</em> > We are at the beach.
+Je suis sur la autobus. <em>(m)</em> > I am on the bus.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[emoji domain]]></title>
@@ -936,73 +1034,6 @@ if Fn[-1] &gt; 100:
   print'Fibonacci numbers up to 1st number over 100: ',Fn
   print'First Fibonacci number over 100: ',Fn[-1]
 </code></pre>
-
-<p><code>#MigratedPost</code></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[using env with shebang]]></title>
-    <link href="http://danijelj.com/blog/2014/03/09/using-env-with-shebang/"/>
-    <updated>2014-03-09T21:39:08+11:00</updated>
-    <id>http://danijelj.com/blog/2014/03/09/using-env-with-shebang</id>
-    <content type="html"><![CDATA[<p>Starting a script with <code>#!/bin/bash</code> instead of <code>#!/usr/bin/env</code> bash will assume that the user has <code>bash</code> installed at <code>/bin</code>. This makes the script portable and asks the enviornment to find the correct <code>$PATH</code> to the required interpreter.</p>
-
-<p>Bottom line rule:</p>
-
-<pre><code>#!/usr/bin/env (sh|bash|python|ruby|csh|ksh|tcsh)
-</code></pre>
-
-<p><code>#MigratedPost</code></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[flush dns in mac os x]]></title>
-    <link href="http://danijelj.com/blog/2014/02/23/flush-dns-in-mac-os-x/"/>
-    <updated>2014-02-23T07:41:24+11:00</updated>
-    <id>http://danijelj.com/blog/2014/02/23/flush-dns-in-mac-os-x</id>
-    <content type="html"><![CDATA[<h3>10.11</h3>
-
-<pre><code>sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder; say DNS cache flushed
-</code></pre>
-
-<h3>10.10</h3>
-
-<pre><code>sudo discoveryutil mdnsflushcache;sudo discovertyutil udnsflushcaches
-</code></pre>
-
-<h3>10.9</h3>
-
-<pre><code>dscacheutil -flushcache;sudo killall -HUP mDNSResponder
-</code></pre>
-
-<h3>10.8</h3>
-
-<pre><code>sudo killall -HUP mDNSResponder
-</code></pre>
-
-<h3>10.7</h3>
-
-<pre><code>sudo killall -HUP mDNSResponder
-</code></pre>
-
-<h3>10.6</h3>
-
-<pre><code>dscacheutil -flushcache
-</code></pre>
-
-<h3>10.5</h3>
-
-<pre><code>dscacheutil -flushcache
-</code></pre>
-
-<h3>10.4</h3>
-
-<pre><code>lookupd -flushcache
-</code></pre>
-
-<p>🍖🍖🍖</p>
 
 <p><code>#MigratedPost</code></p>
 ]]></content>

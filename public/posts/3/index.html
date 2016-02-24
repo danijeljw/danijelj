@@ -7,9 +7,7 @@
 	<meta name="author" content="Danijel James">
 
 	
-	<meta name="description" content="Bash script that generates 10-char passwords #!/bin/bash
-tmp_pass=0
-if [ $tmp_pass = 0 ]; then tmp_pass=`head -c 10 /dev/random | base64` echo "${ &hellip;">
+	<meta name="description" content="Starting a script with #!/bin/bash instead of #!/usr/bin/env bash will assume that the user has bash installed at /bin. This makes the script &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -83,6 +81,123 @@ if [ $tmp_pass = 0 ]; then tmp_pass=`head -c 10 /dev/random | base64` echo "${ &
 		
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2014/03/09/using-env-with-shebang/">
+		
+			using env with shebang</a>
+	</h2>
+	<div class="entry-content">
+		<p>Starting a script with <code>#!/bin/bash</code> instead of <code>#!/usr/bin/env</code> bash will assume that the user has <code>bash</code> installed at <code>/bin</code>. This makes the script portable and asks the enviornment to find the correct <code>$PATH</code> to the required interpreter.</p>
+
+<p>Bottom line rule:</p>
+
+<pre><code>#!/usr/bin/env (sh|bash|python|ruby|csh|ksh|tcsh)
+</code></pre>
+
+<p><code>#MigratedPost</code></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Mar 9th, 2014</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2014/02/23/flush-dns-in-mac-os-x/">
+		
+			flush dns in mac os x</a>
+	</h2>
+	<div class="entry-content">
+		<h3>10.11</h3>
+
+<pre><code>sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder; say DNS cache flushed
+</code></pre>
+
+<h3>10.10</h3>
+
+<pre><code>sudo discoveryutil mdnsflushcache;sudo discovertyutil udnsflushcaches
+</code></pre>
+
+<h3>10.9</h3>
+
+<pre><code>dscacheutil -flushcache;sudo killall -HUP mDNSResponder
+</code></pre>
+
+<h3>10.8</h3>
+
+<pre><code>sudo killall -HUP mDNSResponder
+</code></pre>
+
+<h3>10.7</h3>
+
+<pre><code>sudo killall -HUP mDNSResponder
+</code></pre>
+
+<h3>10.6</h3>
+
+<pre><code>dscacheutil -flushcache
+</code></pre>
+
+<h3>10.5</h3>
+
+<pre><code>dscacheutil -flushcache
+</code></pre>
+
+<h3>10.4</h3>
+
+<pre><code>lookupd -flushcache
+</code></pre>
+
+<p>🍖🍖🍖</p>
+
+<p><code>#MigratedPost</code></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Feb 23rd, 2014</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
 
 
     <article class="post">
@@ -277,6 +392,106 @@ Feb 8th, 2014</div>
     <article class="post">
 	<h2 class="title">
 		
+		<a href="/blog/2014/02/07/objective-c-data-types/">
+		
+			objective-c data types</a>
+	</h2>
+	<div class="entry-content">
+		<table>
+<thead>
+<tr>
+<th style="text-align:left;"> Type </th>
+<th style="text-align:left;"> Example </th>
+<th style="text-align:left;"> Specifier </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;"> char </td>
+<td style="text-align:left;"> ‘a’, ‘O’, ‘\n’ </td>
+<td style="text-align:left;"> %c </td>
+</tr>
+<tr>
+<td style="text-align:left;"> int </td>
+<td style="text-align:left;"> 14, -14, 780, 0xEEC0, 098 </td>
+<td style="text-align:left;"> %i, %d </td>
+</tr>
+<tr>
+<td style="text-align:left;"> unsigned int </td>
+<td style="text-align:left;"> 10u, 121U, 0xEFu </td>
+<td style="text-align:left;"> %u, %x, %o </td>
+</tr>
+<tr>
+<td style="text-align:left;"> long int </td>
+<td style="text-align:left;"> 18, -2100, 0xfeefL </td>
+<td style="text-align:left;"> %ld </td>
+</tr>
+<tr>
+<td style="text-align:left;"> unsigned long int </td>
+<td style="text-align:left;"> 13UL, 101ul, 0xfefeUL </td>
+<td style="text-align:left;"> %lu, %lx, %lo </td>
+</tr>
+<tr>
+<td style="text-align:left;"> long long int </td>
+<td style="text-align:left;"> 0xe5e5e5LL, 501ll </td>
+<td style="text-align:left;"> %lld </td>
+</tr>
+<tr>
+<td style="text-align:left;"> unsigned long long int </td>
+<td style="text-align:left;"> 10ull, 0xffeeULL </td>
+<td style="text-align:left;"> %llu, %llx, %llo </td>
+</tr>
+<tr>
+<td style="text-align:left;"> float </td>
+<td style="text-align:left;"> 12.30f, 3.2e-5f, 0x2.2p09 </td>
+<td style="text-align:left;"> %f, %e, %g, %a </td>
+</tr>
+<tr>
+<td style="text-align:left;"> double </td>
+<td style="text-align:left;"> 3.1415 </td>
+<td style="text-align:left;"> %f, %e, %g, %a </td>
+</tr>
+<tr>
+<td style="text-align:left;"> long double </td>
+<td style="text-align:left;"> 3.5e-5l </td>
+<td style="text-align:left;"> %Lf, %Le, %Lg, %La </td>
+</tr>
+<tr>
+<td style="text-align:left;"> id </td>
+<td style="text-align:left;"> Nil </td>
+<td style="text-align:left;"> %@ </td>
+</tr>
+</tbody>
+</table>
+
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Feb 7th, 2014</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
 		<a href="/blog/2013/11/09/dock-icons-that-wont-go-away/">
 		
 			dock icons that won't go away</a>
@@ -408,140 +623,6 @@ killall Dock
 
 
 Oct 16th, 2013</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/hacking/'>hacking</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/10/08/open-google-chrome-in-kiosk-mode/">
-		
-			open google chrome in kiosk mode</a>
-	</h2>
-	<div class="entry-content">
-		<p>Load Google Chrome in Kiosk Mode and direct it to a URL via Terminal:</p>
-
-<pre><code>open "/Applications/Google Chrome.app" --args --kiosk https://www.google.com.au
-</code></pre>
-
-<p><code>#MigratedPost</code></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Oct 8th, 2013</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/hacking/'>hacking</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/09/29/disable-enable-spotlight-indexing/">
-		
-			disable enable spotlight indexing</a>
-	</h2>
-	<div class="entry-content">
-		<p>Disable Spotlight indexing across all volumes: <code>sudo mdutil -a -i off</code></p>
-
-<p>Enable Spotlight indexing across all volumes: <code>sudo mdutil -a -i on</code></p>
-
-<p><code>#MigratedPost</code></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Sep 29th, 2013</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/hacking/'>hacking</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/09/23/location-of-photos-on-iphone-via-ssh/">
-		
-			location of photos on iPhone via ssh</a>
-	</h2>
-	<div class="entry-content">
-		<pre><code>root@iphone$ /private/var/mobile/Media/DCIM/
-</code></pre>
-
-<table>
-<thead>
-<tr>
-<th style="text-align:center;"> Folder </th>
-<th style="text-align:left;"> Content </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center;"> 100APPLE </td>
-<td style="text-align:left;"> photos taken </td>
-</tr>
-<tr>
-<td style="text-align:center;"> 999APPLE </td>
-<td style="text-align:left;"> screenshots  </td>
-</tr>
-</tbody>
-</table>
-
-
-<p><code>#MigratedPost</code></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Sep 23rd, 2013</div>
 	<div class="tags">
 
 
