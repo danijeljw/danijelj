@@ -4,7 +4,7 @@
   <title><![CDATA[danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-02-24T16:06:45+11:00</updated>
+  <updated>2016-02-24T16:15:33+11:00</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel James]]></name>
@@ -12,32 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[removing app library files]]></title>
-    <link href="http://danijelj.com/blog/2016/02/24/removing-app-library-files-caches-and-preferences/"/>
-    <updated>2016-02-24T07:58:22+11:00</updated>
-    <id>http://danijelj.com/blog/2016/02/24/removing-app-library-files-caches-and-preferences</id>
-    <content type="html"><![CDATA[<p>Application Support files <em>(can be anything from saved states, preferences, caches, temporary files, etc)</em>:</p>
-
-<pre><code>~/Library/Application Support/(App Name)
-</code></pre>
-
-<p>Preferences are stored at:</p>
-
-<pre><code>~/Library/Preferences/(App Name)
-</code></pre>
-
-<p>Caches are stored in:</p>
-
-<pre><code>~/Library/Caches/(App Name)
-</code></pre>
-
-<p><em><strong>Note:</strong> Sometimes can be referenced by app developer name rather than app name!</em></p>
-
-<p><code>#MigratedPost</code></p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[emoji domain]]></title>
@@ -978,6 +952,57 @@ if Fn[-1] &gt; 100:
 
 <pre><code>#!/usr/bin/env (sh|bash|python|ruby|csh|ksh|tcsh)
 </code></pre>
+
+<p><code>#MigratedPost</code></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[flush dns in mac os x]]></title>
+    <link href="http://danijelj.com/blog/2014/02/23/flush-dns-in-mac-os-x/"/>
+    <updated>2014-02-23T07:41:24+11:00</updated>
+    <id>http://danijelj.com/blog/2014/02/23/flush-dns-in-mac-os-x</id>
+    <content type="html"><![CDATA[<h3>10.11</h3>
+
+<pre><code>sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder; say DNS cache flushed
+</code></pre>
+
+<h3>10.10</h3>
+
+<pre><code>sudo discoveryutil mdnsflushcache;sudo discovertyutil udnsflushcaches
+</code></pre>
+
+<h3>10.9</h3>
+
+<pre><code>dscacheutil -flushcache;sudo killall -HUP mDNSResponder
+</code></pre>
+
+<h3>10.8</h3>
+
+<pre><code>sudo killall -HUP mDNSResponder
+</code></pre>
+
+<h3>10.7</h3>
+
+<pre><code>sudo killall -HUP mDNSResponder
+</code></pre>
+
+<h3>10.6</h3>
+
+<pre><code>dscacheutil -flushcache
+</code></pre>
+
+<h3>10.5</h3>
+
+<pre><code>dscacheutil -flushcache
+</code></pre>
+
+<h3>10.4</h3>
+
+<pre><code>lookupd -flushcache
+</code></pre>
+
+<p>🍖🍖🍖</p>
 
 <p><code>#MigratedPost</code></p>
 ]]></content>

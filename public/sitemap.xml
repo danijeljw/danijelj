@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://danijelj.com/blog/2016/02/24/removing-app-library-files-caches-and-preferences/</loc>
-<lastmod>2016-02-24T07:58:22+11:00</lastmod>
-</url>
-<url>
 <loc>http://danijelj.com/blog/2016/02/22/emoji-domain/</loc>
 <lastmod>2016-02-22T14:32:22+11:00</lastmod>
 </url>
@@ -93,6 +89,10 @@
 <lastmod>2014-02-17T07:53:31+11:00</lastmod>
 </url>
 <url>
+<loc>http://danijelj.com/blog/2014/02/09/removing-app-library-files-caches-and-preferences/</loc>
+<lastmod>2014-02-09T00:00:00+11:00</lastmod>
+</url>
+<url>
 <loc>http://danijelj.com/blog/2014/02/08/free-up-ram-in-os-x/</loc>
 <lastmod>2014-02-08T08:02:53+11:00</lastmod>
 </url>
@@ -170,6 +170,15 @@
 </url>
 <url>
 <loc>http://danijelj.com/blog/categories/french/</loc>
+</url>
+<url>
+<loc>http://danijelj.com/posts/2/</loc>
+</url>
+<url>
+<loc>http://danijelj.com/posts/3/</loc>
+</url>
+<url>
+<loc>http://danijelj.com/posts/4/</loc>
 </url>
 <url>
 <loc>http://danijelj.com/google0a44042c6956002d.html</loc>
