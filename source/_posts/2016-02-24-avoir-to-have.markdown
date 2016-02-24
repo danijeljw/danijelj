@@ -18,5 +18,5 @@ Like être, avoir is an irregular verb.
 | vous avez || you have _(n)_ |
 | ils ont || they have _m/f)_ |
 
-Il a un voitre _(m)_. > He has a bus.  
-J'ai une montre _(f)_. > I have a watch.
+Il a un voitre _(m)_ > He has a bus  
+J'ai une montre _(f)_ > I have a watch

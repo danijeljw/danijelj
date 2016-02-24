@@ -20,5 +20,5 @@ The most common verb is être (to be).
 | vous êtes || you are _(n)_ |
 | ils/elles sont || they are _(m/f)_ |
 
-Nous sommes á la plage. _(f)_ > We are at the beach.  
-Je suis sur la autobus. _(m)_ > I am on the bus.
+Nous sommes á la plage _(f)_ > We are at the beach  
+Je suis sur la autobus _(m)_ > I am on the bus
