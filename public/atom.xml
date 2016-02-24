@@ -4,7 +4,7 @@
   <title><![CDATA[danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-02-23T21:48:24+11:00</updated>
+  <updated>2016-02-24T16:06:45+11:00</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel James]]></name>
@@ -12,6 +12,32 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[removing app library files]]></title>
+    <link href="http://danijelj.com/blog/2016/02/24/removing-app-library-files-caches-and-preferences/"/>
+    <updated>2016-02-24T07:58:22+11:00</updated>
+    <id>http://danijelj.com/blog/2016/02/24/removing-app-library-files-caches-and-preferences</id>
+    <content type="html"><![CDATA[<p>Application Support files <em>(can be anything from saved states, preferences, caches, temporary files, etc)</em>:</p>
+
+<pre><code>~/Library/Application Support/(App Name)
+</code></pre>
+
+<p>Preferences are stored at:</p>
+
+<pre><code>~/Library/Preferences/(App Name)
+</code></pre>
+
+<p>Caches are stored in:</p>
+
+<pre><code>~/Library/Caches/(App Name)
+</code></pre>
+
+<p><em><strong>Note:</strong> Sometimes can be referenced by app developer name rather than app name!</em></p>
+
+<p><code>#MigratedPost</code></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[emoji domain]]></title>
@@ -292,7 +318,7 @@
 
 <p>We had our last meal together and off he flew to his next leg as did I back to Sydney. So here I am, on flight Jetstar flight QF77 going back over the memories that should not be forgotten lest left off the pages that make up the story of this world.</p>
 
-<p><img src="http://danijelj.com/images//Users/danijel.james/Desktop/douche/20160220.iPhone6Plus.0358.jpg" width="800" height="800" title="Our last meal in Hobart" alt="Last meal together in Hobart at the Airport"></p>
+<p><img src="http://danijelj.com/images/2016/tasmania-trip/20160220.iPhone6Plus.0358.jpg" width="800" height="800" title="Our last meal in Hobart" alt="Last meal together in Hobart at the Airport"></p>
 
 <hr />
 
@@ -952,24 +978,6 @@ if Fn[-1] &gt; 100:
 
 <pre><code>#!/usr/bin/env (sh|bash|python|ruby|csh|ksh|tcsh)
 </code></pre>
-
-<p><code>#MigratedPost</code></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[dock icons that won't go away]]></title>
-    <link href="http://danijelj.com/blog/2013/11/09/dock-icons-that-wont-go-away/"/>
-    <updated>2013-11-09T22:52:35+11:00</updated>
-    <id>http://danijelj.com/blog/2013/11/09/dock-icons-that-wont-go-away</id>
-    <content type="html"><![CDATA[<p>A client of mine who minimised an application to their Dock and their iMac crashed. When the computer rebooted, the icon of the minimised application was ever present in their Dock and it wasn’t selectable, repairable, removable – anything!</p>
-
-<p>If you come across such a problem, open Terminal and run the following:</p>
-
-<pre><code>rm -f ~/Library/Preferences/com.apple.dock.plist
-</code></pre>
-
-<p>Restart your Mac, problem solved.</p>
 
 <p><code>#MigratedPost</code></p>
 ]]></content>

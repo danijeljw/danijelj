@@ -172,7 +172,7 @@ _"All good things must come to an end" -Geoffrey Chaucer_ are the only words tha
 
 We had our last meal together and off he flew to his next leg as did I back to Sydney. So here I am, on flight Jetstar flight QF77 going back over the memories that should not be forgotten lest left off the pages that make up the story of this world.
 
-{% img /images//Users/danijel.james/Desktop/douche/20160220.iPhone6Plus.0358.jpg 800 800 'Our last meal in Hobart' 'Last meal together in Hobart at the Airport' %}
+{% img /images/2016/tasmania-trip/20160220.iPhone6Plus.0358.jpg 800 800 'Our last meal in Hobart' 'Last meal together in Hobart at the Airport' %}
 
 -----
 Dear Hobart,

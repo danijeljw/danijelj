@@ -7,7 +7,7 @@
 	<meta name="author" content="Danijel James">
 
 	
-	<meta name="description" content="If you have a fancy screensaver and you want to see it all the time, use then all you need to do is run the following command in Terminal ( &hellip;">
+	<meta name="description" content="10.11 sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder; say DNS cache flushed 10.10 sudo discoveryutil mdnsflushcache;sudo &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -81,6 +81,257 @@
 		
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2014/02/23/flush-dns-in-mac-os-x/">
+		
+			flush dns in mac os x</a>
+	</h2>
+	<div class="entry-content">
+		<h3>10.11</h3>
+
+<pre><code>sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder; say DNS cache flushed
+</code></pre>
+
+<h3>10.10</h3>
+
+<pre><code>sudo discoveryutil mdnsflushcache;sudo discovertyutil udnsflushcaches
+</code></pre>
+
+<h3>10.9</h3>
+
+<pre><code>dscacheutil -flushcache;sudo killall -HUP mDNSResponder
+</code></pre>
+
+<h3>10.8</h3>
+
+<pre><code>sudo killall -HUP mDNSResponder
+</code></pre>
+
+<h3>10.7</h3>
+
+<pre><code>sudo killall -HUP mDNSResponder
+</code></pre>
+
+<h3>10.6</h3>
+
+<pre><code>dscacheutil -flushcache
+</code></pre>
+
+<h3>10.5</h3>
+
+<pre><code>dscacheutil -flushcache
+</code></pre>
+
+<h3>10.4</h3>
+
+<pre><code>lookupd -flushcache
+</code></pre>
+
+<p>🍖🍖🍖</p>
+
+<p><code>#MigratedPost</code></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Feb 23rd, 2014</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2014/02/18/generate-random-passwords/">
+		
+			generate random passwords</a>
+	</h2>
+	<div class="entry-content">
+		<p>Bash script that generates 10-char passwords</p>
+
+<pre><code>#!/bin/bash
+tmp_pass=0
+if [ $tmp_pass = 0 ]; then
+  tmp_pass=`head -c 10 /dev/random | base64`
+  echo "${tmp_pass:0:10}" #cut to 10 characters after base64 conversion
+fi
+</code></pre>
+
+<p>🍦🍦🍦</p>
+
+<p><code>#MigratedPost</code></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Feb 18th, 2014</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2014/02/17/convert-audio-to-ogg-format-via-terminal/">
+		
+			convert audio to ogg format via terminal</a>
+	</h2>
+	<div class="entry-content">
+		<p>Ogg is a container format. It typically uses the <a href="http://www.vorbis.com">Vorbis audio codec</a>. You can download a static build of <a href="http://ffmpegmac.net/">ffmpeg</a> and use the bundled libvorbis encoder:</p>
+
+<pre><code>ffmpeg -i input.wav -c:a libvorbis -qscale:a 5 output.ogg
+</code></pre>
+
+<p>According to the Vorbis encoding guide, the quality range is from 0–10, where 10 is the highest quality and 3–6 are a good range to try. In the above example we used 5 as quality.</p>
+
+<p>_Source: <a href="http://apple.stackexchange.com/a/121099/49601_">http://apple.stackexchange.com/a/121099/49601_</a></p>
+
+<p>🍇🍇🍇</p>
+
+<p><code>#MigratedPost</code></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Feb 17th, 2014</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2014/02/08/free-up-ram-in-os-x/">
+		
+			free up ram in os x</a>
+	</h2>
+	<div class="entry-content">
+		<p>Using the <strong>purge(8)</strong> command will force the disk cache to be flushed and emptied.</p>
+
+<pre><code>sudo purge
+</code></pre>
+
+<p>🎾🎾🎾</p>
+
+<p><code>#MigratedPost</code></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Feb 8th, 2014</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2013/11/09/dock-icons-that-wont-go-away/">
+		
+			dock icons that won't go away</a>
+	</h2>
+	<div class="entry-content">
+		<p>A client of mine who minimised an application to their Dock and their iMac crashed. When the computer rebooted, the icon of the minimised application was ever present in their Dock and it wasn’t selectable, repairable, removable – anything!</p>
+
+<p>If you come across such a problem, open Terminal and run the following:</p>
+
+<pre><code>rm -f ~/Library/Preferences/com.apple.dock.plist
+</code></pre>
+
+<p>Restart your Mac, problem solved.</p>
+
+<p><code>#MigratedPost</code></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Nov 9th, 2013</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
 
 
     <article class="post">
@@ -308,276 +559,6 @@ Sep 29th, 2013</div>
 
 
 Sep 23rd, 2013</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/hacking/'>hacking</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/09/22/connect-mac-to-active-directory-via-terminal/">
-		
-			connect mac to active directory via terminal</a>
-	</h2>
-	<div class="entry-content">
-		<p>Connecting Mac OS X to Windows AD via Terminal:</p>
-
-<pre><code>dsconfigad –f –a $compName –domain $sub.$domain.$tld –u $ADaccount –p $ADpassword –lu $ladminAcc –lp $ladminPass
-
-$compName = name of the computer _(in quotations if necessary)_
-
-$sub    = subdomain
-$domain = domain
-$tld    = tld
-
-$ADaccount  = AD admin account
-$ADpassword = AD admin password
-
-$ladminAcc  = Mac local admin account
-$ladminPass = Mac local admin password
-</code></pre>
-
-<p><code>#MigratedPost</code></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Sep 22nd, 2013</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/hacking/'>hacking</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/08/19/permission-denied-with-terminal/">
-		
-			permission denied with terminal</a>
-	</h2>
-	<div class="entry-content">
-		<p>Getting a Permission Denied when trying to run a file in Terminal <em>(OS X or *NIX)</em> can be frustrating, especially if you’re new to this. Try running the following:</p>
-
-<pre><code>chmod +x FileName
-</code></pre>
-
-<p>Then to run the program/file, type:</p>
-
-<pre><code>./FileName
-</code></pre>
-
-<p>🍐🍐🍐</p>
-
-<p><code>#MigratedPost</code></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Aug 19th, 2013</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/hacking/'>hacking</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/08/10/install-java-jvm-on-os-x-10-dot-8/">
-		
-			nstall java JVM on os x 10.8</a>
-	</h2>
-	<div class="entry-content">
-		<p>Via Terminal:</p>
-
-<pre><code>java -version
-</code></pre>
-
-<p>🏻👍🏻👍🏻👍🏻</p>
-
-<p><code>#MigratedPost</code></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Aug 10th, 2013</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/hacking/'>hacking</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/08/09/show-saved-wifi-password/">
-		
-			show saved wifi password</a>
-	</h2>
-	<div class="entry-content">
-		<p>Source for script that spits out WiFi password saved in Windows 7 or 8. Haven’t tested this on XP or Vista.</p>
-
-<pre><code>::===START=========================================
-@echo off
-netsh wlan show profiles
-echo.
-echo.
-set /p UserInputPath=" Reveal which WiFi connection password:  "
-netsh wlan show %UserInputPath% key=clear
-netsh wlan show gs key=clear
-pause
-::===END===========================================
-</code></pre>
-
-<p>I cannot claim copyright to this code, as it is pretty much just a mouthful of commands, so it shall be freely available in the Public Domain.</p>
-
-<p><code>#MigratedPost</code></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Aug 9th, 2013</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/hacking/'>hacking</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/07/28/create-mysql-database-and-user/">
-		
-			create MySQL database and user</a>
-	</h2>
-	<div class="entry-content">
-		<p>Install MySQL and set a default password for root. Failure to do so is a security leak.</p>
-
-<p>Firstly, you need to login to the root user on MySQL:</p>
-
-<pre><code>mysql -u root -p
-Enter password:
-</code></pre>
-
-<p>Now that you are logged in, create the database you need. Here I have created a database called wordpress:</p>
-
-<pre><code>mysql&gt; CREATE DATABASE wordpress;
-Query OK, 1 row affected (0.00 sec)
-</code></pre>
-
-<p>Create a user called wpUser to connect to the server from localhost using password Password1:</p>
-
-<pre><code>mysql&gt; GRANT USAGE ON *.* TO wpUser@localhost IDENTIFIED BY  'Password1';
-Query OK, 0 rows affected (0.00 sec)
-</code></pre>
-
-<p>Now grant all privileges on wordpress database to wpUser:</p>
-
-<pre><code>mysql&gt; GRANT ALL PRIVILEGES ON wordpress.* TO 'wpUser'@'localhost';
-Query OK, 0 rows affected (0.00 sec)
-</code></pre>
-
-<p>Exit from the mysql> prompt by typing <strong>exit</strong>. Then you can test your connection settings by typing:</p>
-
-<pre><code>mysql -u wpUser -p'Password1' wordpress
-</code></pre>
-
-<p>You will be greeted with something like the following:</p>
-
-<pre><code>Reading table information for completion of table and column names
-You can turn off this feature to get a quicker startup with -A
-Welcome to the MySQL monitor.
-Commands end with ; or \g.
-Your MySQL connection id is 254
-Server version: 5.1.66-0+squeeze1 (Debian)
-Copyright (c) 2000, 2012, Oracle and/or its affiliates.
-All rights reserved. Oracle is a registered trademark of
-Oracle Corporation and/or its affiliates. Other names may be
-trademarks of their respective owners. Type ‘help;’ or ‘\h’ for
-help. Type ‘\c’ to clear the current input statement.
-
-mysql&gt;
-</code></pre>
-
-<p><code>#MigratedPost</code></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Jul 28th, 2013</div>
 	<div class="tags">
 
 

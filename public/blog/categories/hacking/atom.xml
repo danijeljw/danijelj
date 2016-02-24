@@ -4,7 +4,7 @@
   <title><![CDATA[Category: hacking | danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/blog/categories/hacking/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-02-23T21:48:24+11:00</updated>
+  <updated>2016-02-24T16:06:45+11:00</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel James]]></name>
@@ -12,6 +12,32 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[removing app library files]]></title>
+    <link href="http://danijelj.com/blog/2016/02/24/removing-app-library-files-caches-and-preferences/"/>
+    <updated>2016-02-24T07:58:22+11:00</updated>
+    <id>http://danijelj.com/blog/2016/02/24/removing-app-library-files-caches-and-preferences</id>
+    <content type="html"><![CDATA[<p>Application Support files <em>(can be anything from saved states, preferences, caches, temporary files, etc)</em>:</p>
+
+<pre><code>~/Library/Application Support/(App Name)
+</code></pre>
+
+<p>Preferences are stored at:</p>
+
+<pre><code>~/Library/Preferences/(App Name)
+</code></pre>
+
+<p>Caches are stored in:</p>
+
+<pre><code>~/Library/Caches/(App Name)
+</code></pre>
+
+<p><em><strong>Note:</strong> Sometimes can be referenced by app developer name rather than app name!</em></p>
+
+<p><code>#MigratedPost</code></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[emoji domain]]></title>
@@ -143,35 +169,6 @@
 
 <pre><code>diskutil secureErase 4 /dev/disk0
 </code></pre>
-
-<p><code>#MigratedPost</code></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[adding desktop wallpapers]]></title>
-    <link href="http://danijelj.com/blog/2015/12/20/adding-desktop-wallpapers/"/>
-    <updated>2015-12-20T11:32:42+11:00</updated>
-    <id>http://danijelj.com/blog/2015/12/20/adding-desktop-wallpapers</id>
-    <content type="html"><![CDATA[<p>To move images you love to the default Wallpapers section of OS X, move them using Terminal.</p>
-
-<p>TO move a file from my desktop called <strong>DWAD Danijel.jpg</strong> I do the following:</p>
-
-<pre><code>sudo mv ~/Desktop/DWAD\ Danijel.jpg /Library/Desktop\ Wallpapers/
-</code></pre>
-
-<p>You&rsquo;ll be asked for your Admin password and then feel free to change your desktop wallpaper and select the image.</p>
-
-<p><img src="/images/2015-12-20_adding_desktop_wallpapers.png"></p>
-
-<p>If you have a folder with multiple images <em>(JPG format)</em> on your desktop, try the following instead:</p>
-
-<pre><code>sudo mv ~/Desktop/wallpapers/* /Library/Desktop\ Wallpapers/
-</code></pre>
-
-<p>That should do the trick! 😎</p>
-
-<p><em><strong>Note:</strong> I used <code>mv</code> instead your can use <code>cp</code> if you prefer; but <code>sudo</code> is required!</em></p>
 
 <p><code>#MigratedPost</code></p>
 ]]></content>
