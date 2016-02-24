@@ -4,7 +4,7 @@
   <title><![CDATA[Category: french | danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/blog/categories/french/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-02-24T23:34:12+11:00</updated>
+  <updated>2016-02-24T23:45:24+11:00</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel James]]></name>
@@ -30,7 +30,7 @@
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left;"> j'ai (=je ai} </td>
+<td style="text-align:left;"> j'ai (=je ai) </td>
 <td style="text-align:left;"></td>
 <td style="text-align:left;"> I have </td>
 </tr>
@@ -81,32 +81,39 @@ J'ai une montre <em>(f)</em>. > I have a watch.</p>
 <thead>
 <tr>
 <th style="text-align:left;"> être </th>
+<th style="text-align:left;"> </th>
 <th style="text-align:left;"> to be </th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align:left;"> je suis </td>
+<td style="text-align:left;"></td>
 <td style="text-align:left;"> I am </td>
 </tr>
 <tr>
 <td style="text-align:left;"> tu es </td>
+<td style="text-align:left;"></td>
 <td style="text-align:left;"> you are </td>
 </tr>
 <tr>
 <td style="text-align:left;"> il/elle est </td>
+<td style="text-align:left;"></td>
 <td style="text-align:left;"> he/she is </td>
 </tr>
 <tr>
 <td style="text-align:left;"> nous sommes </td>
+<td style="text-align:left;"></td>
 <td style="text-align:left;"> we are <em>(n)</em> </td>
 </tr>
 <tr>
 <td style="text-align:left;"> vous êtes </td>
+<td style="text-align:left;"></td>
 <td style="text-align:left;"> you are <em>(n)</em> </td>
 </tr>
 <tr>
 <td style="text-align:left;"> ils/elles sont </td>
+<td style="text-align:left;"></td>
 <td style="text-align:left;"> they are <em>(m/f)</em> </td>
 </tr>
 </tbody>

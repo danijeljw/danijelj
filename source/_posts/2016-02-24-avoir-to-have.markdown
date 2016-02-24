@@ -11,7 +11,7 @@ Like être, avoir is an irregular verb.
 
 | avoir | | to have |
 |:---|:-|:---|
-| j'ai (=je ai} || I have |
+| j'ai (=je ai) || I have |
 | tu as || you have |
 | il/elle a || he/she has |
 | nous avons || we have _(n)_ |
