@@ -29,7 +29,7 @@ Amazing little farm a short stint out of Hobart. Bit annoyed that we couldn't go
 ####Tasmanian Devil Park
 This was a little bit of a disappointment. It's the Tasmanian Devil Park Unzoo. It's not a "zoo" per se, but they help in the breeding and conservation of the Tasmanian Devil. Unbeknown to most, the Tasmanian Devil suffers from a cancer that is transmitted by blood - much like the HIV virus. And also like the HIV virus, we don't know where it came from _(the cancer)_. My favourite part was going out to the Kangaroos to play, watching Quolls devour an animal carcass and the feeding of the Tasmanian Devil. So voracious! Both of them! Who ever thought a Quoll was such a savage eater! 😰
 
-{% img /images/20160217.iPhone6Plus.163226.jpg 'Kangaroo Ain\'t Impressed' %}
+{% img /images/20160217.iPhone6Plus.163226.jpg 'Kangaroo Not Impressed' %}
 
 ####Eaglehawk Neck Historic Site
 Eaglehawk Neck had some natural formations that really take a moment to let sink into the mind. The Tessellated Pavement Slate Reserve down on the beach shore looked like tiles laid by man from above, upon closer inspection we reaslised it was natural formations from erosion of the stone over years from the ocean.
@@ -64,7 +64,7 @@ On we headed to see the local windmill which was easy to see from afar, just pro
 
 Being a little hungry we headed into town to try the Pancake and Crepe Shop. Without going into it too much here on this page, please feel free to head over to [Yelp!](https://www.yelp.com.au) to check out my review [here](https://www.yelp.com.au/biz/pancake-and-crepe-shop-oatlands). In short, it was crap. Everything about this place was crap. I'd love to know that in time, people are able to go here and give a higher rating than I was.
 
-{% img /images/20160218.iPhone6Plus.132555.jpg 800 800 '' '' %}
+{% img /images/20160218.iPhone6Plus.132555.jpg 800 800 '' 'Not very nice berry pancakes' %}
 
 ####Spring Vale Vineyards - Cranbrook
 Whenever I think of Vineyards, I think of rich snobby cunts or those that like to think they're rich snobby cunts - the complete opposite here! Greeted warmly and with welcome that reminds me of my father inviting people to the dinner table to share a meal. We tried every type of white and red on the menu walking away with a 750mL of white and smaller bottle of red. I'll keep these as a memory to share with Grenouille in a month from now when I see him on Adelaide. We had a quick tour of the vineyards and just enjoyed a casual stroll amongst the vines. Lovely.
@@ -75,7 +75,7 @@ Unfortunately I can't find my pictures from this location and will have to go ba
 ####Wineglass Bay
 Wineglass Bay is a bit of a hike up the mountain. You need to purchase access for your car at the local centre on the way down or risk getting a fine. At least the car ticket allows up to 8 people to access the park and climb up. I met a young couple who were taking _(or trying to)_ romantic photos of one another. Being a complete sucker to help people capture memories the way their imagination sees it, I took her camera and snapped a few wonderful shots of them wit hthe view of the water behind them. She was a bit stuck up. But meh. 😏
 
-{% img /images/DJW.20160218.600D.0160.800res.jpg 800 533 'Wineglass Bay' 'Wineglass Bay' %}
+{% img /images/DJW.20160218.600D.0160.800res.jpg 800 533 'Wineglass Bay' 'Wineglass Bay, TAS' %}
 
 I quickly also snuck in an image of these Asian tourists sitting down to rest. When Grenouille and I were reviewing photos he asked me _"Do you know these people? Are they your friends?" LOL, no dear. I love you because you're so silly sometimes. 😘 I'm a photographer in the making, I capture memories.
 
@@ -116,11 +116,11 @@ Apart from the wasps, and nearly being dragged out to the ocean trying to catch 
 
 Rather than talk about it, look over these images. I've also uploaded an album to my [Flickr](https://www.flickr.com/photos/danijeljames) account that you can look at with the hi-res images of all these pics and more.
 
-%{ img /images/2016/02/25094235811_906f3a3c40_z.jpg 640 155 'Bay of Fires Panorama' 'Bay of Fires Panorama' %}
+{% img /images/2016/02/25094235811_906f3a3c40_z.jpg 640 155 'Bay of Fires Panorama' 'Bay of Fires Panorama' %}
 
 {% img /images/DJW.20160219.600D.0198.800res.jpg 800 533 'Birds on a Broken Jetty' 'Birds on a broken jetty at Binalong Bay near the Bay of Fires' %}
 
-{% img /images/DJW.20160219.600D.0202.800res.jpg 533 800 'Another view of Broken Jetty' 'Another view of Broken Jetty at Binalong Bay near the Bay of Fires %}
+{% img /images/DJW.20160219.600D.0202.800res.jpg 533 800 'Another view of Broken Jetty' 'Another view of Broken Jetty at Binalong Bay near the Bay of Fires' %}
 
 {% img /images/DJW.20160219.600D.0229.800res.jpg 800 533 'Feet in Binalong Bay' 'Feet in Binalong Bay' %}
 
@@ -140,7 +140,7 @@ After the Bay of Fires, we headed back to St Helens to grab some grapes, local c
 
 ####Tynwald Willow Bend Estate
 
-Unfortunately I have no photos of the estate itself, but they can be found on [Google Images](https://images.google.com). Greeted by _(what I believe is the husband)_ of the lady that I spoke to on the phone, I was ushered through the manor to the dining room, the reading room, the the breakfast room and then to a book on the [Salamanca Markets](http://www.hobartcity.com.au/hobart/hobart_events/salamanca_market). She has a fried that runs the bee stall closest to the entrance. Grenouille and I dropped off our things, had a spa, shower, got dressed then headed to town for dinner. If you're ever in the area, give it a go. It's wonderful. Very old fashioned and run the way a manor should and you'd not want or need for anything as the family-run estate has it all. It is a little behind the times but you'll love the feel if you miss your grandma's house from when you were a child. Re-living it as an adult gives you a sense of when things were simpler and people were innocent.
+Unfortunately I have no photos of the estate itself, but they can be found on [Google Images](https://images.google.com). Greeted by _(what I believe is the husband)_ of the lady that I spoke to on the phone, I was ushered through the manor to the dining room, the reading room, the the breakfast room and then to a book on the [Salamanca Markets](http://www.hobartcity.com.au/hobart/hobart_events/salamanca_market). She has a frined that runs the bee was stall closest to the entrance. Grenouille and I dropped off our things, had a spa, shower, got dressed then headed to town for dinner. If you're ever in the area, give it a go. It's wonderful. Very old fashioned and run the way a manor should and you'd not want or need for anything as the family-run estate has it all. It is a little behind the times but you'll love the feel if you miss your grandma's house from when you were a child. Re-living it as an adult gives you a sense of when things were simpler and people were innocent.
 
 ####Rockwall Bar and Grill
 How this place is a bar is beyond me. You walk to the end of Salamanca Pl and see a small sign hinged above a door giving indication of where it is. Walk through a sliding electronic glass door and almost immediately you're greeted by friendly and warm staff from all angles asking you for a drink whilst you wait and what was the reservation. This a no-bullshit kind of venue! Immediately after getting your wine _(we took the bottle of some local Tasmanian label)_ you notice the ambient atmosphere is signature to the venue - this place has some intense class!
