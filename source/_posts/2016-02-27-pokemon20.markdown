@@ -1,0 +1,14 @@
+---
+layout: post
+title: "#pokemon20"
+date: 2016-02-27 01:25:36 +1100
+comments: true
+categories: photography
+author: Danijel James
+published: true
+---
+[Pokémon (ポケモン)](https://wikipedia.org/wiki/Pok%C3%A9mon) first graced our [GameBoy](https://wikipedia.org/wiki/Game_Boy) consoles on Feb 27, 1996 _(well, in Japan at least!)_ Today we celebrate 20 Years of Pokémon gaming and hopefully another 20 years yet to come!
+
+<div align="center"> {% img /images/2016/pokemon20/articleImg_20th.jpg 602 429 'Pokémon 20 Pikachu' 'Pokémon 20 Pikachu' %} </div>
+
+You can download the full-sized image here: [Download Link (3.8mb)](/images/2016/pokemon20/20th_Logo_Primary_cmyk.jpg)
