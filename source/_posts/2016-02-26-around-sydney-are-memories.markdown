@@ -29,4 +29,4 @@ One of the most magical places to visit at night, if you ever get the chance is 
 
 We stood there for a while as he taught me words like arbre, blanc, rouge, l’herb, verde. Recounting the objects around us, their names an the colors their transpire from. I still couldn’t say arbre. LOL ! Bats are called bald mice, but I can’t remember the words, as it was a mouthful. I just wanted to touch him and give him a kiss the first time we were there. It was before the first time we’d kissed when we went there. From the expressions of Jet and Tomas, I think they enjoyed the night overall, and the gazebo, both never having seen the view before.
 
-{% img %}
+{% img /images/2016/02/2016-02-26_DJW.0504.800res.jpg 800 533 'from Observatory Hill' 'view from Observatory Hill overlooking Sydney' %}
