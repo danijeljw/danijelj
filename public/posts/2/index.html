@@ -7,7 +7,7 @@
 	<meta name="author" content="Danijel James">
 
 	
-	<meta name="description" content="un, une and des are the French equivalents for a and some. un (m) and une (f) are used for persons/things. Plural form of all objects is des (pl) &hellip;">
+	<meta name="description" content="It is the same as in English. Most sentences are built on the same template: Sujet Verbe Complément Translation La pluie frappe sur les carreaux. &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -81,6 +81,72 @@
 		
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2016/02/14/sentence-structure/">
+		
+			sentence structure</a>
+	</h2>
+	<div class="entry-content">
+		<p>It is the same as in English. Most sentences are built on the same template:</p>
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center;"> Sujet </th>
+<th style="text-align:center;">Verbe </th>
+<th style="text-align:left;"> Complément </th>
+<th style="text-align:left;"> Translation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;"> La pluie </td>
+<td style="text-align:center;"> frappe </td>
+<td style="text-align:left;"> sur les carreaux. </td>
+<td style="text-align:left;"> <em>The rain hits windows-panes.</em> </td>
+</tr>
+<tr>
+<td style="text-align:center;"> Les arbres </td>
+<td style="text-align:center;"> perdent </td>
+<td style="text-align:left;"> leurs feuilles. </td>
+<td style="text-align:left;"> <em>The trees are losing their leaves.</em> </td>
+</tr>
+<tr>
+<td style="text-align:center;"> Caroline </td>
+<td style="text-align:center;"> cueille </td>
+<td style="text-align:left;"> des pommes. </td>
+<td style="text-align:left;"> <em>Caroline picks some apples.</em> </td>
+</tr>
+</tbody>
+</table>
+
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Feb 14th, 2016</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/french/'>french</a>
+
+
+</div>
+	
+</div>
+</article>
 
 
     <article class="post">
@@ -714,96 +780,6 @@ export PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:[01;34m\]\w\[\033[00m\]\$ '
 
 
 Jun 17th, 2014</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/hacking/'>hacking</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2014/04/26/codecademy-battleship-project/">
-		
-			codecademy battleship! project</a>
-	</h2>
-	<div class="entry-content">
-		<p>Been playing with Codecademy to learn some more on Python. Their Battleship! tutorial I must say is one of the hardest I have tried, and instructions aren’t as solid as they should be. Below is the project solution that I used.</p>
-
-<pre><code>from random import randint
-
-board = []
-
-for x in range(5):
-    board.append(["O"] * 5)
-
-def print_board(board):
-    for row in board:
-        print " ".join(row)
-
-print "Let's play Battleship!"
-
-for turn in range(4):
-    print "Turn ", turn + 1
-    print_board(board)
-
-    def random_row(board):
-        return randint(0, len(board) - 1)
-
-    def random_col(board):
-        return randint(0, len(board[0]) - 1)
-
-    ship_row = random_row(board)
-    ship_col = random_col(board)
-    print ship_row
-    print ship_col
-
-    # Everything from here on should go in your for loop!
-    # Be sure to indent four spaces!
-    guess_row = int(raw_input("Guess Row:"))
-    guess_col = int(raw_input("Guess Col:"))
-
-    if guess_row == ship_row and guess_col == ship_col:
-        print "Congratulations! You sunk my battleship!"
-        break
-    else:
-        if (guess_row &lt; 0 or guess_row &gt; 4) or (guess_col &lt; 0 or guess_col &gt; 4):
-            print "Oops, that's not even in the ocean."
-            if turn == int(3):
-                turn = turn - 1
-        elif(board[guess_row][guess_col] == "X"):
-             print "You guessed that one already."
-            if turn == int(3):
-                turn = turn - 1
-        else:
-            print "You missed my battleship!"
-            board[guess_row][guess_col] = "X"
-        # Print (turn + 1) here!
-        print_board(board)
-if turn == int(3):
-    print "Game Over"
-</code></pre>
-
-<p><code>#MigratedPost</code></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Apr 26th, 2014</div>
 	<div class="tags">
 
 
