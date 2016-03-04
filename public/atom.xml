@@ -4,7 +4,7 @@
   <title><![CDATA[danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-03-03T07:40:30+11:00</updated>
+  <updated>2016-03-04T18:43:46+11:00</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel James]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[goodbye healthdirect]]></title>
+    <link href="http://danijelj.com/blog/2016/03/04/goodbye-healthdirect/"/>
+    <updated>2016-03-04T18:29:21+11:00</updated>
+    <id>http://danijelj.com/blog/2016/03/04/goodbye-healthdirect</id>
+    <content type="html"><![CDATA[<p>I remember the first time I was contacted about a position at Healthdirect Australia. I never applied for the job, I was asked to go to an interview that had been tee&rsquo;d up! Was I being head-hunted for this role or did someone pass my name along as a favour? I never found out and sometimes it&rsquo;s better to not know the whole story anyway!</p>
+
+<p>6 months have passed <em>(a week)</em> since that first time and here we are parting ways. It must be said that Healthdirect and all her employees have been truly monumental in my career development and integral to my development as a person. I cannot express in words how overwhelmed I have been with the reception from the company as I parted ways today. Thank you, everyone!</p>
+
+<p>For the usual send-off, the Corporate IT team will head down and enjoy lunch together in honour of the person who&rsquo;s departing or their birthday. We enjoyed a meal at MissChu, one of my favourite Vietnamese shops in all of Sydney. After this we headed up to AquaS, where we all enjoyed their delicious Sea Salt &amp; Pandam iceream.</p>
+
+<p><img src="http://danijelj.com/images/2016/03/20160304.iPhone6Plus.132515.800res.jpg" width="800" height="800" title="aquaS sea salt & pandam" alt="aquaS - sea salt & pandam icecream"></p>
+
+<p>This icecream not only matters to me as an indicator to the end of our relationship Healthdirect, but also as the cornerstone of a friendship I share with <a href="https://instagram.com/mynameisdanger">Danger Del Rey</a>, the cutest drag queen you&rsquo;ve ever seen fall from Asia into our laps. Check her out sometime.</p>
+
+<p>I reflect on the memories of the last 6 months and wouldn&rsquo;t trade a single moment for anything. Every step of the way with this organisation has been totally fruitful and very organic and I&rsquo;ve made some very good long-term friends from this.</p>
+
+<p>Once again, thank you everyone for everything you&rsquo;ve offered me. Let us not say &ldquo;goodbye&rdquo;, but instead <em>(as the French would have it)</em> <em>&ldquo;au revoir!&rdquo;</em></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[around sydney are memories]]></title>
@@ -967,24 +988,6 @@ Les îles <em>(f,p)</em> > the islands</p>
 
 
 <p>🍷🍷🍷</p>
-
-<p><code>#MigratedPost</code></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[terminal colours mac]]></title>
-    <link href="http://danijelj.com/blog/2014/06/17/terminal-colours-mac/"/>
-    <updated>2014-06-17T19:33:27+10:00</updated>
-    <id>http://danijelj.com/blog/2014/06/17/terminal-colours-mac</id>
-    <content type="html"><![CDATA[<p>Create a new <code>.bash_profile</code> in the users home directory with:</p>
-
-<pre><code>export CLICOLOR=1
-export LSCOLORS=GxFxCxDxBxegedabagaced
-export PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:[01;34m\]\w\[\033[00m\]\$ '
-</code></pre>
-
-<p>👅👅👅</p>
 
 <p><code>#MigratedPost</code></p>
 ]]></content>
