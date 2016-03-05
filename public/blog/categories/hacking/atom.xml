@@ -4,7 +4,7 @@
   <title><![CDATA[Category: hacking | danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/blog/categories/hacking/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-03-04T18:51:15+11:00</updated>
+  <updated>2016-03-05T19:29:02+10:30</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel James]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[emoji domain]]></title>
     <link href="http://danijelj.com/blog/2016/02/22/emoji-domain/"/>
-    <updated>2016-02-22T14:32:22+11:00</updated>
+    <updated>2016-02-22T14:02:22+10:30</updated>
     <id>http://danijelj.com/blog/2016/02/22/emoji-domain</id>
     <content type="html"><![CDATA[<p>I now have an emoji domain redirect to danijelj.com</p>
 
@@ -29,7 +29,7 @@
   <entry>
     <title type="html"><![CDATA[ntfs support on os x]]></title>
     <link href="http://danijelj.com/blog/2016/02/21/ntfs-support-on-osx/"/>
-    <updated>2016-02-21T12:06:07+11:00</updated>
+    <updated>2016-02-21T11:36:07+10:30</updated>
     <id>http://danijelj.com/blog/2016/02/21/ntfs-support-on-osx</id>
     <content type="html"><![CDATA[<p>NTFS support is available for OS X for free on:</p>
 
@@ -109,7 +109,7 @@
   <entry>
     <title type="html"><![CDATA[apple keyboard map]]></title>
     <link href="http://danijelj.com/blog/2016/02/15/apple-keyboard-map/"/>
-    <updated>2016-02-15T13:52:57+11:00</updated>
+    <updated>2016-02-15T13:22:57+10:30</updated>
     <id>http://danijelj.com/blog/2016/02/15/apple-keyboard-map</id>
     <content type="html"><![CDATA[<p>To make life easier, these are the Apple Keyboards mapped out.</p>
 
@@ -120,7 +120,7 @@
   <entry>
     <title type="html"><![CDATA[securely erase ssd macbook air]]></title>
     <link href="http://danijelj.com/blog/2015/12/21/securely-erase-ssd-macbook-air/"/>
-    <updated>2015-12-21T09:27:23+11:00</updated>
+    <updated>2015-12-21T08:57:23+10:30</updated>
     <id>http://danijelj.com/blog/2015/12/21/securely-erase-ssd-macbook-air</id>
     <content type="html"><![CDATA[<p>Using DBAN or other tools will not work as they&rsquo;re built for non EFI-based machines. They will also unecessarily write to your SSD and the data may still be recoverabe.</p>
 
@@ -151,7 +151,7 @@
   <entry>
     <title type="html"><![CDATA[adding desktop wallpapers]]></title>
     <link href="http://danijelj.com/blog/2015/12/20/adding-desktop-wallpapers/"/>
-    <updated>2015-12-20T11:32:42+11:00</updated>
+    <updated>2015-12-20T11:02:42+10:30</updated>
     <id>http://danijelj.com/blog/2015/12/20/adding-desktop-wallpapers</id>
     <content type="html"><![CDATA[<p>To move images you love to the default Wallpapers section of OS X, move them using Terminal.</p>
 
