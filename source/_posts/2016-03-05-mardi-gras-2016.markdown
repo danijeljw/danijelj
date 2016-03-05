@@ -7,9 +7,11 @@ categories: photography
 author: Danijel James
 published: false
 ---
-Get out your glitter, [vodka](https://absolutvodka.com), [speedos](https://aussiebum.com.au), tune into [SBS](https://sbs.com.au) and log off [Grindr](https://grindr.com), it's that time of year as the Sydney Mardi Gras has arrived! Sporting some of the most fabulous attitudes, fashions and wigs you've seen this side of the globe it's Christmas for the Gays!
+Get out your glitter, [vodka](https://smirnoff.com), [speedos](https://aussiebum.com.au), tune into [SBS](https://sbs.com.au) and log off [Grindr](https://grindr.com), it's that time of year as the Sydney Mardi Gras has arrived! Sporting some of the most fabulous attitudes, fashions and wigs you've seen this side of the globe it's Christmas for the Gays!
 
 Having been an avid fan of the Mardi Gras for as long as I can remember I was able to work in the Control Room last year being the sole point of contact for the parade floats as they eagerly awaited instructions to step out onto route from Hyde Park. _What could go wrong?"_ I asked myself as I volunteered to take the position that everyone else seemed reluctant to raise their hands...what did go wrong indeed! We survived, and we'll continue to survive for as long as an iota of flair exists - we'll take it and run a marathon.
+
+<div align="center"> {% img images/2016/03/20160305.iPhone6Plus.smirnoff_mardi_gras.jpeg 800 800 'Smirnoff & Sydney Mardi Gras' 'smirnoff mardi gras 2016 rainbow cup oxford st sydney' %} </div>
 
 This year I decided to part ways with Sydney before the Mardi Gras parade and step away from everything in silence. I'm currently aboard [Virgin](https://virginaustralia.com.au) flight VA412 where I hope _(yes, hope!)_ to be greeted by my parents upon landing and brought to my new house.
 
@@ -20,3 +22,9 @@ I've already had my celebrations last night on Oxford St one last time and take 
 To everyone out and about in Sydney tonight, please stay safe, stay happy, stay fabulous and enjoy this special occasion. Don't forget to tag your posts with `#MardiGras` so that we can find them later and share in the joy.
 
 And to the man in front of me, if you move your fucking chair one more time I'll karate punch you to the fanny! 😡
+
+On a lighter note, you'll know when you arrive in Adelaide and can see the familiar red signage of [「cibo」](https://cibo.com.au) in front of you!
+
+<div align="center"> {% img /images/2016/03/20160305.iPhone6S.180856.800res.jpg 800 800 'cibo expresso' 'cibo espresso Adelaide Airport' %} </div>
+
+Amazing coffee, and simple menu. You should try it when _(not if)_ you take a stroll down any of Adelaide's iconic suburbs.
