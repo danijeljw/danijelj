@@ -7,7 +7,7 @@ categories: photography
 author: Danijel James
 published: true
 ---
-A late start today. I had intended to get up early, go out, have coffee and pastry, peruse around the city soaking in the places I've not seen since yesteryear and try to find the new changes. I was only here recently in Adelaide for the Healthdirect Christmas break plus a few days, but I was more of a tourist then. I had no intentions to settle down here for a bit and stand still a little while. Now I'm back !
+A late start today. I had intended to get up early, go out, have coffee and pastry, peruse around the city soaking in the places I've not seen since yesteryear and try to find the new changes. I was only here recently in Adelaide for the Healthdirect Christmas break plus a few days, but I was more of a tourist then. I had no intentions to settle down here for a bit and stand still a little while. Now I'm back&nbsp;!
 
 Badger _(his nickname, I didn't give it to 'im)_ has given me a recommendation for coffee this morning. I finally got to the city just after 13:00 and had a walk down memory lane - [Leigh St](https://www.google.com.au/maps/place/Leigh+St,+Adelaide+SA+5000/@-34.8450789,138.5735432,12z/data=!3m1!4b1!4m2!3m1!1s0x6ab0cf28363480a7:0xa7fac227eb958f23) - where years ago my ex partner Mike and I had a cafe. Actually, we had a cafe on Leigh St, Topham Mall and ... I forgot the connecting street on the other side of Leigh St. I wanna say Bent St, but that doesn't sound right. I guess I could [Google](https://maps.google.com.au) it, meh.
 
@@ -19,7 +19,7 @@ I ordered my usual large soy latte, no sugar thnx ☕️ ✌🏻
 
 After a few minutes they called out my name and I shuffled out of the store and out the front to the tables to grab a quick snap of my cup. It's totally adorable!
 
-<div> {% img /images/2016/03/20160307.iPhone6Plus.125225.jpg 600 600 'coffee branch 32 leigh st Adelaide' 'coffee from coffee branch on leigh st' %} </div>
+<div align="center"> {% img /images/2016/03/20160307.iPhone6Plus.125225.jpg 600 600 'coffee branch 32 leigh st Adelaide' 'coffee from coffee branch on leigh st' %} </div>
 
 Any shop that wants to precede it's reputation will use custom printed cups. Not only does it embed their brand in my mind, it's associative with the quality - let's tuck in!
 
