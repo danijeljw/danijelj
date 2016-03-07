@@ -31,8 +31,8 @@ Moving along to [Rundle Mall](http://rundlemall.com), I swooped in to grab the o
 
 {% img /images/2016/03/20160306.iPhone6Plus.1473.800res.jpg 800 500 'Rundle Mall Balls - malls balls' 'Rundle Mall Balls - malls balls' %}
 
-One of the greatest things to do in a new city is just walk around and admire the public art. Spouted as the artsy capital of Australia, Melbourne has a plethora of magical art in all forms for the public to admire. It gives a sense of culture to the city. Adelaide, the Festival State, traditionally known for churches and theatre is slowly creeping up with awesome installations popping up all over the place. It's not like thy've tried to copy any other setups across the globe, but reinvent the wheel with their own attractions.
+One of the greatest things to do in a new city is just walk around and admire the public art. Spouted as the artsy capital of Australia, Melbourne has a plethora of magical art in all forms for the public to admire. It gives a sense of culture to the city. Adelaide, the Festival State, traditionally known for churches and theatre is slowly creeping up with awesome installations popping up all over the place. It's not like thy've tried to copy any other setups across the globe, but reinvent the wheel with their [own attractions](https://en.wikipedia.org/wiki/List_of_public_art_in_South_Australia).
 
 {% img /images/2016/03/20160307.iPhone6Plus.1744.800res.jpg 800 800 'artwork in Rundle Mall' 'Rundle Mall D20 bronze artwork' %}
 
-Not sure what what you'd call this, but I dub it the Rundle Mall D20. I'm not counting the sides, but it was pretty to look at, nice and shiny, and I wouldn't mind having one in my front yard to look at each morning.
+Not sure what what you'd call this, but I dub it the **Rundle Mall D20**. I'm not counting the sides, but it was pretty to look at, nice and shiny, and I wouldn't mind having one in my front yard to look at each morning.
