@@ -25,7 +25,7 @@ Any shop that wants to precede it's reputation will use custom printed cups. Not
 
 First sip, clearly burnt my tongue. Why do I do this every time to myself&nbsp;? Seriously I'm stupid at the best of times&nbsp;! 😂 Maybe this is why I'm single still&nbsp;? 😏 Second sip, yeurk! What is this&nbsp;? It's strong&nbsp;! It's real coffee&nbsp;! I honestly hadn't expected this. I need another sip. _*sips coffee*_ Wow&nbsp;! This is amazing&nbsp;!
 
-I can safely say this is a 4.5 star rating coffee from me to you. I'm going to review them later on Yelp! and go back for some more photos of the joint. I'm adding this to a list later and will be back to visit sometime again soon. Give it a shot&nbsp;! _(excuse the pun)_
+I can safely say this is a 4&#189; star rating coffee from me to you. I'm going to review them later on Yelp! and go back for some more photos of the joint. I'm adding this to a list later and will be back to visit sometime again soon. Give it a shot&nbsp;! _(excuse the pun)_
 
 Moving along to [Rundle Mall](http://rundlemall.com), I swooped in to grab the obligatory selfie in the Malls Balls and then grabbed another few pics that just show this timeless piece of artwork. The Rundle Mall Balls are a central icon to the city and I don't know where we'd be with out them&nbsp;!
 
