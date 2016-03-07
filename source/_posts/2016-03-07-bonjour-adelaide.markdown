@@ -19,7 +19,7 @@ I ordered my usual large soy latte, no sugar thnx ☕️ ✌🏻
 
 After a few minutes they called out my name and I shuffled out of the store and out the front to the tables to grab a quick snap of my cup. It's totally adorable!
 
-<div align="center"> {% img /images/2016/03/20160307.iPhone6Plus.125225.jpg 600 600 'coffee from coffee branch on leigh st' 'coffee branch : 32 leigh st : Adelaide' %} </div>
+{% img /images/2016/03/20160307.iPhone6Plus.125225.jpg 600 600 'coffee from coffee branch on leigh st' 'coffee branch : 32 leigh st : Adelaide' %}
 
 Any shop that wants to precede it's reputation will use custom printed cups. Not only does it embed their brand in my mind, it's associative with the quality - let's tuck in!
 
@@ -29,10 +29,10 @@ I can safely say this is a 4.5 star rating coffee from me to you. I'm going to r
 
 Moving along to [Rundle Mall](http://rundlemall.com), I swooped in to grab the obligatory selfie in the Malls Balls and then grabbed another few pics that just show this timeless piece of artwork. The Rundle Mall Balls are a central icon to the city and I don't know where we'd be with out them&nbsp;!
 
-<div align="center"> {% img /images/2016/03/20160306.iPhone6Plus.1473.800res.jpg 800 500 'Rundle Mall Balls - malls balls' 'Rundle Mall Balls - malls balls' %} </div>
+{% img /images/2016/03/20160306.iPhone6Plus.1473.800res.jpg 800 500 'Rundle Mall Balls - malls balls' 'Rundle Mall Balls - malls balls' %}
 
 One of the greatest things to do in a new city is just walk around and admire the public art. Spouted as the artsy capital of Australia, Melbourne has a plethora of magical art in all forms for the public to admire. It gives a sense of culture to the city. Adelaide, the Festival State, traditionally known for churches and theatre is slowly creeping up with awesome installations popping up all over the place. It's not like thy've tried to copy any other setups across the globe, but reinvent the wheel with their own attractions.
 
-<div align="center"> {% img /images/2016/03/20160307.iPhone6Plus.1744.800res.jpg 800 800 'artwork in Rundle Mall' 'Rundle Mall D20 bronze artwork' %} </div>
+{% img /images/2016/03/20160307.iPhone6Plus.1744.800res.jpg 800 800 'artwork in Rundle Mall' 'Rundle Mall D20 bronze artwork' %}
 
 Not sure what what you'd call this, but I dub it the Rundle Mall D20. I'm not counting the sides, but it was pretty to look at, nice and shiny, and I wouldn't mind having one in my front yard to look at each morning.
