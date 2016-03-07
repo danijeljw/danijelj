@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://danijelj.com/blog/2016/03/07/bonjour-adelaide/</loc>
+<lastmod>2016-03-07T13:39:59+10:30</lastmod>
+</url>
+<url>
 <loc>http://danijelj.com/blog/2016/03/05/mardi-gras-2016/</loc>
 <lastmod>2016-03-05T10:55:50+10:30</lastmod>
 </url>
@@ -195,18 +199,6 @@
 </url>
 <url>
 <loc>http://danijelj.com/blog/categories/french/</loc>
-</url>
-<url>
-<loc>http://danijelj.com/posts/2/</loc>
-</url>
-<url>
-<loc>http://danijelj.com/posts/3/</loc>
-</url>
-<url>
-<loc>http://danijelj.com/posts/4/</loc>
-</url>
-<url>
-<loc>http://danijelj.com/posts/5/</loc>
 </url>
 <url>
 <loc>http://danijelj.com/google0a44042c6956002d.html</loc>
