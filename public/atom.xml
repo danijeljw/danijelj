@@ -4,7 +4,7 @@
   <title><![CDATA[danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-03-13T16:12:45+10:30</updated>
+  <updated>2016-03-13T18:32:55+10:30</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel James]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[walking caesar]]></title>
+    <link href="http://danijelj.com/blog/2016/03/13/walking-caesar/"/>
+    <updated>2016-03-13T17:51:41+10:30</updated>
+    <id>http://danijelj.com/blog/2016/03/13/walking-caesar</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[bonjour adelaide]]></title>
@@ -983,35 +992,6 @@ Les îles <em>(f,p)</em> > the islands</p>
 
 <pre><code>diskutil secureErase 4 /dev/disk0
 </code></pre>
-
-<p><code>#MigratedPost</code></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[adding desktop wallpapers]]></title>
-    <link href="http://danijelj.com/blog/2015/12/20/adding-desktop-wallpapers/"/>
-    <updated>2015-12-20T11:02:42+10:30</updated>
-    <id>http://danijelj.com/blog/2015/12/20/adding-desktop-wallpapers</id>
-    <content type="html"><![CDATA[<p>To move images you love to the default Wallpapers section of OS X, move them using Terminal.</p>
-
-<p>TO move a file from my desktop called <strong>DWAD Danijel.jpg</strong> I do the following:</p>
-
-<pre><code>sudo mv ~/Desktop/DWAD\ Danijel.jpg /Library/Desktop\ Wallpapers/
-</code></pre>
-
-<p>You&rsquo;ll be asked for your Admin password and then feel free to change your desktop wallpaper and select the image.</p>
-
-<p><img src="http://danijelj.com/images/2015-12-20_adding_desktop_wallpapers.png"></p>
-
-<p>If you have a folder with multiple images <em>(JPG format)</em> on your desktop, try the following instead:</p>
-
-<pre><code>sudo mv ~/Desktop/wallpapers/* /Library/Desktop\ Wallpapers/
-</code></pre>
-
-<p>That should do the trick! 😎</p>
-
-<p><em><strong>Note:</strong> I used <code>mv</code> instead your can use <code>cp</code> if you prefer; but <code>sudo</code> is required!</em></p>
 
 <p><code>#MigratedPost</code></p>
 ]]></content>
