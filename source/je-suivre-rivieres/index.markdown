@@ -51,5 +51,5 @@ J'ai compris qu'aujourd'hui que Le premier qui tombe amoureux à perdu, faut-il 
 
 ##Cloud Spews Rain
 
-{% img /images/je-suivre-rivieres/tatto.watercolour_cloud.spew.rain.jpg 500 563 '' 'watercolour tattoo cloud spews rain' %}
+{% img /images/je-suivre-rivieres/tattoo.watercolour_cloud.spew.rain.jpg 500 563 '' 'watercolour tattoo cloud spews rain' %}
 
