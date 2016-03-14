@@ -4,7 +4,7 @@
   <title><![CDATA[danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-03-13T23:19:09+10:30</updated>
+  <updated>2016-03-14T14:04:52+10:30</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel James]]></name>
@@ -20,10 +20,18 @@
     <id>http://danijelj.com/blog/2016/03/13/walking-caesar</id>
     <content type="html"><![CDATA[<p>It&rsquo;s 27°C and Cæsar 🐶 is at the back door slobbering all over the glass. He&rsquo;s just been given a new choke-chain this arvo by my mum &lsquo;cos he is a pretty big dog and can&rsquo;t be handled easily without some restraint. I&rsquo;ve decided to bring him down to the local dog park or &ldquo;Pooch Park&rdquo; as it&rsquo;s colloquially known.</p>
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.5547603029813!2d138.53341811523805!3d-34.9176213803793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ab0c5bcdad2c943%3A0xf9a075f26f2c0adc!2sPooch+Park+Tedder+Reserve%2C+LOT+104+Findon+Rd%2C+Flinders+Park+SA+5025!5e0!3m2!1sen!2sau!4v1457858602368" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.5547603029813!2d138.53341811523805!3d-34.9176213803793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ab0c5bcdad2c943%3A0xf9a075f26f2c0adc!2sPooch+Park+Tedder+Reserve%2C+LOT+104+Findon+Rd%2C+Flinders+Park+SA+5025!5e0!3m2!1sen!2sau!4v1457858602368" width="450" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 
-<p>We get down there after I drove him in the car Ante gave me, and he&rsquo;s slobbered all over my windows too, and off we go. A short run around the park and sniff and scratch we go for a walk down under the bridge and along the river front</p>
+<p>We get down there after I drove him in the car Ante <em>(the youngest of us 3 boys)</em> gave me, and Cæsar&rsquo;s 🐶 somehow slobbered all over my windows at this point, so out the car and off we go. A short run around the park and sniff and scratch we go for a walk down under the bridge and along the river front</p>
+
+<p><img src="http://danijelj.com/images/2016/03/DJW.20160313.iPhone6Plus.381710.jpg" width="800" height="450" title="Cæsar sitting on River Torrens waiting" alt="Cæsar, which way?"></p>
+
+<p><img src="http://danijelj.com/images/2016/03/DJW.20160313.iPhone6Plus.581759.jpg" width="640" height="800" title="secret hut made of sticks on the River Torrens, Adelaide" alt="secret hutch where children dream"></p>
+
+<p><img src="http://danijelj.com/images/2016/03/DJW.20160313.iPhone6Plus.170121.jpg" width="800" height="450" title="River Torrens with blue green algæ" alt="blue green algæ on the River Torrens"></p>
+
+<p><img src="http://danijelj.com/images/2016/03/DJW.20160313.iPhone6Plus.170223.jpg" width="800" height="800" title="poison toadstools" alt="poison toadstools 🍄💀"></p>
 ]]></content>
   </entry>
   
@@ -37,69 +45,69 @@
 <table>
 <thead>
 <tr>
-<th style="text-align:left;"> escape </th>
+<th style="text-align:center;"> escape </th>
 <th style="text-align:left;"> function </th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left;"> \ </td>
+<td style="text-align:center;"> \ </td>
 <td style="text-align:left;"> Backslash () </td>
 </tr>
 <tr>
-<td style="text-align:left;"> \&lsquo; </td>
+<td style="text-align:center;"> \&lsquo; </td>
 <td style="text-align:left;"> Single-quote (&lsquo;) </td>
 </tr>
 <tr>
-<td style="text-align:left;"> \&ldquo; </td>
+<td style="text-align:center;"> \&ldquo; </td>
 <td style="text-align:left;"> Double-quote (&ldquo;) </td>
 </tr>
 <tr>
-<td style="text-align:left;"> \a </td>
+<td style="text-align:center;"> \a </td>
 <td style="text-align:left;"> ASCII bell (BEL) </td>
 </tr>
 <tr>
-<td style="text-align:left;"> \b </td>
+<td style="text-align:center;"> \b </td>
 <td style="text-align:left;"> ASCII backspace (BS) </td>
 </tr>
 <tr>
-<td style="text-align:left;"> \f </td>
+<td style="text-align:center;"> \f </td>
 <td style="text-align:left;"> ASCII formfeed (FF) </td>
 </tr>
 <tr>
-<td style="text-align:left;"> \n </td>
+<td style="text-align:center;"> \n </td>
 <td style="text-align:left;"> ASCII linefeed (LF) </td>
 </tr>
 <tr>
-<td style="text-align:left;"> \N{name} </td>
+<td style="text-align:center;"> \N{name} </td>
 <td style="text-align:left;"> Character named name in the Unicode database (Unicode only) </td>
 </tr>
 <tr>
-<td style="text-align:left;"> \r </td>
+<td style="text-align:center;"> \r </td>
 <td style="text-align:left;"> Carriage Return (CR) </td>
 </tr>
 <tr>
-<td style="text-align:left;"> \t </td>
+<td style="text-align:center;"> \t </td>
 <td style="text-align:left;"> Horizontal Tab (TAB) </td>
 </tr>
 <tr>
-<td style="text-align:left;"> \uxxxx </td>
+<td style="text-align:center;"> \uxxxx </td>
 <td style="text-align:left;"> Character with 16-bit hex value <code>xxxx</code> (Unicode only) </td>
 </tr>
 <tr>
-<td style="text-align:left;"> \Uxxxxxxxx </td>
+<td style="text-align:center;"> \Uxxxxxxxx </td>
 <td style="text-align:left;"> Character with 32-bit hex value <code>xxxxxxxx</code> (Unicode only) </td>
 </tr>
 <tr>
-<td style="text-align:left;"> \v    ASCII vertical tab (VT) </td>
-<td></td>
+<td style="text-align:center;"> \v </td>
+<td style="text-align:left;"> ASCII vertical tab (VT) </td>
 </tr>
 <tr>
-<td style="text-align:left;"> \ooo </td>
+<td style="text-align:center;"> \ooo </td>
 <td style="text-align:left;"> Character with octal value <code>ooo</code> </td>
 </tr>
 <tr>
-<td style="text-align:left;"> \xhh </td>
+<td style="text-align:center;"> \xhh </td>
 <td style="text-align:left;"> Character with hex value <code>hh</code> </td>
 </tr>
 </tbody>
@@ -199,6 +207,23 @@ Amazing coffee, and simple menu. You should try it when <em>(not if)</em> you ta
   </entry>
   
   <entry>
+    <title type="html"><![CDATA[happy birthday michael]]></title>
+    <link href="http://danijelj.com/blog/2016/03/03/happy-birthday-michael/"/>
+    <updated>2016-03-03T15:51:31+10:30</updated>
+    <id>http://danijelj.com/blog/2016/03/03/happy-birthday-michael</id>
+    <content type="html"><![CDATA[<p>Today is 3rd March and therefor marks the birthday of my oldest and dear friend Mike Amu (🐠) !</p>
+
+<p>We caught up for breakfast this morning at a cafe in the Westfield building on Pitt St Mall on Level 5. There we had our usual share of coffee and cake before heading off to our daily rituals of meetings and work.</p>
+
+<p>It&rsquo;s so important to remember the important people in your life, the ones that have stayed there for a long time and don&rsquo;t move away from you heart - regardless of the distance. Michael and I have shared an enormous amount of love, joy, tears, lonliness, anger, fun, business, travel and so much more over the years. Next week is his birthday party which I will be flying back to Sydney for. The theme is masquerade which I&rsquo;ll be hanging out for, and we have a special guest performer !</p>
+
+<p>I remember the first time I met Michael back when I was 20, and barely an adult myself. From that day forward, in the book that is my memories I began a new life on a road to self discovery and learning. Michael has been instrumental in my advancements as a person and as Danijel. I don&rsquo;t know how my life would have ended up if he hadn&rsquo;t crossed paths with me and I still share a special place in my heart for him.</p>
+
+<p>So take the time to remember the people you love, you don&rsquo;t need to be in <em>love</em> with them, but remember them for who they are, what they do, and where your life has intersected with theirs. Ripples across a pond start with just one stone!</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[around sydney are memories]]></title>
     <link href="http://danijelj.com/blog/2016/03/02/around-sydney-are-memories/"/>
     <updated>2016-03-02T22:35:32+10:30</updated>
@@ -226,6 +251,17 @@ Amazing coffee, and simple menu. You should try it when <em>(not if)</em> you ta
 <p>We stood there for a while as he taught me words like arbre, blanc, rouge, l’herb, verde. Recounting the objects around us, their names an the colors their transpire from. I still couldn’t say arbre. LOL ! Bats are called bald mice, but I can’t remember the words, as it was a mouthful. I just wanted to touch him and give him a kiss the first time we were there. It was before the first time we’d kissed when we went there. From the expressions of Jet and Tomas, I think they enjoyed the night overall, and the gazebo, both never having seen the view before.</p>
 
 <p><img src="http://danijelj.com/images/2016/02/2016-02-26_DJW.0504.800res.jpg" width="800" height="533" title="from Observatory Hill" alt="view from Observatory Hill overlooking Sydney"></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[perfect beach weather]]></title>
+    <link href="http://danijelj.com/blog/2016/02/27/perfect-beach-weather/"/>
+    <updated>2016-02-27T11:15:36+10:30</updated>
+    <id>http://danijelj.com/blog/2016/02/27/perfect-beach-weather</id>
+    <content type="html"><![CDATA[<p>Sometimes you get lucky, and that test shot happens to be a perfect image!</p>
+
+<p><img src="http://danijelj.com/images/2016/02/DJW.20160227.600D.0385.P1.jpg" width="800" height="533" title="perfect beach weather, Bondi Beach NSW" alt="perfect beach weather, Bondi Beach NSW 「DJW.20160227.600D.0385.P1」"></p>
 ]]></content>
   </entry>
   
@@ -946,113 +982,6 @@ des mers <em>(f,pl)</em> > seas</p>
 <p>1780 mille sept cent quatre vingt</p>
 
 <p><code>#EditedPost</code></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[le, la, les (articles définis)]]></title>
-    <link href="http://danijelj.com/blog/2016/02/11/le-la-les-articles-definis/"/>
-    <updated>2016-02-11T15:02:52+10:30</updated>
-    <id>http://danijelj.com/blog/2016/02/11/le-la-les-articles-definis</id>
-    <content type="html"><![CDATA[<p><strong>le</strong>, <strong>la</strong> and <strong>les</strong> are French for <strong>the</strong>.</p>
-
-<p>Making the distinction between masculine <em>(m)</em> and feminine <em>(f)</em> objects, we use le for masculine and la for feminine.</p>
-
-<p>Plural form of all objects is les regardless of whatever gender is occupied.</p>
-
-<p>In the instance when there is a combination of <em>(m)</em> and <em>(f)</em> objects, the precedence always falls back on the <em>(m)</em>. This applies to true to ils and elles too.</p>
-
-<table>
-<thead>
-<tr>
-<th style="text-align:center;"> Anglais </th>
-<th style="text-align:left;"> Français </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center;"> the </td>
-<td style="text-align:left;"> le <em>(m)</em> </td>
-</tr>
-<tr>
-<td style="text-align:center;"> </td>
-<td style="text-align:left;"> la <em>(f)</em> </td>
-</tr>
-<tr>
-<td style="text-align:center;"> </td>
-<td style="text-align:left;"> les <em>(plural)</em> </td>
-</tr>
-</tbody>
-</table>
-
-
-<p>le légume <em>(m)</em> > the vegetable<br/>
-la mer <em>(f)</em> > the sea</p>
-
-<p>les légumes <em>(m,p)</em> > the vegetables<br/>
-les mers <em>(f,p)</em> > the seas</p>
-
-<p>When the following article begins with a vowel, le or la becomes <strong>l'</strong></p>
-
-<p>L'ordinateur <em>(m)</em> > the computer<br/>
-L'île <em>(f)</em> > the island</p>
-
-<p>Les ordinateur <em>(m,p)</em> > the computers<br/>
-Les îles <em>(f,p)</em> > the islands</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[personal pronouns]]></title>
-    <link href="http://danijelj.com/blog/2016/02/10/personal-pronouns/"/>
-    <updated>2016-02-10T08:44:28+10:30</updated>
-    <id>http://danijelj.com/blog/2016/02/10/personal-pronouns</id>
-    <content type="html"><![CDATA[<p>Struggling with Personal Pronouns? There&rsquo;s 5 main ones we use in English: me, you, s/he, they. In French we have 6 with the inclusion of all the English pronouns and an additional formaility <em>(or unfamiliarity)</em> addition for &ldquo;you&rdquo;.</p>
-
-<table>
-<thead>
-<tr>
-<th style="text-align:center;"> S/P </th>
-<th style="text-align:center;"> French </th>
-<th style="text-align:center;"> English </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center;"> Singular </td>
-<td style="text-align:center;"> je </td>
-<td style="text-align:center;"> me </td>
-</tr>
-<tr>
-<td style="text-align:center;"> </td>
-<td style="text-align:center;"> tu </td>
-<td style="text-align:center;"> you </td>
-</tr>
-<tr>
-<td style="text-align:center;"> </td>
-<td style="text-align:center;"> il, elle, on </td>
-<td style="text-align:center;"> he, she, we </td>
-</tr>
-<tr>
-<td style="text-align:center;"> Plural </td>
-<td style="text-align:center;"> nous </td>
-<td style="text-align:center;"> we </td>
-</tr>
-<tr>
-<td style="text-align:center;"> </td>
-<td style="text-align:center;"> vous </td>
-<td style="text-align:center;"> you <em>(formal)</em> </td>
-</tr>
-<tr>
-<td style="text-align:center;"> </td>
-<td style="text-align:center;"> ils, elles </td>
-<td style="text-align:center;"> they <em>(m)</em>, they <em>(f)</em> </td>
-</tr>
-</tbody>
-</table>
-
-
-<p>Trying to remember these is not only important, but also the order they appear as it is dedicated to the structure of learning.</p>
 ]]></content>
   </entry>
   

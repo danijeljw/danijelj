@@ -4,7 +4,7 @@
   <title><![CDATA[Category: hacking | danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/blog/categories/hacking/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-03-13T23:19:09+10:30</updated>
+  <updated>2016-03-14T14:04:52+10:30</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel James]]></name>
@@ -23,69 +23,69 @@
 <table>
 <thead>
 <tr>
-<th style="text-align:left;"> escape </th>
+<th style="text-align:center;"> escape </th>
 <th style="text-align:left;"> function </th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left;"> \ </td>
+<td style="text-align:center;"> \ </td>
 <td style="text-align:left;"> Backslash () </td>
 </tr>
 <tr>
-<td style="text-align:left;"> \&lsquo; </td>
+<td style="text-align:center;"> \&lsquo; </td>
 <td style="text-align:left;"> Single-quote (&lsquo;) </td>
 </tr>
 <tr>
-<td style="text-align:left;"> \&ldquo; </td>
+<td style="text-align:center;"> \&ldquo; </td>
 <td style="text-align:left;"> Double-quote (&ldquo;) </td>
 </tr>
 <tr>
-<td style="text-align:left;"> \a </td>
+<td style="text-align:center;"> \a </td>
 <td style="text-align:left;"> ASCII bell (BEL) </td>
 </tr>
 <tr>
-<td style="text-align:left;"> \b </td>
+<td style="text-align:center;"> \b </td>
 <td style="text-align:left;"> ASCII backspace (BS) </td>
 </tr>
 <tr>
-<td style="text-align:left;"> \f </td>
+<td style="text-align:center;"> \f </td>
 <td style="text-align:left;"> ASCII formfeed (FF) </td>
 </tr>
 <tr>
-<td style="text-align:left;"> \n </td>
+<td style="text-align:center;"> \n </td>
 <td style="text-align:left;"> ASCII linefeed (LF) </td>
 </tr>
 <tr>
-<td style="text-align:left;"> \N{name} </td>
+<td style="text-align:center;"> \N{name} </td>
 <td style="text-align:left;"> Character named name in the Unicode database (Unicode only) </td>
 </tr>
 <tr>
-<td style="text-align:left;"> \r </td>
+<td style="text-align:center;"> \r </td>
 <td style="text-align:left;"> Carriage Return (CR) </td>
 </tr>
 <tr>
-<td style="text-align:left;"> \t </td>
+<td style="text-align:center;"> \t </td>
 <td style="text-align:left;"> Horizontal Tab (TAB) </td>
 </tr>
 <tr>
-<td style="text-align:left;"> \uxxxx </td>
+<td style="text-align:center;"> \uxxxx </td>
 <td style="text-align:left;"> Character with 16-bit hex value <code>xxxx</code> (Unicode only) </td>
 </tr>
 <tr>
-<td style="text-align:left;"> \Uxxxxxxxx </td>
+<td style="text-align:center;"> \Uxxxxxxxx </td>
 <td style="text-align:left;"> Character with 32-bit hex value <code>xxxxxxxx</code> (Unicode only) </td>
 </tr>
 <tr>
-<td style="text-align:left;"> \v    ASCII vertical tab (VT) </td>
-<td></td>
+<td style="text-align:center;"> \v </td>
+<td style="text-align:left;"> ASCII vertical tab (VT) </td>
 </tr>
 <tr>
-<td style="text-align:left;"> \ooo </td>
+<td style="text-align:center;"> \ooo </td>
 <td style="text-align:left;"> Character with octal value <code>ooo</code> </td>
 </tr>
 <tr>
-<td style="text-align:left;"> \xhh </td>
+<td style="text-align:center;"> \xhh </td>
 <td style="text-align:left;"> Character with hex value <code>hh</code> </td>
 </tr>
 </tbody>

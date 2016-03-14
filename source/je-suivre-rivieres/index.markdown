@@ -40,3 +40,7 @@ Seeping crest of turbidity. Arrogant vessel of lunacy! Boil forth and deny! Grow
 
 ####French
 J'ai compris qu'aujourd'hui que Le premier qui tombe amoureux à perdu, faut-il faire semblant de vivre ? Semblant de s’aimer ?
+
+##Water Colour Rainy Day
+
+{% img /images/je-suivre-rivieres/tattoo.watercolor_rain.under.umbrella.jpg 402 512 '' 'watercolour tattoo under umbrella rainy day' %}
