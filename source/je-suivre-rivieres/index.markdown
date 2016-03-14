@@ -43,4 +43,13 @@ J'ai compris qu'aujourd'hui que Le premier qui tombe amoureux à perdu, faut-il 
 
 ##Water Colour Rainy Day
 
-{% img /images/je-suivre-rivieres/tattoo.watercolor_rain.under.umbrella.jpg 402 512 '' 'watercolour tattoo under umbrella rainy day' %}
+{% img /images/je-suivre-rivieres/tattoo.watercolor_rain.under.umbrella.jpg 625 833 '' 'watercolour tattoo under umbrella rainy day' %}
+
+##Kitty Meow!
+
+{% img /images/je-suivre-rivieres/tattoo.monochrome_kitty.meow.japanese.jpg 640 640 '' 'monochrome tattoo kitty meow japanese' %}
+
+##Cloud Spews Rain
+
+{% img /images/je-suivre-rivieres/tatto.watercolour_cloud.spew.rain.jpg 500 563 '' 'watercolour tattoo cloud spews rain' %}
+
