@@ -5,9 +5,9 @@ date: 2016-03-03 16:21:31 +1100
 comments: true
 categories: photography
 author: Danijel James
-published: false
+published: true
 ---
-Today is 3rd March and therefor marks the birthday of my oldest and dear friend Michael A (🐠) !
+Today is 3rd March and therefor marks the birthday of my oldest and dear friend Mike Amu (🐠) !
 
 We caught up for breakfast this morning at a cafe in the Westfield building on Pitt St Mall on Level 5. There we had our usual share of coffee and cake before heading off to our daily rituals of meetings and work.
 

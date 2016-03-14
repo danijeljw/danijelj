@@ -10,7 +10,7 @@ published: true
 Python 2.x &amp; 3.x escape sequences:
 
 | escape | function |
-|:---|:---|
+|:--:|:---|
 | \\ | Backslash (\) |
 | \' | Single-quote (') |
 | \" | Double-quote (") |
@@ -23,7 +23,7 @@ Python 2.x &amp; 3.x escape sequences:
 | \t | Horizontal Tab (TAB) | 
 | \uxxxx | Character with 16-bit hex value `xxxx` (Unicode only) | 
 | \Uxxxxxxxx | Character with 32-bit hex value `xxxxxxxx` (Unicode only) | 
-| \v	ASCII vertical tab (VT) | 
+| \v | ASCII vertical tab (VT) | 
 | \ooo | Character with octal value `ooo` | 
 | \xhh | Character with hex value `hh` | 
 

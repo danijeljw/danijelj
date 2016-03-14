@@ -15,7 +15,7 @@ Whilst going through my old Lightroom libraries, I found some images from CNY SY
 
 {% img /images/2016/cny2016/DJW.20160206.600D_9625.jpg 800 533 'scaled red Opera House, Sydney' 'scaled red Opera House, Sydney' %}
 
-{% img /images/2016/cny2016/DJW.20160206.600D_9648.jpg 800 533 'Sydney Opera House CNY 2016 [DJW.20160206.600D_9648]' 'Sydney Opera House CNY 2016 [DJW.20160206.600D_9648]' %}
+{% img /images/2016/cny2016/DJW.20160206.600D_9648.jpg 800 800 'Sydney Opera House CNY 2016 [DJW.20160206.600D_9648]' 'Sydney Opera House CNY 2016 '「DJW.20160206.600D_9648」' %}
 
 {% img /images/2016/cny2016/DJW.20160206.600D_9656.jpg 800 800 'chinese zodiac dragon' 'chinese zodiac dragon' %}
 
