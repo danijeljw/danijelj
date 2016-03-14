@@ -1,0 +1,21 @@
+---
+layout: post
+title: "#cny2016"
+date: 2016-02-06 22:42:11 +1100
+comments: true
+categories: photography
+author: Danijel James
+published: false
+---
+
+{% img /images/2016/cny2016/DJW.20160206.600D_9581.jpg 800 533 '' '' %}
+
+{% img /images/2016/cny2016/DJW.20160206.600D_9603.jpg 800 533 '' '' %}
+
+{% img /images/2016/cny2016/DJW.20160206.600D_9625.jpg 800 533 'scaled red Opera House, Sydney' 'scaled red Opera House, Sydney' %}
+
+{% img /images/2016/cny2016/DJW.20160206.600D_9648.jpg 800 533 '' '' %}
+
+{% img /images/2016/cny2016/DJW.20160206.600D_9656.jpg 800 800 '' '' %}
+
+{% img /images/2016/cny2016/DJW.20160206.600D_9674.jpg 800 533 '' '' %}
