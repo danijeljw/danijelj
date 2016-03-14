@@ -27,6 +27,8 @@ Python 2.x &amp; 3.x escape sequences:
 | \ooo | Character with octal value `ooo` | 
 | \xhh | Character with hex value `hh` | 
 
+<br>
+
 -----
 
 Source: [Learn Pythong The Hard Way](http://learnpythonthehardway.org/book/ex10.html)
