@@ -31,4 +31,4 @@ Python 2.x &amp; 3.x escape sequences:
 
 -----
 
-Source: [Learn Pythong The Hard Way](http://learnpythonthehardway.org/book/ex10.html)
+Source: [Learn Python The Hard Way](http://learnpythonthehardway.org/book/ex10.html)
