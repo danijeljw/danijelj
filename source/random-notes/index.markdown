@@ -6,7 +6,7 @@ comments: true
 sharing: true
 footer: true
 ---
-````
+```
 7.3. Other Comparison Operators
 
 A binary comparison operator compares two variables or quantities. Note that integer and string comparison use a different set of operators.
@@ -325,9 +325,9 @@ But, as rihad points out:
 
 # Apparently && and || "short-circuit" while -a and -o do not.
 Refer to Example 8-3, Example 27-17, and Example A-29 to see compound comparison operators in action.
-````
+```
 
-````
+```
 Yo, I'm Hungary
 Why don't you Czech the fridge?
 OK, I'm Russian to the kitchen.
@@ -342,4 +342,4 @@ OK, I'm Ghana do it.
 Thanks man. I'm so tired Iran 2 kilometres to the store today.
 Irish I could do that too!
 I really had to run like a Niger!
-````
+```
