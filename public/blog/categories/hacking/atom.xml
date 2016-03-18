@@ -4,7 +4,7 @@
   <title><![CDATA[Category: hacking | danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/blog/categories/hacking/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-03-16T21:06:08+10:30</updated>
+  <updated>2016-03-18T20:28:43+10:30</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel James]]></name>
@@ -167,7 +167,7 @@
 
 <p>Install FUSE for OS X first, it&rsquo;s the base for connecting 3rd party file systems to the machine.</p>
 
-<p><img src="/images/2016/02/2016-02-21_FUSE.for.OSX.png" width="312" height="219" title="&lsquo;ensure all options are checked&rsquo; &lsquo;FUSE for OS X&rsquo;" ></p>
+<p>{% img /images/2016/02/2016-02-21_FUSE.for.OSX.png 312 219 &lsquo;ensure all options are checked&rsquo; &lsquo;FUSE for OS X&rsquo; %}</p>
 
 <p><strong>Download:</strong> <a href="http://osxfuse.github.io/">FUSE for OS X</a></p>
 
@@ -175,7 +175,7 @@
 
 <p>Installing NTFS-3G enables the actual read/write to NTFS formatted drives. During install there is an option to use <code>No caching</code> or <code>UBLIO caching</code>. In my experience it&rsquo;s better to use <code>No caching</code>.</p>
 
-<p><img src="/images/2016/02/2016-02-21_to.cache.or.not.to.cache.png" width="312" height="220" title="&lsquo;to cache or not to cache&rsquo; &lsquo;UBLIO caching NTFS-3G&rsquo;" ></p>
+<p>{% img /images/2016/02/2016-02-21_to.cache.or.not.to.cache.png 312 220 &lsquo;to cache or not to cache&rsquo; &lsquo;UBLIO caching NTFS-3G&rsquo; %}</p>
 
 <p>Once this has been installed restart the machine.</p>
 
@@ -185,7 +185,7 @@
 
 <p>Post-reboot you will get the following error message:</p>
 
-<p><img src="/images/2016/02/2016-02-21_reboot.error.png" width="211" height="109" title="&lsquo;NTFS-3G post install error&rsquo; &lsquo;NTFS-3G post install error&rsquo;" ></p>
+<p>{% img /images/2016/02/2016-02-21_reboot.error.png 211 109 &lsquo;NTFS-3G post install error&rsquo; &lsquo;NTFS-3G post install error&rsquo; %}</p>
 
 <p>fuse-wait is a patch for NTFS-3G that just stops this annoying error messages from appearing on your system.</p>
 
@@ -200,7 +200,7 @@
     <id>http://danijelj.com/blog/2016/02/15/apple-keyboard-map</id>
     <content type="html"><![CDATA[<p>To make life easier, these are the Apple Keyboards mapped out.</p>
 
-<p><img src="/images/Apple-Keyboard-Shortcuts.jpg" width="2272" height="1144" title="&lsquo;Apple Keyboard Map&rsquo; &lsquo;Apple Keyboard Map&rsquo;" ></p>
+<p>{% img /images/Apple-Keyboard-Shortcuts.jpg 2272 1144 &lsquo;Apple Keyboard Map&rsquo; &lsquo;Apple Keyboard Map&rsquo; %}</p>
 ]]></content>
   </entry>
   
