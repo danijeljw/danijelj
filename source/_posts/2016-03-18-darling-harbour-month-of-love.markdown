@@ -11,4 +11,4 @@ February is the `#MonthofLove` in Darling Harbour, Sydney. `#DragAndDrop` saw sp
 
 Here was one of my favourite performances by my dear friend, [Danger Del Rey](https://instagram.com/mynameisdanger). Please feel free to follow her on Instagram - [@mynameisdanger](https://instagram.com/mynameisdanger)
 
-{% img /images/2016/03/DJW.20160303.600D.0636.800res.jpg 800 629 '@mynameisdanger - darling harbour #monthoflove #draganddrop #darlingharbour #mardigras' ''@mynameisdanger - darling harbour #monthoflove #draganddrop #darlingharbour #mardigras' %}
+{% img /images/2016/03/DJW.20160303.600D.0636.800res.jpg 800 629 'Danger Del Rey - darling harbour' 'Danger Del Rey - darling harbour' %}
