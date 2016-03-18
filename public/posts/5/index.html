@@ -7,7 +7,7 @@
 	<meta name="author" content="Danijel James">
 
 	
-	<meta name="description" content="The Dock is great, but sometimes it gets cluttered with all your favourite apps and you want a way to keep it organised. There is a great Dummies &hellip;">
+	<meta name="description" content="If you have a fancy screensaver and you want to see it all the time, use then all you need to do is run the following command in Terminal ( &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -81,6 +81,47 @@
 		
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2013/10/21/make-os-x-screensaver-your-wallpaper/">
+		
+			make os x screensaver your wallpaper</a>
+	</h2>
+	<div class="entry-content">
+		<p>If you have a fancy screensaver and you want to see it all the time, use then all you need to do is run the following command in Terminal (Applications/Utilities) and it will automatically set the current screensaver to your wallpaper:</p>
+
+<pre><code>/System/Library/Frameworks/Screensaver.framework/Resources/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine -background
+</code></pre>
+
+<p>Then press enter and voila! If it doesn’t work for you right away, you may need to restart your Mac.</p>
+
+<p><code>#MigratedPost</code></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Oct 21st, 2013</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
 
 
     <article class="post">
@@ -548,65 +589,14 @@ Jul 28th, 2013</div>
 </div>
 </article>
 
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/07/28/fix-corrupt-recycle-bin/">
-		
-			fix corrupt recycle bin</a>
-	</h2>
-	<div class="entry-content">
-		<p>Sometimes you need to reset the Recycle Bin because it’s giving you an error message saying it’s corrupt. I have seen a few posts around on the internet that try to deal with this issue but none of them were what I needed. Rather than fiddling with the Windows interface, just 2 commands will fix this for you. Remember, if you are getting an error message for a different drive, then change to that drive instead.</p>
-
-<pre><code>C:\&gt; takeown /f $Recycle.bin /r /a
-C:\&gt; rd /s C:\$Recycle.bin
-</code></pre>
-
-<p>If you need to run the commands for another drive, change to that drive and replace the C:\ in C:\$Recycle.bin on the second line. Problem solved.</p>
-
-<p>This script will ask which drive is causing the problems, and attempt to resolve it. Save it as a BAT file type and run this (may require to be run as Admin).</p>
-
-<pre><code>::==BEGIN CODE==================
-COLOR 0A
-set /p drive=Enter drive letter:
-%drive%:
-takeown /f $Recycle.bin /r /a
-rd /s %drive%:\$Recycle.bin
-::==END CODE====================
-</code></pre>
-
-<p><code>#MigratedPost</code></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Jul 28th, 2013</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/hacking/'>hacking</a>
-
-
-</div>
-	
-</div>
-</article>
-
 <nav id="pagenavi">
     
         
             <a href="/posts/4" class="prev">Prev</a>
         
     
+    
+        <a href="/posts/6" class="next">Next</a>
     
     <div class="center"><a href="/blog/archives">Blog Archives</a></div>
 </nav>
