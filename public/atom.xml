@@ -4,7 +4,7 @@
   <title><![CDATA[danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-03-18T20:56:31+10:30</updated>
+  <updated>2016-03-29T21:37:58+10:30</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel James]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[i want popsicles]]></title>
+    <link href="http://danijelj.com/blog/2016/03/29/i-want-popsicles/"/>
+    <updated>2016-03-29T21:34:15+10:30</updated>
+    <id>http://danijelj.com/blog/2016/03/29/i-want-popsicles</id>
+    <content type="html"><![CDATA[<p>I want these popsicles to be recreated for a t-shirt print for my birthay&hellip;</p>
+
+<p><img src="http://danijelj.com/images/2016/03/2016-summer-popsicles.jpg" width="600" height="600" title="summertime popsicles lyfe" alt="summertime popsicles lyfe"></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[darling harbour month of love]]></title>
@@ -805,49 +816,6 @@ Danijel James</p>
 </tbody>
 </table>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[un, une, des (articles indéfinis)]]></title>
-    <link href="http://danijelj.com/blog/2016/02/13/un-une-des-articles-definis/"/>
-    <updated>2016-02-13T17:28:54+10:30</updated>
-    <id>http://danijelj.com/blog/2016/02/13/un-une-des-articles-definis</id>
-    <content type="html"><![CDATA[<p><strong>un</strong>, <strong>une</strong> and <strong>des</strong> are the French equivalents for <strong>a</strong> and <strong>some</strong>.</p>
-
-<p>un <em>(m)</em> and une <em>(f)</em> are used for persons/things.</p>
-
-<p>Plural form of all objects is des <em>(pl)</em> regardless of whatever gender is occupied.</p>
-
-<table>
-<thead>
-<tr>
-<th style="text-align:center;"> Anglais </th>
-<th style="text-align:left;"> Français </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center;"> a </td>
-<td style="text-align:left;"> un <em>(m)</em> </td>
-</tr>
-<tr>
-<td style="text-align:center;"> </td>
-<td style="text-align:left;"> une <em>(f)</em> </td>
-</tr>
-<tr>
-<td style="text-align:center;"> some </td>
-<td style="text-align:left;"> des <em>(pl)</em> </td>
-</tr>
-</tbody>
-</table>
-
-
-<p>un légume <em>(m)</em> > a vegetable<br/>
-une mer <em>(f)</em> > a sea</p>
-
-<p>des légumes <em>(m,pl)</em> > vegetables<br/>
-des mers <em>(f,pl)</em> > seas</p>
 ]]></content>
   </entry>
   
