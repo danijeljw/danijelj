@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+
+echo "Recursively delete .DS_Store files"
+find . -type f -name '*.DS_Store' -ls -delete
+
 rake generate
 git add -A -f *
 git commit -a -S -m 'auto update signed'
