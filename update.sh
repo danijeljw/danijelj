@@ -1,4 +1,4 @@
-#!/usr/env bash
+#!/usr/bin/env bash
 rake generate
 git add -A -f *
 git commit -a -S -m 'auto update signed'
