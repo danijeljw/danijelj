@@ -1,12 +1,20 @@
 #!/usr/env bash
 rake generate
-rake deploy
 git add -A -f *
-git commit -m 'auto-update'
-git push origin master
-rake notify
-if [ -d "/Volumes/DEVELOPER" ]; then
-  ditto -v $HOME/Developer/danijelj.com /Volumes/DEVELOPER/danijelj.com/
+git commit -a -S -m 'auto update signed'
+wget -q --spider http://google.com
+if [ $? -eq 0 ]; then
+    rake deploy
+    git push origin master
+    rake notify
+    echo "Signed, published and git updated"
+    if [ -d "/Volumes/DEVELOPER" ]; then
+        ditto -v $HOME/Developer/danijelj.com /Volumes/DEVELOPER/danijelj.com/
+        echo "Copied to backup too!"
+    fi
+else
+    if [ -d "/Volumes/DEVELOPER" ]; then
+        ditto -v $HOME/Developer/danijelj.com /Volumes/DEVELOPER/danijelj.com/
+        echo "Only copied to backup :-("
+    fi
 fi
-echo "Pushed and Published!"
-
