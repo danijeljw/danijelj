@@ -4,7 +4,7 @@
   <title><![CDATA[Category: hacking | danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/blog/categories/hacking/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-03-29T21:37:58+10:30</updated>
+  <updated>2016-03-30T15:42:39+10:30</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel James]]></name>
@@ -12,6 +12,75 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[pip can't update virtualenv]]></title>
+    <link href="http://danijelj.com/blog/2016/03/30/pip-cant-update-virtualenv/"/>
+    <updated>2016-03-30T15:36:16+10:30</updated>
+    <id>http://danijelj.com/blog/2016/03/30/pip-cant-update-virtualenv</id>
+    <content type="html"><![CDATA[<p>Tried to run an upgrade for <code>virtualenv</code> using <code>PIP</code> and got the following error:</p>
+
+<p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>Collecting virtualenv
+</span><span class='line'>  Using cached virtualenv-15.0.1-py2.py3-none-any.whl
+</span><span class='line'>Installing collected packages: virtualenv
+</span><span class='line'>  Found existing installation: virtualenv 15.0.0
+</span><span class='line'>    Uninstalling virtualenv-15.0.0:
+</span><span class='line'>Exception:
+</span><span class='line'>Traceback <span class="o">(</span>most recent call last<span class="o">)</span>:
+</span><span class='line'>  File <span class="p">&amp;</span>ldquo<span class="p">;</span>/usr/local/lib/python2.7/site-packages/pip/basecommand.py<span class="p">&amp;</span>rdquo<span class="p">;</span>, line 209, in main
+</span><span class='line'>    <span class="nv">status</span> <span class="o">=</span> self.run<span class="o">(</span>options, args<span class="o">)</span>
+</span><span class='line'>  File <span class="p">&amp;</span>ldquo<span class="p">;</span>/usr/local/lib/python2.7/site-packages/pip/commands/install.py<span class="p">&amp;</span>rdquo<span class="p">;</span>, line 317, in run
+</span><span class='line'>    <span class="nv">prefix</span><span class="o">=</span>options.prefix_path,
+</span><span class='line'>  File <span class="p">&amp;</span>ldquo<span class="p">;</span>/usr/local/lib/python2.7/site-packages/pip/req/req_set.py<span class="p">&amp;</span>rdquo<span class="p">;</span>, line 726, in install
+</span><span class='line'>    requirement.uninstall<span class="o">(</span><span class="nv">auto_confirm</span><span class="o">=</span>True<span class="o">)</span>
+</span><span class='line'>  File <span class="p">&amp;</span>ldquo<span class="p">;</span>/usr/local/lib/python2.7/site-packages/pip/req/req_install.py<span class="p">&amp;</span>rdquo<span class="p">;</span>, line 746, in uninstall
+</span><span class='line'>    paths_to_remove.remove<span class="o">(</span>auto_confirm<span class="o">)</span>
+</span><span class='line'>  File <span class="p">&amp;</span>ldquo<span class="p">;</span>/usr/local/lib/python2.7/site-packages/pip/req/req_uninstall.py<span class="p">&amp;</span>rdquo<span class="p">;</span>, line 115, in remove
+</span><span class='line'>    renames<span class="o">(</span>path, new_path<span class="o">)</span>
+</span><span class='line'>  File <span class="p">&amp;</span>ldquo<span class="p">;</span>/usr/local/lib/python2.7/site-packages/pip/utils/&lt;strong&gt;init&lt;/strong&gt;.py<span class="p">&amp;</span>rdquo<span class="p">;</span>, line 267, in renames
+</span><span class='line'>    shutil.move<span class="o">(</span>old, new<span class="o">)</span>
+</span><span class='line'>  File <span class="p">&amp;</span>ldquo<span class="p">;</span>/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/shutil.py<span class="p">&amp;</span>rdquo<span class="p">;</span>, line 303, in move
+</span><span class='line'>    os.unlink<span class="o">(</span>src<span class="o">)</span>
+</span><span class='line'>OSError: <span class="o">[</span>Errno 13<span class="o">]</span> Permission denied: <span class="p">&amp;</span>lsquo<span class="p">;</span>/usr/local/lib/python2.7/site-packages/virtualenv-15.0.0.dist-info/DESCRIPTION.rst<span class="p">&amp;</span>rsquo<span class="p">;</span>
+</span></code></pre></td></tr></table></div></figure></p>
+
+<p>To resolve this I had to remove the non-brew installed version of <code>virtualenv</code> from my sytem by:</p>
+
+<p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>sudo rm -rf /usr/local/lib/python2.7/site-packages/virtualenv*
+</span></code></pre></td></tr></table></div></figure></p>
+
+<p>Finally install the latest version using <code>PIP</code> again:</p>
+
+<p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>pip install virtualenv
+</span></code></pre></td></tr></table></div></figure></p>
+
+<p>Problem solved !</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[python escape sequences]]></title>
@@ -201,37 +270,6 @@
     <content type="html"><![CDATA[<p>To make life easier, these are the Apple Keyboards mapped out.</p>
 
 <p><img src="/images/Apple-Keyboard-Shortcuts.jpg" width="2272" height="1144" title="&lsquo;Apple Keyboard Map&rsquo; &lsquo;Apple Keyboard Map&rsquo;" ></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[securely erase ssd macbook air]]></title>
-    <link href="http://danijelj.com/blog/2015/12/21/securely-erase-ssd-macbook-air/"/>
-    <updated>2015-12-21T08:57:23+10:30</updated>
-    <id>http://danijelj.com/blog/2015/12/21/securely-erase-ssd-macbook-air</id>
-    <content type="html"><![CDATA[<p>Using DBAN or other tools will not work as they&rsquo;re built for non EFI-based machines. They will also unecessarily write to your SSD and the data may still be recoverabe.</p>
-
-<p>Boot MacBook Air from a <a href="https://support.apple.com/kb/dl1433">Recovery USB</a>.</p>
-
-<p>Launch Terminal from <code>Utilities</code> menu.</p>
-
-<p>Find list of hard drives by running <code>diskutil list</code></p>
-
-<pre><code>| =&gt; diskutil list
-/dev/disk0
-   #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      GUID_partition_scheme                        *121.3 GB   disk0
-   1:                        EFI EFI                     209.7 MB   disk0s1
-   2:                  Apple_HFS Macintosh HD            120.3 GB   disk0s2
-   3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3
-</code></pre>
-
-<p>Erase with US DoE 3-pass secure erase:</p>
-
-<pre><code>diskutil secureErase 4 /dev/disk0
-</code></pre>
-
-<p><code>#MigratedPost</code></p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-03-29T21:37:58+10:30</updated>
+  <updated>2016-03-30T15:42:39+10:30</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel James]]></name>
@@ -12,6 +12,78 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[pip can't update virtualenv]]></title>
+    <link href="http://danijelj.com/blog/2016/03/30/pip-cant-update-virtualenv/"/>
+    <updated>2016-03-30T15:36:16+10:30</updated>
+    <id>http://danijelj.com/blog/2016/03/30/pip-cant-update-virtualenv</id>
+    <content type="html"><![CDATA[<p>Tried to run an upgrade for <code>virtualenv</code> using <code>PIP</code> and got the following error:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>Collecting virtualenv
+</span><span class='line'>  Using cached virtualenv-15.0.1-py2.py3-none-any.whl
+</span><span class='line'>Installing collected packages: virtualenv
+</span><span class='line'>  Found existing installation: virtualenv 15.0.0
+</span><span class='line'>    Uninstalling virtualenv-15.0.0:
+</span><span class='line'>Exception:
+</span><span class='line'>Traceback <span class="o">(</span>most recent call last<span class="o">)</span>:
+</span><span class='line'>  File <span class="s2">&quot;/usr/local/lib/python2.7/site-packages/pip/basecommand.py&quot;</span>, line 209, in main
+</span><span class='line'>    <span class="nv">status</span> <span class="o">=</span> self.run<span class="o">(</span>options, args<span class="o">)</span>
+</span><span class='line'>  File <span class="s2">&quot;/usr/local/lib/python2.7/site-packages/pip/commands/install.py&quot;</span>, line 317, in run
+</span><span class='line'>    <span class="nv">prefix</span><span class="o">=</span>options.prefix_path,
+</span><span class='line'>  File <span class="s2">&quot;/usr/local/lib/python2.7/site-packages/pip/req/req_set.py&quot;</span>, line 726, in install
+</span><span class='line'>    requirement.uninstall<span class="o">(</span><span class="nv">auto_confirm</span><span class="o">=</span>True<span class="o">)</span>
+</span><span class='line'>  File <span class="s2">&quot;/usr/local/lib/python2.7/site-packages/pip/req/req_install.py&quot;</span>, line 746, in uninstall
+</span><span class='line'>    paths_to_remove.remove<span class="o">(</span>auto_confirm<span class="o">)</span>
+</span><span class='line'>  File <span class="s2">&quot;/usr/local/lib/python2.7/site-packages/pip/req/req_uninstall.py&quot;</span>, line 115, in remove
+</span><span class='line'>    renames<span class="o">(</span>path, new_path<span class="o">)</span>
+</span><span class='line'>  File <span class="s2">&quot;/usr/local/lib/python2.7/site-packages/pip/utils/__init__.py&quot;</span>, line 267, in renames
+</span><span class='line'>    shutil.move<span class="o">(</span>old, new<span class="o">)</span>
+</span><span class='line'>  File <span class="s2">&quot;/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/shutil.py&quot;</span>, line 303, in move
+</span><span class='line'>    os.unlink<span class="o">(</span>src<span class="o">)</span>
+</span><span class='line'>OSError: <span class="o">[</span>Errno 13<span class="o">]</span> Permission denied: <span class="s1">&#39;/usr/local/lib/python2.7/site-packages/virtualenv-15.0.0.dist-info/DESCRIPTION.rst&#39;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>To resolve this I had to remove the non-brew installed version of <code>virtualenv</code> from my sytem by:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>sudo rm -rf /usr/local/lib/python2.7/site-packages/virtualenv*
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Finally install the latest version using <code>PIP</code> again:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>pip install virtualenv
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Problem solved !</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[i want popsicles]]></title>
@@ -775,47 +847,6 @@ Danijel James</p>
     <content type="html"><![CDATA[<p>To make life easier, these are the Apple Keyboards mapped out.</p>
 
 <p><img src="http://danijelj.com/images/Apple-Keyboard-Shortcuts.jpg" width="2272" height="1144" title="Apple Keyboard Map" alt="Apple Keyboard Map"></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[sentence structure]]></title>
-    <link href="http://danijelj.com/blog/2016/02/14/sentence-structure/"/>
-    <updated>2016-02-14T17:38:27+10:30</updated>
-    <id>http://danijelj.com/blog/2016/02/14/sentence-structure</id>
-    <content type="html"><![CDATA[<p>It is the same as in English. Most sentences are built on the same template:</p>
-
-<table>
-<thead>
-<tr>
-<th style="text-align:center;"> Sujet </th>
-<th style="text-align:center;">Verbe </th>
-<th style="text-align:left;"> Complément </th>
-<th style="text-align:left;"> Translation</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center;"> La pluie </td>
-<td style="text-align:center;"> frappe </td>
-<td style="text-align:left;"> sur les carreaux. </td>
-<td style="text-align:left;"> <em>The rain hits windows-panes.</em> </td>
-</tr>
-<tr>
-<td style="text-align:center;"> Les arbres </td>
-<td style="text-align:center;"> perdent </td>
-<td style="text-align:left;"> leurs feuilles. </td>
-<td style="text-align:left;"> <em>The trees are losing their leaves.</em> </td>
-</tr>
-<tr>
-<td style="text-align:center;"> Caroline </td>
-<td style="text-align:center;"> cueille </td>
-<td style="text-align:left;"> des pommes. </td>
-<td style="text-align:left;"> <em>Caroline picks some apples.</em> </td>
-</tr>
-</tbody>
-</table>
-
 ]]></content>
   </entry>
   
