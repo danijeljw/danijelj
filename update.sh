@@ -17,11 +17,11 @@ if [ $? -eq 0 ]; then
         ditto -v $HOME/Developer/danijelj.com /Volumes/DEVELOPER/danijelj.com/
         echo "Copied to backup too!"
     fi
-elif
+else
     if [ -d "/Volumes/DEVELOPER" ]; then
         ditto -v $HOME/Developer/danijelj.com /Volumes/DEVELOPER/danijelj.com/
-        echo "Only copied to backup :-("
+        echo "Only copied to backup"
     fi
-elif
+else
     echo "No backups were made at this time"
 fi
