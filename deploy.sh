@@ -24,5 +24,7 @@ else
     fi
 fi
 if [ ! -d "/Volumes/DEVELOPER" ]; then
+    echo "###################"
     echo "No backups were made at this time"
+    echo "###################"
 fi
