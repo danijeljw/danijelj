@@ -7,7 +7,7 @@
 	<meta name="author" content="Danijel James">
 
 	
-	<meta name="description" content="Ogg is a container format. It typically uses the Vorbis audio codec. You can download a static build of ffmpeg and use the bundled libvorbis encoder &hellip;">
+	<meta name="description" content="Starting a script with #!/bin/bash instead of #!/usr/bin/env bash will assume that the user has bash installed at /bin. This makes the script &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -81,6 +81,169 @@
 		
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2014/03/09/using-env-with-shebang/">
+		
+			using env with shebang</a>
+	</h2>
+	<div class="entry-content">
+		<p>Starting a script with <code>#!/bin/bash</code> instead of <code>#!/usr/bin/env</code> bash will assume that the user has <code>bash</code> installed at <code>/bin</code>. This makes the script portable and asks the enviornment to find the correct <code>$PATH</code> to the required interpreter.</p>
+
+<p>Bottom line rule:</p>
+
+<pre><code>#!/usr/bin/env (sh|bash|python|ruby|csh|ksh|tcsh)
+</code></pre>
+
+<p><code>#MigratedPost</code></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Mar 9th, 2014</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2014/02/23/flush-dns-in-mac-os-x/">
+		
+			flush dns in mac os x</a>
+	</h2>
+	<div class="entry-content">
+		<h3>10.11</h3>
+
+<pre><code>sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder; say DNS cache flushed
+</code></pre>
+
+<h3>10.10</h3>
+
+<pre><code>sudo discoveryutil mdnsflushcache;sudo discovertyutil udnsflushcaches
+</code></pre>
+
+<h3>10.9</h3>
+
+<pre><code>dscacheutil -flushcache;sudo killall -HUP mDNSResponder
+</code></pre>
+
+<h3>10.8</h3>
+
+<pre><code>sudo killall -HUP mDNSResponder
+</code></pre>
+
+<h3>10.7</h3>
+
+<pre><code>sudo killall -HUP mDNSResponder
+</code></pre>
+
+<h3>10.6</h3>
+
+<pre><code>dscacheutil -flushcache
+</code></pre>
+
+<h3>10.5</h3>
+
+<pre><code>dscacheutil -flushcache
+</code></pre>
+
+<h3>10.4</h3>
+
+<pre><code>lookupd -flushcache
+</code></pre>
+
+<p>🍖🍖🍖</p>
+
+<p><code>#MigratedPost</code></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Feb 23rd, 2014</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2014/02/18/generate-random-passwords/">
+		
+			generate random passwords</a>
+	</h2>
+	<div class="entry-content">
+		<p>Bash script that generates 10-char passwords</p>
+
+<pre><code>#!/bin/bash
+tmp_pass=0
+if [ $tmp_pass = 0 ]; then
+  tmp_pass=`head -c 10 /dev/random | base64`
+  echo "${tmp_pass:0:10}" #cut to 10 characters after base64 conversion
+fi
+</code></pre>
+
+<p>🍦🍦🍦</p>
+
+<p><code>#MigratedPost</code></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Feb 18th, 2014</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
 
 
     <article class="post">
@@ -460,140 +623,6 @@ killall Dock
 
 
 Oct 16th, 2013</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/hacking/'>hacking</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/10/08/open-google-chrome-in-kiosk-mode/">
-		
-			open google chrome in kiosk mode</a>
-	</h2>
-	<div class="entry-content">
-		<p>Load Google Chrome in Kiosk Mode and direct it to a URL via Terminal:</p>
-
-<pre><code>open "/Applications/Google Chrome.app" --args --kiosk https://www.google.com.au
-</code></pre>
-
-<p><code>#MigratedPost</code></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Oct 8th, 2013</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/hacking/'>hacking</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/09/29/disable-enable-spotlight-indexing/">
-		
-			disable enable spotlight indexing</a>
-	</h2>
-	<div class="entry-content">
-		<p>Disable Spotlight indexing across all volumes: <code>sudo mdutil -a -i off</code></p>
-
-<p>Enable Spotlight indexing across all volumes: <code>sudo mdutil -a -i on</code></p>
-
-<p><code>#MigratedPost</code></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Sep 29th, 2013</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/hacking/'>hacking</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/09/23/location-of-photos-on-iphone-via-ssh/">
-		
-			location of photos on iPhone via ssh</a>
-	</h2>
-	<div class="entry-content">
-		<pre><code>root@iphone$ /private/var/mobile/Media/DCIM/
-</code></pre>
-
-<table>
-<thead>
-<tr>
-<th style="text-align:center;"> Folder </th>
-<th style="text-align:left;"> Content </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center;"> 100APPLE </td>
-<td style="text-align:left;"> photos taken </td>
-</tr>
-<tr>
-<td style="text-align:center;"> 999APPLE </td>
-<td style="text-align:left;"> screenshots  </td>
-</tr>
-</tbody>
-</table>
-
-
-<p><code>#MigratedPost</code></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Sep 23rd, 2013</div>
 	<div class="tags">
 
 

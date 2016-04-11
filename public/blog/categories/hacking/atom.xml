@@ -4,7 +4,7 @@
   <title><![CDATA[Category: hacking | danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/blog/categories/hacking/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-04-07T13:11:58+09:30</updated>
+  <updated>2016-04-11T22:56:20+09:30</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel James]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[providers of it services]]></title>
+    <link href="http://danijelj.com/blog/2016/04/11/providers-of-it-services/"/>
+    <updated>2016-04-11T22:01:39+09:30</updated>
+    <id>http://danijelj.com/blog/2016/04/11/providers-of-it-services</id>
+    <content type="html"><![CDATA[<p><blockquote><p>Providers of IT services can no longer afford to focus on technology and their internal organisation; they now have to consider the quality of the services they provide and focus on the relationship with the customer.</p></blockquote></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[pip can't update virtualenv]]></title>
@@ -259,17 +268,6 @@
 <p>fuse-wait is a patch for NTFS-3G that just stops this annoying error messages from appearing on your system.</p>
 
 <p><strong>Download:</strong> <a href="https://github.com/bfleischer/fuse_wait/downloads">fuse-wait</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[apple keyboard map]]></title>
-    <link href="http://danijelj.com/blog/2016/02/15/apple-keyboard-map/"/>
-    <updated>2016-02-15T13:22:57+10:30</updated>
-    <id>http://danijelj.com/blog/2016/02/15/apple-keyboard-map</id>
-    <content type="html"><![CDATA[<p>To make life easier, these are the Apple Keyboards mapped out.</p>
-
-<p><img src="/images/Apple-Keyboard-Shortcuts.jpg" width="2272" height="1144" title="&lsquo;Apple Keyboard Map&rsquo; &lsquo;Apple Keyboard Map&rsquo;" ></p>
 ]]></content>
   </entry>
   
