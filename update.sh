@@ -22,4 +22,6 @@ else
         ditto -v $HOME/Developer/danijelj.com /Volumes/DEVELOPER/danijelj.com/
         echo "Only copied to backup :-("
     fi
+else
+    echo "No backups were made at this time"
 fi
