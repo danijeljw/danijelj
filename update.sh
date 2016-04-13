@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# Delete all the .DS Store files
 echo "Recursively delete .DS_Store files"
 find . -type f -name '*.DS_Store' -ls -delete
 
@@ -11,7 +12,6 @@ wget -q --spider http://google.com
 if [ $? -eq 0 ]; then
     rake deploy
     git push origin master
-#   rake notify
     echo "Signed, deployed and git updated"
     if [ -d "/Volumes/DEVELOPER" ]; then
         ditto -v $HOME/Developer/danijelj.com /Volumes/DEVELOPER/danijelj.com/
