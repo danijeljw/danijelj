@@ -25,5 +25,5 @@ And to the man in front of me, if you move your fucking chair one more time I'll
 
 On a lighter note, you'll know when you arrive in Adelaide and can see the familiar red signage of [「cibo」](https://cibo.com.au) in front of you!
 
-{% img /images/2016/03/20160305.iPhone6S.180856.800res.jpg 600 600 'cibo expresso' '「cibo」 espresso Adelaide Airport' %}
+{% img /images/2016/03/20160305.iPhone6S.180856.800res.jpg 800 450 'cibo expresso' '「cibo」 espresso Adelaide Airport' %}
 Amazing coffee, and simple menu. You should try it when _(not if)_ you take a stroll down any of Adelaide's iconic suburbs.
