@@ -126,15 +126,15 @@ Rather than talk about it, look over these images. I've also uploaded an album t
 
 {% img /images/2016/tasmania-trip/DJW.20160219.600D.0241.800res.jpg 800 533 'Binalong Bay Beach' 'Binalong Bay at Bay of Fires' %}
 
-{% img /images/DJW.20160219.600D.0269.800res.jpg 800 533 'Water splash' 'Water splash against rocks at Binalong Bay' %}
+{% img /images/2016/tasmania-trip/DJW.20160219.600D.0269.800res.jpg 800 533 'Water splash' 'Water splash against rocks at Binalong Bay' %}
 
-{% img /images/DJW.20160219.600D.0304.800res.jpg 800 533 'Orange hued rocks at Bay of Fires, Tasmania' 'Orange hued rocks at Bay of Fires, Tasmania' %}
+{% img /images/2016/tasmania-trip/DJW.20160219.600D.0304.800res.jpg 800 533 'Orange hued rocks at Bay of Fires, Tasmania' 'Orange hued rocks at Bay of Fires, Tasmania' %}
 
-{% img /images/DJW.20160219.600D.0316.800res.jpg 800 533 'View from rocks at Bay of Fires, Tasmania' 'View from rocks at Bay of Fires, Tasmania' %}
+{% img /images/2016/tasmania-trip/DJW.20160219.600D.0316.800res.jpg 800 533 'View from rocks at Bay of Fires, Tasmania' 'View from rocks at Bay of Fires, Tasmania' %}
 
-{% img /images/DJW.20160219.600D.0318.800res.jpg 533 800 'Orange hued rocks with wasps' 'Orange hued rocks, wasps, Bay of Fires, Tasmania' %}
+{% img /images/2016/tasmania-trip/DJW.20160219.600D.0318.800res.jpg 533 800 'Orange hued rocks with wasps' 'Orange hued rocks, wasps, Bay of Fires, Tasmania' %}
 
-{% img /images/DJW.20160219.600D.0342.800res.jpg 533 800 'Last jetty I made Grenouille stop at' 'This is the last jetty I made Grenouille stop at before heading back to St Helens for lunch' %}
+{% img /images/2016/tasmania-trip/DJW.20160219.600D.0342.800res.jpg 533 800 'Last jetty I made Grenouille stop at' 'This is the last jetty I made Grenouille stop at before heading back to St Helens for lunch' %}
 
 After the Bay of Fires, we headed back to St Helens to grab some grapes, local cheeses, crackers and soda water before our trip back to Hobart. Unfortunately, as luck would have it, we didn't rest where we expected for the night and ended up in a town about 30min west of Hobart called Tynwald at an amazing home-run cottage called Tynwald Willow Bend Estate.
 
