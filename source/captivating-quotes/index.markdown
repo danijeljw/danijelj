@@ -38,7 +38,7 @@ footer: true
 
 &nbsp;
 
->If i could have just one wish, I would wish to wake up everyday to the sound of your breath on my neck, the warmth of your lips on my cheek, the touch of your fingers on my skin, and the feel of your heart beating with mine… Knowing that I could never find that feeling with anyone other than you.
+>If I could have just one wish, I would wish to wake up everyday to the sound of your breath on my neck, the warmth of your lips on my cheek, the touch of your fingers on my skin, and the feel of your heart beating with mine... Knowing that I could never find that feeling with anyone other than you.
 
 &nbsp;
 
