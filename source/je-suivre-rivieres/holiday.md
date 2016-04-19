@@ -360,6 +360,15 @@ Go grab something for dinner when you're ready near the Star City Casino. If you
 
 After dinner, head on in, and spend $1 here and $2 there. Try a new game you've never quipped your hand at before. Lose or win it's all in the spirit of fun and holiday. Don't give in to anything. Risk is your maiden and she will play your hand to her best turn.
 
+Spend some time after the casino just walking around the city and feel it. Simply, just feel it. When you're feet start to tire take yourself back to your hotel and your bed. I'm sorry I can't be there to rub them for you. I would gladly. I love your feet.
+
+>When I ask myself to picture myself happy, I can see a future that involves a couch as your legs lay across me and I'm rubbing those feet and legs.
+
+
+
+
+
+
 
 # Jour 11 - Melbourne
 
