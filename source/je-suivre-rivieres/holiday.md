@@ -416,7 +416,11 @@ When the time has passed, the wine is drunk, and all the songs have been sung, h
 
 # Jour 13 - Adelaide
 
+Get up and watch the sun rise over the water. Beautiful, isn't she ?
 
+Head down to the cafe you like downstairs. Have breakfast then come back and get yourself ready for today.
+
+Before the day starts, let's stretch those muscles. I'm sure they're pretty tense by this stage. There's a golf driving range along Tapley's Hill Road.
 
 
 
