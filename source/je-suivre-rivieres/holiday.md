@@ -370,6 +370,22 @@ Goodnight and sweet dreams, my dear.
 
 # Jour 11 - Melbourne
 
+Breakfast head on to The Grain Store (03) 9972 6993 @ 517 Flinders St, Melbourne. Their speciality is eggs. So I'm sure you'll find something they have to offer just to your particular taste.
+
+Today I want you to spend some time letting yourself become intimate with Melbourne in your own way. Find your own lunch and find your own dinner. Make your own history and stories. See if you can't find the grafitti laneway and snap a few selfies and shots. Surprise me. Surprise the world. Surprise yourself. Take a moment to live in a world like I do, and get lost, then find yourself, and then lose the society.
+
+After dinner I recommend you find the giant clown mouth that is Luna Park.
+
+Go on the rides. Eat fairy floss. Ask them to crank up the speed. Make yourself almost sick. Glorious !
+
+Once you've had enough, make your way to the airport, you're bound for Adelaide.
+
+I'll meet you at the airport and bring you to bed and warm cuddles. Don't worry, I'm not hijacking your holiday. I'm hijacking you. 😘
+
+
+
+
+
 # Jour 12 - Adelaide
 
 Wake up and kiss me good morning. Get dressed, and head out. You're on your way to see some amazing things today.
