@@ -327,14 +327,30 @@ Once you start to crave lunch I would recommend you head up to a place called Mo
 
 THe address is 202 Carlisle St, Balaclava (03) 9534 7250 _(yes, the irony, I know - the word Carlisle has come back to haunt me !)_. Although this is a vegetarian restaurant, it's amazing.
 
-Plan the rest of your day to relax and just walk around. 
-2 Pier St, Port Melbourne
+Plan the rest of your day to relax and just walk around. As the sun starts to set I need you to get yourself to the following address:
  
+2 Pier St, Port Melbourne
 
+You'll understand why when you're there. The magic words, BEFORE the sun starts to set.
 
+For dinner, you'll be taking yourself up to Hunky Dory - 181 Bay St, Port Melbourne. What would end a perfect day other than fish & chips. Heck, you might even want to take the food from this place with you down to the Pier to enjoy your food over the sunset. Just make sure you have your camera and I know you'll use your manners when you ask people to take photos of you against the backdrop. Try to take one of your sad pose photos. They're incredible. So powerful an image. 
+
+Afterwards, get back to your hotel and enjoy a long hot shower.
 
 
 # Jour Dix - Melbourne
+
+Today we need to explore the hub of culture that arose from an underground society and bloomed like a rose out to show us it's own flair - Chapel St. I'm not going to tell you where to go or what to do. Find your own way around. Start your day here with a cafe and go in and out of any shop; even if you don't want anything - just explore.
+
+Be sure that by the time lunch rolls around you've fed yourself and seen everything that caught your eye. Don't forget to talk to the locals.
+
+In the afternoon head over to the Flinders St Station and the Federation Square. Take some moments to observe it from every angle you can find. Both of them. They are one and the same in the heart of the CBD.
+
+As you soak it all in, think of all the people that worked hard to bring you these structures, modern and old, together and facing one another like a mirror of achievements.
+
+>What we see now is but a dim image in a mirror, soon we shall see face to face.
+
+
 
 # Jour 11 - Melbourne
 
@@ -344,11 +360,15 @@ Plan the rest of your day to relax and just walk around.
 
 # Jour 14 - Adelaide
 
+Wake up and kiss me good morning. Get dressed, and head out. You're on your way to see some amazing things today.
+
+You'll be headed to the hills
+
 # Jour 15 - Adelaide
 
 # Jour 16 - Home
 
-Spend the day at home and just relax. Don't do anything. 
+Spend the day at home and just relax. Don't do anything. I'll come over and give you head rubs, hand rubs, leg rubs, and all kinds of rubs. 😉
 
 
 01fri - adelaide, alice springs
@@ -364,6 +384,5 @@ Spend the day at home and just relax. Don't do anything.
 11tue - melbourne
 12wed - hobart
 13thu - hobart
-14fri - hobart
+14fri - adelaide
 15sat - Adelaide
-16sun - Adelaide
