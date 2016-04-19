@@ -226,8 +226,21 @@ From here walk down towards the path headed south until you reach the IMAX and S
 
 Keep walking by and you'll see on your GPS the Chinese Friendship Garden. Pay the entry fee and sign the book. Write something special for me. Not to me, but something special to you, and do it as a favour for me. This goes to storage. Let it fall into history and memory. Spend your time here enjoying and see if you can't find the 12 Chinese Zodiac signs. They're hidden well !
 
-One you finish up here it should be Friday which means the China Town Markets are on ! Whoop ! Whoop !
+One you finish up here it should be Friday which means the China Town Markets are on ! Whoop ! Whoop ! Navigate to Dixon St, and stop by all the stalls and marvel at the wonders. As you start to get hungry and it's closer to dinner time try something. I recommend the places with the longest lines around the middle of Dixon St where the cars sometimes drive. _(Unfortunately, I cannot remember the name of the place !)_
 
+Save room for dessert. I've got something special lined up for you. Past the northern end of Dixon St head over the intersection to discover a congregation of Asians _(ni hao)_ around N2 - scientific for Nitrogen. I've never been here because I wanted to take someone who would appreciate this as much as I knew I would. So unfortunately as much as I would like to be there with you to enjoy this, you'll have to savour it and tell me about it another time. It's ice-cream ! But not just any ice-cream ! It's science ice-cream !
+
+Once you're done here you can head over to Kings Cross. Might I suggest taking the train from Town Hall headed to Bondi. Every train from Town Hall will stop at Kings Cross.
+
+It's not as scary as you think, don't worry, I'm not sending you into any imminent danger. Get out of the station _(it's deep underground but don't worry, there's long escalators)_ and head right. You'll walk all the way to the end where I'm going to ask you to cross to the middle of the road. Turn around and look up.
+
+The Kings Cross Coke Sign. Yay !
+
+Get back to the station and head to Circular Quay. Don't wander too far in any direction from where you are but more so directly back to the station. You're safe in this area unless someone who knows their shit is with you. I don't want you to get in harms way. I will take you one day through this area and show you amazing things.
+
+Once back at Circular Quay, head around to the Opera House, and enjoy just the sounds and sights of people. You should notice an underground level as you approach the landmark ? Go down there.
+
+Keep  walking until you come across Opera Bar. Stop in and try one of their cocktails. Do not hesitate to be a bit rough and push your way to the front. All the snobby people here are cunts. Light up a cigarette, stand as far to the edge as you can and enjoy your drink and let your ears fall on the conversations around you.
 # Jour Huit
 
 Get up! Get up! It's Saturday morning. Nobody has time to waste laying in bed all day. We have places to be and people to see. _(Do we really wanna see people ? Nah !)_ OK, that was a bit mean to wake you up so early. You must be tired. Sleep in until 10 then checkout. We're having brunch at my favourite spot in the whole of Sydney to kick off the last day. I want you get yourself down towards Oxford St and head on down. Might I suggest using your Opal card to take any bus headed for Bondi, Bronte or pretty much that comes through. You can get off at the stop we need and walk from there. It's a little hidden cafe run by two brothers. No, this time we don't need a reservation, but we want to try and get there before 11 when possible ! I'm taking you with these words to The Rusty Rabbit. Hidden deep in the sidestreets of Darlinghurst _(the haughty taughty gay area of Sydney)_ is a decrepit ugly building taken over by charm and elegance.
