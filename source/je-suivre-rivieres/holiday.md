@@ -206,6 +206,17 @@ Get up in the morning and make your way to Le Monde Cafe @ 83 Foveax St, Surry H
 
 Great. Now you're fed up and ready to go ? I hope so !
 
+Today we're going to the Hornby Lighthouse. This place is honestly a bit of a shit to get to. I wanted to take you to Wedding Cake Rock, but I think I'll save that for when I travel with you to Sydney as you need to trek through open land, forests and beaches and to be brutally honest, I wouldn't trust you to not get hurt by way of a venomous snake or spider without the proper person _(moi)_ to guide you through the terrain. There are no maps of any kind that will guide you as the Govt. decided people shouldn't go there. That won't stop me bringing you there one day. They say that when lovers go together to Wedding Cake Rock, within a year they'll be married. _(giggle, OK, I just gave up my reason to want to take you there myself)_.
+
+Get yourself to Circular Quay Station. From Le Monde I recommend going back to Central and catching the City Circle train. We're going to to this the easy way and catch a ferry to Watson's Bay.
+
+Once off the ferry, head to your left along the beach until you reach a point where the beach no longer traverses the shore and you've got to head up a set of stairs. Don't swim in this water, it's gross. Pass down Cove St, right at Victoria St, left at Cliff St. Follow the trail in front of you around on the left side. High above you'll see a secluded beach at some point. Lady Bay Beach. This is for nudists. Stop and have a perve. Who doesn't. Keep walking and eventually you'll come across the Hornby Lighthouse.
+
+[lighthouse pic]
+
+Isn't she pretty ?
+
+Head back the way you've come once you're finished here and we're going to Darling Harbour for lunch now. I'm sure you'll be hungry if you're not already by the time we get back.
 
 
 
