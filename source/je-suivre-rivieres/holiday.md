@@ -382,15 +382,35 @@ Once you've had enough, make your way to the airport, you're bound for Adelaide.
 
 I'll meet you at the airport and bring you to bed and warm cuddles. Don't worry, I'm not hijacking your holiday. I'm hijacking you. 😘
 
-
-
-
-
 # Jour 12 - Adelaide
 
-Wake up and kiss me good morning. Get dressed, and head out. You're on your way to see some amazing things today.
+Wake up and kiss me good morning. Get dressed, and head out. You're on your way to see some amazing things today. I'll take you home to your own car and house, but don't go in. You're still on holiday and the motel doesn't allow check-ins until 10am !
 
-You'll be headed to the hills
+Get your car and wave goodbye as you take the next leg. Don't worry, I'm not going anywhere and I'll wait here for as long as you don't tell me to go.
+
+You'll be headed to the hills. First stop is a town called Hahndorf. How many times did you ever come here as a child ? I hope you did at least once, or have at least since returned as an adult. No ? Who cares ! You're going there today and you're going to recreate any memories with these.
+
+Find a park anywhere on the main street and get out. Left or right, you choose, start walking and stop int at each and every stall. Before lunch I hope that you've had time to gander all the way from start to finish and can now make your way to the pub on the main strip. It's a German themed pub &amp; restaurant. Did you know that originally Handorf was the location of the Shützenfest festival held each year ? It had to be relocated to Bonython Park when it got too big !
+
+Don't pick something from the menu you're accustomed to, pick something German and strange. And order a 500mL beer. Maybe something with apricot or mango ?
+
+Once you're all set and settled get back in the car and set the GPS to:
+
+452 Torrens Road, Gueracha
+
+Without going into details, you'll have to put aside your fear of heights to make it to the top. Though, it always seems larger when you're a kid. As an adult it's just not that big !
+
+Climb to the top and take a selfie on top of the world. Just don't fall !
+
+It's afternoon time and the place you're staying will be open for check-in. Head to the place you call "My Home". Shower and change. Soon you're going to be heading back to the hills, but this time to look out.
+
+Grab a bottle of wine from your fridge. You might need a second person with you in case you can't drive after this to head "My Home" again. _(I put my hand up just then as I wrote this)_
+
+This time, set the GPS for Mount Lofty Scenic Rout, Crafers. Wear warm clothes.
+
+Isn't she beautiful. If you were there early enough you would have seen the star we call our sun set over the horizon and night creep up and over you.
+
+When the time has passed, the wine is drunk, and all the songs have been sung, head back to "My Home".
 
 # Jour 13 - Adelaide
 
@@ -410,7 +430,5 @@ Spend the day at home and just relax. Don't do anything. I'll come over and give
 09sun - melbourne
 10mon - melbourne
 11tue - melbourne
-12wed - hobart
-13thu - hobart
-14fri - adelaide
-15sat - Adelaide
+12wed - adelaide
+13thu - Adelaide
