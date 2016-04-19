@@ -172,7 +172,17 @@ Go down to Town Hall Station _(yes, I know we were just here this morning)_ and 
 
 Thank her for the time she's disposed to you and go over to the MoMA. Head up to the 3rd floor and to the cafe. Grab a glass of wine and sit on the balcony and look out across the water. Enjoy the view. Sip slowly biut gracefully.
 
-Finish up here _(don't tip the waitress)_, and get ready to walk around The Rocks.
+Finish up here _(don't tip the waitress)_, and get ready to walk around The Rocks. Explore Dawes Point and just before you get to Hickson Road Reserve I want you to find this place:
+
+{% img /images/jake_holiday/thelovers.jpg %}
+
+Sit down there, and reflect on these words:
+
+>Look at this my dear, is it not most beautiful thing you have seen ? There in his hand, was the photo he first saw of her before seeing her. It was then, he knew he would always share his heart with her for eternity. Not even the sight of the Opera House, in all her majesty, could distract her gaze from where his love was drawn.
+
+The story behind this photo is unknown to any. Let me explain. The couple you see actually were looking at a photo of the two of them standing in front of the Opera House together. They met a while ago and took a photo of the two of them on their first date. He was reflecting on that day as he did today. Now, they are married. Well, they were married in the photo I took. Bless their cotton socks.
+
+Continue on through. Find all the hidden lanes and let yourself get lost.
 
 
 
