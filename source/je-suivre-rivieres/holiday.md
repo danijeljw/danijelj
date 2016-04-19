@@ -364,10 +364,9 @@ Spend some time after the casino just walking around the city and feel it. Simpl
 
 >When I ask myself to picture myself happy, I can see a future that involves a couch as your legs lay across me and I'm rubbing those feet and legs.
 
+Tomorrow we only have 2 last stops before the flight back to Adelaide.
 
-
-
-
+Goodnight and sweet dreams, my dear.
 
 # Jour 11 - Melbourne
 
