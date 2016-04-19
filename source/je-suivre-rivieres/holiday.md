@@ -154,7 +154,7 @@ Once the moon is either seen (or unseen) it's time to go. Get up and head back o
 
 Spend the day at Wet'n'Wild. I can't instruct you any further as I don't know the Gold Coast better than this.
 
-# Jour Sangt - Gold Coast
+# Jour Cinq - Gold Coast
 
 Spend the day at another theme park. The one with the Tower of Terror. Fly out to Sydney tomorrow morning.
 
@@ -182,7 +182,7 @@ Thank her for the time she's disposed to you and go over to the MoMA. Head up to
 
 Finish up here _(don't tip the waitress)_, and get ready to walk around The Rocks. Explore Dawes Point and just before you get to Hickson Road Reserve I want you to find this place:
 
-{% img /images/jake_holiday/thelovers.jpg %}
+{% img /images/jake_holiday/23429225532_f44811f863_z.jpg640 640 %}
 
 Sit down there, and reflect on these words:
 
@@ -220,7 +220,7 @@ Get yourself to Circular Quay Station. From Le Monde I recommend going back to C
 
 Once off the ferry, head to your left along the beach until you reach a point where the beach no longer traverses the shore and you've got to head up a set of stairs. Don't swim in this water, it's gross. Pass down Cove St, right at Victoria St, left at Cliff St. Follow the trail in front of you around on the left side. High above you'll see a secluded beach at some point. Lady Bay Beach. This is for nudists. Stop and have a perve. Who doesn't. Keep walking and eventually you'll come across the Hornby Lighthouse.
 
-[lighthouse pic]
+{% img /images/jake_holiday/24434450093_52d5f83250_z.jpg 480 640 %}
 
 Isn't she pretty ?
 
@@ -336,6 +336,8 @@ Plan the rest of your day to relax and just walk around. As the sun starts to se
 
 You'll understand why when you're there. The magic words, BEFORE the sun starts to set.
 
+{% img /images/jake_holiday/24x16_PortMelbourne_20120426.jpg 800 533 %}
+
 For dinner, you'll be taking yourself up to Hunky Dory - 181 Bay St, Port Melbourne. What would end a perfect day other than fish & chips. Heck, you might even want to take the food from this place with you down to the Pier to enjoy your food over the sunset. Just make sure you have your camera and I know you'll use your manners when you ask people to take photos of you against the backdrop. Try to take one of your sad pose photos. They're incredible. So powerful an image. 
 
 Afterwards, get back to your hotel and enjoy a long hot shower.
@@ -371,7 +373,7 @@ Tomorrow we only have 2 last stops before the flight back to Adelaide.
 
 Goodnight and sweet dreams, my dear.
 
-# Jour 11 - Melbourne
+# Jour Onze - Melbourne
 
 Breakfast head on to The Grain Store (03) 9972 6993 @ 517 Flinders St, Melbourne. Their speciality is eggs. So I'm sure you'll find something they have to offer just to your particular taste.
 
@@ -385,7 +387,7 @@ Once you've had enough, make your way to the airport, you're bound for Adelaide.
 
 I'll meet you at the airport and bring you to bed and warm cuddles. Don't worry, I'm not hijacking your holiday. I'm hijacking you. 😘
 
-# Jour 12 - Adelaide
+# Jour Douze - Adelaide
 
 Wake up and kiss me good morning. Get dressed, and head out. You're on your way to see some amazing things today. I'll take you home to your own car and house, but don't go in. You're still on holiday and the motel doesn't allow check-ins until 10am !
 
@@ -403,6 +405,8 @@ Once you're all set and settled get back in the car and set the GPS to:
 
 Without going into details, you'll have to put aside your fear of heights to make it to the top. Though, it always seems larger when you're a kid. As an adult it's just not that big !
 
+{% img /images/jake_holiday/The-Big-Rocking-Horse6.jpg 750 536 %}
+
 Climb to the top and take a selfie on top of the world. Just don't fall !
 
 It's afternoon time and the place you're staying will be open for check-in. Head to the place you call "My Home". Shower and change. Soon you're going to be heading back to the hills, but this time to look out.
@@ -415,7 +419,7 @@ Isn't she beautiful. If you were there early enough you would have seen the star
 
 When the time has passed, the wine is drunk, and all the songs have been sung, head back to "My Home".
 
-# Jour 13 - Adelaide
+# Jour Treize - Adelaide
 
 Get up and watch the sun rise over the water. Beautiful, isn't she ?
 
@@ -435,7 +439,7 @@ There's a special restaurant with a menu prepared just for you. It's somewhere i
 
 Say goodbye and kiss your chef _(yes, kiss your chef !)_. Head on back to "My Home" and spend the night just sitting on your balcony and reflect on what has just been. Now think to the future and enjoy a smoke to yourself. The couch is calling you.
 
-# Jour 14 - Home
+# Jour Quatorze - Home
 
 Spend the day at home and just relax. Don't do anything. I'll come over and give you head rubs, hand rubs, leg rubs, and all kinds of rubs. 😉
 
