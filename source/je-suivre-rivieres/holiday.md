@@ -420,8 +420,9 @@ Get up and watch the sun rise over the water. Beautiful, isn't she ?
 
 Head down to the cafe you like downstairs. Have breakfast then come back and get yourself ready for today.
 
-Before the day starts, let's stretch those muscles. I'm sure they're pretty tense by this stage. There's a golf driving range along Tapley's Hill Road.
+Before the day starts, let's stretch those muscles. I'm sure they're pretty tense by this stage. There's a golf driving range along Tapley's Hill Road. It'll cost you about $18 for a bucket of 50 balls _(from memory)_ and you can smash them out as far as they go. Don't be discouraged if you suck. I am actually trained in the sport of golf by a PGA member. 🏌
 
+Today I'm sending you on a long arse treck to the St Kilda Playfround
 
 
 
