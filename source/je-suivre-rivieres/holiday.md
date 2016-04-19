@@ -210,6 +210,23 @@ After the show, I want you to go back to your hotel and grab your bag. We're goi
 
 You will be missed, but not forgotten. 
 
+# Jour Neuf - Melbourne
+
+# Jour Dix - Melbourne
+
+# Jour 11 - Melbourne
+
+# Jour 12 - Hobart 
+
+# Jour 13 - Hobart
+
+# Jour 14 - Hobart 
+
+# Jour 15 Adelaide
+
+# Jour 16 Adelaide
+
+
 01fri - adelaide, alice springs
 02sun - brisbane
 03mon - brisbane
