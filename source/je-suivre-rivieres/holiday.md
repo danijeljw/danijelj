@@ -182,7 +182,9 @@ Sit down there, and reflect on these words:
 
 The story behind this photo is unknown to any. Let me explain. The couple you see actually were looking at a photo of the two of them standing in front of the Opera House together. They met a while ago and took a photo of the two of them on their first date. He was reflecting on that day as he did today. Now, they are married. Well, they were married in the photo I took. Bless their cotton socks.
 
-Continue on through. Find all the hidden lanes and let yourself get lost.
+Continue on through. Find all the hidden lanes and let yourself get lost. Go into places and let yourself explore. We'll be heading back to the CBD again shortly for dinner and then back to the exact area you're standing, and I'll lead you to something magical when the night falls.
+
+
 
 
 
