@@ -9,12 +9,13 @@ footer: true
 
 The holiday for a fortnight must start at the end of a work week (Friday) and end on the Sunday preceding the day before work. The adjustment period should be minimal and resume normal life as it transitions naturally.
 
-
 # Jour Un - Alice Springs
 
 Leaving Friday after work, head to the airport and take off for Alice Springs. Go grab your hire care that you prepped ahead of time and get to your motel. Don't worry about staying somewhere comfortable. It's not important. It's just where you're gonna be for the night.
 
 Get up early in the morning. Really early. It's holiday time but it's no time to be lazy, it's Saturday morning and it's your first day. Get in your car and drive to GPS co-ordinates *25°19'47.3"S 130°57'17.4"E*. Make sure you bring your coffee and vegemite toast. You'll be need to be here at no later than 6:30am. Pull over and have your camera ready, you're about to see some magic happen from the East. I hope it's a clouded, but not overcast, morning.
+
+{% img /images/jake_holiday/map_sunrise_sunset_uluru.png 800 800 %}
 
 Once you've soaked up all the beauty you can handle, get back in the car and drive back around the front entrance of the monolith and climb it. _(I hope your ate breakfast like I told you to !)_ You'd expect to be up the top and singing the book by about 11am latest. If not, you're lazy.
 
