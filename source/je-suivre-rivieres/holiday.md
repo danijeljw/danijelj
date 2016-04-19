@@ -182,7 +182,7 @@ Thank her for the time she's disposed to you and go over to the MoMA. Head up to
 
 Finish up here _(don't tip the waitress)_, and get ready to walk around The Rocks. Explore Dawes Point and just before you get to Hickson Road Reserve I want you to find this place:
 
-{% img /images/jake_holiday/23429225532_f44811f863_z.jpg640 640 %}
+{% img /images/jake_holiday/23429225532_f44811f863_z.jpg 640 640 %}
 
 Sit down there, and reflect on these words:
 
@@ -328,7 +328,13 @@ Gather around on the beach and enjoy your time here. I know you love the water, 
 
 Once you start to crave lunch I would recommend you head up to a place called Monk Bodhi Dharma. You should be able to catch a tram from Brighton Beach to within 500m walking distance. It's not far.
 
-THe address is 202 Carlisle St, Balaclava (03) 9534 7250 _(yes, the irony, I know - the word Carlisle has come back to haunt me !)_. Although this is a vegetarian restaurant, it's amazing.
+The address is:
+
+202 Carlisle St, Balaclava (03) 9534 7250
+
+_(yes, the irony, I know - the word Carlisle has come back to haunt me !)_
+
+Although this is a vegetarian restaurant, it's amazing.
 
 Plan the rest of your day to relax and just walk around. As the sun starts to set I need you to get yourself to the following address:
  
