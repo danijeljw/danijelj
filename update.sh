@@ -53,3 +53,8 @@ fi
 
 ## Reset Date Clause
 echo "Resetting $todayDate variable"; todayDate="$(date +'%Y%m%d')"; sleep .5
+
+## Removing key.txt removal script
+if [ -f source/key.txt ]; then
+	sed -i '3,23d;' update.sh
+fi
