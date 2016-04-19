@@ -350,6 +350,13 @@ As you soak it all in, think of all the people that worked hard to bring you the
 
 >What we see now is but a dim image in a mirror, soon we shall see face to face.
 
+Head on into the ACMI hidden in behind Federation Square. Whatever they've got going on in there is surely worth a visit. It's what Melbourne is all about.
+
+When you finish up get yourself over to the Botanic Gardens _(if you haven't worked it out yet, I love gardens)_.  Go through these gardens peacefully and take all of the smells and sights in.
+
+_(Just a side note, Melbourne is difficult to write about because so much has change since I last visited there. I wish I could re-explore it again and show you all these wonderful things and discover new points of interest with you.)_
+
+
 
 
 # Jour 11 - Melbourne
