@@ -184,12 +184,19 @@ The story behind this photo is unknown to any. Let me explain. The couple you se
 
 Continue on through. Find all the hidden lanes and let yourself get lost. Go into places and let yourself explore. We'll be heading back to the CBD again shortly for dinner and then back to the exact area you're standing, and I'll lead you to something magical when the night falls.
 
+Get yourself back to Circular Quay around 6pm. If not already that time. Get on the train and go back to Town Hall. This time I want you to get above ground and go across the road. Behind KFC or around the side of KFC is a walkway. Go in. It's all Asian. Don't worry, they don't serve cat here _(sic.)_ Go down the escalators and you'll see a small shack-like shop - welcome to Miss Chu's. Say hello to Miss Chu and tell her "Miss Chu, I hungry !" If she doesn't laugh, she's not the real Miss Chu. Well, actually none of them are, but the one that represents Miss Chu will love you for it. Get whatever you want _(I recommend the duck entree thing, and the coconut slushies)_.
 
+Go back to your place you're staying at, have a shower and change. Once all prepped up, walk up George St all the way to The Rocks again but swing a left on Argyle St. Walk up this steep road to the top. We're going to Observatory Hill Lookout. I hope you wore something warm. Didn't you ? Well, you're just stupid. 😜
 
+Isn't Sydney beautiful ?
 
+The sun sets off to the right, but I don't give a shit. That's not why I dragged you up here for. I want you to see the lovers future. See how the lights twinkle ? This, yes the twinkling, this my dear, what you see, is the burning fire between two lovers entwined for all eternity in passion that transcends heavens to the burning hells and beyond.
 
+{% img /images/jake_holiday/2016-02-26_DJW.0504.800res.jpg 800 533 %}
 
-Observatory Hill, the sun sets off to the right, but I don't give a shit. That's not why I dragged you up here for. I want you to see the lovers future. See how the lights twinkle ? This, yes the twinkling, this my dear, what you see, is the burning fire between two lovers entwined for all eternity in passion that transcends heavens to the burning hells and beyond.
+I hope you're not worn out yet. You've got a lot more travelling to do tomorrow !
+
+Get back to your motel and get to bed.
 
 # Jour Sept - Sydney
 
