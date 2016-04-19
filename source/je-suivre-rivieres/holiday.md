@@ -196,14 +196,18 @@ The sun sets off to the right, but I don't give a shit. That's not why I dragged
 
 I hope you're not worn out yet. You've got a lot more travelling to do tomorrow !
 
-Get back to your motel and get to bed.
+Get on down again to the walkway down below. From the International Terminal, you have the best vantage point of the Opera House at night. Wave her goodnight and blow a kiss. She needs to sleep. So do you !
+
+Get back to your motel and get to bed. Goodnight Jake.
 
 # Jour Sept - Sydney
 
+Get up in the morning and make your way to Le Monde Cafe @ 83 Foveax St, Surry Hills. This place was rated as one Sydney's best coffee spots on Yelp! in 2015. Fancy, huh ?
+
+Great. Now you're fed up and ready to go ? I hope so !
 
 
 
-Le Monde Cafe - 83 Foveax St, Surry Hills
 
 
 # Jour Huit
