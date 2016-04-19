@@ -369,7 +369,6 @@ Spend some time after the casino just walking around the city and feel it. Simpl
 
 
 
-
 # Jour 11 - Melbourne
 
 # Jour 12 - Adelaide
