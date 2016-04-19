@@ -10,7 +10,8 @@ footer: true
 The holiday for a fortnight must start at the end of a work week (Friday) and end on the Sunday preceding the day before work. The adjustment period should be minimal and resume normal life as it transitions naturally.
 
 
-# Jour Un
+# Jour Un - Alice Springs
+
 Leaving Friday after work, head to the airport and take off for Alice Springs. Go grab your hire care that you prepped ahead of time and get to your motel. Don't worry about staying somewhere comfortable. It's not important. It's just where you're gonna be for the night.
 
 Get up early in the morning. Really early. It's holiday time but it's no time to be lazy, it's Saturday morning and it's your first day. Get in your car and drive to GPS co-ordinates *25°19'47.3"S 130°57'17.4"E*. Make sure you bring your coffee and vegemite toast. You'll be need to be here at no later than 6:30am. Pull over and have your camera ready, you're about to see some magic happen from the East. I hope it's a clouded, but not overcast, morning.
@@ -25,7 +26,8 @@ I hope you read this ahead of time, now you should have made a booking with the 
 
 After the show head back to your motel for the night. You're gonna be packing up and starting Jour Duex soon.
 
-# Jour Deux
+# Jour Deux - Brisbane
+
 Take the car back to the airport and get ready. You're about to head off again. Are you wearing fresh underwear ? I hope so ! 😜
 
 Today you're departing or Brisbane. One you get there catch the train to the city. You'll need to grab a Brisbane GO card. Much like the SA transport care _(that I keep calling an Opal card)_ except it's better. Have you had anything to eat yet ? Of course not. Don't be stupid. I know you. Once you get to town the first stop is going to be finding a little laneway called *Little Burnett Lane*. There's a cafe here. _(Do you trust me ? I hope so. I trust these words. Hell, I'm the architect here !)_
@@ -87,7 +89,7 @@ Catch a cab and head back to your hotel, or walk around a bit more. Just remembe
 
 You'll get more intimate with Brisbane tomorrow. Good night and sweet dreams 😘🌙✨
 
-# Jour Trois
+# Jour Trois - Brisbane
 
 Get up and go get your free continental breakfast. Don't worry too much if the food is crap. It shouldn't be, should it ? Our first stop for the day is the GOMA _(Gallery of Modern Art)_. _(Don't you just love every museum or art gallery that ends in *-OMA* ? I do !_ 😊_)_
 
@@ -414,21 +416,12 @@ When the time has passed, the wine is drunk, and all the songs have been sung, h
 
 # Jour 13 - Adelaide
 
+
+
+
+
+
+
 # Jour 14 - Home
 
 Spend the day at home and just relax. Don't do anything. I'll come over and give you head rubs, hand rubs, leg rubs, and all kinds of rubs. 😉
-
-
-01fri - adelaide, alice springs
-02sun - brisbane
-03mon - brisbane
-04tue - gold coast
-05wed - gold coast
-06thu - sydney
-07fri - sydney
-08sat - sydney
-09sun - melbourne
-10mon - melbourne
-11tue - melbourne
-12wed - adelaide
-13thu - Adelaide
