@@ -168,7 +168,11 @@ Once you've finished here, walk off to the left and into the Botanical Gardens. 
 
 Head back toward to the city, it's time for lunch. I'm going to make you head back to a place in the heart of the city for lunch. It's a long walk. Don't complain. You'll be going to Encasa Deli. They're a Spanish based deli. Literally taken right out of the heart of any Spanish-speaking country and plomped smack-bang in the middle of Sydney. Get down there by 12, order anything with chorizo. You'll love it. Take a seat and enjoy. Don't forget to try their glorified softdrink called Inca Cola. Yummy !
 
+Go down to Town Hall Station _(yes, I know we were just here this morning)_ and catch the train to Circular Quay. Get off and walk towards the Harbour Bridge this time. Veer off into The Rocks. I want you to take in everything you see in the main strip. On your right at some point you'll see the MoMA _(another -OMA venue !)_. You're nearing your destination. There's a gallery on the right. Walk in and ask for Tempest. She is my friend and will welcome you for a yarn. Enquire how she is and pass her my best wishes. I hope to see her again soon and one day maybe introduce you to her in person. Let her speak and listen, but don't just hear her - I mean really listen - this woman is wiser than words can capture and an icon in guiding me on my path without probably having ever realised.
 
+Thank her for the time she's disposed to you and go over to the MoMA. Head up to the 3rd floor and to the cafe. Grab a glass of wine and sit on the balcony and look out across the water. Enjoy the view. Sip slowly biut gracefully.
+
+Finish up here _(don't tip the waitress)_, and get ready to walk around The Rocks.
 
 
 
