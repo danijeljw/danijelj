@@ -218,8 +218,15 @@ Isn't she pretty ?
 
 Head back the way you've come once you're finished here and we're going to Darling Harbour for lunch now. I'm sure you'll be hungry if you're not already by the time we get back.
 
+One at Circular Quay, one again catch the train to Town Hall _(oh hai, Town Hall)_ and get on down to Darling Harbour. I recommend the most direct approach is to go down Pitt St and left at King St. At the end of King St is a walkway bridge that will gap the distance between you and amazing restaurants. Take your pic and sit where you like. Order, enjoy. But don't eat too much. I want you to get off your arse and head down to the Lindt Cafe whilst you're here. This is a special place for me. I used to go here all the time by myself and have coffee and chocolate. I've only ever been here myself with Jet once because she didn't know Sydney very well and so I showed her ALL the Lindt chocolates in one venue. Yummy !
 
+Relax for a while.
 
+From here walk down towards the path headed south until you reach the IMAX and Starbucks. Stop in and order a Grande soy latte, no sugar, and ask them to write your name as Ariana on there. No, she's not a drag queen ! 😚
+
+Keep walking by and you'll see on your GPS the Chinese Friendship Garden. Pay the entry fee and sign the book. Write something special for me. Not to me, but something special to you, and do it as a favour for me. This goes to storage. Let it fall into history and memory. Spend your time here enjoying and see if you can't find the 12 Chinese Zodiac signs. They're hidden well !
+
+One you finish up here it should be Friday which means the China Town Markets are on ! Whoop ! Whoop !
 
 # Jour Huit
 
