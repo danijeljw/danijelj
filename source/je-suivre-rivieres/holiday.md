@@ -319,6 +319,16 @@ Fed and fat, get yourself directions from someone. I'm not going to tell you whe
 
 Head down to Brighton Beach front and get your camera ready. Sadly, in all the time I spent in Melbourne, which I do believe was longer than 6 months, I never went to see these amazing pieces of art.
 
+This day is going to be lazy, I've been working you hard so far.
+
+Gather around on the beach and enjoy your time here. I know you love the water, so I'll be asking you to follow these words to another amazing spot this afternoon. There's no rush. Explore the area quietly and rest in the sand. Walk along and listen to your music. Think about your life and where you want to go. Look up at sky. Can you see the stars ? No, of course not, the sun hides them from us, but they're still there. Starlight and sunlight is beaming down to you at the moment. All the great vibrance of our sisters, brothers, mothers, fathers, daughters and sons from lives come and gone and touching down on you. Guiding you. What do you hear ? Don't usher a word. Keep it close and let it stay with you, and you alone.
+
+Once you start to crave lunch I would recommend you head up to a place called Monk Bodhi Dharma. You should be able to catch a tram from Brighton Beach to within 500m walking distance. It's not far.
+
+THe address is 202 Carlisle St, Balaclava (03) 9534 7250 _(yes, the irony, I know - the word Carlisle has come back to haunt me !)_. Although this is a vegetarian restaurant, it's amazing.
+
+Plan the rest of your day to relax and just walk around. 
+2 Pier St, Port Melbourne
  
 
 
@@ -332,11 +342,13 @@ Head down to Brighton Beach front and get your camera ready. Sadly, in all the t
 
 # Jour 13 - Hobart
 
-# Jour 14 - Hobart 
+# Jour 14 - Adelaide
 
-# Jour 15 Adelaide
+# Jour 15 - Adelaide
 
-# Jour 16 Adelaide
+# Jour 16 - Home
+
+Spend the day at home and just relax. Don't do anything. 
 
 
 01fri - adelaide, alice springs
