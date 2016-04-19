@@ -356,24 +356,22 @@ When you finish up get yourself over to the Botanic Gardens _(if you haven't wor
 
 _(Just a side note, Melbourne is difficult to write about because so much has change since I last visited there. I wish I could re-explore it again and show you all these wonderful things and discover new points of interest with you.)_
 
+Go grab something for dinner when you're ready near the Star City Casino. If your hotel is along the way then stop in there to change your shoes and dress. Put something a bit fancy on and get ready to blow $50. Physically take $50 with you, no more. 
 
+After dinner, head on in, and spend $1 here and $2 there. Try a new game you've never quipped your hand at before. Lose or win it's all in the spirit of fun and holiday. Don't give in to anything. Risk is your maiden and she will play your hand to her best turn.
 
 
 # Jour 11 - Melbourne
 
-# Jour 12 - Hobart 
-
-# Jour 13 - Hobart
-
-# Jour 14 - Adelaide
+# Jour 12 - Adelaide
 
 Wake up and kiss me good morning. Get dressed, and head out. You're on your way to see some amazing things today.
 
 You'll be headed to the hills
 
-# Jour 15 - Adelaide
+# Jour 13 - Adelaide
 
-# Jour 16 - Home
+# Jour 14 - Home
 
 Spend the day at home and just relax. Don't do anything. I'll come over and give you head rubs, hand rubs, leg rubs, and all kinds of rubs. 😉
 
