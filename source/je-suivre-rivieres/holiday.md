@@ -88,6 +88,7 @@ Catch a cab and head back to your hotel, or walk around a bit more. Just remembe
 You'll get more intimate with Brisbane tomorrow. Good night and sweet dreams 😘🌙✨
 
 # Jour Trois
+
 Get up and go get your free continental breakfast. Don't worry too much if the food is crap. It shouldn't be, should it ? Our first stop for the day is the GOMA _(Gallery of Modern Art)_. _(Don't you just love every museum or art gallery that ends in *-OMA* ? I do !_ 😊_)_
 
 Wander gracefully the halls and don't forget to grab a map of the venue from the lovely lady at the front counter. It will help you around GOMA. It's an extensive venue.
@@ -146,9 +147,13 @@ Sit up and enjoy the rest of your wine. Have you sprayed yourself with Aerogard 
 
 Once the moon is either seen (or unseen) it's time to go. Get up and head back on down to your hotel. Tomorrow you're going somewhere else again. Take heed to my words, please don't rush off to a pub or something. It's not about the nightlife, it's all about capturing the prosperity of each moment you enjoy.
 
-# Jour Quatre
+# Jour Quatre - Gold Coast
 
-# Jour Sangt
+Spend the day at Wet'n'Wild. I can't instruct you any further as I don't know the Gold Coast better than this.
+
+# Jour Sangt - Gold Coast
+
+Spend the day at another theme park. The one with the Tower of Terror. Fly out to Sydney tomorrow morning.
 
 # Jour Six - Sydney
 
@@ -297,6 +302,27 @@ After the show, I want you to go back to your hotel and grab your bag. We're goi
 You will be missed, but not forgotten. 
 
 # Jour Neuf - Melbourne
+
+You'll arrive in Melbourne the night before, so get your bag and head to your hotel. They have busses that take you from the airport directly to the city.
+
+Melbourne was my home for a part of my life and therefor shares a special place in my heart where the sign above the door simply says "Home".
+
+Between Dendy St and Were St is our first destination after breakfast. This is where you can find the iconic Brighton Bathing Houses.
+
+[brighton beach houses]
+
+But first, let's get you fed. Melbourne is the most cultured city in all of Australia, and honestly if I were to ever leave Adelaide, I would hope that it would be with someone who wanted to settle in Melbourne above all - this is the sister city to Adelaide that we often forget.
+
+Get yourself on to Manchester Press. It's down a laneway off Little Bourke St. Grab a coffee, ask for something cool on your latte art, anything with the word 'bagel' in the title and a table for yourself. This place is amazing.
+
+Fed and fat, get yourself directions from someone. I'm not going to tell you where to go, because Melbourne is nice like that. Everyone will either help or not know. I do hope you didn't ever need to ask for directions in Sydney. They probably gave you the wrong way, or the long way. Everyone there is rude or only out for whatever they can get. Don't trust them. The only person I sent you do, was Tempest, because she is very dear to me and I trust you in her time, as her time in yours.
+
+Head down to Brighton Beach front and get your camera ready. Sadly, in all the time I spent in Melbourne, which I do believe was longer than 6 months, I never went to see these amazing pieces of art.
+
+ 
+
+
+
 
 # Jour Dix - Melbourne
 
