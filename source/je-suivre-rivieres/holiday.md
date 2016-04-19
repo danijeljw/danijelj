@@ -422,11 +422,22 @@ Head down to the cafe you like downstairs. Have breakfast then come back and get
 
 Before the day starts, let's stretch those muscles. I'm sure they're pretty tense by this stage. There's a golf driving range along Tapley's Hill Road. It'll cost you about $18 for a bucket of 50 balls _(from memory)_ and you can smash them out as far as they go. Don't be discouraged if you suck. I am actually trained in the sport of golf by a PGA member. 🏌
 
-Today I'm sending you on a long arse treck to the St Kilda Playfround
+Today I'm sending you on a long arse treck to the St Kilda Playground. Here I want you to relive any memories you always wanted to create as a child. Open your mind's bank, search your memories and re-create them; this time just for you. Play Chasey. Play Pirates. Play Tag. Play The Ground Is Made Of Lava. Play Cooties. Play Ronald McDonald (A Biskah, A Biskah). Play My Mother Your Mother. Play anything everything you so desire. I'm teaching you to savour time. Grow wise with time, before you grow old with time. There's always time to be old. Watch the children and adults play. Do you want this happiness captured just for yourself ? If so, reach out and grab it. Take love into your heart where love can be given without needing to take. Do you want to come back here one day ? Dream up a time in the future you'd like to come here once more. Maybe you'll have a husband. Maybe a dog. Maybe you'll be a gay dad or some child's other dad. Technically, you're both going to be dad to any child. Dream it, wish it, and speak it in your mind to the winds to take away from you and let the Universe play her part in making some wishes come true.
 
+About 30 mins from where you are you can find a restaurant at 65 Hyde St in Adelaide called Seoul Restaurant. Not a very inventive name, but fill your stomach on some Korean culture.
 
+This afternoon I want actually walk around your own city. Learn it again like a tourist and take photos of everything and anything. You miss a love when you take it for granted. I guess I've talked a lot about love in this journey with you, but there's a special lesson to learn in this pattern of behaviour. Actually explore it. Find new things. See if you can't find the big brushy flowers on the banks of the Torrens. Take a paddleboat drive. Sit at a cafe along the banks enjoying a wine. Practice a dance in the gazebo. Stop in for a beer at some pub you've never looked at. Walk down that side alley and see what you find.
 
+Learn to rediscover. Learn to reinvent. Learn to fall in love one more time.
+
+There's a special restaurant with a menu prepared just for you. It's somewhere in St Clair. Make sure you use the special SMS notification service to let them know you're on your way about 30 mins prior and they'll get ready for you the last meal of this journey. Don't skip out on the dessert - ice-cream. This time, you'll find it's a speciality ice-cream made just for you using white chocolate.
+
+Say goodbye and kiss your chef _(yes, kiss your chef !)_. Head on back to "My Home" and spend the night just sitting on your balcony and reflect on what has just been. Now think to the future and enjoy a smoke to yourself. The couch is calling you.
 
 # Jour 14 - Home
 
 Spend the day at home and just relax. Don't do anything. I'll come over and give you head rubs, hand rubs, leg rubs, and all kinds of rubs. 😉
+
+Written with something special,
+for someone special,
+Danijel James
