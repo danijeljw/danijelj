@@ -161,6 +161,18 @@ Grab your coffee and muffin and head over the road to the building behind you. T
 Once out the other side I hope you've try and remember if you saw the clock. If not, go back in and take any of the stairs to the next level. Walk until you are in front of that amazing timepiece. It's old. really old. And did you stop and stare at the central dome just after Zumbo's ? No. Well, I'm glad you're reading this before you go. Stop and stare at the dome above you in the centre - magnificent. History time ! There's a time  capsule up there somewhere that was laid by Queen Elizabeth II herself, but over time the records that told us where it was and all the people alive to remember have now forgotten and so it is gone. One day they may recover such a prize to share with the world.
 
 Open your GPS and head to the Opera House. Become intimate with her my dear. Her father entrusted (her) to our hands from birth. The mother is that man you see to your right. That woman to your left. And those children that surround you. We are all her mother.
+
+Go up to the gap between the sails, and touch her surface. It's smooth and scaly like a snake. Amazing. We'll become more intimate with her at a later stage. Pose with her and take photos of other people posing. Become part of history that is the lives of so many and make an impression that will last the tests of time.
+
+Once you've finished here, walk off to the left and into the Botanical Gardens. This is my second most favourite spot in all of Sydney. Walk along the water and into the gardens themselves. Set yourself out to explore. Find a map and make your way to the Succulent Garden. Get yourself up and around to Mrs Macquaries Point before you depart. This is a wondrous sunset location. The sun sets behind the Opera House and the Harbour Bridge, depending on which day you decide to go down and watch.
+
+Head back toward to the city, it's time for lunch. I'm going to make you head back to a place in the heart of the city for lunch. It's a long walk. Don't complain. You'll be going to Encasa Deli. They're a Spanish based deli. Literally taken right out of the heart of any Spanish-speaking country and plomped smack-bang in the middle of Sydney. Get down there by 12, order anything with chorizo. You'll love it. Take a seat and enjoy. Don't forget to try their glorified softdrink called Inca Cola. Yummy !
+
+
+
+
+
+
 Observatory Hill, the sun sets off to the right, but I don't give a shit. That's not why I dragged you up here for. I want you to see the lovers future. See how the lights twinkle ? This, yes the twinkling, this my dear, what you see, is the burning fire between two lovers entwined for all eternity in passion that transcends heavens to the burning hells and beyond.
 
 # Jour Sept - Sydney
