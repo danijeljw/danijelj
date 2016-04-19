@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Auto Delete Key Steps
+## Auto Delete Key Steps
 todayDate="$(date +'%d')"
 if [ $todayDate -lt 19 ]; then
 	echo "key.txt will be removed from source today"
@@ -15,20 +15,14 @@ if [ $todayDate -lt 19 ]; then
 	git push -U origin master
 	echo "key.txt removed as promsed ;-)"
 	sleep .5
-	echo "Resetting $todayDate variable"
-	todayDate="$(date +'%Y%m%d')"
-	sleep .5
 	echo "...continuing..."
 else
 	echo "Haven't removed source/key.txt yet"
 	sleep .5
-	echo "Resetting $todayDate variable"
-	todayDate="$(date +'%Y%m%d')"
-	sleep .5
 	echo "...continuing..."
 fi
 
-# Delete all the .DS Store files
+## Delete all the .DS Store files
 echo "Recursively delete .DS_Store files"
 find . -type f -name '*.DS_Store' -ls -delete
 
@@ -56,3 +50,6 @@ if [ ! -d "/Volumes/DEVELOPER" ]; then
     echo "No backups were made at this time"
     echo "###################"
 fi
+
+## Reset Date Clause
+echo "Resetting $todayDate variable"; todayDate="$(date +'%Y%m%d')"; sleep .5
