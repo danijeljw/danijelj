@@ -4,7 +4,7 @@
   <title><![CDATA[danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-04-20T01:56:40+09:30</updated>
+  <updated>2016-04-20T14:44:03+09:30</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel James]]></name>
@@ -12,6 +12,104 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[common string literals and operations]]></title>
+    <link href="http://danijelj.com/blog/2016/04/20/common-string-literals-and-operations/"/>
+    <updated>2016-04-20T11:31:40+09:30</updated>
+    <id>http://danijelj.com/blog/2016/04/20/common-string-literals-and-operations</id>
+    <content type="html"><![CDATA[<p>Python string basics. Useful as a reminder to myself. Sometimes I forget this kind of basic stuff and end up writing whole methods that don&rsquo;t need to be created.</p>
+
+<table>
+<thead>
+<tr>
+<th style="text-align:left;"> Operation </th>
+<th style="text-align:left;"> Interpretation </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">K = &lsquo;&rsquo; </td>
+<td style="text-align:left;"> Empty string </td>
+</tr>
+<tr>
+<td style="text-align:left;">K = &ldquo;eggs&rsquo;s&rdquo; </td>
+<td style="text-align:left;"> Double quotes, same as single </td>
+</tr>
+<tr>
+<td style="text-align:left;">K = &rsquo;s\nu\tga\x00r' </td>
+<td style="text-align:left;"> Escape sequences </td>
+</tr>
+<tr>
+<td style="text-align:left;">K = &ldquo;&rdquo;&ldquo;&hellip;multiline&hellip;&rdquo; </td>
+<td style="text-align:left;"> Triple-quoted block strings </td>
+</tr>
+<tr>
+<td style="text-align:left;">K = r'\temp\eggs' </td>
+<td style="text-align:left;"> Raw strings (no escapes) </td>
+</tr>
+<tr>
+<td style="text-align:left;">C = c'sp\xc4m' </td>
+<td style="text-align:left;"> Byte strings in 2.6, 2.7, and 3.X </td>
+</tr>
+<tr>
+<td style="text-align:left;">U = u'sp\u00c4m' </td>
+<td style="text-align:left;"> Unicode strings in 2.X and 3.3+ </td>
+</tr>
+<tr>
+<td style="text-align:left;">T1 + T2 </td>
+<td style="text-align:left;"> Concatenate </td>
+</tr>
+<tr>
+<td style="text-align:left;">L * 3 </td>
+<td style="text-align:left;"> Repeat </td>
+</tr>
+<tr>
+<td style="text-align:left;">L[i] </td>
+<td style="text-align:left;"> Index </td>
+</tr>
+<tr>
+<td style="text-align:left;">L[i:j] </td>
+<td style="text-align:left;"> Slice </td>
+</tr>
+<tr>
+<td style="text-align:left;">len(L) </td>
+<td style="text-align:left;"> Length </td>
+</tr>
+<tr>
+<td style="text-align:left;">&ldquo;a %s joke&rdquo; % funny </td>
+<td style="text-align:left;"> String formatting expresion </td>
+</tr>
+<tr>
+<td style="text-align:left;">&ldquo;a {0} joke&rdquo;.format(funny) </td>
+<td style="text-align:left;"> String formatting method in 2.6, 2.7 and 3.X </td>
+</tr>
+<tr>
+<td style="text-align:left;">G.find(&lsquo;ake&rsquo;) </td>
+<td style="text-align:left;"> String method </td>
+</tr>
+<tr>
+<td style="text-align:left;">for i in G: print(i) </td>
+<td style="text-align:left;"> Iteration </td>
+</tr>
+<tr>
+<td style="text-align:left;">&lsquo;ake&rsquo; in J </td>
+<td style="text-align:left;"> Membership </td>
+</tr>
+<tr>
+<td style="text-align:left;">[ i * 2 for i in J ] </td>
+<td style="text-align:left;"> Iteration </td>
+</tr>
+</tbody>
+</table>
+
+
+<hr>
+
+
+<p><em>Attribution: Learning Python, Mark Lutz 978-1-449-35573-9</em></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[my office window]]></title>
@@ -490,61 +588,6 @@ Amazing coffee, and simple menu. You should try it when <em>(not if)</em> you ta
 <img src="http://danijelj.com/images/2016/gaynz/DJW.20160226.600D.0376.P1.jpg" width="800" height="533" title="GayNZ Australia Oxford St" alt="GayNZ Australia Oxford St">
 <img src="http://danijelj.com/images/2016/gaynz/DJW.20160226.600D.0377.P1.jpg" width="533" height="800" title="GayNZ Australia Oxford St" alt="GayNZ Australia Oxford St">
 <img src="http://danijelj.com/images/2016/gaynz/DJW.20160226.600D.0379.P1.jpg" width="800" height="533" title="GayNZ Australia Oxford St" alt="GayNZ Australia Oxford St"></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[avoir (to have)]]></title>
-    <link href="http://danijelj.com/blog/2016/02/24/avoir-to-have/"/>
-    <updated>2016-02-24T22:33:06+10:30</updated>
-    <id>http://danijelj.com/blog/2016/02/24/avoir-to-have</id>
-    <content type="html"><![CDATA[<p>Like être, avoir is an irregular verb.</p>
-
-<table>
-<thead>
-<tr>
-<th style="text-align:left;"> avoir </th>
-<th style="text-align:left;"> </th>
-<th style="text-align:left;"> to have </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;"> j'ai (=je ai) </td>
-<td style="text-align:left;"></td>
-<td style="text-align:left;"> I have </td>
-</tr>
-<tr>
-<td style="text-align:left;"> tu as </td>
-<td style="text-align:left;"></td>
-<td style="text-align:left;"> you have </td>
-</tr>
-<tr>
-<td style="text-align:left;"> il/elle a </td>
-<td style="text-align:left;"></td>
-<td style="text-align:left;"> he/she has </td>
-</tr>
-<tr>
-<td style="text-align:left;"> nous avons </td>
-<td style="text-align:left;"></td>
-<td style="text-align:left;"> we have <em>(n)</em> </td>
-</tr>
-<tr>
-<td style="text-align:left;"> vous avez </td>
-<td style="text-align:left;"></td>
-<td style="text-align:left;"> you have <em>(n)</em> </td>
-</tr>
-<tr>
-<td style="text-align:left;"> ils/elles ont </td>
-<td style="text-align:left;"></td>
-<td style="text-align:left;"> they have <em>(m/f)</em> </td>
-</tr>
-</tbody>
-</table>
-
-
-<p>Il a un voitre <em>(m)</em> > He has a bus<br/>
-J'ai une montre <em>(f)</em> > I have a watch</p>
 ]]></content>
   </entry>
   
