@@ -76,7 +76,7 @@ I want you to particularly walk slowly through the Spectacle Garden. This is mos
 
 Sift around the rest of the gardens and don't hesitate to take a pen and paper from your bag and write a wish on there. Just one wish. Try for something simple and sweet. Anything you want. Find the most beautiful flower you can by sight and smell. Do you remember that wish ? I want you to bury the paper right under the plant the flower so does bloom from. Thank the flower and be on your way. It's time for getting to the motel and you'll probably need a shower and to relax a bit.
 
-Yes, I did say "chapstick" up earlier. I hope you're drinking plenty of water, wear sunscreen and have chapstick on. Preferably Burt's Bees Wax. The one with mint. It's sassy (like you) !
+Yes, I did say "chapstick" up earlier. I hope you're drinking plenty of water, wear sunscreen and have chapstick on. Preferably Burt's Bees Wax. The one with mint. It's sassy _(like you)_ !
 
 Dinner is your next stop, and I'm assuming it's late in the afternoon now.
 
