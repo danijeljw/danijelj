@@ -196,9 +196,11 @@ Thank her for the time she's disposed to you and go over to the MoMA. Head up to
 
 Finish up here _(don't tip the waitress)_, and get ready to walk around The Rocks. Explore Dawes Point and just before you get to Hickson Road Reserve I want you to find this place:
 
-{% img /images/jake_holiday/23429225532_f44811f863_z.jpg 640 640 %}
+{% img /images/jake_holiday/dawespoint_lookout.png 616 616 'dawes point lookout' 'dawes point lookout' %}
 
 Sit down there, and reflect on these words:
+
+{% img /images/jake_holiday/23429225532_f44811f863_z.jpg 640 640 %}
 
 >Look at this my dear, is it not most beautiful thing you have seen ? There in his hand, was the photo he first saw of her before seeing her. It was then, he knew he would always share his heart with her for eternity. Not even the sight of the Opera House, in all her majesty, could distract her gaze from where his love was drawn.
 
@@ -258,6 +260,8 @@ It's not as scary as you think, don't worry, I'm not sending you into any immine
 
 The Kings Cross Coke Sign. Yay !
 
+{% img /images/jake_holiday/6219813008_7974b20093_z.jpg 640 480 %}
+
 Get back to the station and head to Circular Quay. Don't wander too far in any direction from where you are but more so directly back to the station. You're safe in this area unless someone who knows their shit is with you. I don't want you to get in harms way. I will take you one day through this area and show you amazing things.
 
 Once back at Circular Quay, head around to the Opera House, and enjoy just the sounds and sights of people. You should notice an underground level as you approach the landmark ? Go down there.
@@ -283,6 +287,8 @@ Did you wonder why I wanted you to order the coffee in a takeaway cup ? Probably
 Hold the cup up against the backdrop of the cafe and take a photo with the rabbit facing you. Fancy, 'eh ? Post it to instagram. Be a lil' chic. Sassy !
 
 Get up and head back out to the main strip, thank the staff and leave. You're now heading to where weddings are made. Further along the road is a hidden garden, sunken into the ground referred to as the Paddington (Sunken) Reservoir Gardens. It's totally hidden from sight. This is important because where you can actually see that beauty cannot be held in the eye, but only through bending of the light.
+
+{% img /images/jake_holiday/1973835_10204056531666739_3468126728923794709_o.jpg 800 533 'sunken gardens' 'sunken gardens' %}
 
 I know you can catch a bus to get here, but I want you to walk on the right side of the road and observe the shops on the left as you go past. On your right you will be passing a few funky stores, shops and bars. One of the funnest clubs on a Saturday night used to be here, but the society that rules Oxford St didn't support it well enough during the early times so it closed down. Up over an intersection somewhere ahead there should appear a fort wall of a kind. This is the old barracks. As you cross the sidestreet turn around behind you there's a 7-Eleven, and my old campus COFA behind that. Wave. Walk on by. Past the end of the barracks will be the Library and a small open plan park. Cross into the park and you'll see a bridge up on the far right in the corner. Step out onto it and look beneath you to see the hidden gem we've found. 
 
