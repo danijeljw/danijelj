@@ -23,7 +23,7 @@ Get on down, back in your car and head to Hanuman Alice Springs. Don't complain.
 
 Earth Sanctuary World Nature Centre is where you'll be heading this evening. So maybe have some down time and walk around, enjoy a glass. Go to the Anzac Hill lookout. Just don't overwork yourself.
 
-I hope you read this ahead of time, now you should have made a booking with the aforementioned venue. _(Their phone number is _(08) 8953 6161_, in case your need it !)_ Meet up with the rest of the folk and go out exploring the stars. See the jewels spread across the sky. Spend your time in awe and capturing the beauty of the heavens shining down on you.
+I hope you read this ahead of time, now you should have made a booking with the aforementioned venue. _(Their phone number is _(08) 8953 6161_, in case your need it !)_ Meet up with the rest of the folk and go out exploring the stars 🔭. See the jewels spread across the sky. Spend your time in awe and capturing the beauty of the heavens shining down on you.
 
 >Do you remember ? Remember when you were made of the same stuff as I ? Were were once stardust my dear. We come from dust and return to dust - in the heart of stars eternally.
 
@@ -230,13 +230,13 @@ Get up in the morning and make your way to Le Monde Cafe @ 83 Foveax St, Surry H
 
 Great. Now you're fed up and ready to go ? I hope so !
 
-Today we're going to the Hornby Lighthouse. This place is honestly a bit of a shit to get to. I wanted to take you to Wedding Cake Rock, but I think I'll save that for when I travel with you to Sydney as you need to trek through open land, forests and beaches and to be brutally honest, I wouldn't trust you to not get hurt by way of a venomous snake or spider without the proper person _(moi)_ to guide you through the terrain. There are no maps of any kind that will guide you as the Govt. decided people shouldn't go there. That won't stop me bringing you there one day. They say that when lovers go together to Wedding Cake Rock, within a year they'll be married. _(giggle, OK, I just gave up my reason to want to take you there myself)_.
+Today we're going to the Hornby Lighthouse. This place is honestly a bit of a shit to get to. I wanted to take you to Wedding Cake Rock, but I think I'll save that for when I travel with you to Sydney as you need to trek through open land, forests and beaches and to be brutally honest, I wouldn't trust you to not get hurt by way of a venomous snake or spider without the proper person _(moi)_ to guide you through the terrain. There are no maps of any kind that will guide you as the Govt. decided people shouldn't go there. That won't stop me bringing you there one day. They say that when lovers go together to Wedding Cake Rock, within a year they'll be married. _(\*giggle\* OK, I just gave up my reason to want to take you there myself 👬💍❤️)_.
 
 Get yourself to Circular Quay Station. From Le Monde I recommend going back to Central and catching the City Circle train. We're going to to this the easy way and catch a ferry to Watson's Bay.
 
 Once off the ferry, head to your left along the beach until you reach a point where the beach no longer traverses the shore and you've got to head up a set of stairs. Don't swim in this water, it's gross. Pass down Cove St, right at Victoria St, left at Cliff St. Follow the trail in front of you around on the left side. High above you'll see a secluded beach at some point. Lady Bay Beach. This is for nudists. Stop and have a perve. Who doesn't. Keep walking and eventually you'll come across the Hornby Lighthouse.
 
-{% img /images/jake_holiday/24434450093_52d5f83250_z.jpg 480 640 %}
+{% img /images/jake_holiday/24434450093_52d5f83250_z.jpg 480 640 '' '' %}
 
 Isn't she pretty ?
 
@@ -252,7 +252,7 @@ Keep walking by and you'll see on your GPS the Chinese Friendship Garden. Pay th
 
 One you finish up here it should be Friday which means the China Town Markets are on ! Whoop ! Whoop ! Navigate to Dixon St, and stop by all the stalls and marvel at the wonders. As you start to get hungry and it's closer to dinner time try something. I recommend the places with the longest lines around the middle of Dixon St where the cars sometimes drive. _(Unfortunately, I cannot remember the name of the place !)_
 
-Save room for dessert. I've got something special lined up for you. Past the northern end of Dixon St head over the intersection to discover a congregation of Asians _(ni hao)_ around N2 - scientific for Nitrogen. I've never been here because I wanted to take someone who would appreciate this as much as I knew I would. So unfortunately as much as I would like to be there with you to enjoy this, you'll have to savour it and tell me about it another time. It's ice-cream ! But not just any ice-cream ! It's science ice-cream !
+Save room for dessert. I've got something special lined up for you. Past the northern end of Dixon St head over the intersection to discover a congregation of Asians _(你好)_ around N2 - scientific for Nitrogen. I've never been here because I wanted to take someone who would appreciate this as much as I knew I would. So unfortunately as much as I would like to be there with you to enjoy this, you'll have to savour it and tell me about it another time. It's ice-cream ! But not just any ice-cream ! It's science ice-cream !
 
 Once you're done here you can head over to Kings Cross. Might I suggest taking the train from Town Hall headed to Bondi. Every train from Town Hall will stop at Kings Cross.
 
@@ -266,7 +266,15 @@ Get back to the station and head to Circular Quay. Don't wander too far in any d
 
 Once back at Circular Quay, head around to the Opera House, and enjoy just the sounds and sights of people. You should notice an underground level as you approach the landmark ? Go down there.
 
-Keep  walking until you come across Opera Bar. Stop in and try one of their cocktails. Do not hesitate to be a bit rough and push your way to the front. All the snobby people here are cunts. Light up a cigarette, stand as far to the edge as you can and enjoy your drink and let your ears fall on the conversations around you. Hear all the lost echoes in the sounds of travel, life, love and time. None of these people I can guarantee you will ever take life into their hands and hold it firmly. They just let go of the red balloon and defer it to fate. They failed to understand that fate is only what you let it be. Otherwise she has a cruel curse upon you and will just dangle the carrot. Once you're done, get back to your motel and have a peaceful sleep. Goodnight.
+Keep  walking until you come across Opera Bar. Stop in and try one of their cocktails. Do not hesitate to be a bit rough and push your way to the front.
+
+All the snobby people here are cunts. Light up a cigarette, stand as far to the edge as you can and enjoy your drink and let your ears fall on the conversations around you. Hear all the lost echoes in the sounds of travel, life, love and time. None of these people I can guarantee you will ever take life into their hands and hold it firmly. They just let go of the red balloon and defer it to fate. They failed to understand that fate is only what you let it be. Otherwise she has a cruel curse upon you and will just dangle the carrot.
+
+Turn around and admire the view. Here's a photo of what you should expect to see, my dear.
+
+{% img /images/jake_holiday/22804782917_7d3c5e0e79_z.jpg 640 246 '' 'enjoy the view Jake' %}
+
+Once you're done, get back to your motel and have a peaceful sleep. Goodnight &amp; sweet dreams 😘✨
 
 # Jour Huit
 
@@ -296,7 +304,9 @@ Scramble yourself down the stairway and influence yourself with this space. It m
 
 It must be getting close to a time when we can depart soon and go explore the beach across the ocean. Get on any bus headed back towards the city and make your way to Circular Quay. I want you to get the Manly Ferry. It's the only ferry service that is MASSIVE and you tap on _(you don't tap off the other end)_. Once you get there, get through the hustle bustle that is surrounding you and across the street and into the mall.
 
-Did you see that lighthouse across the bluff as you were out in the ocean to your right ? That's where I sent you yesterday. With the nudists and perverts. Love it.
+>Did you see that lighthouse across the bluff as you were out in the ocean to your right ? That's where I sent you yesterday. With the nudists and perverts. Love it.
+
+{% img /images/jake_holiday/walk_to_shellybeach.png 800 285 '' 'a simple map guiding you' %}
 
 Follow it to the other end. Here we have a beach that is truly beautiful and missed out by so many that live and die in this city as they travel just to the lowly Bondi. I'm not taking you to Bondi. It's a waste of your time. Explore the beach front. Did you wear thongs ? I entrust you to do so. Head to the right. Walk in the sand along the shore and let it touch your feet. Enjoy the sights and sounds of families, friends and foes. At the end of the beach you'll find a walkway. Travel along it and look beneath you from time to time to the rock pools, cemented pools, and the ocean. Isn't she majestic ? 
 
@@ -307,6 +317,8 @@ Does this remind you not of the jungles in the northern west of Australia ? Don'
 At the top it open out to a suburb. Step out onto the road and look back. Does this not remind you of the Reservoir Gardens, so much beauty hidden just under the covers, bend the light and you can see everything that there is to be held.
 
 Head back on down now. The afternoon must be creeping back up on us now. I hope you've enjoyed walking so far. The restaurants down the bottom of the way can be bypassed, we're heading for the the hidden little restaurant behind the mall. Once you're back at the beach follow it down until you can see Wentworth St. Head down and on the right there an opening which is well secluded. You might need their phone number. It's (02) 9977 1777. You're looking for Fishmongers Manly. Head on in, place your order, take a beer and discover a table. Try for outside in their eating area. I can personally vouch for this place with 5 stars. I hope you like seafood and don't complain.
+
+{% img /images/jakes_holiday/fishmongers_manly.png 800 335 %}
 
 Once you've finished eating pack up and go back to the wharf. We're heading back for Sydney. Try to push you way to the front of line to get on the boat. Get yourself a front row seat. It's important because as you sail into Sydney you can see the sun at a low angle against the Harbour Bridge and the Opera House. It should be close to sunset now.
 
@@ -437,6 +449,8 @@ Climb to the top and take a selfie on top of the world. Just don't fall !
 
 It's afternoon time and the place you're staying will be open for check-in. Head to the place you call "My Home". Shower and change. Soon you're going to be heading back to the hills, but this time to look out.
 
+{% img /images/jake_holiday/the_home.jpg 800 800 '' 'My Home' %}
+
 Grab a bottle of wine from your fridge. You might need a second person with you in case you can't drive after this to head "My Home" again. _(I put my hand up just then as I wrote this)_
 
 This time, set the GPS for Mount Lofty Scenic Rout, Crafers. Wear warm clothes.
@@ -453,7 +467,7 @@ Head down to the cafe you like downstairs. Have breakfast then come back and get
 
 Before the day starts, let's stretch those muscles. I'm sure they're pretty tense by this stage. There's a golf driving range along Tapley's Hill Road. It'll cost you about $18 for a bucket of 50 balls _(from memory)_ and you can smash them out as far as they go. Don't be discouraged if you suck. I am actually trained in the sport of golf by a PGA member. 🏌
 
-Today I'm sending you on a long arse treck to the St Kilda Playground. Here I want you to relive any memories you always wanted to create as a child. Open your mind's bank, search your memories and re-create them; this time just for you. Play Chasey. Play Pirates. Play Tag. Play The Ground Is Made Of Lava. Play Cooties. Play Ronald McDonald (A Biskah, A Biskah). Play My Mother Your Mother. Play anything everything you so desire. I'm teaching you to savour time. Grow wise with time, before you grow old with time. There's always time to be old. Watch the children and adults play. Do you want this happiness captured just for yourself ? If so, reach out and grab it. Take love into your heart where love can be given without needing to take. Do you want to come back here one day ? Dream up a time in the future you'd like to come here once more. Maybe you'll have a husband. Maybe a dog. Maybe you'll be a gay dad or some child's other dad. Technically, you're both going to be dad to any child. Dream it, wish it, and speak it in your mind to the winds to take away from you and let the Universe play her part in making some wishes come true.
+Today I'm sending you on a long arse treck to the St Kilda Playground. Here I want you to relive any memories you always wanted to create as a child. Open your mind's bank, search your memories and re-create them; this time just for you. Play Chasey. Play Pirates. Play Tag. Play The Ground Is Made Of Lava. Play Cooties. Play Ronald McDonald (A Biskah, A Biskah). Play My Mother, Your Mother. Play anything everything you so desire. I'm teaching you to savour time. Grow wise with time, before you grow old with time. There's always time to be old. Watch the children and adults play. Do you want this happiness captured just for yourself ? If so, reach out and grab it. Take love into your heart where love can be given without needing to take. Do you want to come back here one day ? Dream up a time in the future you'd like to come here once more. Maybe you'll have a husband. Maybe a dog. Maybe you'll be a gay dad or some child's other dad. Technically, you're both going to be dad to any child. Dream it, wish it, and speak it in your mind to the winds to take away from you and let the Universe play her part in making some wishes come true.
 
 About 30 mins from where you are you can find a restaurant at 65 Hyde St in Adelaide called Seoul Restaurant. Not a very inventive name, but fill your stomach on some Korean culture.
 
@@ -469,6 +483,9 @@ Say goodbye and kiss your chef _(yes, kiss your chef !)_. Head on back to "My Ho
 
 Spend the day at home and just relax. Don't do anything. I'll come over and give you head rubs, hand rubs, leg rubs, and all kinds of rubs. 😉
 
-Written with something special,
-for someone special,
-Danijel James
+Written with something special,  
+for someone special,  
+by Danijel James
+
+_PS - Have a safe &amp; fun holiday Jake_ 😘✈️🚗
+_PPS - Please return safely._
