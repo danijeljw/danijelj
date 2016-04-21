@@ -37,7 +37,7 @@ Take the car back to the airport and get ready. You're about to head off again. 
 
 Today you're departing or Brisbane. One you get there catch the train to the city. You'll need to grab a Brisbane GO card. Much like the SA transport card _(that I keep calling an Opal card)_ except it's better. Have you had anything to eat yet ? Of course not. Don't be stupid. I know you. Once you get to town the first stop is going to be finding a little laneway called *Little Burnett Lane*. There's a cafe here. _(Do you trust me ? I hope so. I trust these words. Hell, I'm the architect here !)_
 
-_(So, I was listening to Meat Loaf's - You Took The Words Out of My Mouth (Hot Summer Night) as I wrote this next part, so I felt it perfect that I adapt it for you here:)_
+_(So, I was listening to Meat Loaf's - You Took The Words Out of My Mouth (Hot Summer Night) as I wrote this next part, so I felt it perfect that I adapt it for you here !)_
 
 I'm imagining you've found the place yet ? No ? Well hurry along. You're supposed to be standing at BREW now. Grab your menu and start licking your lips.
 
