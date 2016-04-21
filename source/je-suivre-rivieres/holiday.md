@@ -172,6 +172,7 @@ Spend the day at another theme park. The one with the Tower of Terror. Fly out t
 Get off the plane at Domestic and head on down to the underground train station. You'll want to grab yourself an Opal card. Might I suggest you top it up with $30. I think the purchase price standard is $20, but ask them for an Opal card with $20. If they say "No", say back _"No, darling. That's right. I want a th-irty-doll-ah-O-pell-card, k thnx."_ Then snap your fingers.
 
 >Saaaaacuuurity. Got to go 👉
+>>Jake _(via iMessage 20.04.2016 20:29)_
 
 Get the train and head to Central. You're going to your motel. I would recommend a backpackers if you can deal with it. Don't spend an amount of money on accomodation you don't need. There's one just outside of Central to the right. Well, Central is such a stupid shape you wouldn't know what that means. Head up to the main concourse and go out to the carpark. It's at 509 Pitt St and it's called "Wake Up Sydney Central". Full mainly of international travellers on working holiday visa's. Stay away from the French. They stink.
 
