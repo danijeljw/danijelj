@@ -66,7 +66,7 @@ Order:
 - Large soy latte, no sugar
 - Small bottle of sparkling water
 
-Take your seat in the laneway and have them bring it out to you. You're on holiday. I hope you're camera is ready, take a happy snap and upload it to Instagram _(insert Anjelah Johnson saying "Sir don't lie, I can see..." quote here about not having instagram; yeah, I saw you liked a photo_ 😘_)_
+Take your seat in the laneway and have them bring it out to you. You're on holiday. I hope you're camera is ready, take a happy snap and upload it to Instagram _(insert Anjelah Johnson saying "Sir don't lie, I can see..." quote here about not having instagram; yeah, I saw you liked one of my photos_ 😘_)_
 
 Finish up your brunch. Feel full ? Good. We should be near midday now. I want you to get your way around to Roma Street Parkland. It's a beautiful park in the heart of Spring Hill _(or is it on the edge ?)_. We're going to take a walk around the 16 hectares of beautiful park and soak it all in.
 
