@@ -90,6 +90,8 @@ _(Side note, did you know that glass is the only chalice that lets you taste as 
 
 Don't stay for more than 2 drinks. That's all you need. We're going to head off for a walk along the banks of the river up north as you watch the lights dance over the beating stream. Soon you'll have Macrossan St on your left. Head up here, right on Diddams Ln, left on Boundary St. Now be careful to not get run over. I just want you to look at the intersection in front of you. You'll be at the south-west tip of Centenary Place. it's that the most ridiculous intersection ? Brisbane wasn't very well planned.
 
+{% img /images/jake_holiday/brisbane_trail.png 240 600 '' 'the trail I just told you' %}
+
 Catch a cab and head back to your hotel, or walk around a bit more. Just remember there are perverts in Brisbane on Sunday nights.
 
 You'll get more intimate with Brisbane tomorrow. Good night and sweet dreams 😘🌙✨
@@ -176,17 +178,29 @@ Get off the plane at Domestic and head on down to the underground train station.
 
 Get the train and head to Central. You're going to your motel. I would recommend a backpackers if you can deal with it. Don't spend an amount of money on accomodation you don't need. There's one just outside of Central to the right. Well, Central is such a stupid shape you wouldn't know what that means. Head up to the main concourse and go out to the carpark. It's at 509 Pitt St and it's called "Wake Up Sydney Central". Full mainly of international travellers on working holiday visa's. Stay away from the French. They stink.
 
-Have you had breakfast yet ? I presume not. Get your cash ready and head up George St until you reach the Galleries. As you cross Park St on the right you should see a long fucking line of people - police, lawyers, hippies, my ex-coworkers  _(if they listened to anything I ever said about good coffee)_ and any other city worker who knows good taste. Grab yourself a soy latte, no sugar, and anything you see upon the menu or in front of you. The muffins are divine. Pay the bitch. Don't ask her if it's a drug front and that's why they only take cash _(she's evil, she'll probably tell you to fuck off and then add you to her list of people to cast spells on at her cauldron at night)_. You've been warned!
+Have you had breakfast yet ? I presume not. Get your cash ready and head up George St until you reach the Galleries. As you cross Park St on the right you should see a long fucking line of people - police, lawyers, hippies, my ex-coworkers  _(if they listened to anything I ever said about good coffee)_ and any other city worker who knows good taste. Grab yourself a soy latte, no sugar, and anything you see upon the menu or in front of you. The muffins are divine. Pay the bitch. Don't ask her if it's a "drug front" and that's why they only take cash _(she's evil, she'll probably tell you to fuck off and then add you to her list of people to cast spells on at her cauldron at night)_. You've been warned!
 
-Grab your coffee and muffin and head over the road to the building behind you. This is the QVB. Walk through the main entrance and just take a moment with each step to take in the grandeur of this place. I spent nearly every morning Mon-Fri here having coffee and complaining about my day ahead. If you're feeling peckish for later, stop by Zumbo's in the middle of the building _(it's on the same floor you are on)_ and grab a cake for takeaway. I can't recommend anything, because they're all nice. You pick what you want.
+Grab your coffee and muffin and head over the road to the building behind you. This is the QVB.
+
+{% img /images/jake_holiday/theqvb.jpg 800 800 '' 'The Queen Victoria Building' %}
+
+Walk through the main entrance and just take a moment with each step to take in the grandeur of this place. I spent nearly every morning Mon-Fri here having coffee and complaining about my day ahead. If you're feeling peckish for later, stop by Zumbo's in the middle of the building _(it's on the same floor you are on)_ and grab a cake for takeaway. I can't recommend anything, because they're all nice. You pick what you want.
 
 Once out the other side I hope you've try and remember if you saw the clock. If not, go back in and take any of the stairs to the next level. Walk until you are in front of that amazing timepiece. It's old. really old. And did you stop and stare at the central dome just after Zumbo's ? No. Well, I'm glad you're reading this before you go. Stop and stare at the dome above you in the centre - magnificent. History time ! There's a time  capsule up there somewhere that was laid by Queen Elizabeth II herself, but over time the records that told us where it was and all the people alive to remember have now forgotten and so it is gone. One day they may recover such a prize to share with the world.
 
 Open your GPS and head to the Opera House. Become intimate with her my dear. Her father entrusted (her) to our hands from birth. The mother is that man you see to your right. That woman to your left. And those children that surround you. We are all her mother.
 
+{% img /images/jake_holiday/22804787417_32cf7e59b6_z.jpg 800 800 '' 'The Sydney Opera House (Her)' %}
+
 Go up to the gap between the sails, and touch her surface. It's smooth and scaly like a snake. Amazing. We'll become more intimate with her at a later stage. Pose with her and take photos of other people posing. Become part of history that is the lives of so many and make an impression that will last the tests of time.
 
-Once you've finished here, walk off to the left and into the Botanical Gardens. This is my second most favourite spot in all of Sydney. Walk along the water and into the gardens themselves. Set yourself out to explore. Find a map and make your way to the Succulent Garden. Get yourself up and around to Mrs Macquaries Point before you depart. This is a wondrous sunset location. The sun sets behind the Opera House and the Harbour Bridge, depending on which day you decide to go down and watch.
+Once you've finished here, walk off to the left and into the Botanical Gardens. This is my second most favourite spot in all of Sydney. Walk along the water and into the gardens themselves. Set yourself out to explore. Find a map and make your way to the Succulent Garden.
+
+{% img /images/jake_holiday/14830811130_f524a03ea8_z.jpg 640 427 '' 'succulents from the garden' %}
+
+Get yourself up and around to Mrs Macquarie's Point before you depart. This is a wondrous sunset location. The sun sets behind the Opera House and the Harbour Bridge, depending on which day you decide to go down and watch.
+
+{% img /images/jake_holiday/14843532322_901eec254b_z.jpg 640 427 '' 'sunset from Mrs Macquarie's Point' %}
 
 Head back toward to the city, it's time for lunch. I'm going to make you head back to a place in the heart of the city for lunch. It's a long walk. Don't complain. You'll be going to Encasa Deli. They're a Spanish based deli. Literally taken right out of the heart of any Spanish-speaking country and plomped smack-bang in the middle of Sydney. Get down there by 12, order anything with chorizo. You'll love it. Take a seat and enjoy. Don't forget to try their glorified softdrink called Inca Cola. Yummy !
 
@@ -318,7 +332,7 @@ At the top it open out to a suburb. Step out onto the road and look back. Does t
 
 Head back on down now. The afternoon must be creeping back up on us now. I hope you've enjoyed walking so far. The restaurants down the bottom of the way can be bypassed, we're heading for the the hidden little restaurant behind the mall. Once you're back at the beach follow it down until you can see Wentworth St. Head down and on the right there an opening which is well secluded. You might need their phone number. It's (02) 9977 1777. You're looking for Fishmongers Manly. Head on in, place your order, take a beer and discover a table. Try for outside in their eating area. I can personally vouch for this place with 5 stars. I hope you like seafood and don't complain.
 
-{% img /images/jakes_holiday/fishmongers_manly.png 800 335 %}
+{% img /images/jake_holiday/fishmongers_manly.png 800 335 %}
 
 Once you've finished eating pack up and go back to the wharf. We're heading back for Sydney. Try to push you way to the front of line to get on the boat. Get yourself a front row seat. It's important because as you sail into Sydney you can see the sun at a low angle against the Harbour Bridge and the Opera House. It should be close to sunset now.
 
