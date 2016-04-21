@@ -86,7 +86,7 @@ Their phone number is (07) 3229 1200 and you'll get to them at 123 Eagle St, Bri
 
 Honestly you don't even need to know what you're picking from the menu. Everything, and I mean this, is amazing. Ask your waitress to pick something for you based on what you don't eat, that way you can leave her open to opportunities. Let it be a surprise. You're on holidays anyway. Maybe pick a glass of New Zealand white from their menu. I want you to stay sober, so don't drink more than a glass. Wash it down with a glass of water and then head to the bar. You're in Brisbane bitch, it's time to crack out the cocktails. Yep ! I've brought you to a fucking amazing cocktail bar. Pick any two items from the menu _(except for an espresso martini, this isn't Sydney)_ and savour ever drop of flavour from the glass.
 
-_(Side note, did you know that glass is the only chalice that lets you taste as close to origin unless you use crystal! So for this reason, it was more commonly acceptable to say "transparent like glass" because crystal was out of reach from common folk!)_
+_(Side note, did you know that glass is the only chalice that lets you taste as close to origin unless you use crystal ! So for this reason, it was more commonly acceptable to say "transparent like glass" because crystal was out of reach from common folk !)_
 
 Don't stay for more than 2 drinks. That's all you need. We're going to head off for a walk along the banks of the river up north as you watch the lights dance over the beating stream. Soon you'll have Macrossan St on your left. Head up here, right on Diddams Ln, left on Boundary St. Now be careful to not get run over. I just want you to look at the intersection in front of you. You'll be at the south-west tip of Centenary Place. it's that the most ridiculous intersection ? Brisbane wasn't very well planned.
 
@@ -107,7 +107,7 @@ I want you to pay special attention to the following areas:
 - Australian Collection on Watermall Level - _all Australian art crap_
 - The World Turns out on the grass area out fron of the bistro - _sculptures, on the grass with a firecracker sticking out ya ass (get the joke ? no ? boo !)_
 
-Between 12noon and 15:00 the GONA Restaurant is open. You'll definitely need to make a booking in advance. This place is awesome, the food has been placed on the plate to make it look like art. Order the following:
+Between 12:00 and 15:00 the GONA Restaurant is open. You'll definitely need to make a booking in advance. This place is awesome, the food has been placed on the plate to make it look like art. Order the following:
 
 - Entree: Moreton Bay bug, apple, almonds, beach greens, lilly pilly
 - Mains: Wagyu, carrots, black garlic, spinach
@@ -115,19 +115,22 @@ Between 12noon and 15:00 the GONA Restaurant is open. You'll definitely need to 
 
 _(Note for the waitress - Don't Let Jake Fucking Change The Menu Choices I Have Made!!!)_
 
-I don't know what kind of wine would be great to go following the wagyu but not ruin your palate for the dessert. You'll probably be best to ask the waitress _(Don't forget to tip your waitress. -Lafayette [True Blood])_.
+I don't know what kind of wine would be great to go following the wagyu but not ruin your palate for the dessert. You'll probably be best to ask the waitress.
+
+>Don't forget to tip your waitress.  
+>>-Lafayette _[True Blood]_
 
 Have you seen everything ? I hope so. Try to arrive at the GOMA Restaurant with at least 40 mins before closing time. I would even recommend you make your booking for 2pm and spend the last hour there in the intimacy of the venue allowing the end of the hour to mark the closing of the restaurant and our departure.
 
 You should be feeling relaxed and invigorated by the art. Art is wonderful, enjoy it, soak it in, be inspired but don't walk away an art critique. Just let it flow over your mind and settle in deep.
 
-It's time to get yourself on down to Coles _(or Woolworths) and stock up on some stuff. I prefer Coles because of FlyBuys. You're going to need the following items:
+It's time to get yourself on down to Coles _(or Woolworths)_ and stock up on some stuff. I prefer Coles because of FlyBuys. You're going to need the following items:
 
 - Two breadsticks, medium length _(get it from Baker's Delight if you can, medium slice)_
 - Cuccumber
 - Cherry tomatoes
 - Fresh lettuce greens _(loose leaf)_
-- Cheese (Jarlesberg, from the service deli, 4 slices)_
+- Cheese _(Jarlesberg, from the service deli, 4 slices)_
 - Some slices of cold meat, maybe smoked ham and spanish serrano ham
 - Bottle of soda water
 - TeeVee Snacks
@@ -144,15 +147,17 @@ Hollow out your two mini baguettes or cut them lengthwise. I don't particularly 
 You'll be going on a picnic this evening. Hist ! Hark ! The night is very dark ! I do not know, but should not show, so hist ! Hist !
 
 
-I think there's 107 steps. You need to get up there early as it's coming the winter months now and the sun sets readily. Time is so you have enough time from your room to the bottom of the steps and about a 20 min climb. It's not as easy as it sounds. 😁 You're heading to Kagaroo Points Cliff. I want you to sit on your arse, in the grass, make your sandwiches slowly and watch the sunset over the city. This is a vantage point often wasted without soaking in the true beauty from above and below. Watch as the light glistens in the glass on the tall structures before you. Do you realise all the people in these buildings are missing out - but they don't care ? Spend your time here peacefully. Sip your wine. Make your sandwiches. Take photos. Laugh a little. Laugh a lot. Watch in awe. Do you know the light you're seeing right now reflected took a minimum of 8 minutes to reach your eyes. The light rays have probably spent the last 100,000 years bouncing around in the outer layers of the sun, bouncing from surface to surface until finally breaking free and travelling all the way through space, past Mercury, Venus, the clouds and sky, finally smashing against the glass panes before you and scattering across the void into your eye in a colourful explosion of the spectrum. There, it remains absorbed and communicated to your brain by a series of neurons into an image that you see at the back of your head.
+I think there's 107 steps. You need to get up there early as it's coming the winter months now and the sun sets readily. Time is so you have enough time from your room to the bottom of the steps and about a 20 min climb. It's not as easy as it sounds. 😁 You're heading to Kagaroo Points Cliff. I want you to sit on your arse, in the grass, make your sandwiches slowly and watch the sunset over the city. This is a vantage point often wasted without soaking in the true beauty from above and below. Watch as the light glistens in the glass on the tall structures before you. Do you realise all the people in these buildings are missing out - but they don't care ? Spend your time here peacefully. Sip your wine. Make your sandwiches. Take photos. Laugh a little. Laugh a lot. Watch in awe.
 
-_(Now do you know why I didn't want to hit the back of your head that day? I wish forever to the day you die, you to see the beauty of the world we live.)_
+Do you know the light you're seeing right now reflected took a minimum of 8 minutes to reach your eyes. The light rays have probably spent the last 100,000 years bouncing around in the outer layers of the sun, bouncing from surface to surface until finally breaking free and travelling all the way through space, past Mercury, Venus, the clouds and sky, finally smashing against the glass panes before you and scattering across the void into your eye in a colourful explosion of the spectrum. There, it remains absorbed and communicated to your brain by a series of neurons into an image that you see at the back of your head.
+
+_(Now do you know why I didn't want to hit the back of your head that day ? I wish from now until to the day you die, you to see the beauty of the world we live.)_
 
 Look up at the sky, see the blue ? Or do you see the dark coming of night ? It all depends on where you look. Behind up and over the hill from where you sit you should see the coming of night and afar the waning of day as the sun goes to rest for slumber.
 
 Sit up and enjoy the rest of your wine. Have you sprayed yourself with Aerogard yet ? I don't want you go and get bitten by mosquitos or anything like that. Soon the dark will come and steal this day from you, and bring forth the bugs that bite your arms and neck. _(I want to softly bite your arms and neck)_.
 
-Once the moon is either seen (or unseen) it's time to go. Get up and head back on down to your hotel. Tomorrow you're going somewhere else again. Take heed to my words, please don't rush off to a pub or something. It's not about the nightlife, it's all about capturing the prosperity of each moment you enjoy.
+Once the moon is either seen _(or unseen)_ it's time to go. Get up and head back on down to your hotel. Tomorrow you're going somewhere else again. Take heed to my words, please don't rush off to a pub or something. It's not about the nightlife, it's all about capturing the prosperity of each moment you enjoy.
 
 # Jour Quatre - Gold Coast
 
@@ -164,7 +169,11 @@ Spend the day at another theme park. The one with the Tower of Terror. Fly out t
 
 # Jour Six - Sydney
 
-Get off the plane at Domestic and head on down to the underground train station. You'll want to grab yourself an Opal card. Might I suggest you top it up with $30. I think the purchase price standard is $20, but ask them for an Opal card with $20. If they say "No", say back "No, darling. That's right. I want a th-irty-doll-ah-O-pell-card, k thnx." Then snap your fingers. Get the train and head to Central. You're going to your motel. I would recommend a backpackers if you can deal with it. Don't spend an amount of money on accomodation you don't need. There's one just outside of Central to the right. Well, Central is such a stupid shape you wouldn't know what that means. Head up to the main concourse and go out to the carpark. It's at 509 Pitt St and it's called "Wake Up Sydney Central". Full mainly of international travellers on working holiday visa's. Stay away from the French. They stink.
+Get off the plane at Domestic and head on down to the underground train station. You'll want to grab yourself an Opal card. Might I suggest you top it up with $30. I think the purchase price standard is $20, but ask them for an Opal card with $20. If they say "No", say back _"No, darling. That's right. I want a th-irty-doll-ah-O-pell-card, k thnx."_ Then snap your fingers.
+
+>Saaaaacuuurity. Got to go 👉
+
+Get the train and head to Central. You're going to your motel. I would recommend a backpackers if you can deal with it. Don't spend an amount of money on accomodation you don't need. There's one just outside of Central to the right. Well, Central is such a stupid shape you wouldn't know what that means. Head up to the main concourse and go out to the carpark. It's at 509 Pitt St and it's called "Wake Up Sydney Central". Full mainly of international travellers on working holiday visa's. Stay away from the French. They stink.
 
 Have you had breakfast yet ? I presume not. Get your cash ready and head up George St until you reach the Galleries. As you cross Park St on the right you should see a long fucking line of people - police, lawyers, hippies, my ex-coworkers  _(if they listened to anything I ever said about good coffee)_ and any other city worker who knows good taste. Grab yourself a soy latte, no sugar, and anything you see upon the menu or in front of you. The muffins are divine. Pay the bitch. Don't ask her if it's a drug front and that's why they only take cash _(she's evil, she'll probably tell you to fuck off and then add you to her list of people to cast spells on at her cauldron at night)_. You've been warned!
 
