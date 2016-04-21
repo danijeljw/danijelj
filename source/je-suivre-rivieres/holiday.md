@@ -23,7 +23,7 @@ Get on down, back in your car and head to Hanuman Alice Springs. Don't complain.
 
 Earth Sanctuary World Nature Centre is where you'll be heading this evening. So maybe have some down time and walk around, enjoy a glass. Go to the Anzac Hill lookout. Just don't overwork yourself.
 
-I hope you read this ahead of time, now you should have made a booking with the aforementioned venue. _(Their phone number is *08 8953 6161*, in case your need it!)_ Meet up with the rest of the folk and go out exploring the stars. See the jewels spread across the sky. Spend your time in awe and capturing the beauty of the heavens shining down on you. Do you remember ? Remember when you were made of the same stuff as I ? Were were once stardust my dear. We come from dust and return to dust - in the heart of stars eternally.
+I hope you read this ahead of time, now you should have made a booking with the aforementioned venue. _(Their phone number is _(08) 8953 6161_, in case your need it!)_ Meet up with the rest of the folk and go out exploring the stars. See the jewels spread across the sky. Spend your time in awe and capturing the beauty of the heavens shining down on you. Do you remember ? Remember when you were made of the same stuff as I ? Were were once stardust my dear. We come from dust and return to dust - in the heart of stars eternally.
 
 After the show head back to your motel for the night. You're gonna be packing up and starting Jour Duex soon.
 
@@ -31,7 +31,7 @@ After the show head back to your motel for the night. You're gonna be packing up
 
 Take the car back to the airport and get ready. You're about to head off again. Are you wearing fresh underwear ? I hope so ! 😜
 
-Today you're departing or Brisbane. One you get there catch the train to the city. You'll need to grab a Brisbane GO card. Much like the SA transport care _(that I keep calling an Opal card)_ except it's better. Have you had anything to eat yet ? Of course not. Don't be stupid. I know you. Once you get to town the first stop is going to be finding a little laneway called *Little Burnett Lane*. There's a cafe here. _(Do you trust me ? I hope so. I trust these words. Hell, I'm the architect here !)_
+Today you're departing or Brisbane. One you get there catch the train to the city. You'll need to grab a Brisbane GO card. Much like the SA transport card _(that I keep calling an Opal card)_ except it's better. Have you had anything to eat yet ? Of course not. Don't be stupid. I know you. Once you get to town the first stop is going to be finding a little laneway called *Little Burnett Lane*. There's a cafe here. _(Do you trust me ? I hope so. I trust these words. Hell, I'm the architect here !)_
 
 _(So, I was listening to Meat Loaf's - You Took The Words Out of My Mouth (Hot Summer Night) as I wrote this next part, so I felt it perfect that I adapt it for you here:)_
 
