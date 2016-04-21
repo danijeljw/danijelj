@@ -60,7 +60,7 @@ You just can't seem to decide.
 
 And so, let me take the words right out of your mouth and write them here. 😉 _(pub intended)_
 
-Order:
+**Order:**
 
 - Avocado on Toast add Egg - _w/ goats cheese ricotta mousse, fresh lemon_
 - Large soy latte, no sugar
