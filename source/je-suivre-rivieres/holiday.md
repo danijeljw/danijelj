@@ -23,7 +23,7 @@ Get on down, back in your car and head to Hanuman Alice Springs. Don't complain.
 
 Earth Sanctuary World Nature Centre is where you'll be heading this evening. So maybe have some down time and walk around, enjoy a glass. Go to the Anzac Hill lookout. Just don't overwork yourself.
 
-I hope you read this ahead of time, now you should have made a booking with the aforementioned venue. _(Their phone number is _(08) 8953 6161_, in case your need it!)_ Meet up with the rest of the folk and go out exploring the stars. See the jewels spread across the sky. Spend your time in awe and capturing the beauty of the heavens shining down on you.
+I hope you read this ahead of time, now you should have made a booking with the aforementioned venue. _(Their phone number is _(08) 8953 6161_, in case your need it !)_ Meet up with the rest of the folk and go out exploring the stars. See the jewels spread across the sky. Spend your time in awe and capturing the beauty of the heavens shining down on you.
 
 >Do you remember ? Remember when you were made of the same stuff as I ? Were were once stardust my dear. We come from dust and return to dust - in the heart of stars eternally.
 
