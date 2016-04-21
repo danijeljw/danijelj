@@ -29,6 +29,8 @@ I hope you read this ahead of time, now you should have made a booking with the 
 
 After the show head back to your motel for the night. You're gonna be packing up and starting Jour Duex soon.
 
+Sweet dreams !
+
 # Jour Deux - Brisbane
 
 Take the car back to the airport and get ready. You're about to head off again. Are you wearing fresh underwear ? I hope so ! 😜
