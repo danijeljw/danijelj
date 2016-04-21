@@ -4,7 +4,7 @@
   <title><![CDATA[danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-04-20T14:44:03+09:30</updated>
+  <updated>2016-04-21T14:08:44+09:30</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel James]]></name>
@@ -129,6 +129,108 @@
 <p><img src="http://danijelj.com/images/2016/04/19/20160419.iPhone6Plus.0659.jpg" width="800" height="600" title="my office window" alt="my office window"></p>
 
 <p>I hope your find a place to work, spending 1/3 of your adult life there, where the view is as beautiful as what I&rsquo;ve to share.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[create ram disk]]></title>
+    <link href="http://danijelj.com/blog/2016/04/18/create-ram-disk/"/>
+    <updated>2016-04-18T14:49:15+09:30</updated>
+    <id>http://danijelj.com/blog/2016/04/18/create-ram-disk</id>
+    <content type="html"><![CDATA[<h2>Disk Size</h2>
+
+<p>Size of RAM Disk is <code>z * 2048</code>, where <code>z</code> is represented in MB</p>
+
+<p>A 600MB RAM Disk would be: <code>1228800</code> <em>(That is: 600 * 2048 = 1228800)</em></p>
+
+<h2>Disk Formats Available:</h2>
+
+<table>
+<thead>
+<tr>
+<th style="text-align:left;"> Format </th>
+<th style="text-align:left;"> User Visible Name </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">ExFat </td>
+<td style="text-align:left;"> ExFAT </td>
+</tr>
+<tr>
+<td style="text-align:left;">free </td>
+<td style="text-align:left;"> Free Space </td>
+</tr>
+<tr>
+<td style="text-align:left;">MS-DOS </td>
+<td style="text-align:left;"> MS-DOS (FAT) </td>
+</tr>
+<tr>
+<td style="text-align:left;">MS-DOS FAT12 </td>
+<td style="text-align:left;"> MS-DOS (FAT12) </td>
+</tr>
+<tr>
+<td style="text-align:left;">MS-DOS FAT16 </td>
+<td style="text-align:left;"> MS-DOS (FAT16) </td>
+</tr>
+<tr>
+<td style="text-align:left;">fat32 </td>
+<td style="text-align:left;"> MS-DOS (FAT32) </td>
+</tr>
+<tr>
+<td style="text-align:left;">HFS+ </td>
+<td style="text-align:left;"> Mac OS Extended </td>
+</tr>
+<tr>
+<td style="text-align:left;">hfsx </td>
+<td style="text-align:left;"> Mac OS Extended (Case-sensitive) </td>
+</tr>
+<tr>
+<td style="text-align:left;">jhfsx </td>
+<td style="text-align:left;"> Mac OS Extended (Case-sensitive, Journaled) </td>
+</tr>
+<tr>
+<td style="text-align:left;">jhfs+ </td>
+<td style="text-align:left;"> Mac OS Extended (Journaled) </td>
+</tr>
+</tbody>
+</table>
+
+
+<h2>Keys</h2>
+
+<p><code>$x</code> speficied Format from table above
+<code>$y</code> speficied name of intended volume
+<code>$z</code> specified size of file <em>(once multiplied by 2028)</em></p>
+
+<h2>Mac OS X 10.8, 10.9, 10.10, 10.11</h2>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>diskutil erasevolume <span class="nv">$x</span> <span class="s1">&#39;$y&#39;</span> <span class="sb">`</span>hdiutil attach nomount ram://<span class="nv">$z</span><span class="sb">`</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Mac OS X 10.5, 10.6, 10.7</h2>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>diskutil erasevolume <span class="nv">$x</span> <span class="s1">&#39;$y&#39;</span> <span class="sb">`</span>hdiutil attach -nomount ram://<span class="nv">$z</span><span class="sb">`</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Mac OS X 10.4 and earlier</h2>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>hdid -nomount ram://<span class="nv">$z</span>
+</span><span class='line'>newfs_hfs /dev/disk1
+</span><span class='line'>mkdir /tmp/ramdisk1
+</span><span class='line'>mount -t <span class="nv">$x</span> /dev/disk1 /tmp/ramdisk1
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>In OS X 10.4 and earlier, to unmount the disk type: <code>hdiutil detach /dev/disk1</code></p>
 ]]></content>
   </entry>
   
@@ -565,29 +667,6 @@ Amazing coffee, and simple menu. You should try it when <em>(not if)</em> you ta
 
 
 <p>You can download the full-sized image here: <a href="http://danijelj.com/images/2016/pokemon20/20th_Logo_Primary_cmyk.jpg">Download Link (3.8mb)</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[anz goes gay for mardi gras]]></title>
-    <link href="http://danijelj.com/blog/2016/02/27/anz-goes-gay-for-mardi-gras/"/>
-    <updated>2016-02-27T00:34:15+10:30</updated>
-    <id>http://danijelj.com/blog/2016/02/27/anz-goes-gay-for-mardi-gras</id>
-    <content type="html"><![CDATA[<p><a href="https://anz.com">ANZ</a> is the bank that backs the Sydney Gay &amp; Lesbian Mardi Gras. This year they decided to go all out with their branch on Oxford St this year. Iconic.</p>
-
-<p><img src="http://danijelj.com/images/2016/gaynz/DJW.20160226.600D.0363.P1.jpg" width="800" height="533" title="GayNZ Australia Oxford St" alt="GayNZ Australia Oxford St">
-<img src="http://danijelj.com/images/2016/gaynz/DJW.20160226.600D.0365.P1.jpg" width="800" height="566" title="GayNZ Australia Oxford St" alt="GayNZ Australia Oxford St">
-<img src="http://danijelj.com/images/2016/gaynz/DJW.20160226.600D.0366.P1.jpg" width="800" height="533" title="GayNZ Australia Oxford St" alt="GayNZ Australia Oxford St">
-<img src="http://danijelj.com/images/2016/gaynz/DJW.20160226.600D.0368.P1.jpg" width="533" height="800" title="GayNZ Australia Oxford St" alt="GayNZ Australia Oxford St">
-<img src="http://danijelj.com/images/2016/gaynz/DJW.20160226.600D.0369.P1.jpg" width="533" height="800" title="GayNZ Australia Oxford St" alt="GayNZ Australia Oxford St">
-<img src="http://danijelj.com/images/2016/gaynz/DJW.20160226.600D.0370.P1.jpg" width="533" height="800" title="GayNZ Australia Oxford St" alt="GayNZ Australia Oxford St">
-<img src="http://danijelj.com/images/2016/gaynz/DJW.20160226.600D.0371.P1.jpg" width="800" height="533" title="GayNZ Australia Oxford St" alt="GayNZ Australia Oxford St">
-<img src="http://danijelj.com/images/2016/gaynz/DJW.20160226.600D.0373.P1.jpg" width="800" height="533" title="GayNZ Australia Oxford St" alt="GayNZ Australia Oxford St">
-<img src="http://danijelj.com/images/2016/gaynz/DJW.20160226.600D.0374.P1.jpg" width="800" height="533" title="GayNZ Australia Oxford St" alt="GayNZ Australia Oxford St">
-<img src="http://danijelj.com/images/2016/gaynz/DJW.20160226.600D.0375.P1.jpg" width="638" height="800" title="GayNZ Australia Oxford St" alt="GayNZ Australia Oxford St">
-<img src="http://danijelj.com/images/2016/gaynz/DJW.20160226.600D.0376.P1.jpg" width="800" height="533" title="GayNZ Australia Oxford St" alt="GayNZ Australia Oxford St">
-<img src="http://danijelj.com/images/2016/gaynz/DJW.20160226.600D.0377.P1.jpg" width="533" height="800" title="GayNZ Australia Oxford St" alt="GayNZ Australia Oxford St">
-<img src="http://danijelj.com/images/2016/gaynz/DJW.20160226.600D.0379.P1.jpg" width="800" height="533" title="GayNZ Australia Oxford St" alt="GayNZ Australia Oxford St"></p>
 ]]></content>
   </entry>
   

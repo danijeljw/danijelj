@@ -255,6 +255,133 @@ Apr 19th, 2016</div>
     <article class="post">
 	<h2 class="title">
 		
+		<a href="/blog/2016/04/18/create-ram-disk/">
+		
+			create ram disk</a>
+	</h2>
+	<div class="entry-content">
+		<h2>Disk Size</h2>
+
+<p>Size of RAM Disk is <code>z * 2048</code>, where <code>z</code> is represented in MB</p>
+
+<p>A 600MB RAM Disk would be: <code>1228800</code> <em>(That is: 600 * 2048 = 1228800)</em></p>
+
+<h2>Disk Formats Available:</h2>
+
+<table>
+<thead>
+<tr>
+<th style="text-align:left;"> Format </th>
+<th style="text-align:left;"> User Visible Name </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">ExFat </td>
+<td style="text-align:left;"> ExFAT </td>
+</tr>
+<tr>
+<td style="text-align:left;">free </td>
+<td style="text-align:left;"> Free Space </td>
+</tr>
+<tr>
+<td style="text-align:left;">MS-DOS </td>
+<td style="text-align:left;"> MS-DOS (FAT) </td>
+</tr>
+<tr>
+<td style="text-align:left;">MS-DOS FAT12 </td>
+<td style="text-align:left;"> MS-DOS (FAT12) </td>
+</tr>
+<tr>
+<td style="text-align:left;">MS-DOS FAT16 </td>
+<td style="text-align:left;"> MS-DOS (FAT16) </td>
+</tr>
+<tr>
+<td style="text-align:left;">fat32 </td>
+<td style="text-align:left;"> MS-DOS (FAT32) </td>
+</tr>
+<tr>
+<td style="text-align:left;">HFS+ </td>
+<td style="text-align:left;"> Mac OS Extended </td>
+</tr>
+<tr>
+<td style="text-align:left;">hfsx </td>
+<td style="text-align:left;"> Mac OS Extended (Case-sensitive) </td>
+</tr>
+<tr>
+<td style="text-align:left;">jhfsx </td>
+<td style="text-align:left;"> Mac OS Extended (Case-sensitive, Journaled) </td>
+</tr>
+<tr>
+<td style="text-align:left;">jhfs+ </td>
+<td style="text-align:left;"> Mac OS Extended (Journaled) </td>
+</tr>
+</tbody>
+</table>
+
+
+<h2>Keys</h2>
+
+<p><code>$x</code> speficied Format from table above
+<code>$y</code> speficied name of intended volume
+<code>$z</code> specified size of file <em>(once multiplied by 2028)</em></p>
+
+<h2>Mac OS X 10.8, 10.9, 10.10, 10.11</h2>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>diskutil erasevolume <span class="nv">$x</span> <span class="s1">&#39;$y&#39;</span> <span class="sb">`</span>hdiutil attach nomount ram://<span class="nv">$z</span><span class="sb">`</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Mac OS X 10.5, 10.6, 10.7</h2>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>diskutil erasevolume <span class="nv">$x</span> <span class="s1">&#39;$y&#39;</span> <span class="sb">`</span>hdiutil attach -nomount ram://<span class="nv">$z</span><span class="sb">`</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Mac OS X 10.4 and earlier</h2>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>hdid -nomount ram://<span class="nv">$z</span>
+</span><span class='line'>newfs_hfs /dev/disk1
+</span><span class='line'>mkdir /tmp/ramdisk1
+</span><span class='line'>mount -t <span class="nv">$x</span> /dev/disk1 /tmp/ramdisk1
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>In OS X 10.4 and earlier, to unmount the disk type: <code>hdiutil detach /dev/disk1</code></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Apr 18th, 2016</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
 		<a href="/blog/2016/04/11/providers-of-it-services/">
 		
 			providers of it services</a>
@@ -564,52 +691,6 @@ Mar 29th, 2016</div>
 
 
 Mar 18th, 2016</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/photography/'>photography</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2016/03/13/walking-caesar/">
-		
-			walking caesar</a>
-	</h2>
-	<div class="entry-content">
-		<p>It&rsquo;s 27°C and Cæsar 🐶 is at the back door slobbering all over the glass. He&rsquo;s just been given a new choke-chain this arvo by my mum &lsquo;cos he is a pretty big dog and can&rsquo;t be handled easily without some restraint. I&rsquo;ve decided to bring him down to the local dog park or &ldquo;Pooch Park&rdquo; as it&rsquo;s colloquially known.</p>
-
-<p><img src="/images/2016/03/2016.03.13_walking.caesar.png" width="906" height="604" title="Pooch Park Tedder Reserve" alt="Pooch Park Tedder Reserve"></p>
-
-<p>We get down there after I drove him in the car Ante <em>(the youngest of us 3 boys)</em> gave me, and Cæsar&rsquo;s 🐶 somehow slobbered all over my windows at this point, so out the car and off we go. A short run around the park and sniff and scratch we go for a walk down under the bridge and along the river front</p>
-
-<p><img src="/images/2016/03/DJW.20160313.iPhone6Plus.381710.jpg" width="800" height="450" title="Cæsar sitting on River Torrens waiting" alt="Cæsar, which way?"></p>
-
-<p><img src="/images/2016/03/DJW.20160313.iPhone6Plus.581759.jpg" width="640" height="800" title="secret hut made of sticks on the River Torrens, Adelaide" alt="secret hutch where children dream"></p>
-
-<p><img src="/images/2016/03/DJW.20160313.iPhone6Plus.170121.jpg" width="800" height="450" title="River Torrens with blue green algæ" alt="blue green algæ on the River Torrens"></p>
-
-<p><img src="/images/2016/03/DJW.20160313.iPhone6Plus.170223.jpg" width="800" height="800" title="poison toadstools" alt="poison toadstools 🍄💀"></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Mar 13th, 2016</div>
 	<div class="tags">
 
 

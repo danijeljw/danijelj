@@ -1,0 +1,233 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>create ram disk - danijelj [p.f.h]</title>
+	<meta name="author" content="Danijel James">
+
+	
+	<meta name="description" content="Disk Size Size of RAM Disk is z * 2048, where z is represented in MB A 600MB RAM Disk would be: 1228800 (That is: 600 * 2048 = 1228800) Disk Formats &hellip;">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="/atom.xml" rel="alternate" title="danijelj [p.f.h]" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script async="true" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+</head>
+
+
+<body>
+	<header id="header" class="inner"><h1><a href="/">danijelj [p.f.h]</a></h1>
+<nav id="main-nav"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="https://www.google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:danijelj.com">
+			</form>
+		</div>
+	</div>
+</nav>
+<nav id="sub-nav" class="alignright">
+	<div class="social">
+		
+		<a class="facebook" href="http://www.facebook.com/1027690367" title="Facebook">Facebook</a>
+		
+		
+		
+		<a class="twitter" href="http://twitter.com/danijeljames" title="Twitter">Twitter</a>
+		
+		
+    
+		
+		
+		
+		
+		
+		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
+		
+    
+    <a class="instagram" href="http://instagram.com/danijeljames" title="Instagram">Instagram</a>
+		
+	</div>
+	<form class="search" action="https://www.google.com/search" method="get">
+		<input class="alignright" type="text" name="q" results="0">
+		<input type="hidden" name="q" value="site:danijelj.com">
+	</form>
+</nav>
+
+</header>
+	
+		
+	
+	<div id="content" class="inner"><article class="post">
+	<h2 class="title">create ram disk</h2>
+	<div class="entry-content"><h2>Disk Size</h2>
+
+<p>Size of RAM Disk is <code>z * 2048</code>, where <code>z</code> is represented in MB</p>
+
+<p>A 600MB RAM Disk would be: <code>1228800</code> <em>(That is: 600 * 2048 = 1228800)</em></p>
+
+<h2>Disk Formats Available:</h2>
+
+<table>
+<thead>
+<tr>
+<th style="text-align:left;"> Format </th>
+<th style="text-align:left;"> User Visible Name </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">ExFat </td>
+<td style="text-align:left;"> ExFAT </td>
+</tr>
+<tr>
+<td style="text-align:left;">free </td>
+<td style="text-align:left;"> Free Space </td>
+</tr>
+<tr>
+<td style="text-align:left;">MS-DOS </td>
+<td style="text-align:left;"> MS-DOS (FAT) </td>
+</tr>
+<tr>
+<td style="text-align:left;">MS-DOS FAT12 </td>
+<td style="text-align:left;"> MS-DOS (FAT12) </td>
+</tr>
+<tr>
+<td style="text-align:left;">MS-DOS FAT16 </td>
+<td style="text-align:left;"> MS-DOS (FAT16) </td>
+</tr>
+<tr>
+<td style="text-align:left;">fat32 </td>
+<td style="text-align:left;"> MS-DOS (FAT32) </td>
+</tr>
+<tr>
+<td style="text-align:left;">HFS+ </td>
+<td style="text-align:left;"> Mac OS Extended </td>
+</tr>
+<tr>
+<td style="text-align:left;">hfsx </td>
+<td style="text-align:left;"> Mac OS Extended (Case-sensitive) </td>
+</tr>
+<tr>
+<td style="text-align:left;">jhfsx </td>
+<td style="text-align:left;"> Mac OS Extended (Case-sensitive, Journaled) </td>
+</tr>
+<tr>
+<td style="text-align:left;">jhfs+ </td>
+<td style="text-align:left;"> Mac OS Extended (Journaled) </td>
+</tr>
+</tbody>
+</table>
+
+
+<h2>Keys</h2>
+
+<p><code>$x</code> speficied Format from table above
+<code>$y</code> speficied name of intended volume
+<code>$z</code> specified size of file <em>(once multiplied by 2028)</em></p>
+
+<h2>Mac OS X 10.8, 10.9, 10.10, 10.11</h2>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>diskutil erasevolume <span class="nv">$x</span> <span class="s1">&#39;$y&#39;</span> <span class="sb">`</span>hdiutil attach nomount ram://<span class="nv">$z</span><span class="sb">`</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Mac OS X 10.5, 10.6, 10.7</h2>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>diskutil erasevolume <span class="nv">$x</span> <span class="s1">&#39;$y&#39;</span> <span class="sb">`</span>hdiutil attach -nomount ram://<span class="nv">$z</span><span class="sb">`</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Mac OS X 10.4 and earlier</h2>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>hdid -nomount ram://<span class="nv">$z</span>
+</span><span class='line'>newfs_hfs /dev/disk1
+</span><span class='line'>mkdir /tmp/ramdisk1
+</span><span class='line'>mount -t <span class="nv">$x</span> /dev/disk1 /tmp/ramdisk1
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>In OS X 10.4 and earlier, to unmount the disk type: <code>hdiutil detach /dev/disk1</code></p>
+</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Apr 18th, 2016</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
+
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+		
+		
+		<a class="addthis_button_tweet"></a>
+		
+		
+		
+	</div>
+	
+</div>
+
+
+</div>
+	<footer id="footer" class="inner">Copyright &copy; 2016
+
+    Danijel James
+
+</footer>
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+
+
+
+
+</body>
+</html>
