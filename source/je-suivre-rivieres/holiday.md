@@ -43,22 +43,22 @@ I'm imagining you've found the place yet ? No ? Well hurry along. You're suppose
 
 _(queue backing track)_
 
-You were licking your lips,
-and your chapstick shining.
-You were dying just to ask for coffee.
-You're just standing there in a laneway shop
-by the story I told you.
-You now there's not another moment,
-not another moment,
-not another moment to waste
+You were licking your lips,  
+and your chapstick shining.  
+You were dying just to ask for coffee.  
+You're just standing there in a laneway shop  
+by the story I told you.  
+You now there's not another moment,  
+not another moment,  
+not another moment to waste  
+  
+You hold the menu close that your eyes grow wide.  
+But your tongue is licking all over your lips.  
+You're trying to speak  
+But not matter what you do  
+You just can't seem to decide.  
 
-You hold the menu close that your eyes grow wide.
-But your tongue is licking all over your lips.
-You're trying to speak
-But not matter what you do
-You just can't seem to decide.
-
-And so, let me take the words right out of your mouth and write them here. 😉
+And so, let me take the words right out of your mouth and write them here. 😉 _(pub intended)_
 
 Order:
 
