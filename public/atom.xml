@@ -4,7 +4,7 @@
   <title><![CDATA[danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-04-22T01:08:57+09:30</updated>
+  <updated>2016-04-23T22:01:14+09:30</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel James]]></name>
@@ -12,6 +12,36 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[generate checksums]]></title>
+    <link href="http://danijelj.com/blog/2016/04/23/generate-checksums/"/>
+    <updated>2016-04-23T21:56:38+09:30</updated>
+    <id>http://danijelj.com/blog/2016/04/23/generate-checksums</id>
+    <content type="html"><![CDATA[<h3>Bash</h3>
+
+<p>Calculate MD5 checksum:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>md5 /tmp/1.iso
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Calculate SHA-1 checksum:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>shasum -a <span class="m">1</span> /tmp/1.iso
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Calculate SHA-256 checksum:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>shasum -a <span class="m">256</span> /tmp/1.iso
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[common string literals and operations]]></title>
@@ -653,20 +683,6 @@ Amazing coffee, and simple menu. You should try it when <em>(not if)</em> you ta
     <content type="html"><![CDATA[<p>Sometimes you get lucky, and that test shot happens to be a perfect image!</p>
 
 <p><img src="http://danijelj.com/images/2016/02/DJW.20160227.600D.0385.P1.jpg" width="800" height="533" title="perfect beach weather, Bondi Beach NSW" alt="perfect beach weather, Bondi Beach NSW 「DJW.20160227.600D.0385.P1」"></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[#pokemon20]]></title>
-    <link href="http://danijelj.com/blog/2016/02/27/pokemon20/"/>
-    <updated>2016-02-27T00:55:36+10:30</updated>
-    <id>http://danijelj.com/blog/2016/02/27/pokemon20</id>
-    <content type="html"><![CDATA[<p><a href="https://wikipedia.org/wiki/Pok%C3%A9mon">Pokémon (ポケモン)</a> first graced our <a href="https://wikipedia.org/wiki/Game_Boy">GameBoy</a> consoles on Feb 27, 1996 <em>(well, in Japan at least!)</em> Today we celebrate 20 Years of Pokémon gaming and hopefully another 20 years yet to come!</p>
-
-<div align="center"> <img src="http://danijelj.com/images/2016/pokemon20/articleImg_20th.jpg" width="602" height="429" title="Pokémon 20 Pikachu" alt="Pokémon 20 Pikachu"> </div>
-
-
-<p>You can download the full-sized image here: <a href="http://danijelj.com/images/2016/pokemon20/20th_Logo_Primary_cmyk.jpg">Download Link (3.8mb)</a></p>
 ]]></content>
   </entry>
   
