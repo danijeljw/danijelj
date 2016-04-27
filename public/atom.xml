@@ -4,7 +4,7 @@
   <title><![CDATA[danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-04-23T22:01:14+09:30</updated>
+  <updated>2016-04-27T11:26:17+09:30</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel James]]></name>
@@ -12,6 +12,70 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[update brew cask pkgs]]></title>
+    <link href="http://danijelj.com/blog/2016/04/27/update-brew-cask-pkgs/"/>
+    <updated>2016-04-27T11:03:52+09:30</updated>
+    <id>http://danijelj.com/blog/2016/04/27/update-brew-cask-pkgs</id>
+    <content type="html"><![CDATA[<p>Update brew packages:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>brew update
+</span><span class='line'>brew upgrade
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Update brew &amp; cask packages:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c">#!/usr/bin/env bash</span>
+</span><span class='line'>
+</span><span class='line'>rm -rf <span class="s2">&quot;$(brew --cache)&quot;</span>
+</span><span class='line'>brew update
+</span><span class='line'>brew cask update
+</span><span class='line'>
+</span><span class='line'><span class="k">for</span> app in <span class="k">$(</span>brew cask list<span class="k">)</span><span class="p">;</span> <span class="k">do</span>
+</span><span class='line'>  brew cask install --force <span class="s2">&quot;${app}&quot;</span>
+</span><span class='line'><span class="k">done</span>
+</span><span class='line'>
+</span><span class='line'>brew upgrade
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p><strong>source:</strong> _<a href="https://github.com/caskroom/homebrew-cask/issues/309_">https://github.com/caskroom/homebrew-cask/issues/309_</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[sunrise from mt lofty house]]></title>
+    <link href="http://danijelj.com/blog/2016/04/26/sunrise-from-mt-lofty-house/"/>
+    <updated>2016-04-26T11:16:54+09:30</updated>
+    <id>http://danijelj.com/blog/2016/04/26/sunrise-from-mt-lofty-house</id>
+    <content type="html"><![CDATA[<p>I wasn&rsquo;t feeling well on the weekend and so my dear brought me dinner last night and a random visit which seemed to <em>bump</em> me back into life and get me happy and alive again. No longer do I look or feel like death reheated.</p>
+
+<p>Not sure how to repay my dear, so I got up at 5:30 in the morning and went to Mt Lofty to see where I could find an amazing vantage point for the sunrise.</p>
+
+<p>I discovered Mt Lofty House. I might have to plan a secret weekend getaway for the two of us up there sometime in the folding cold of winter and steal my dear away.</p>
+
+<p><img src="http://danijelj.com/images/2016/04/26/20160426.iPhone6plus.0995.jpg" width="800" height="324"  alt="sunrise from Mt Lofty House on Tuesday"></p>
+
+<p>Captured three images, but this is the low-res version of one of them.</p>
+
+<p>Good morning everyone !</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[generate checksums]]></title>
@@ -652,37 +716,6 @@ Amazing coffee, and simple menu. You should try it when <em>(not if)</em> you ta
 <p>We stood there for a while as he taught me words like arbre, blanc, rouge, l’herb, verde. Recounting the objects around us, their names an the colors their transpire from. I still couldn’t say arbre. LOL ! Bats are called bald mice, but I can’t remember the words, as it was a mouthful. I just wanted to touch him and give him a kiss the first time we were there. It was before the first time we’d kissed when we went there. From the expressions of Jet and Tomas, I think they enjoyed the night overall, and the gazebo, both never having seen the view before.</p>
 
 <p><img src="http://danijelj.com/images/2016/02/2016-02-26_DJW.0504.800res.jpg" width="800" height="533" title="from Observatory Hill" alt="view from Observatory Hill overlooking Sydney"></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[last night photowalk in sydney]]></title>
-    <link href="http://danijelj.com/blog/2016/02/28/last-night-photowalk-in-sydney/"/>
-    <updated>2016-02-28T00:54:48+10:30</updated>
-    <id>http://danijelj.com/blog/2016/02/28/last-night-photowalk-in-sydney</id>
-    <content type="html"><![CDATA[<p><img src="http://danijelj.com/images/2016/last_photowalk_in_sydney/DJW.20160227.0464.P1.jpg" width="800" height="533"  >
-<img src="http://danijelj.com/images/2016/last_photowalk_in_sydney/DJW.20160227.0465.P1.jpg" width="800" height="533"  >
-<img src="http://danijelj.com/images/2016/last_photowalk_in_sydney/DJW.20160227.0468.P1.jpg" width="533" height="800"  >
-<img src="http://danijelj.com/images/2016/last_photowalk_in_sydney/DJW.20160227.0471.P1.jpg" width="533" height="800"  >
-<img src="http://danijelj.com/images/2016/last_photowalk_in_sydney/DJW.20160227.0481.P1.jpg" width="533" height="800"  >
-<img src="http://danijelj.com/images/2016/last_photowalk_in_sydney/DJW.20160227.0486.P1.jpg" width="800" height="533"  >
-<img src="http://danijelj.com/images/2016/last_photowalk_in_sydney/DJW.20160227.0504.P1.jpg" width="800" height="533"  >
-<img src="http://danijelj.com/images/2016/last_photowalk_in_sydney/DJW.20160227.0512.P1.jpg" width="800" height="450"  >
-<img src="http://danijelj.com/images/2016/last_photowalk_in_sydney/DJW.20160227.0514.P1.jpg" width="800" height="533"  >
-<img src="http://danijelj.com/images/2016/last_photowalk_in_sydney/DJW.20160227.0517.P1.jpg" width="800" height="533"  >
-<img src="http://danijelj.com/images/2016/last_photowalk_in_sydney/DJW.20160227.0519.P1.jpg" width="800" height="533"  >
-<img src="http://danijelj.com/images/2016/last_photowalk_in_sydney/DJW.20160227.0526.P1.jpg" width="800" height="533"  ></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[perfect beach weather]]></title>
-    <link href="http://danijelj.com/blog/2016/02/27/perfect-beach-weather/"/>
-    <updated>2016-02-27T11:15:36+10:30</updated>
-    <id>http://danijelj.com/blog/2016/02/27/perfect-beach-weather</id>
-    <content type="html"><![CDATA[<p>Sometimes you get lucky, and that test shot happens to be a perfect image!</p>
-
-<p><img src="http://danijelj.com/images/2016/02/DJW.20160227.600D.0385.P1.jpg" width="800" height="533" title="perfect beach weather, Bondi Beach NSW" alt="perfect beach weather, Bondi Beach NSW 「DJW.20160227.600D.0385.P1」"></p>
 ]]></content>
   </entry>
   

@@ -7,7 +7,29 @@
 	<meta name="author" content="Danijel James">
 
 	
-	<meta name="description" content="February is the #MonthofLove in Darling Harbour, Sydney. #DragAndDrop saw special performances by some of Sydney&rsquo;s hottest drag queens and &hellip;">
+	<meta name="description" content="Tried to run an upgrade for virtualenv using PIP and got the following error: 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+Collecting &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -81,6 +103,139 @@
 		
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2016/03/30/pip-cant-update-virtualenv/">
+		
+			pip can't update virtualenv</a>
+	</h2>
+	<div class="entry-content">
+		<p>Tried to run an upgrade for <code>virtualenv</code> using <code>PIP</code> and got the following error:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>Collecting virtualenv
+</span><span class='line'>  Using cached virtualenv-15.0.1-py2.py3-none-any.whl
+</span><span class='line'>Installing collected packages: virtualenv
+</span><span class='line'>  Found existing installation: virtualenv 15.0.0
+</span><span class='line'>    Uninstalling virtualenv-15.0.0:
+</span><span class='line'>Exception:
+</span><span class='line'>Traceback <span class="o">(</span>most recent call last<span class="o">)</span>:
+</span><span class='line'>  File <span class="s2">&quot;/usr/local/lib/python2.7/site-packages/pip/basecommand.py&quot;</span>, line 209, in main
+</span><span class='line'>    <span class="nv">status</span> <span class="o">=</span> self.run<span class="o">(</span>options, args<span class="o">)</span>
+</span><span class='line'>  File <span class="s2">&quot;/usr/local/lib/python2.7/site-packages/pip/commands/install.py&quot;</span>, line 317, in run
+</span><span class='line'>    <span class="nv">prefix</span><span class="o">=</span>options.prefix_path,
+</span><span class='line'>  File <span class="s2">&quot;/usr/local/lib/python2.7/site-packages/pip/req/req_set.py&quot;</span>, line 726, in install
+</span><span class='line'>    requirement.uninstall<span class="o">(</span><span class="nv">auto_confirm</span><span class="o">=</span>True<span class="o">)</span>
+</span><span class='line'>  File <span class="s2">&quot;/usr/local/lib/python2.7/site-packages/pip/req/req_install.py&quot;</span>, line 746, in uninstall
+</span><span class='line'>    paths_to_remove.remove<span class="o">(</span>auto_confirm<span class="o">)</span>
+</span><span class='line'>  File <span class="s2">&quot;/usr/local/lib/python2.7/site-packages/pip/req/req_uninstall.py&quot;</span>, line 115, in remove
+</span><span class='line'>    renames<span class="o">(</span>path, new_path<span class="o">)</span>
+</span><span class='line'>  File <span class="s2">&quot;/usr/local/lib/python2.7/site-packages/pip/utils/__init__.py&quot;</span>, line 267, in renames
+</span><span class='line'>    shutil.move<span class="o">(</span>old, new<span class="o">)</span>
+</span><span class='line'>  File <span class="s2">&quot;/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/shutil.py&quot;</span>, line 303, in move
+</span><span class='line'>    os.unlink<span class="o">(</span>src<span class="o">)</span>
+</span><span class='line'>OSError: <span class="o">[</span>Errno 13<span class="o">]</span> Permission denied: <span class="s1">&#39;/usr/local/lib/python2.7/site-packages/virtualenv-15.0.0.dist-info/DESCRIPTION.rst&#39;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>To resolve this I had to remove the non-brew installed version of <code>virtualenv</code> from my sytem by:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>sudo rm -rf /usr/local/lib/python2.7/site-packages/virtualenv*
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Finally install the latest version using <code>PIP</code> again:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>pip install virtualenv
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Problem solved !</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Mar 30th, 2016</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2016/03/29/i-want-popsicles/">
+		
+			i want popsicles</a>
+	</h2>
+	<div class="entry-content">
+		<p>I want these popsicles to be recreated for a t-shirt print for my birthay&hellip;</p>
+
+<p><img src="/images/2016/03/2016-summer-popsicles.jpg" width="600" height="600" title="summertime popsicles lyfe" alt="summertime popsicles lyfe"></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Mar 29th, 2016</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/photography/'>photography</a>
+
+
+</div>
+	
+</div>
+</article>
 
 
     <article class="post">
@@ -526,87 +681,6 @@ Mar 3rd, 2016</div>
 
 
 Mar 2nd, 2016</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/photography/'>photography</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2016/02/28/last-night-photowalk-in-sydney/">
-		
-			last night photowalk in sydney</a>
-	</h2>
-	<div class="entry-content">
-		<p><img src="/images/2016/last_photowalk_in_sydney/DJW.20160227.0464.P1.jpg" width="800" height="533"  >
-<img src="/images/2016/last_photowalk_in_sydney/DJW.20160227.0465.P1.jpg" width="800" height="533"  >
-<img src="/images/2016/last_photowalk_in_sydney/DJW.20160227.0468.P1.jpg" width="533" height="800"  >
-<img src="/images/2016/last_photowalk_in_sydney/DJW.20160227.0471.P1.jpg" width="533" height="800"  >
-<img src="/images/2016/last_photowalk_in_sydney/DJW.20160227.0481.P1.jpg" width="533" height="800"  >
-<img src="/images/2016/last_photowalk_in_sydney/DJW.20160227.0486.P1.jpg" width="800" height="533"  >
-<img src="/images/2016/last_photowalk_in_sydney/DJW.20160227.0504.P1.jpg" width="800" height="533"  >
-<img src="/images/2016/last_photowalk_in_sydney/DJW.20160227.0512.P1.jpg" width="800" height="450"  >
-<img src="/images/2016/last_photowalk_in_sydney/DJW.20160227.0514.P1.jpg" width="800" height="533"  >
-<img src="/images/2016/last_photowalk_in_sydney/DJW.20160227.0517.P1.jpg" width="800" height="533"  >
-<img src="/images/2016/last_photowalk_in_sydney/DJW.20160227.0519.P1.jpg" width="800" height="533"  >
-<img src="/images/2016/last_photowalk_in_sydney/DJW.20160227.0526.P1.jpg" width="800" height="533"  ></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Feb 28th, 2016</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/photography/'>photography</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2016/02/27/perfect-beach-weather/">
-		
-			perfect beach weather</a>
-	</h2>
-	<div class="entry-content">
-		<p>Sometimes you get lucky, and that test shot happens to be a perfect image!</p>
-
-<p><img src="/images/2016/02/DJW.20160227.600D.0385.P1.jpg" width="800" height="533" title="perfect beach weather, Bondi Beach NSW" alt="perfect beach weather, Bondi Beach NSW 「DJW.20160227.600D.0385.P1」"></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Feb 27th, 2016</div>
 	<div class="tags">
 
 

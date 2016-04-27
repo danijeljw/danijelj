@@ -7,10 +7,21 @@
 	<meta name="author" content="Danijel James">
 
 	
-	<meta name="description" content="Bash Calculate MD5 checksum: 1
-md5 /tmp/1.iso Calculate SHA-1 checksum: 1
-shasum -a 1 /tmp/1.iso Calculate SHA-256 checksum: 1
-shasum -a 256 /tmp/1. &hellip;">
+	<meta name="description" content="Update brew packages: 1
+2
+brew update
+brew upgrade Update brew &amp; cask packages: 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+#!/usr/bin/env bash rm -rf &quot;$(brew &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -84,6 +95,120 @@ shasum -a 256 /tmp/1. &hellip;">
 		
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2016/04/27/update-brew-cask-pkgs/">
+		
+			update brew cask pkgs</a>
+	</h2>
+	<div class="entry-content">
+		<p>Update brew packages:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>brew update
+</span><span class='line'>brew upgrade
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Update brew &amp; cask packages:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c">#!/usr/bin/env bash</span>
+</span><span class='line'>
+</span><span class='line'>rm -rf <span class="s2">&quot;$(brew --cache)&quot;</span>
+</span><span class='line'>brew update
+</span><span class='line'>brew cask update
+</span><span class='line'>
+</span><span class='line'><span class="k">for</span> app in <span class="k">$(</span>brew cask list<span class="k">)</span><span class="p">;</span> <span class="k">do</span>
+</span><span class='line'>  brew cask install --force <span class="s2">&quot;${app}&quot;</span>
+</span><span class='line'><span class="k">done</span>
+</span><span class='line'>
+</span><span class='line'>brew upgrade
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p><strong>source:</strong> _<a href="https://github.com/caskroom/homebrew-cask/issues/309_">https://github.com/caskroom/homebrew-cask/issues/309_</a></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Apr 27th, 2016</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2016/04/26/sunrise-from-mt-lofty-house/">
+		
+			sunrise from mt lofty house</a>
+	</h2>
+	<div class="entry-content">
+		<p>I wasn&rsquo;t feeling well on the weekend and so my dear brought me dinner last night and a random visit which seemed to <em>bump</em> me back into life and get me happy and alive again. No longer do I look or feel like death reheated.</p>
+
+<p>Not sure how to repay my dear, so I got up at 5:30 in the morning and went to Mt Lofty to see where I could find an amazing vantage point for the sunrise.</p>
+
+<p>I discovered Mt Lofty House. I might have to plan a secret weekend getaway for the two of us up there sometime in the folding cold of winter and steal my dear away.</p>
+
+<p><img src="/images/2016/04/26/20160426.iPhone6plus.0995.jpg" width="800" height="324"  alt="sunrise from Mt Lofty House on Tuesday"></p>
+
+<p>Captured three images, but this is the low-res version of one of them.</p>
+
+<p>Good morning everyone !</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Apr 26th, 2016</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/photography/'>photography</a>
+
+
+</div>
+	
+</div>
+</article>
 
 
     <article class="post">
@@ -578,139 +703,6 @@ Apr 9th, 2016</div>
 
 
 Apr 7th, 2016</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/photography/'>photography</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2016/03/30/pip-cant-update-virtualenv/">
-		
-			pip can't update virtualenv</a>
-	</h2>
-	<div class="entry-content">
-		<p>Tried to run an upgrade for <code>virtualenv</code> using <code>PIP</code> and got the following error:</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-<span class='line-number'>20</span>
-<span class='line-number'>21</span>
-<span class='line-number'>22</span>
-</pre></td><td class='code'><pre><code class='sh'><span class='line'>Collecting virtualenv
-</span><span class='line'>  Using cached virtualenv-15.0.1-py2.py3-none-any.whl
-</span><span class='line'>Installing collected packages: virtualenv
-</span><span class='line'>  Found existing installation: virtualenv 15.0.0
-</span><span class='line'>    Uninstalling virtualenv-15.0.0:
-</span><span class='line'>Exception:
-</span><span class='line'>Traceback <span class="o">(</span>most recent call last<span class="o">)</span>:
-</span><span class='line'>  File <span class="s2">&quot;/usr/local/lib/python2.7/site-packages/pip/basecommand.py&quot;</span>, line 209, in main
-</span><span class='line'>    <span class="nv">status</span> <span class="o">=</span> self.run<span class="o">(</span>options, args<span class="o">)</span>
-</span><span class='line'>  File <span class="s2">&quot;/usr/local/lib/python2.7/site-packages/pip/commands/install.py&quot;</span>, line 317, in run
-</span><span class='line'>    <span class="nv">prefix</span><span class="o">=</span>options.prefix_path,
-</span><span class='line'>  File <span class="s2">&quot;/usr/local/lib/python2.7/site-packages/pip/req/req_set.py&quot;</span>, line 726, in install
-</span><span class='line'>    requirement.uninstall<span class="o">(</span><span class="nv">auto_confirm</span><span class="o">=</span>True<span class="o">)</span>
-</span><span class='line'>  File <span class="s2">&quot;/usr/local/lib/python2.7/site-packages/pip/req/req_install.py&quot;</span>, line 746, in uninstall
-</span><span class='line'>    paths_to_remove.remove<span class="o">(</span>auto_confirm<span class="o">)</span>
-</span><span class='line'>  File <span class="s2">&quot;/usr/local/lib/python2.7/site-packages/pip/req/req_uninstall.py&quot;</span>, line 115, in remove
-</span><span class='line'>    renames<span class="o">(</span>path, new_path<span class="o">)</span>
-</span><span class='line'>  File <span class="s2">&quot;/usr/local/lib/python2.7/site-packages/pip/utils/__init__.py&quot;</span>, line 267, in renames
-</span><span class='line'>    shutil.move<span class="o">(</span>old, new<span class="o">)</span>
-</span><span class='line'>  File <span class="s2">&quot;/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/shutil.py&quot;</span>, line 303, in move
-</span><span class='line'>    os.unlink<span class="o">(</span>src<span class="o">)</span>
-</span><span class='line'>OSError: <span class="o">[</span>Errno 13<span class="o">]</span> Permission denied: <span class="s1">&#39;/usr/local/lib/python2.7/site-packages/virtualenv-15.0.0.dist-info/DESCRIPTION.rst&#39;</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>To resolve this I had to remove the non-brew installed version of <code>virtualenv</code> from my sytem by:</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='sh'><span class='line'>sudo rm -rf /usr/local/lib/python2.7/site-packages/virtualenv*
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Finally install the latest version using <code>PIP</code> again:</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='sh'><span class='line'>pip install virtualenv
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Problem solved !</p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Mar 30th, 2016</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/hacking/'>hacking</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2016/03/29/i-want-popsicles/">
-		
-			i want popsicles</a>
-	</h2>
-	<div class="entry-content">
-		<p>I want these popsicles to be recreated for a t-shirt print for my birthay&hellip;</p>
-
-<p><img src="/images/2016/03/2016-summer-popsicles.jpg" width="600" height="600" title="summertime popsicles lyfe" alt="summertime popsicles lyfe"></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Mar 29th, 2016</div>
 	<div class="tags">
 
 
