@@ -54,4 +54,4 @@ done
 brew upgrade
 ```
 
-**source:** _https://github.com/caskroom/homebrew-cask/issues/309_
+**source:** https://github.com/caskroom/homebrew-cask/issues/309
