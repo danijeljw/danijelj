@@ -4,7 +4,7 @@
   <title><![CDATA[danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-04-27T11:29:37+09:30</updated>
+  <updated>2016-04-29T14:24:49+09:30</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel James]]></name>
@@ -40,6 +40,49 @@
 <span class='line-number'>9</span>
 <span class='line-number'>10</span>
 <span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c">#!/usr/bin/env bash</span>
+</span><span class='line'>
+</span><span class='line'>brew update
+</span><span class='line'>brew cask update
+</span><span class='line'>
+</span><span class='line'><span class="nv">casks</span><span class="o">=(</span> <span class="k">$(</span>brew cask list<span class="k">)</span> <span class="o">)</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">for</span> cask in <span class="k">${</span><span class="nv">casks</span><span class="p">[@]</span><span class="k">}</span>
+</span><span class='line'><span class="k">do</span>
+</span><span class='line'>    <span class="c"># in the first line there is version</span>
+</span><span class='line'>    <span class="nv">current</span><span class="o">=</span><span class="s2">&quot;$(brew cask info $cask | sed -n &#39;1p&#39; | sed -n &#39;s/^.*: \(.*\)$/\1/p&#39;)&quot;</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="nv">installed</span><span class="o">=(</span> <span class="k">$(</span>ls /opt/homebrew-cask/Caskroom/<span class="nv">$cask</span><span class="k">)</span><span class="o">)</span>
+</span><span class='line'>    <span class="k">if</span> <span class="o">(</span>! <span class="o">[[</span> <span class="s2">&quot; ${installed[@]} &quot;</span> <span class="o">==</span> *<span class="s2">&quot; $current &quot;</span>* <span class="o">]])</span><span class="p">;</span> <span class="k">then</span>
+</span><span class='line'>        <span class="o">(</span><span class="nb">set</span> -x<span class="p">;</span> brew cask install <span class="nv">$cask</span> --force<span class="p">;</span><span class="o">)</span>
+</span><span class='line'>    <span class="k">fi</span>
+</span><span class='line'><span class="k">done</span>
+</span><span class='line'>
+</span><span class='line'>brew upgrade
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Reinstall brew &amp; cask packages:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
 </pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c">#!/usr/bin/env bash</span>
 </span><span class='line'>
 </span><span class='line'>rm -rf <span class="s2">&quot;$(brew --cache)&quot;</span>
@@ -54,7 +97,7 @@
 </span></code></pre></td></tr></table></div></figure>
 
 
-<p><strong>source:</strong> _<a href="https://github.com/caskroom/homebrew-cask/issues/309_">https://github.com/caskroom/homebrew-cask/issues/309_</a></p>
+<p><strong>source:</strong> <a href="https://github.com/caskroom/homebrew-cask/issues/309">https://github.com/caskroom/homebrew-cask/issues/309</a></p>
 ]]></content>
   </entry>
   
