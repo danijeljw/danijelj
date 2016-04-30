@@ -7,13 +7,7 @@
 	<meta name="author" content="Danijel James">
 
 	
-	<meta name="description" content="cd &mdash;
-layout: post
-title: &ldquo;removing app library files&rdquo;
-date: 2014-02-09 07:58:22 +1100
-comments: true
-categories: hacking
-author: &hellip;">
+	<meta name="description" content="Ogg is a container format. It typically uses the Vorbis audio codec. You can download a static build of ffmpeg and use the bundled libvorbis encoder &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -87,6 +81,51 @@ author: &hellip;">
 		
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2014/02/17/convert-audio-to-ogg-format-via-terminal/">
+		
+			convert audio to ogg format via terminal</a>
+	</h2>
+	<div class="entry-content">
+		<p>Ogg is a container format. It typically uses the <a href="http://www.vorbis.com">Vorbis audio codec</a>. You can download a static build of <a href="http://ffmpegmac.net/">ffmpeg</a> and use the bundled libvorbis encoder:</p>
+
+<pre><code>ffmpeg -i input.wav -c:a libvorbis -qscale:a 5 output.ogg
+</code></pre>
+
+<p>According to the Vorbis encoding guide, the quality range is from 0–10, where 10 is the highest quality and 3–6 are a good range to try. In the above example we used 5 as quality.</p>
+
+<p>_Source: <a href="http://apple.stackexchange.com/a/121099/49601_">http://apple.stackexchange.com/a/121099/49601_</a></p>
+
+<p>🍇🍇🍇</p>
+
+<p><code>#MigratedPost</code></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Feb 17th, 2014</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
 
 
     <article class="post">
@@ -555,57 +594,6 @@ Sep 29th, 2013</div>
 
 
 Sep 23rd, 2013</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/hacking/'>hacking</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/09/22/connect-mac-to-active-directory-via-terminal/">
-		
-			connect mac to active directory via terminal</a>
-	</h2>
-	<div class="entry-content">
-		<p>Connecting Mac OS X to Windows AD via Terminal:</p>
-
-<pre><code>dsconfigad –f –a $compName –domain $sub.$domain.$tld –u $ADaccount –p $ADpassword –lu $ladminAcc –lp $ladminPass
-
-$compName = name of the computer _(in quotations if necessary)_
-
-$sub    = subdomain
-$domain = domain
-$tld    = tld
-
-$ADaccount  = AD admin account
-$ADpassword = AD admin password
-
-$ladminAcc  = Mac local admin account
-$ladminPass = Mac local admin password
-</code></pre>
-
-<p><code>#MigratedPost</code></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Sep 22nd, 2013</div>
 	<div class="tags">
 
 

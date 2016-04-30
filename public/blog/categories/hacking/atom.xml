@@ -4,7 +4,7 @@
   <title><![CDATA[Category: hacking | danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/blog/categories/hacking/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-04-29T14:24:49+09:30</updated>
+  <updated>2016-05-01T01:10:22+09:30</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel James]]></name>
@@ -12,6 +12,65 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[restore deleted brew formula]]></title>
+    <link href="http://danijelj.com/blog/2016/05/01/restore-deleted-brew-formula/"/>
+    <updated>2016-05-01T01:06:49+09:30</updated>
+    <id>http://danijelj.com/blog/2016/05/01/restore-deleted-brew-formula</id>
+    <content type="html"><![CDATA[<p>Totally fucked up tonight by deleting Caskroom formula from the system.</p>
+
+<p>Running <code>brew update</code> gave me the following error message:</p>
+
+<pre><code class="bash">| =&gt; brew update
+To restore the stashed changes to /usr/local/Library/Taps/caskroom/homebrew-cask run:
+  'cd /usr/local/Library/Taps/caskroom/homebrew-cask &amp;&amp; git stash pop'
+Already up-to-date.
+</code></pre>
+
+<p>So I do what it asks, then this pops up:</p>
+
+<pre><code class="bash">On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add/rm &lt;file&gt;..." to update what will be committed)
+  (use "git checkout -- &lt;file&gt;..." to discard changes in working directory)
+
+    deleted:    Casks/itsycal.rb
+
+no changes added to commit (use "git add" and/or "git commit -a")
+</code></pre>
+
+<p>To repair this got a list of the taps in brew:</p>
+
+<pre><code class="bash">| =&gt; brew tap
+caskroom/cask
+homebrew/completions
+homebrew/core
+homebrew/fuse
+homebrew/games
+homebrew/python
+homebrew/science
+</code></pre>
+
+<p>Re-tapped the <code>caskroom/cask</code> tap:</p>
+
+<pre><code class="bash">| =&gt; brew tap caskroom/cask
+</code></pre>
+
+<p>Then I reinstalled ityscal again:</p>
+
+<pre><code class="bash">| =&gt; brew cask install itsycal
+==&gt; Downloading https://s3.amazonaws.com/itsycal/Itsycal-0.10.12.zip
+######################################################################## 100.0%
+==&gt; Verifying checksum for Cask itsycal
+==&gt; Symlinking App 'Itsycal.app' to '/Users/danijel.james/Applications/Itsycal.app'
+🍺  itsycal staged at '/opt/homebrew-cask/Caskroom/itsycal/0.10.12' (189 files, 3.7M)
+</code></pre>
+
+<p>Problem solved !</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[update brew cask pkgs]]></title>
@@ -276,15 +335,6 @@ mount -t $x /dev/disk1 /tmp/ramdisk1
 </code></pre>
 
 <p>In OS X 10.4 and earlier, to unmount the disk type: <code>hdiutil detach /dev/disk1</code></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[providers of it services]]></title>
-    <link href="http://danijelj.com/blog/2016/04/11/providers-of-it-services/"/>
-    <updated>2016-04-11T22:01:39+09:30</updated>
-    <id>http://danijelj.com/blog/2016/04/11/providers-of-it-services</id>
-    <content type="html"><![CDATA[<p><blockquote><p>Providers of IT services can no longer afford to focus on technology and their internal organisation; they now have to consider the quality of the services they provide and focus on the relationship with the customer.</p></blockquote></p>
 ]]></content>
   </entry>
   
