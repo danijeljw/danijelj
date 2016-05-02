@@ -1,26 +1,5 @@
 #!/usr/bin/env bash
 
-## Auto Delete Key Steps
-todayDate="$(date +'%d')"
-if [ $todayDate -lt 19 ]; then
-	echo "key.txt will be removed from source today"
-	sleep 2
-	echo "Removing source/key.txt"
-	git rm source/key.txt
-	sleep .5
-	echo "U2FsdGVkX18gYOtcDP6leOUaAQiGLA1NDdToWGffCZI=" | openssl enc -aes-256-cbc -d -a
-	echo "Updating git repo with changes"
-	sleep .5
-	git commit -a -S -m 'remove source/key.txt file as promised'
-	git push -U origin master
-	echo "key.txt removed as promsed ;-)"
-	sleep .5
-	echo "...continuing..."
-else
-	echo "Haven't removed source/key.txt yet"
-	sleep .5
-	echo "...continuing..."
-fi
 
 ## Delete all the .DS Store files
 echo "Recursively delete .DS_Store files"
@@ -54,7 +33,3 @@ fi
 ## Reset Date Clause
 echo "Resetting $todayDate variable"; todayDate="$(date +'%Y%m%d')"; sleep .5
 
-## Removing key.txt removal script
-if [ ! -f source/key.txt ]; then
-	sed -i -e '3,23d;57,61d' update.sh
-fi
