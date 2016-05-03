@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://danijelj.com/blog/2016/05/03/i-will-never-stop-fighting-for-love/</loc>
+<lastmod>2016-05-03T23:49:27+09:30</lastmod>
+</url>
+<url>
 <loc>http://danijelj.com/blog/2016/05/01/restore-deleted-brew-formula/</loc>
 <lastmod>2016-05-01T01:06:49+09:30</lastmod>
 </url>
@@ -274,19 +278,19 @@
 <loc>http://danijelj.com/blog/archives/</loc>
 </url>
 <url>
-<loc>http://danijelj.com/instagram-love/</loc>
+<loc>http://danijelj.com/apple-keys/</loc>
 </url>
 <url>
 <loc>http://danijelj.com/random-notes/</loc>
 </url>
 <url>
-<loc>http://danijelj.com/je-suivre-rivieres/</loc>
-</url>
-<url>
-<loc>http://danijelj.com/apple-keys/</loc>
-</url>
-<url>
 <loc>http://danijelj.com/captivating-quotes/</loc>
+</url>
+<url>
+<loc>http://danijelj.com/instagram-love/</loc>
+</url>
+<url>
+<loc>http://danijelj.com/je-suivre-rivieres/</loc>
 </url>
 <url>
 <loc>http://danijelj.com/blog/categories/hacking/</loc>
@@ -300,13 +304,5 @@
 <url>
 <loc>http://danijelj.com/google0a44042c6956002d.html</loc>
 <lastmod>2016-03-02T19:44:45+10:30</lastmod>
-</url>
-<url>
-<loc>http://danijelj.com/landingzero/index.html</loc>
-<lastmod>2016-05-02T16:03:47+09:30</lastmod>
-</url>
-<url>
-<loc>http://danijelj.com/landingzero.html</loc>
-<lastmod>2016-05-02T15:59:31+09:30</lastmod>
 </url>
 </urlset>
