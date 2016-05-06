@@ -5,7 +5,7 @@
 url: http://danijelj.com
 title: danijelj [p.f.h]
 subtitle: photography.french.hacking
-author: Danijel James
+author: Danijel-James Wynyard
 simple_search: https://www.google.com/search
 description:
 
@@ -64,13 +64,13 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user:
-github_repo_count: 0
+github_user: danijeljw
+github_repo_count: 5
 github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user: danijeljames
+twitter_user: danijeljw
 twitter_tweet_button: true
 
 # Google +1
@@ -104,7 +104,7 @@ facebook_like: false
 facebook_user: 1027690367
 
 # Instagram User
-instagram_user: danijeljames
+instagram_user: danijeljw
 
 # Flickr User
 flicker_user: danijeljames
