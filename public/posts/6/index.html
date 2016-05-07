@@ -7,7 +7,7 @@
 	<meta name="author" content="Danijel-James Wynyard">
 
 	
-	<meta name="description" content="10.11 sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder; say DNS cache flushed 10.10 sudo discoveryutil mdnsflushcache;sudo &hellip;">
+	<meta name="description" content="I want a job at Google which means I need to be good at Python. Got a bit stuck on the 4th module task, to make a counter of the Fibonacci number &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -83,6 +83,115 @@
 		
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2014/03/10/counting-fibonacci-numbers-with-python/">
+		
+			counting fibonacci numbers with python</a>
+	</h2>
+	<div class="entry-content">
+		<p>I want a job at <a href="http://www.google.com.au/about/jobs/">Google</a> which means I need to be good at <a href="http://python.org">Python</a>. Got a bit stuck on the 4th module task, to make a counter of the <a href="http://en.wikipedia.org/wiki/Fibonacci_number">Fibonacci</a> number sequence up to the firs digit beyond 100. This is the simplest solution when I worked it out. Finally.</p>
+
+<pre><code>#!/usr/bin/env python -tt
+##  Fn = Fn[-2] + Fn[-1]
+Fn = [0,1]
+while Fn[-1] &lt; 100:
+  Fn.append(Fn[-2] + Fn[-1])
+  print(Fn)
+</code></pre>
+
+<p>To update that, so the output isn’t so large, modify like so:</p>
+
+<pre><code>#!/usr/bin/env python -tt
+##  Fn = Fn[-2] + Fn[-1]
+Fn = [0,1]
+while Fn[-1] &lt; 100:
+  Fn.append(Fn[-2] + Fn[-1])
+if Fn[-1] &gt; 100:
+  print(Fn)     # prints the whole sequence
+  print(Fn[-1]) # prints only last number above 100
+</code></pre>
+
+<p>Can add further to this, using strings to make it more clear to the end-user (brackets removed for aesthetics in final result):</p>
+
+<pre><code>#!/usr/bin/env python -tt
+##  Fn = Fn[-2] + Fn[-1]
+Fn = [0,1]
+while Fn[-1] &lt; 100:
+  Fn.append(Fn[-2] + Fn[-1])
+if Fn[-1] &gt; 100:
+  print'Fibonacci numbers up to 1st number over 100: ',Fn
+  print'First Fibonacci number over 100: ',Fn[-1]
+</code></pre>
+
+<p><code>#MigratedPost</code></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Mar 10th, 2014</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2014/03/09/using-env-with-shebang/">
+		
+			using env with shebang</a>
+	</h2>
+	<div class="entry-content">
+		<p>Starting a script with <code>#!/bin/bash</code> instead of <code>#!/usr/bin/env</code> bash will assume that the user has <code>bash</code> installed at <code>/bin</code>. This makes the script portable and asks the enviornment to find the correct <code>$PATH</code> to the required interpreter.</p>
+
+<p>Bottom line rule:</p>
+
+<pre><code>#!/usr/bin/env (sh|bash|python|ruby|csh|ksh|tcsh)
+</code></pre>
+
+<p><code>#MigratedPost</code></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Mar 9th, 2014</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
 
 
     <article class="post">
@@ -522,107 +631,6 @@ Nov 9th, 2013</div>
 
 
 Oct 21st, 2013</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/hacking/'>hacking</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/10/16/add-spacers-to-the-dock/">
-		
-			add spacers to the dock</a>
-	</h2>
-	<div class="entry-content">
-		<p>The <a href="http://en.wikipedia.org/wiki/Dock_(OS_X">Dock</a> is great, but sometimes it gets cluttered with all your favourite apps and you want a way to keep it organised. There is a great <a href="http://www.dummies.com/how-to/content/how-to-work-with-the-mac-dock.html">Dummies article</a> if you are interested in a starting point, but what if you need to “group” your applications together instead?</p>
-
-<p>There is a Terminal command that can add spacers to your Dock. Open Terminal <em>(Applications > Utilities)</em>, then type the following:</p>
-
-<pre><code>defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'
-</code></pre>
-
-<p>This will add a spacer to your Dock. If you need more than one, type it for as many as you need and then type:</p>
-
-<pre><code>killall Dock
-</code></pre>
-
-<p>Your Dock will restart and you’ll see the spacers to the right of your applications. Drag spacers around to create “groups” in your Dock. To remove a spacer, simply drag it off the Dock.</p>
-
-<p>Here is a nice version of the way to automate the process with a shell script. It will prompt you with how many spacers you need and add them, then restart the Dock.</p>
-
-<pre><code>#!/bin/bash
-echo "Enter number of spacers required: "
-read noSpacers
-c=1
-while [ $c -le $noSpacers ]
-do
-  defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'
-  (( c++ ))
-done
-killall Dock
-</code></pre>
-
-<p><code>#MigratedPost</code></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Oct 16th, 2013</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/hacking/'>hacking</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/10/08/open-google-chrome-in-kiosk-mode/">
-		
-			open google chrome in kiosk mode</a>
-	</h2>
-	<div class="entry-content">
-		<p>Load Google Chrome in Kiosk Mode and direct it to a URL via Terminal:</p>
-
-<pre><code>open "/Applications/Google Chrome.app" --args --kiosk https://www.google.com.au
-</code></pre>
-
-<p><code>#MigratedPost</code></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Oct 8th, 2013</div>
 	<div class="tags">
 
 

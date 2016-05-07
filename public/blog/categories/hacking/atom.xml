@@ -4,7 +4,7 @@
   <title><![CDATA[Category: hacking | danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/blog/categories/hacking/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-05-07T05:07:57+09:30</updated>
+  <updated>2016-05-07T12:24:22+09:30</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel-James Wynyard]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[legacy java 6 runtime]]></title>
+    <link href="http://danijelj.com/blog/2016/05/02/legacy-java-6-runtime/"/>
+    <updated>2016-05-02T11:43:44+09:30</updated>
+    <id>http://danijelj.com/blog/2016/05/02/legacy-java-6-runtime</id>
+    <content type="html"><![CDATA[<p>Java for OS X 2015-001 installs the legacy Java 6 runtime for OS X 10.11 El Capitan, OS X 10.10 Yosemite, OS X 10.9 Mavericks, OS X 10.8 Mountain Lion, and OS X 10.7 Lion.</p>
+
+<p>This package is exclusively intended for support of legacy software and installs the same deprecated version of Java 6 included in the 2014-001 and 2013-005 releases.</p>
+
+<p>Quit any Java applications before installing this update.</p>
+
+<p><strong>Download:</strong> <a href="http://support.apple.com/downloads/DL1572/en_US/javaforosx.dmg">http://support.apple.com/downloads/DL1572/en_US/javaforosx.dmg</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[restore deleted brew formula]]></title>
@@ -242,99 +257,6 @@ shasum -a 256 /tmp/1.iso
 
 
 <p><em>Attribution: Learning Python, Mark Lutz 978-1-449-35573-9</em></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[create ram disk]]></title>
-    <link href="http://danijelj.com/blog/2016/04/18/create-ram-disk/"/>
-    <updated>2016-04-18T14:49:15+09:30</updated>
-    <id>http://danijelj.com/blog/2016/04/18/create-ram-disk</id>
-    <content type="html"><![CDATA[<h2>Disk Size</h2>
-
-<p>Size of RAM Disk is <code>z * 2048</code>, where <code>z</code> is represented in MB</p>
-
-<p>A 600MB RAM Disk would be: <code>1228800</code> <em>(That is: 600 * 2048 = 1228800)</em></p>
-
-<h2>Disk Formats Available:</h2>
-
-<table>
-<thead>
-<tr>
-<th style="text-align:left;"> Format </th>
-<th style="text-align:left;"> User Visible Name </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">ExFat </td>
-<td style="text-align:left;"> ExFAT </td>
-</tr>
-<tr>
-<td style="text-align:left;">free </td>
-<td style="text-align:left;"> Free Space </td>
-</tr>
-<tr>
-<td style="text-align:left;">MS-DOS </td>
-<td style="text-align:left;"> MS-DOS (FAT) </td>
-</tr>
-<tr>
-<td style="text-align:left;">MS-DOS FAT12 </td>
-<td style="text-align:left;"> MS-DOS (FAT12) </td>
-</tr>
-<tr>
-<td style="text-align:left;">MS-DOS FAT16 </td>
-<td style="text-align:left;"> MS-DOS (FAT16) </td>
-</tr>
-<tr>
-<td style="text-align:left;">fat32 </td>
-<td style="text-align:left;"> MS-DOS (FAT32) </td>
-</tr>
-<tr>
-<td style="text-align:left;">HFS+ </td>
-<td style="text-align:left;"> Mac OS Extended </td>
-</tr>
-<tr>
-<td style="text-align:left;">hfsx </td>
-<td style="text-align:left;"> Mac OS Extended (Case-sensitive) </td>
-</tr>
-<tr>
-<td style="text-align:left;">jhfsx </td>
-<td style="text-align:left;"> Mac OS Extended (Case-sensitive, Journaled) </td>
-</tr>
-<tr>
-<td style="text-align:left;">jhfs+ </td>
-<td style="text-align:left;"> Mac OS Extended (Journaled) </td>
-</tr>
-</tbody>
-</table>
-
-
-<h2>Keys</h2>
-
-<p><code>$x</code> speficied Format from table above
-<code>$y</code> speficied name of intended volume
-<code>$z</code> specified size of file <em>(once multiplied by 2028)</em></p>
-
-<h2>Mac OS X 10.8, 10.9, 10.10, 10.11</h2>
-
-<pre><code class="bash">diskutil erasevolume $x '$y' `hdiutil attach nomount ram://$z`
-</code></pre>
-
-<h2>Mac OS X 10.5, 10.6, 10.7</h2>
-
-<pre><code class="bash">diskutil erasevolume $x '$y' `hdiutil attach -nomount ram://$z`
-</code></pre>
-
-<h2>Mac OS X 10.4 and earlier</h2>
-
-<pre><code class="bash">hdid -nomount ram://$z
-newfs_hfs /dev/disk1
-mkdir /tmp/ramdisk1
-mount -t $x /dev/disk1 /tmp/ramdisk1
-</code></pre>
-
-<p>In OS X 10.4 and earlier, to unmount the disk type: <code>hdiutil detach /dev/disk1</code></p>
 ]]></content>
   </entry>
   
