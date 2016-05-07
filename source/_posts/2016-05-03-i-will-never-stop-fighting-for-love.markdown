@@ -13,7 +13,7 @@ A little while ago I met Jake. To be specific, I met him Saturday April 2<sup>nd
 
 One day since that time until now, Jake asked me a question. A simple question that I took not even more than a moment to reflex an answer from my values.
 
-> Would you fight for me ?
+> Would you fight for me ? 
 
 To go back in history, I'd like to touch on a story about my great aunty and her husband. I don't recall the exact details but I'd very much like to touch on this subject with her one day soon so I can capture the words myself and keep them safe to remind people that love like in [The Notebook](https://en.wikipedia.org/wiki/The_Notebook_(2004_film\)) does exist in real life, and people can have it if you open your heart to it.
 
