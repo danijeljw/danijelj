@@ -4,7 +4,7 @@ title: "tomorrow to tasmania"
 date: 2016-02-16 22:59:32 +1100
 comments: true
 categories: photography
-author: Danijel James
+author: Danijel-James Wynyard
 ---
 Tomorrow I'm headed to Tasmania to join Grenouille 🐸. I don't know how I ever agreed to this wild adventure, but I'm sure it's gonna be crazy and most probably full of awesome opportunities to capture the essence that is Tasmania.
 

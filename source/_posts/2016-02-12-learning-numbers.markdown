@@ -4,7 +4,7 @@ title: "learning numbers"
 date: 2016-02-12 19:52:09 +1100
 comments: true
 categories: french
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 Numbers can seem easy, but they get hard really quickly!

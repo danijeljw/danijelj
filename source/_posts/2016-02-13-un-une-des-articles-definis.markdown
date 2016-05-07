@@ -4,7 +4,7 @@ title: "un, une, des (articles indéfinis)"
 date: 2016-02-13 17:58:54 +1100
 comments: true
 categories: french
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 **un**, **une** and **des** are the French equivalents for **a** and **some**.

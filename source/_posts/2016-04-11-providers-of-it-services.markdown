@@ -4,7 +4,7 @@ title: "providers of it services"
 date: 2016-04-11 22:01:39 +0930
 comments: true
 categories: hacking
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 {% blockquote %}

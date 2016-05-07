@@ -4,7 +4,7 @@ title: "show saved wifi password"
 date: 2013-08-09 17:09:31 +1100
 comments: true
 categories: hacking
-author: Danijel James
+author: Danijel-James Wynyard
 ---
 Source for script that spits out WiFi password saved in Windows 7 or 8. Haven’t tested this on XP or Vista.
 

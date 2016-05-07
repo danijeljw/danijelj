@@ -4,7 +4,7 @@ title: "ntfs support on os x"
 date: 2016-02-21 12:06:07 +1100
 comments: true
 categories: hacking
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 NTFS support is available for OS X for free on:

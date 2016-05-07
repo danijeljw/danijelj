@@ -4,7 +4,7 @@ title: "wedding cake rock stalker"
 date: 2016-01-02 14:13:44 +1100
 comments: true
 categories: photography
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 Is it just me, or does this picture look creepy with my friend [Tommy](https://www.instagram.com/theonlymrtommyschroeter/) being all weird and stalker-like behind me here at [Wedding Cake Rock](https://www.sydneycoastwalks.com.au/2015/11/where-is-wedding-cake-rock/) kinda freak people out? It reminds me of a horror movie or something! 👻

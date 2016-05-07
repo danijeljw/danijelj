@@ -4,7 +4,7 @@ title: "update brew cask pkgs"
 date: 2016-04-27 11:03:52 +0930
 comments: true
 categories: hacking
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 Update brew packages:

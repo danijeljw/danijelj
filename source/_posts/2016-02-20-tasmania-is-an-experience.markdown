@@ -4,7 +4,7 @@ title: "tasmania is an experience!"
 date: 2016-02-20 15:14:09 +1100
 comments: true
 categories: [french, photography]
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 Sitting on my Jetstar flight back to Sydney, QF77, retrospectivey I have mixed emotions about the hospitality of people from Tasmania. In this hand it had to be one of the worst places for anyone to experience a welcome in all of Australia. And that includes Sydney. Disgusting. What happened to the good framework that this country was built upon? My travelling companion Grenouille (🐸), may not have been able to understand the dymanics of three particular situations that played out at hand but I certainly did! On the other hand we were greeted like a lost stranger that had a reservation waiting to be fulfilled.
@@ -180,7 +180,7 @@ Dear Hobart,
 I didn't know I was thirsty until I tasted your wine with love from France. Now I know I'm dying without another sip.
 
 Regards,
-Danijel James
+Danijel-James Wynyard
 
 -----
 

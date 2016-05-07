@@ -4,7 +4,7 @@ title: "securely erase ssd macbook air"
 date: 2015-12-21 09:27:23 +1100
 comments: true
 categories: hacking
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 Using DBAN or other tools will not work as they're built for non EFI-based machines. They will also unecessarily write to your SSD and the data may still be recoverabe.

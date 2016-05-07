@@ -4,7 +4,7 @@ title: "darling harbour month of love"
 date: 2016-03-18 13:56:24 +1030
 comments: true
 categories: photography
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 February is the `#MonthofLove` in Darling Harbour, Sydney. `#DragAndDrop` saw special performances by some of Sydney's hottest drag queens and performers in the lead-up to the [Sydney Mardi Gras](http://www.mardigras.org.au/) in conjunction with Darling Harbour as part of the celebrations in all things related to love.

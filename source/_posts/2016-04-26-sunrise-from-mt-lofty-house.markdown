@@ -4,7 +4,7 @@ title: "sunrise from mt lofty house"
 date: 2016-04-26 11:16:54 +0930
 comments: true
 categories: photography
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 I wasn't feeling well on the weekend and so my dear brought me dinner last night and a random visit which seemed to _bump_ me back into life and get me happy and alive again. No longer do I look or feel like death reheated.

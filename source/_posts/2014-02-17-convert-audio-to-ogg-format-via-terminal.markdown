@@ -4,7 +4,7 @@ title: "convert audio to ogg format via terminal"
 date: 2014-02-17 07:53:31 +1100
 comments: true
 categories: hacking
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 Ogg is a container format. It typically uses the [Vorbis audio codec](http://www.vorbis.com). You can download a static build of [ffmpeg](http://ffmpegmac.net/) and use the bundled libvorbis encoder:

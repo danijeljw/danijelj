@@ -4,7 +4,7 @@ title: "python escape sequences"
 date: 2016-03-12 11:49:41 +1030
 comments: true
 categories: hacking
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 Python 2.x &amp; 3.x escape sequences:

@@ -4,7 +4,7 @@ title: "le, la, les (articles définis)"
 date: 2016-02-11 15:32:52 +1100
 comments: true
 categories: french
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 **le**, **la** and **les** are French for **the**.

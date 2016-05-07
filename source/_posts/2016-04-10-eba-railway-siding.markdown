@@ -4,7 +4,7 @@ title: "eba railway siding"
 date: 2016-04-10 17:38:08 +0930
 comments: true
 categories: photography
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 #### A Little Bit of History

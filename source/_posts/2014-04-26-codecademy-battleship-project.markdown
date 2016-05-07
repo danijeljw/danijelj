@@ -4,7 +4,7 @@ title: "codecademy battleship! project"
 date: 2014-04-26 20:38:43 +1100
 comments: true
 categories: hacking
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 Been playing with Codecademy to learn some more on Python. Their Battleship! tutorial I must say is one of the hardest I have tried, and instructions aren’t as solid as they should be. Below is the project solution that I used.

@@ -4,7 +4,7 @@ title: "objective-c data types"
 date: 2014-02-07 08:06:08 +1100
 comments: true
 categories: hacking
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 

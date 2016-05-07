@@ -4,7 +4,7 @@ title: "my office window"
 date: 2016-04-19 13:21:22 +0930
 comments: true
 categories: photography
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 What does your office window view look like ? Do you even have an office window to look out ? I hope so. Everyone needs a window into the world. Especially our pets. Cats and dogs love being able to look into the world.

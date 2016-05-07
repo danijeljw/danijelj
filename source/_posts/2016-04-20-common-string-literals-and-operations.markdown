@@ -4,7 +4,7 @@ title: "common string literals and operations"
 date: 2016-04-20 11:31:40 +0930
 comments: true
 categories: hacking
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 Python string basics. Useful as a reminder to myself. Sometimes I forget this kind of basic stuff and end up writing whole methods that don't need to be created.

@@ -4,7 +4,7 @@ title: "make os x screensaver your wallpaper"
 date: 2013-10-21 22:44:52 +1100
 comments: true
 categories: hacking
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 If you have a fancy screensaver and you want to see it all the time, use then all you need to do is run the following command in Terminal (Applications/Utilities) and it will automatically set the current screensaver to your wallpaper:

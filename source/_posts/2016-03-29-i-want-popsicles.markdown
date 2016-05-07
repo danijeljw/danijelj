@@ -4,7 +4,7 @@ title: "i want popsicles"
 date: 2016-03-29 21:34:15 +1030
 comments: true
 categories: photography
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 I want these popsicles to be recreated for a t-shirt print for my birthay...

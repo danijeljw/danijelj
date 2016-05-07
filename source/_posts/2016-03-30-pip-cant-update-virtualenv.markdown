@@ -4,7 +4,7 @@ title: "pip can't update virtualenv"
 date: 2016-03-30 15:36:16 +1030
 comments: true
 categories: hacking
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 Tried to run an upgrade for `virtualenv` using `PIP` and got the following error:

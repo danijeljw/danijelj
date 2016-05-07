@@ -4,7 +4,7 @@ title: "perfect beach weather"
 date: 2016-02-27 11:45:36 +1100
 comments: true
 categories: photography
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 Sometimes you get lucky, and that test shot happens to be a perfect image! 

@@ -4,7 +4,7 @@ title: "goodbye healthdirect"
 date: 2016-03-04 18:29:21 +1100
 comments: true
 categories: photography
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 I remember the first time I was contacted about a position at [Healthdirect Australia](https://healthdirect.org.au). I never applied for the job, I was asked to go to an interview that had been tee'd up! Was I being head-hunted for this role or did someone pass my name along as a favour? I never found out and sometimes it's better to not know the whole story anyway! 

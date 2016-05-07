@@ -4,7 +4,7 @@ title: "flush dns in mac os x"
 date: 2014-02-23 07:41:24 +1100
 comments: true
 categories: hacking
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 ###10.11

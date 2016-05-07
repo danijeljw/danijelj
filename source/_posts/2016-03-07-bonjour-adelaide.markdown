@@ -4,7 +4,7 @@ title: "bonjour adelaide"
 date: 2016-03-07 13:39:59 +1030
 comments: true
 categories: photography
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 A late start today. I had intended to get up early, go out, have coffee and pastry, peruse around the city soaking in the places I've not seen since yesteryear and try to find the new changes. I was only here recently in Adelaide for the Healthdirect Christmas break plus a few days, but I was more of a tourist then. I had no intentions to settle down here for a bit and stand still a little while. Now I'm back&nbsp;!

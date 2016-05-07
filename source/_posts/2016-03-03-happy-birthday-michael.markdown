@@ -4,7 +4,7 @@ title: "happy birthday michael"
 date: 2016-03-03 16:21:31 +1100
 comments: true
 categories: photography
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 Today is 3rd March and therefor marks the birthday of my oldest and dear friend Mike Amu (🐠) !

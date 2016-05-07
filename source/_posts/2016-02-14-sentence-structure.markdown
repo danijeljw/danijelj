@@ -4,7 +4,7 @@ title: "sentence structure"
 date: 2016-02-14 18:08:27 +1100
 comments: true
 categories: french
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 It is the same as in English. Most sentences are built on the same template:

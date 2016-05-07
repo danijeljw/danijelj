@@ -4,7 +4,7 @@ title: "last night photowalk in sydney"
 date: 2016-02-27 23:54:48 +0930
 comments: true
 categories: photography
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 {% img /images/2016/last_photowalk_in_sydney/DJW.20160227.0464.P1.jpg 800 533 '' '' %}

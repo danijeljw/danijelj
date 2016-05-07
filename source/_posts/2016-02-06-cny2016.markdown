@@ -4,7 +4,7 @@ title: "#cny2016"
 date: 2016-02-06 22:42:11 +1100
 comments: true
 categories: photography
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 Whilst going through my old Lightroom libraries, I found some images from CNY SYD 2016. Full-spec images can be found on my [Flickr](https://flickr.com/danijeljames) account.

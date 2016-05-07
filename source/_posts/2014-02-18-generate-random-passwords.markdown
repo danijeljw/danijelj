@@ -4,7 +4,7 @@ title: "generate random passwords"
 date: 2014-02-18 07:49:37 +1100
 comments: true
 categories: hacking
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 Bash script that generates 10-char passwords

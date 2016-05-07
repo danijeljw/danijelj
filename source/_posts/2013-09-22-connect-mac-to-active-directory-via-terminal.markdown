@@ -4,7 +4,7 @@ title: "connect mac to active directory via terminal"
 date: 2013-09-22 19:52:21 +1100
 comments: true
 categories: hacking
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 Connecting Mac OS X to Windows AD via Terminal: 

@@ -4,7 +4,7 @@ title: "anz goes gay for mardi gras"
 date: 2016-02-26 23:34:15 +0930
 comments: true
 categories: photography
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 [ANZ](https://anz.com) is the bank that backs the Sydney Gay & Lesbian Mardi Gras. This year they decided to go all out with their branch on Oxford St this year. Iconic.

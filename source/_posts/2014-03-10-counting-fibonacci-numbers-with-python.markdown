@@ -4,7 +4,7 @@ title: "counting fibonacci numbers with python"
 date: 2014-03-10 21:17:31 +1100
 comments: true
 categories: hacking
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 I want a job at <a href="http://www.google.com.au/about/jobs/">Google</a> which means I need to be good at <a href="http://python.org">Python</a>. Got a bit stuck on the 4th module task, to make a counter of the <a href="http://en.wikipedia.org/wiki/Fibonacci_number">Fibonacci</a> number sequence up to the firs digit beyond 100. This is the simplest solution when I worked it out. Finally.

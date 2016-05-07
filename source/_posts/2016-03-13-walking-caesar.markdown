@@ -4,7 +4,7 @@ title: "walking caesar"
 date: 2016-03-13 17:51:41 +1030
 comments: true
 categories: photography
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 It's 27°C and Cæsar 🐶 is at the back door slobbering all over the glass. He's just been given a new choke-chain this arvo by my mum 'cos he is a pretty big dog and can't be handled easily without some restraint. I've decided to bring him down to the local dog park or "Pooch Park" as it's colloquially known.

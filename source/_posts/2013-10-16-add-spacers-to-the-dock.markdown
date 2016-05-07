@@ -4,7 +4,7 @@ title: "add spacers to the dock"
 date: 2013-10-16 21:35:11 +1100
 comments: true
 categories: hacking
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 The [Dock](http://en.wikipedia.org/wiki/Dock_(OS_X) is great, but sometimes it gets cluttered with all your favourite apps and you want a way to keep it organised. There is a great [Dummies article](http://www.dummies.com/how-to/content/how-to-work-with-the-mac-dock.html) if you are interested in a starting point, but what if you need to “group” your applications together instead?

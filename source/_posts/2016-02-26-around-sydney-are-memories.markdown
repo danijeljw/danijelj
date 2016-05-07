@@ -4,7 +4,7 @@ title: "around sydney are memories"
 date: 2016-03-02 23:05:32 +1100
 comments: true
 categories: photography
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 I sometimes feel disconnected from the world around me and find solace with my Canon 600D walking around until it's really late at night just capturing moments of people around me. This can be here in Sydney or any other part of the world. Tonight I conned Jet and Tomas into being dragged around Sydney until the ungodly hours of the morning (I think we finished up around 1 ?) so I could retrace some places that Grenouille and I had been to on our adventures.
@@ -21,7 +21,7 @@ Jet and Tomas haven’t been up near the new development that is known as Barang
 
 I think the one on the left is the new casino. I’m not sure ? Maybe someone will drop me a line on [Twitter](https://twitter.com) to [@danijeljames](https://twitter.com/danijeljames) and fill me in ?
 
-The first time we came across Barangaroo was just after being up at the Observatory in the front gardens and we’d kissed under the white wood hut _(I don’t have a better description)_ out the front. I remember leaning in to him and kissing him up his neck and him whispering to me ‘Fuck you, Danijel James Šimunov!’. Glorious !
+The first time we came across Barangaroo was just after being up at the Observatory in the front gardens and we’d kissed under the white wood hut _(I don’t have a better description)_ out the front. I remember leaning in to him and kissing him up his neck and him whispering to me ‘Fuck you, Danijel-James Wynyard Šimunov!’. Glorious !
 
 In short, ’tis a sight to see. I’d like to elaborate more on this article at a later stage and share some of the imagery from that night. I think there was a reflection of blue throughout most of the images and bring together all the important places.
 
