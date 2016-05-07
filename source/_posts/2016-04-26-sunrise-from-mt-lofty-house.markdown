@@ -11,10 +11,10 @@ I wasn't feeling well on the weekend and so my dear brought me dinner last night
 
 Not sure how to repay my dear, so I got up at 5:30 in the morning and went to Mt Lofty to see where I could find an amazing vantage point for the sunrise.
 
-I discovered Mt Lofty House. I might have to plan a secret weekend getaway for the two of us up there sometime in the folding cold of winter and steal my dear away.
+I discovered [Mount Lofty House](http://www.mtloftyhouse.com.au). I might have to plan a secret weekend getaway for the two of us up there sometime in the folding cold of winter and steal my dear away.
 
 {% img /images/2016/04/26/20160426.iPhone6plus.0995.jpg 800 324 '' 'sunrise from Mt Lofty House on Tuesday' %}
 
-Captured three images, but this is the low-res version of one of them.
+Captured three images, this is the low-res version of one of them.
 
 Good morning everyone !

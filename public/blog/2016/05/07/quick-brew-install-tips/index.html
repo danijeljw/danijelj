@@ -3,15 +3,20 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>remove wifi settings os x - danijelj [p.f.h]</title>
+	<title>quick brew install tips - danijelj [p.f.h]</title>
 	<meta name="author" content="Danijel-James Wynyard">
 
 	
-	<meta name="description" content="Firstly disable WiFi from menu bar. Navigate to the following path: /Library/Preferences/SystemConfiguration/ Remove the following files: 1
+	<meta name="description" content="Sometimes I need to remind myself how to install a list of apps in brew from a textfile named file.txt 1
 2
 3
 4
-com &hellip;">
+5
+6
+7
+8
+sed -i &#39;/^\s*$/d&#39;
+# in &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -87,25 +92,8 @@ com &hellip;">
 		
 	
 	<div id="content" class="inner"><article class="post">
-	<h2 class="title">remove wifi settings os x</h2>
-	<div class="entry-content"><p>Firstly disable WiFi from menu bar.</p>
-
-<p>Navigate to the following path: <code>/Library/Preferences/SystemConfiguration/</code></p>
-
-<p>Remove the following files:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'>com.apple.airport.preferences.plist
-</span><span class='line'>com.apple.network.identification.plist
-</span><span class='line'>NetworkInterfaces.plist
-</span><span class='line'>preferences.plist
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Alternatively, you can use the following script:</p>
+	<h2 class="title">quick brew install tips</h2>
+	<div class="entry-content"><p>Sometimes I need to remind myself how to install a list of apps in <a href="http://brew.sh">brew</a> from a textfile named <code>file.txt</code></p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -115,26 +103,16 @@ com &hellip;">
 <span class='line-number'>6</span>
 <span class='line-number'>7</span>
 <span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c">#!/usr/bin/env bash</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>sed -i <span class="s1">&#39;/^\s*$/d&#39;</span>
+</span><span class='line'><span class="c"># in place remove blank lines</span>
 </span><span class='line'>
-</span><span class='line'>sudo <span class="nb">echo</span> <span class="s2">&quot;&quot;</span> <span class="c"># Asks for passwords</span>
-</span><span class='line'><span class="o">(</span> <span class="k">while</span> <span class="nb">true</span><span class="p">;</span> <span class="k">do</span> sudo -v<span class="p">;</span> sleep 40<span class="p">;</span> <span class="k">done</span> <span class="o">)</span> <span class="p">&amp;</span>
-</span><span class='line'><span class="nv">sudoPID</span><span class="o">=</span><span class="nv">$!</span>
+</span><span class='line'>cat file.txt <span class="p">|</span> <span class="k">while</span> <span class="nb">read </span>in<span class="p">;</span> <span class="k">do</span> brew install <span class="s2">&quot;$in&quot;</span><span class="p">;</span> <span class="k">done</span>
+</span><span class='line'><span class="c"># read each line in &#39;file.txt&#39; to brew to install</span>
 </span><span class='line'>
-</span><span class='line'>sudo rm -rf /Library/Preferences/SystemConfiguration/com.apple.airport.preferences.plist
-</span><span class='line'>sudo rm -rf /Library/Preferences/SystemConfiguration/com.apple.network.identification.plist
-</span><span class='line'>sudo rm -rf /Library/Preferences/SystemConfiguration/NetworkInterfaces.plist
-</span><span class='line'>sudo rm -rf /Library/Preferences/SystemConfiguration/preferences.plist
-</span><span class='line'>
-</span><span class='line'>sudo -k
+</span><span class='line'>xargs -0 brew install  &lt; &lt;<span class="o">(</span>tr <span class="se">\\</span>n <span class="se">\\</span><span class="m">0</span> &lt;file.txt<span class="o">)</span>
+</span><span class='line'><span class="c"># brew install each line from file.txt</span>
 </span></code></pre></td></tr></table></div></figure>
 
-
-<p>Restart the computer and reconnect to the wifi network.</p>
 </div>
 
 
@@ -144,7 +122,7 @@ com &hellip;">
 
 
 
-Apr 15th, 2016</div>
+May 7th, 2016</div>
 	<div class="tags">
 
 

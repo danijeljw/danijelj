@@ -4,7 +4,7 @@
   <title><![CDATA[danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-05-07T12:24:22+09:30</updated>
+  <updated>2016-05-08T00:02:34+09:30</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel-James Wynyard]]></name>
@@ -12,6 +12,34 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[quick brew install tips]]></title>
+    <link href="http://danijelj.com/blog/2016/05/07/quick-brew-install-tips/"/>
+    <updated>2016-05-07T23:42:06+09:30</updated>
+    <id>http://danijelj.com/blog/2016/05/07/quick-brew-install-tips</id>
+    <content type="html"><![CDATA[<p>Sometimes I need to remind myself how to install a list of apps in <a href="http://brew.sh">brew</a> from a textfile named <code>file.txt</code></p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>sed -i <span class="s1">&#39;/^\s*$/d&#39;</span>
+</span><span class='line'><span class="c"># in place remove blank lines</span>
+</span><span class='line'>
+</span><span class='line'>cat file.txt <span class="p">|</span> <span class="k">while</span> <span class="nb">read </span>in<span class="p">;</span> <span class="k">do</span> brew install <span class="s2">&quot;$in&quot;</span><span class="p">;</span> <span class="k">done</span>
+</span><span class='line'><span class="c"># read each line in &#39;file.txt&#39; to brew to install</span>
+</span><span class='line'>
+</span><span class='line'>xargs -0 brew install  &lt; &lt;<span class="o">(</span>tr <span class="se">\\</span>n <span class="se">\\</span><span class="m">0</span> &lt;file.txt<span class="o">)</span>
+</span><span class='line'><span class="c"># brew install each line from file.txt</span>
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[getting an awesome wallpaper]]></title>
@@ -238,6 +266,15 @@
 </span></code></pre></td></tr></table></div></figure>
 
 
+<p>To run a fix across all your taps <em>(you might not know which one is causing the problems)</em>, just tap into all the taps again:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="k">for</span> i in <span class="k">$(</span>brew tap<span class="k">)</span><span class="p">;</span> <span class="k">do</span> brew tap <span class="s2">&quot;$i&quot;</span><span class="p">;</span> <span class="k">done</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This one liner is your life saver.</p>
+
 <p>Problem solved !</p>
 ]]></content>
   </entry>
@@ -339,11 +376,11 @@
 
 <p>Not sure how to repay my dear, so I got up at 5:30 in the morning and went to Mt Lofty to see where I could find an amazing vantage point for the sunrise.</p>
 
-<p>I discovered Mt Lofty House. I might have to plan a secret weekend getaway for the two of us up there sometime in the folding cold of winter and steal my dear away.</p>
+<p>I discovered <a href="http://www.mtloftyhouse.com.au">Mount Lofty House</a>. I might have to plan a secret weekend getaway for the two of us up there sometime in the folding cold of winter and steal my dear away.</p>
 
 <p><img src="http://danijelj.com/images/2016/04/26/20160426.iPhone6plus.0995.jpg" width="800" height="324"  alt="sunrise from Mt Lofty House on Tuesday"></p>
 
-<p>Captured three images, but this is the low-res version of one of them.</p>
+<p>Captured three images, this is the low-res version of one of them.</p>
 
 <p>Good morning everyone !</p>
 ]]></content>
@@ -822,93 +859,6 @@
 <p><img src="http://danijelj.com/images/2016/03/DJW.20160313.iPhone6Plus.170121.jpg" width="800" height="450" title="River Torrens with blue green algæ" alt="blue green algæ on the River Torrens"></p>
 
 <p><img src="http://danijelj.com/images/2016/03/DJW.20160313.iPhone6Plus.170223.jpg" width="800" height="800" title="poison toadstools" alt="poison toadstools 🍄💀"></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[python escape sequences]]></title>
-    <link href="http://danijelj.com/blog/2016/03/12/python-escape-sequences/"/>
-    <updated>2016-03-12T11:49:41+10:30</updated>
-    <id>http://danijelj.com/blog/2016/03/12/python-escape-sequences</id>
-    <content type="html"><![CDATA[<p>Python 2.x &amp; 3.x escape sequences:</p>
-
-<table>
-<thead>
-<tr>
-<th style="text-align:center;"> escape </th>
-<th style="text-align:left;"> function </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center;"> \ </td>
-<td style="text-align:left;"> Backslash () </td>
-</tr>
-<tr>
-<td style="text-align:center;"> \&lsquo; </td>
-<td style="text-align:left;"> Single-quote (&lsquo;) </td>
-</tr>
-<tr>
-<td style="text-align:center;"> \&ldquo; </td>
-<td style="text-align:left;"> Double-quote (&ldquo;) </td>
-</tr>
-<tr>
-<td style="text-align:center;"> \a </td>
-<td style="text-align:left;"> ASCII bell (BEL) </td>
-</tr>
-<tr>
-<td style="text-align:center;"> \b </td>
-<td style="text-align:left;"> ASCII backspace (BS) </td>
-</tr>
-<tr>
-<td style="text-align:center;"> \f </td>
-<td style="text-align:left;"> ASCII formfeed (FF) </td>
-</tr>
-<tr>
-<td style="text-align:center;"> \n </td>
-<td style="text-align:left;"> ASCII linefeed (LF) </td>
-</tr>
-<tr>
-<td style="text-align:center;"> \N{name} </td>
-<td style="text-align:left;"> Character named name in the Unicode database (Unicode only) </td>
-</tr>
-<tr>
-<td style="text-align:center;"> \r </td>
-<td style="text-align:left;"> Carriage Return (CR) </td>
-</tr>
-<tr>
-<td style="text-align:center;"> \t </td>
-<td style="text-align:left;"> Horizontal Tab (TAB) </td>
-</tr>
-<tr>
-<td style="text-align:center;"> \uxxxx </td>
-<td style="text-align:left;"> Character with 16-bit hex value <code>xxxx</code> (Unicode only) </td>
-</tr>
-<tr>
-<td style="text-align:center;"> \Uxxxxxxxx </td>
-<td style="text-align:left;"> Character with 32-bit hex value <code>xxxxxxxx</code> (Unicode only) </td>
-</tr>
-<tr>
-<td style="text-align:center;"> \v </td>
-<td style="text-align:left;"> ASCII vertical tab (VT) </td>
-</tr>
-<tr>
-<td style="text-align:center;"> \ooo </td>
-<td style="text-align:left;"> Character with octal value <code>ooo</code> </td>
-</tr>
-<tr>
-<td style="text-align:center;"> \xhh </td>
-<td style="text-align:left;"> Character with hex value <code>hh</code> </td>
-</tr>
-</tbody>
-</table>
-
-
-<p><br></p>
-
-<hr />
-
-<p>Source: <a href="http://learnpythonthehardway.org/book/ex10.html">Learn Python The Hard Way</a></p>
 ]]></content>
   </entry>
   
