@@ -62,4 +62,12 @@ Then I reinstalled ityscal again:
 🍺  itsycal staged at '/opt/homebrew-cask/Caskroom/itsycal/0.10.12' (189 files, 3.7M)
 ```
 
+To run a fix across all your taps _(you might not know which one is causing the problems)_, just tap into all the taps again:
+
+```bash
+for i in $(brew tap); do brew tap "$i"; done
+```
+
+This one liner is your life saver.
+
 Problem solved !
