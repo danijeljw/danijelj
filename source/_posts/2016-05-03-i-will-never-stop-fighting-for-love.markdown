@@ -87,7 +87,7 @@ Jake is the person that fills my heart with happiness and love. Doesn’t he des
 
 {% img /images/2016/04/30/20160430.iPhone6Plus.112909.jpg 481 800 'jake will be my husband one day' 'jake will be my husband one day' %}
 
-It's not over until I've decided to let go. Just because Jake one day might say goodbye to me, it doesn't mean it's over. It just means I have even more of an incentive to fight for him. As long as I hold and keep fighting, it's not really love. As long as I still love him, I won't let the relationship be over forever.
+It's not over until I've decided to let go. Just because Jake one day might say goodbye to me, it doesn't mean it's over. It just means I have even more of an incentive to fight for him. As long as I hold but don't keep fighting, it's not really love. As long as I still love him, I won't let the relationship be over, ever.
 
 ###If I wasn't willing to fight for it, then I'm sorry...but Jake deserves better than me.
 
