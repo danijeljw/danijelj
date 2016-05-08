@@ -39,3 +39,6 @@ fi
 ## Reset Date Clause
 echo "Resetting $todayDate variable"; todayDate="$(date +'%Y%m%d')"; sleep .5
 
+# Fix permissions on server
+echo "Resetting permissions on the server"
+fixOcto
