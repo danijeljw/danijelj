@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://danijelj.com/blog/2016/05/08/happy-mothers-day/</loc>
+<lastmod>2016-05-08T10:42:21+09:30</lastmod>
+</url>
+<url>
+<loc>http://danijelj.com/blog/2016/05/08/convert-mp4-to-webm-with-ffmpeg/</loc>
+<lastmod>2016-05-08T01:09:08+09:30</lastmod>
+</url>
+<url>
 <loc>http://danijelj.com/blog/2016/05/07/quick-brew-install-tips/</loc>
 <lastmod>2016-05-07T23:42:06+09:30</lastmod>
 </url>

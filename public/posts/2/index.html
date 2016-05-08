@@ -7,7 +7,7 @@
 	<meta name="author" content="Danijel-James Wynyard">
 
 	
-	<meta name="description" content="Disk Size Size of RAM Disk is z * 2048, where z is represented in MB A 600MB RAM Disk would be: 1228800 (That is: 600 * 2048 = 1228800) Disk Formats &hellip;">
+	<meta name="description" content="Python string basics. Useful as a reminder to myself. Sometimes I forget this kind of basic stuff and end up writing whole methods that don&rsquo;t &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -83,6 +83,175 @@
 		
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2016/04/20/common-string-literals-and-operations/">
+		
+			common string literals and operations</a>
+	</h2>
+	<div class="entry-content">
+		<p>Python string basics. Useful as a reminder to myself. Sometimes I forget this kind of basic stuff and end up writing whole methods that don&rsquo;t need to be created.</p>
+
+<table>
+<thead>
+<tr>
+<th style="text-align:left;"> Operation </th>
+<th style="text-align:left;"> Interpretation </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">K = &lsquo;&rsquo; </td>
+<td style="text-align:left;"> Empty string </td>
+</tr>
+<tr>
+<td style="text-align:left;">K = &ldquo;eggs&rsquo;s&rdquo; </td>
+<td style="text-align:left;"> Double quotes, same as single </td>
+</tr>
+<tr>
+<td style="text-align:left;">K = &rsquo;s\nu\tga\x00r' </td>
+<td style="text-align:left;"> Escape sequences </td>
+</tr>
+<tr>
+<td style="text-align:left;">K = &ldquo;&rdquo;&ldquo;&hellip;multiline&hellip;&rdquo; </td>
+<td style="text-align:left;"> Triple-quoted block strings </td>
+</tr>
+<tr>
+<td style="text-align:left;">K = r'\temp\eggs' </td>
+<td style="text-align:left;"> Raw strings (no escapes) </td>
+</tr>
+<tr>
+<td style="text-align:left;">C = c'sp\xc4m' </td>
+<td style="text-align:left;"> Byte strings in 2.6, 2.7, and 3.X </td>
+</tr>
+<tr>
+<td style="text-align:left;">U = u'sp\u00c4m' </td>
+<td style="text-align:left;"> Unicode strings in 2.X and 3.3+ </td>
+</tr>
+<tr>
+<td style="text-align:left;">T1 + T2 </td>
+<td style="text-align:left;"> Concatenate </td>
+</tr>
+<tr>
+<td style="text-align:left;">L * 3 </td>
+<td style="text-align:left;"> Repeat </td>
+</tr>
+<tr>
+<td style="text-align:left;">L[i] </td>
+<td style="text-align:left;"> Index </td>
+</tr>
+<tr>
+<td style="text-align:left;">L[i:j] </td>
+<td style="text-align:left;"> Slice </td>
+</tr>
+<tr>
+<td style="text-align:left;">len(L) </td>
+<td style="text-align:left;"> Length </td>
+</tr>
+<tr>
+<td style="text-align:left;">&ldquo;a %s joke&rdquo; % funny </td>
+<td style="text-align:left;"> String formatting expresion </td>
+</tr>
+<tr>
+<td style="text-align:left;">&ldquo;a {0} joke&rdquo;.format(funny) </td>
+<td style="text-align:left;"> String formatting method in 2.6, 2.7 and 3.X </td>
+</tr>
+<tr>
+<td style="text-align:left;">G.find(&lsquo;ake&rsquo;) </td>
+<td style="text-align:left;"> String method </td>
+</tr>
+<tr>
+<td style="text-align:left;">for i in G: print(i) </td>
+<td style="text-align:left;"> Iteration </td>
+</tr>
+<tr>
+<td style="text-align:left;">&lsquo;ake&rsquo; in J </td>
+<td style="text-align:left;"> Membership </td>
+</tr>
+<tr>
+<td style="text-align:left;">[ i * 2 for i in J ] </td>
+<td style="text-align:left;"> Iteration </td>
+</tr>
+</tbody>
+</table>
+
+
+<hr>
+
+
+<p><em>Attribution: Learning Python, Mark Lutz 978-1-449-35573-9</em></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Apr 20th, 2016</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2016/04/19/my-office-window/">
+		
+			my office window</a>
+	</h2>
+	<div class="entry-content">
+		<p>What does your office window view look like ? Do you even have an office window to look out ? I hope so. Everyone needs a window into the world. Especially our pets. Cats and dogs love being able to look into the world.</p>
+
+<p>Did you ever look into the window as a child when it rained and watched the drops of rain falling from the heavens down on to the ground ? <em>plop, plop, plop</em> 💧💧💧 they would crash and splash like tiny meteors. I did. I also loved the sound.</p>
+
+<p>Since moving to Adelaide I&rsquo;ve yet to find my office space that I will be working from. Hopefully it will have a nice view of the buildings, sky and all the people running around doing whatever they do best. Such a view would bring me joy.</p>
+
+<p>When I worked for Vimeo, I had a view as grand as the Opera House, the Harbor Bridge, the people in Pitt St Mall, a coffee and cake, or even people walking by ! I technically had no office and worked entirely remotely from my office. That was in New York and here I was in Australia.</p>
+
+<p>I&rsquo;ve managed to source my own office here in Adelaide whilst I work on personal projects and spread my wings a little and relax a little more. I&rsquo;m quite often here in my office but not during the usual business hours. They run 24/7. So you&rsquo;ll have to check my calendar <em>(sic.)</em></p>
+
+<p><img src="/images/2016/04/19/20160419.iPhone6Plus.0659.jpg" width="800" height="600" title="my office window" alt="my office window"></p>
+
+<p>I hope your find a place to work, spending 1/3 of your adult life there, where the view is as beautiful as what I&rsquo;ve to share.</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Apr 19th, 2016</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/photography/'>photography</a>
+
+
+</div>
+	
+</div>
+</article>
 
 
     <article class="post">
@@ -566,90 +735,6 @@ Mar 30th, 2016</div>
 
 
 Mar 29th, 2016</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/photography/'>photography</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2016/03/18/darling-harbour-month-of-love/">
-		
-			darling harbour month of love</a>
-	</h2>
-	<div class="entry-content">
-		<p>February is the <code>#MonthofLove</code> in Darling Harbour, Sydney. <code>#DragAndDrop</code> saw special performances by some of Sydney&rsquo;s hottest drag queens and performers in the lead-up to the <a href="http://www.mardigras.org.au/">Sydney Mardi Gras</a> in conjunction with Darling Harbour as part of the celebrations in all things related to love.</p>
-
-<p>Here was one of my favourite performances by my dear friend, <a href="https://instagram.com/mynameisdanger">Danger Del Rey</a>. Please feel free to follow her on Instagram - <a href="https://instagram.com/mynameisdanger">@mynameisdanger</a></p>
-
-<p><img src="/images/2016/03/DJW.20160303.600D.0636.800res.jpg" width="800" height="629" title="Danger Del Rey Darling Harbour Month of Love Mardi Gras Sydney Drag and Drop" alt="Danger Del Rey @ Darling Harbour #MonthOfLove #DragAndDrop #DarlingHarbour #MardiGras"></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Mar 18th, 2016</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/photography/'>photography</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2016/03/13/walking-caesar/">
-		
-			walking caesar</a>
-	</h2>
-	<div class="entry-content">
-		<p>It&rsquo;s 27°C and Cæsar 🐶 is at the back door slobbering all over the glass. He&rsquo;s just been given a new choke-chain this arvo by my mum &lsquo;cos he is a pretty big dog and can&rsquo;t be handled easily without some restraint. I&rsquo;ve decided to bring him down to the local dog park or &ldquo;Pooch Park&rdquo; as it&rsquo;s colloquially known.</p>
-
-<p><img src="/images/2016/03/2016.03.13_walking.caesar.png" width="906" height="604" title="Pooch Park Tedder Reserve" alt="Pooch Park Tedder Reserve"></p>
-
-<p>We get down there after I drove him in the car Ante <em>(the youngest of us 3 boys)</em> gave me, and Cæsar&rsquo;s 🐶 somehow slobbered all over my windows at this point, so out the car and off we go. A short run around the park and sniff and scratch we go for a walk down under the bridge and along the river front</p>
-
-<p><img src="/images/2016/03/DJW.20160313.iPhone6Plus.381710.jpg" width="800" height="450" title="Cæsar sitting on River Torrens waiting" alt="Cæsar, which way?"></p>
-
-<p><img src="/images/2016/03/DJW.20160313.iPhone6Plus.581759.jpg" width="640" height="800" title="secret hut made of sticks on the River Torrens, Adelaide" alt="secret hutch where children dream"></p>
-
-<p><img src="/images/2016/03/DJW.20160313.iPhone6Plus.170121.jpg" width="800" height="450" title="River Torrens with blue green algæ" alt="blue green algæ on the River Torrens"></p>
-
-<p><img src="/images/2016/03/DJW.20160313.iPhone6Plus.170223.jpg" width="800" height="800" title="poison toadstools" alt="poison toadstools 🍄💀"></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Mar 13th, 2016</div>
 	<div class="tags">
 
 

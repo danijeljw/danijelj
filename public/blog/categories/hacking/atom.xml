@@ -4,7 +4,7 @@
   <title><![CDATA[Category: hacking | danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/blog/categories/hacking/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-05-08T00:02:34+09:30</updated>
+  <updated>2016-05-08T10:48:59+09:30</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel-James Wynyard]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[convert mp4 to webm with ffmpeg]]></title>
+    <link href="http://danijelj.com/blog/2016/05/08/convert-mp4-to-webm-with-ffmpeg/"/>
+    <updated>2016-05-08T01:09:08+09:30</updated>
+    <id>http://danijelj.com/blog/2016/05/08/convert-mp4-to-webm-with-ffmpeg</id>
+    <content type="html"><![CDATA[<p>Convert from MP4 to WebM standard:</p>
+
+<pre><code class="bash">avconv -i inputVideo.mp4 -acodec libvorbis -aq 5 -ac 2 -qmax 25 -threads 2 outputVideo.webm
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[quick brew install tips]]></title>
@@ -163,28 +175,6 @@ brew upgrade
 </code></pre>
 
 <p><strong>source:</strong> <a href="https://github.com/caskroom/homebrew-cask/issues/309">https://github.com/caskroom/homebrew-cask/issues/309</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[generate checksums]]></title>
-    <link href="http://danijelj.com/blog/2016/04/23/generate-checksums/"/>
-    <updated>2016-04-23T21:56:38+09:30</updated>
-    <id>http://danijelj.com/blog/2016/04/23/generate-checksums</id>
-    <content type="html"><![CDATA[<h3>Bash</h3>
-
-<p>Calculate MD5 checksum:
-<code>bash
-md5 /tmp/1.iso
-</code>
-Calculate SHA-1 checksum:
-<code>bash
-shasum -a 1 /tmp/1.iso
-</code>
-Calculate SHA-256 checksum:
-<code>bash
-shasum -a 256 /tmp/1.iso
-</code></p>
 ]]></content>
   </entry>
   

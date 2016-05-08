@@ -7,7 +7,7 @@
 	<meta name="author" content="Danijel-James Wynyard">
 
 	
-	<meta name="description" content="Been playing with Codecademy to learn some more on Python. Their Battleship! tutorial I must say is one of the hardest I have tried, and &hellip;">
+	<meta name="description" content="Using the following formats a partition with fat16 on OS X: diskutil partitionDisk /Volumes/NDS 1 MBRFormat "MS-DOS FAT16" "NDS" 1000M That is: / &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -83,6 +83,102 @@
 		
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2014/08/04/format-with-fat16-on-mac-os-x/">
+		
+			format with fat16 on mac os x</a>
+	</h2>
+	<div class="entry-content">
+		<p>Using the following formats a partition with <code>fat16</code> on OS X:</p>
+
+<pre><code>diskutil partitionDisk /Volumes/NDS 1 MBRFormat "MS-DOS FAT16" "NDS" 1000M
+</code></pre>
+
+<p>That is:</p>
+
+<ul>
+<li>/Volumes/NDS: the mount point to partition, could also be /dev/disk1</li>
+<li>1: the number of partitions</li>
+<li>MBRFormat: the partition format, MBR is the usual default for removable storage</li>
+<li>&ldquo;MS-DOS FAT16&rdquo;: partition type</li>
+<li>&ldquo;NDS&rdquo;: partition name</li>
+<li>1000M: 1000 megabytes (size of the partition, if it is the last, it will span to the end of the drive)</li>
+</ul>
+
+
+<p>🍷🍷🍷</p>
+
+<p><code>#MigratedPost</code></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Aug 4th, 2014</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2014/06/17/terminal-colours-mac/">
+		
+			terminal colours mac</a>
+	</h2>
+	<div class="entry-content">
+		<p>Create a new <code>.bash_profile</code> in the users home directory with:</p>
+
+<pre><code>export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
+export PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:[01;34m\]\w\[\033[00m\]\$ '
+</code></pre>
+
+<p>👅👅👅</p>
+
+<p><code>#MigratedPost</code></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Jun 17th, 2014</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
 
 
     <article class="post">
@@ -537,149 +633,6 @@ Feb 9th, 2014</div>
 
 
 Feb 8th, 2014</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/hacking/'>hacking</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2014/02/07/objective-c-data-types/">
-		
-			objective-c data types</a>
-	</h2>
-	<div class="entry-content">
-		<table>
-<thead>
-<tr>
-<th style="text-align:left;"> Type </th>
-<th style="text-align:left;"> Example </th>
-<th style="text-align:left;"> Specifier </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;"> char </td>
-<td style="text-align:left;"> ‘a’, ‘O’, ‘\n’ </td>
-<td style="text-align:left;"> %c </td>
-</tr>
-<tr>
-<td style="text-align:left;"> int </td>
-<td style="text-align:left;"> 14, -14, 780, 0xEEC0, 098 </td>
-<td style="text-align:left;"> %i, %d </td>
-</tr>
-<tr>
-<td style="text-align:left;"> unsigned int </td>
-<td style="text-align:left;"> 10u, 121U, 0xEFu </td>
-<td style="text-align:left;"> %u, %x, %o </td>
-</tr>
-<tr>
-<td style="text-align:left;"> long int </td>
-<td style="text-align:left;"> 18, -2100, 0xfeefL </td>
-<td style="text-align:left;"> %ld </td>
-</tr>
-<tr>
-<td style="text-align:left;"> unsigned long int </td>
-<td style="text-align:left;"> 13UL, 101ul, 0xfefeUL </td>
-<td style="text-align:left;"> %lu, %lx, %lo </td>
-</tr>
-<tr>
-<td style="text-align:left;"> long long int </td>
-<td style="text-align:left;"> 0xe5e5e5LL, 501ll </td>
-<td style="text-align:left;"> %lld </td>
-</tr>
-<tr>
-<td style="text-align:left;"> unsigned long long int </td>
-<td style="text-align:left;"> 10ull, 0xffeeULL </td>
-<td style="text-align:left;"> %llu, %llx, %llo </td>
-</tr>
-<tr>
-<td style="text-align:left;"> float </td>
-<td style="text-align:left;"> 12.30f, 3.2e-5f, 0x2.2p09 </td>
-<td style="text-align:left;"> %f, %e, %g, %a </td>
-</tr>
-<tr>
-<td style="text-align:left;"> double </td>
-<td style="text-align:left;"> 3.1415 </td>
-<td style="text-align:left;"> %f, %e, %g, %a </td>
-</tr>
-<tr>
-<td style="text-align:left;"> long double </td>
-<td style="text-align:left;"> 3.5e-5l </td>
-<td style="text-align:left;"> %Lf, %Le, %Lg, %La </td>
-</tr>
-<tr>
-<td style="text-align:left;"> id </td>
-<td style="text-align:left;"> Nil </td>
-<td style="text-align:left;"> %@ </td>
-</tr>
-</tbody>
-</table>
-
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Feb 7th, 2014</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/hacking/'>hacking</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/11/09/dock-icons-that-wont-go-away/">
-		
-			dock icons that won't go away</a>
-	</h2>
-	<div class="entry-content">
-		<p>A client of mine who minimised an application to their Dock and their iMac crashed. When the computer rebooted, the icon of the minimised application was ever present in their Dock and it wasn’t selectable, repairable, removable – anything!</p>
-
-<p>If you come across such a problem, open Terminal and run the following:</p>
-
-<pre><code>rm -f ~/Library/Preferences/com.apple.dock.plist
-</code></pre>
-
-<p>Restart your Mac, problem solved.</p>
-
-<p><code>#MigratedPost</code></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Nov 9th, 2013</div>
 	<div class="tags">
 
 

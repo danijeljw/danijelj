@@ -4,7 +4,7 @@
   <title><![CDATA[danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-05-08T00:02:34+09:30</updated>
+  <updated>2016-05-08T10:48:59+09:30</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel-James Wynyard]]></name>
@@ -12,6 +12,31 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[happy mothers day]]></title>
+    <link href="http://danijelj.com/blog/2016/05/08/happy-mothers-day/"/>
+    <updated>2016-05-08T10:42:21+09:30</updated>
+    <id>http://danijelj.com/blog/2016/05/08/happy-mothers-day</id>
+    <content type="html"><![CDATA[<p>To the strongest woman I&rsquo;ve ever known. Raising three boys, all ratbags 😁 Our mother, is the bone of our spines, keeping us straight and true. She is our blood, making sure it runs rich and strong. She is the beating of our hearts. I cannot imagine a life without her. To the world you are a mother, to your three ratbags you are our world. Happy Mothers Day Mum 😘💐🌟</p>
+
+<p><img src="http://danijelj.com/images/2016/05/08/14910844667_bae4756d72_c.jpg" width="629" height="800" title="my mother" alt="my mother"></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[convert mp4 to webm with ffmpeg]]></title>
+    <link href="http://danijelj.com/blog/2016/05/08/convert-mp4-to-webm-with-ffmpeg/"/>
+    <updated>2016-05-08T01:09:08+09:30</updated>
+    <id>http://danijelj.com/blog/2016/05/08/convert-mp4-to-webm-with-ffmpeg</id>
+    <content type="html"><![CDATA[<p>Convert from MP4 to WebM standard:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>avconv -i inputVideo.mp4 -acodec libvorbis -aq <span class="m">5</span> -ac <span class="m">2</span> -qmax <span class="m">25</span> -threads <span class="m">2</span> outputVideo.webm
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[quick brew install tips]]></title>
@@ -825,40 +850,6 @@
     <content type="html"><![CDATA[<p>I want these popsicles to be recreated for a t-shirt print for my birthay&hellip;</p>
 
 <p><img src="http://danijelj.com/images/2016/03/2016-summer-popsicles.jpg" width="600" height="600" title="summertime popsicles lyfe" alt="summertime popsicles lyfe"></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[darling harbour month of love]]></title>
-    <link href="http://danijelj.com/blog/2016/03/18/darling-harbour-month-of-love/"/>
-    <updated>2016-03-18T13:56:24+10:30</updated>
-    <id>http://danijelj.com/blog/2016/03/18/darling-harbour-month-of-love</id>
-    <content type="html"><![CDATA[<p>February is the <code>#MonthofLove</code> in Darling Harbour, Sydney. <code>#DragAndDrop</code> saw special performances by some of Sydney&rsquo;s hottest drag queens and performers in the lead-up to the <a href="http://www.mardigras.org.au/">Sydney Mardi Gras</a> in conjunction with Darling Harbour as part of the celebrations in all things related to love.</p>
-
-<p>Here was one of my favourite performances by my dear friend, <a href="https://instagram.com/mynameisdanger">Danger Del Rey</a>. Please feel free to follow her on Instagram - <a href="https://instagram.com/mynameisdanger">@mynameisdanger</a></p>
-
-<p><img src="http://danijelj.com/images/2016/03/DJW.20160303.600D.0636.800res.jpg" width="800" height="629" title="Danger Del Rey Darling Harbour Month of Love Mardi Gras Sydney Drag and Drop" alt="Danger Del Rey @ Darling Harbour #MonthOfLove #DragAndDrop #DarlingHarbour #MardiGras"></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[walking caesar]]></title>
-    <link href="http://danijelj.com/blog/2016/03/13/walking-caesar/"/>
-    <updated>2016-03-13T17:51:41+10:30</updated>
-    <id>http://danijelj.com/blog/2016/03/13/walking-caesar</id>
-    <content type="html"><![CDATA[<p>It&rsquo;s 27°C and Cæsar 🐶 is at the back door slobbering all over the glass. He&rsquo;s just been given a new choke-chain this arvo by my mum &lsquo;cos he is a pretty big dog and can&rsquo;t be handled easily without some restraint. I&rsquo;ve decided to bring him down to the local dog park or &ldquo;Pooch Park&rdquo; as it&rsquo;s colloquially known.</p>
-
-<p><img src="http://danijelj.com/images/2016/03/2016.03.13_walking.caesar.png" width="906" height="604" title="Pooch Park Tedder Reserve" alt="Pooch Park Tedder Reserve"></p>
-
-<p>We get down there after I drove him in the car Ante <em>(the youngest of us 3 boys)</em> gave me, and Cæsar&rsquo;s 🐶 somehow slobbered all over my windows at this point, so out the car and off we go. A short run around the park and sniff and scratch we go for a walk down under the bridge and along the river front</p>
-
-<p><img src="http://danijelj.com/images/2016/03/DJW.20160313.iPhone6Plus.381710.jpg" width="800" height="450" title="Cæsar sitting on River Torrens waiting" alt="Cæsar, which way?"></p>
-
-<p><img src="http://danijelj.com/images/2016/03/DJW.20160313.iPhone6Plus.581759.jpg" width="640" height="800" title="secret hut made of sticks on the River Torrens, Adelaide" alt="secret hutch where children dream"></p>
-
-<p><img src="http://danijelj.com/images/2016/03/DJW.20160313.iPhone6Plus.170121.jpg" width="800" height="450" title="River Torrens with blue green algæ" alt="blue green algæ on the River Torrens"></p>
-
-<p><img src="http://danijelj.com/images/2016/03/DJW.20160313.iPhone6Plus.170223.jpg" width="800" height="800" title="poison toadstools" alt="poison toadstools 🍄💀"></p>
 ]]></content>
   </entry>
   
