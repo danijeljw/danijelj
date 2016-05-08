@@ -34,3 +34,6 @@ if [ ! -d "/Volumes/DEVELOPER" ]; then
     echo "No backups were made at this time"
     echo "###################"
 fi
+
+echo "Resetting permissions on server"
+fixOcto
