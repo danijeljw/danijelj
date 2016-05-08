@@ -4,7 +4,7 @@
   <title><![CDATA[Category: hacking | danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/blog/categories/hacking/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-05-08T10:48:59+09:30</updated>
+  <updated>2016-05-09T00:47:33+09:30</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel-James Wynyard]]></name>
@@ -119,7 +119,7 @@ homebrew/science
 <pre><code class="bash">for i in $(brew tap); do brew tap "$i"; done
 </code></pre>
 
-<p>This one liner is your life saver.</p>
+<p>This one liner is your life saver. 😉</p>
 
 <p>Problem solved !</p>
 ]]></content>

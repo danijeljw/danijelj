@@ -68,6 +68,6 @@ To run a fix across all your taps _(you might not know which one is causing the 
 for i in $(brew tap); do brew tap "$i"; done
 ```
 
-This one liner is your life saver.
+This one liner is your life saver. 😉
 
 Problem solved !
