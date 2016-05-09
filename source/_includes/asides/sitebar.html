@@ -4,13 +4,27 @@
   <h3 id="site_subtitle">{{ site.subtitle }}</h3>
 </section>
 
+
+
 <section id="menu">
+<div class="dropdown">
+  <!-- Link or button to toggle dropdown -->
+  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+    <li><a tabindex="-1" href="#">Action</a></li>
+    <li><a tabindex="-1" href="#">Another action</a></li>
+    <li><a tabindex="-1" href="#">Something else here</a></li>
+    <li class="divider"></li>
+    <li><a tabindex="-1" href="#">Separated link</a></li>
+  </ul>
+</div>
+<!--
   <ul>
     <li><i class="fa fa-home fa-lg"></i><a href="{{ site.url }}"> Home </a></li>
     <li><i class="fa fa-calendar fa-lg"></i><a href="{{ site.url }}/blog/archives/"> Archives </a></li>
     <li><i class="fa fa-user fa-lg"></i><a href="{{ site.url }}/about/"> About </a></li>
     <li><i class="fa fa-rss fa-lg"></i><a href="{{ site.url }}/atom.xml"> Feed </a></li>
   </ul>
+-->
 </section>
 
 <section id="social">
