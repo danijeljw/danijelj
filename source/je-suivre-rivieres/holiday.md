@@ -501,5 +501,5 @@ Written with something special,
 for someone special,  
 by Danijel James
 
-_PS - Have a safe &amp; fun holiday Jake_ 😘✈️🚗
+_PS - Have a safe &amp; fun holiday Jake_ 😘✈️🚗  
 _PPS - Please return safely._
