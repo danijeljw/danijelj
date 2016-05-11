@@ -35,5 +35,3 @@ if [ ! -d "/Volumes/DEVELOPER" ]; then
     echo "###################"
 fi
 
-echo "Resetting permissions on server"
-fixOcto
