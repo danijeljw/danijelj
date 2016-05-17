@@ -123,4 +123,10 @@ So, did I start this article with the right words ? Clearly not. Let me try that
 
 >I've been UNLUCKY enough in my life that I've always been the one to walk away and not regret the choice to do so. 
 
-To be continued...
+###A Final Note
+
+There's a [Banksy](http://banksy.co.uk) image referred to as _"Girl With Balloon"_ that represents letting go of what makes you sad. I'm not sure I agree with this sentiment.
+
+{% img /images/2016/05/18/20160518.banksy-girl-with-balloon.jpg 600 675 'never give up' 'never give up' %}
+
+To me this image is a sole representation of never giving up. The little girl represents me and the balloon him. I'm reaching out, but I'm not gonna run yet. The balloon will hover there and when it's ready it will go whichever way it wants. If it floats back towards me, I'm going to hold it by the thread between my fingers and slowly hold the thread with more fingers the closer the balloon is ready to come. If ever. 😊
