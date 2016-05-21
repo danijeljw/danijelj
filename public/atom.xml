@@ -4,7 +4,7 @@
   <title><![CDATA[danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-05-20T11:02:24+09:30</updated>
+  <updated>2016-05-21T11:42:21+09:30</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel-James Wynyard]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[How to Type Symbols for Option]]></title>
+    <link href="http://danijelj.com/blog/2016/05/21/how-to-type-symbols-for-option/"/>
+    <updated>2016-05-21T11:41:07+09:30</updated>
+    <id>http://danijelj.com/blog/2016/05/21/how-to-type-symbols-for-option</id>
+    <content type="html"><![CDATA[<p>Below are the Unicode hex numbers for the most common symbols used to represent Mac control keys. You can type these by finding the numbers in the Character Palette or similar font inspector program, or by using the Unicode Hex Keyboard (key in Option plus the number). Lucida Grande is a good font to use.</p>
+
+<p>Apple/Command: 2318 ⌘</p>
+
+<p>Alt/Option: 2325 ⌥</p>
+
+<p>Shift: 21E7 ⇧</p>
+
+<p>Delete: 232B ⌫</p>
+
+<p>Control: 2303 ⌃</p>
+
+<p>Apple Logo: F8FF or Option-Shift-K </p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[How lucky am I to have something that makes saying goodbye so hard.]]></title>
@@ -898,78 +919,6 @@
     <content type="html"><![CDATA[<p>Gentlemen, may I warn you that when you live by yourself, this is what breakfast will look like if your parents don&rsquo;t teach you to cook for yourself, or you meet an honest husband/wife that you learn to make breakfast for them too. Why ? Because you love them !</p>
 
 <p><img src="http://danijelj.com/images/2016/04/04/20160404.iPhone6Plus.900142.800res.jpg" width="800" height="800" title="toad in the hole" alt="bachelor toad in the hole breakfast"></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[pip can't update virtualenv]]></title>
-    <link href="http://danijelj.com/blog/2016/03/30/pip-cant-update-virtualenv/"/>
-    <updated>2016-03-30T15:36:16+10:30</updated>
-    <id>http://danijelj.com/blog/2016/03/30/pip-cant-update-virtualenv</id>
-    <content type="html"><![CDATA[<p>Tried to run an upgrade for <code>virtualenv</code> using <code>PIP</code> and got the following error:</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-<span class='line-number'>20</span>
-<span class='line-number'>21</span>
-<span class='line-number'>22</span>
-</pre></td><td class='code'><pre><code class='sh'><span class='line'>Collecting virtualenv
-</span><span class='line'>  Using cached virtualenv-15.0.1-py2.py3-none-any.whl
-</span><span class='line'>Installing collected packages: virtualenv
-</span><span class='line'>  Found existing installation: virtualenv 15.0.0
-</span><span class='line'>    Uninstalling virtualenv-15.0.0:
-</span><span class='line'>Exception:
-</span><span class='line'>Traceback <span class="o">(</span>most recent call last<span class="o">)</span>:
-</span><span class='line'>  File <span class="s2">&quot;/usr/local/lib/python2.7/site-packages/pip/basecommand.py&quot;</span>, line 209, in main
-</span><span class='line'>    <span class="nv">status</span> <span class="o">=</span> self.run<span class="o">(</span>options, args<span class="o">)</span>
-</span><span class='line'>  File <span class="s2">&quot;/usr/local/lib/python2.7/site-packages/pip/commands/install.py&quot;</span>, line 317, in run
-</span><span class='line'>    <span class="nv">prefix</span><span class="o">=</span>options.prefix_path,
-</span><span class='line'>  File <span class="s2">&quot;/usr/local/lib/python2.7/site-packages/pip/req/req_set.py&quot;</span>, line 726, in install
-</span><span class='line'>    requirement.uninstall<span class="o">(</span><span class="nv">auto_confirm</span><span class="o">=</span>True<span class="o">)</span>
-</span><span class='line'>  File <span class="s2">&quot;/usr/local/lib/python2.7/site-packages/pip/req/req_install.py&quot;</span>, line 746, in uninstall
-</span><span class='line'>    paths_to_remove.remove<span class="o">(</span>auto_confirm<span class="o">)</span>
-</span><span class='line'>  File <span class="s2">&quot;/usr/local/lib/python2.7/site-packages/pip/req/req_uninstall.py&quot;</span>, line 115, in remove
-</span><span class='line'>    renames<span class="o">(</span>path, new_path<span class="o">)</span>
-</span><span class='line'>  File <span class="s2">&quot;/usr/local/lib/python2.7/site-packages/pip/utils/__init__.py&quot;</span>, line 267, in renames
-</span><span class='line'>    shutil.move<span class="o">(</span>old, new<span class="o">)</span>
-</span><span class='line'>  File <span class="s2">&quot;/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/shutil.py&quot;</span>, line 303, in move
-</span><span class='line'>    os.unlink<span class="o">(</span>src<span class="o">)</span>
-</span><span class='line'>OSError: <span class="o">[</span>Errno 13<span class="o">]</span> Permission denied: <span class="s1">&#39;/usr/local/lib/python2.7/site-packages/virtualenv-15.0.0.dist-info/DESCRIPTION.rst&#39;</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>To resolve this I had to remove the non-brew installed version of <code>virtualenv</code> from my sytem by:</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='sh'><span class='line'>sudo rm -rf /usr/local/lib/python2.7/site-packages/virtualenv*
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Finally install the latest version using <code>PIP</code> again:</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='sh'><span class='line'>pip install virtualenv
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Problem solved !</p>
 ]]></content>
   </entry>
   

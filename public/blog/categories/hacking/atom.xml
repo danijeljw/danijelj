@@ -4,7 +4,7 @@
   <title><![CDATA[Category: hacking | danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/blog/categories/hacking/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-05-20T11:02:24+09:30</updated>
+  <updated>2016-05-21T11:42:21+09:30</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel-James Wynyard]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[How to Type Symbols for Option]]></title>
+    <link href="http://danijelj.com/blog/2016/05/21/how-to-type-symbols-for-option/"/>
+    <updated>2016-05-21T11:41:07+09:30</updated>
+    <id>http://danijelj.com/blog/2016/05/21/how-to-type-symbols-for-option</id>
+    <content type="html"><![CDATA[<p>Below are the Unicode hex numbers for the most common symbols used to represent Mac control keys. You can type these by finding the numbers in the Character Palette or similar font inspector program, or by using the Unicode Hex Keyboard (key in Option plus the number). Lucida Grande is a good font to use.</p>
+
+<p>Apple/Command: 2318 ⌘</p>
+
+<p>Alt/Option: 2325 ⌥</p>
+
+<p>Shift: 21E7 ⇧</p>
+
+<p>Delete: 232B ⌫</p>
+
+<p>Control: 2303 ⌃</p>
+
+<p>Apple Logo: F8FF or Option-Shift-K </p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[convert mp4 to webm with ffmpeg]]></title>
@@ -122,59 +143,6 @@ homebrew/science
 <p>This one liner is your life saver. 😉</p>
 
 <p>Problem solved !</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[update brew cask pkgs]]></title>
-    <link href="http://danijelj.com/blog/2016/04/27/update-brew-cask-pkgs/"/>
-    <updated>2016-04-27T11:03:52+09:30</updated>
-    <id>http://danijelj.com/blog/2016/04/27/update-brew-cask-pkgs</id>
-    <content type="html"><![CDATA[<p>Update brew packages:</p>
-
-<pre><code class="bash">brew update
-brew upgrade
-</code></pre>
-
-<p>Update brew &amp; cask packages:</p>
-
-<pre><code class="bash">#!/usr/bin/env bash
-
-brew update
-brew cask update
-
-casks=( $(brew cask list) )
-
-for cask in ${casks[@]}
-do
-    # in the first line there is version
-    current="$(brew cask info $cask | sed -n '1p' | sed -n 's/^.*: \(.*\)$/\1/p')"
-
-    installed=( $(ls /opt/homebrew-cask/Caskroom/$cask))
-    if (! [[ " ${installed[@]} " == *" $current "* ]]); then
-        (set -x; brew cask install $cask --force;)
-    fi
-done
-
-brew upgrade
-</code></pre>
-
-<p>Reinstall brew &amp; cask packages:</p>
-
-<pre><code class="bash">#!/usr/bin/env bash
-
-rm -rf "$(brew --cache)"
-brew update
-brew cask update
-
-for app in $(brew cask list); do
-    brew cask install --force "${app}"
-done
-
-brew upgrade
-</code></pre>
-
-<p><strong>source:</strong> <a href="https://github.com/caskroom/homebrew-cask/issues/309">https://github.com/caskroom/homebrew-cask/issues/309</a></p>
 ]]></content>
   </entry>
   

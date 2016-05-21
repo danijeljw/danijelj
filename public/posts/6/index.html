@@ -7,7 +7,7 @@
 	<meta name="author" content="Danijel-James Wynyard">
 
 	
-	<meta name="description" content="A recent trip to Shanghai, China I was able to venture to the Pudong district and see the Apple Store which has a grand entrance. Much to my suprise &hellip;">
+	<meta name="description" content="To move images you love to the default Wallpapers section of OS X, move them using Terminal. TO move a file from my desktop called DWAD Danijel.jpg &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -94,6 +94,60 @@
 		
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2015/12/20/adding-desktop-wallpapers/">
+		
+			adding desktop wallpapers</a>
+	</h2>
+	<div class="entry-content">
+		<p>To move images you love to the default Wallpapers section of OS X, move them using Terminal.</p>
+
+<p>TO move a file from my desktop called <strong>DWAD Danijel.jpg</strong> I do the following:</p>
+
+<pre><code>sudo mv ~/Desktop/DWAD\ Danijel.jpg /Library/Desktop\ Wallpapers/
+</code></pre>
+
+<p>You&rsquo;ll be asked for your Admin password and then feel free to change your desktop wallpaper and select the image.</p>
+
+<p><img src="/images/2015-12-20_adding_desktop_wallpapers.png"></p>
+
+<p>If you have a folder with multiple images <em>(JPG format)</em> on your desktop, try the following instead:</p>
+
+<pre><code>sudo mv ~/Desktop/wallpapers/* /Library/Desktop\ Wallpapers/
+</code></pre>
+
+<p>That should do the trick! 😎</p>
+
+<p><em><strong>Note:</strong> I used <code>mv</code> instead your can use <code>cp</code> if you prefer; but <code>sudo</code> is required!</em></p>
+
+<p><code>#MigratedPost</code></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Dec 20th, 2015</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
 
 
     <article class="post">
@@ -589,63 +643,6 @@ Feb 17th, 2014</div>
 
 	<a class='category' href='/blog/categories/hacking/'>hacking</a>
 
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2014/02/09/removing-app-library-files-caches-and-preferences/">
-		
-			Removing App Library Files Caches And Preferences</a>
-	</h2>
-	<div class="entry-content">
-		<p>cd &mdash;
-layout: post
-title: &ldquo;removing app library files&rdquo;
-date: 2014-02-09 07:58:22 +1100
-comments: true
-categories: hacking
-author: Danijel-James Wynyard</p>
-
-<h2>published: true</h2>
-
-<p>Application Support files <em>(can be anything from saved states, preferences, caches, temporary files, etc)</em>:</p>
-
-<pre><code>~/Library/Application Support/(App Name)
-</code></pre>
-
-<p>Preferences are stored at:</p>
-
-<pre><code>~/Library/Preferences/(App Name)
-</code></pre>
-
-<p>Caches are stored in:</p>
-
-<pre><code>~/Library/Caches/(App Name)
-</code></pre>
-
-<p><em><strong>Note:</strong> Sometimes can be referenced by app developer name rather than app name!</em></p>
-
-<p><code>#MigratedPost</code></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Feb 9th, 2014</div>
-	<div class="tags">
 
 </div>
 	
