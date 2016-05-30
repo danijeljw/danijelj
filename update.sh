@@ -14,7 +14,7 @@ done
 rake generate
 echo "U2FsdGVkX18gYOtcDP6leOUaAQiGLA1NDdToWGffCZI=" | openssl enc -aes-256-cbc -d -a
 git add -A -f *
-git commit -a -S -m 'auto update signed'
+git commit -a -S -m "$*"
 wget -q --spider http://google.com
 if [ $? -eq 0 ]; then
     rake deploy
