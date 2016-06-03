@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "roast chicken for dinner"
-date: 2016-06-02 21:22:11 +0930
+date: 2016-05-31 21:22:11 +0930
 comments: true
-categories: 
-author: Danijel James
-published: true
+categories: [french, photography]
+author: Danijel-James Wynyard
+published: false
 ---

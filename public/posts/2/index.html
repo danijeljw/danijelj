@@ -7,29 +7,11 @@
 	<meta name="author" content="Danijel-James Wynyard">
 
 	
-	<meta name="description" content="Update brew packages: 1
-2
-brew update
-brew upgrade Update brew &amp; cask packages: 1
+	<meta name="description" content="Totally fucked up tonight by deleting Caskroom formula from the system. Running brew update gave me the following error message: 1
 2
 3
 4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-#!/usr/bin/env &hellip;">
+| =&gt; &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -116,6 +98,132 @@ brew upgrade Update brew &amp; cask packages: 1
 		
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2016/05/01/restore-deleted-brew-formula/">
+		
+			restore deleted brew formula</a>
+	</h2>
+	<div class="entry-content">
+		<p>Totally fucked up tonight by deleting Caskroom formula from the system.</p>
+
+<p>Running <code>brew update</code> gave me the following error message:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="p">|</span> <span class="o">=</span>&gt; brew update
+</span><span class='line'>To restore the stashed changes to /usr/local/Library/Taps/caskroom/homebrew-cask run:
+</span><span class='line'>  <span class="s1">&#39;cd /usr/local/Library/Taps/caskroom/homebrew-cask &amp;&amp; git stash pop&#39;</span>
+</span><span class='line'>Already up-to-date.
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>So I do what it asks, then this pops up:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>On branch master
+</span><span class='line'>Your branch is up-to-date with <span class="s1">&#39;origin/master&#39;</span>.
+</span><span class='line'>Changes not staged <span class="k">for</span> commit:
+</span><span class='line'>  <span class="o">(</span>use <span class="s2">&quot;git add/rm &lt;file&gt;...&quot;</span> to update what will be committed<span class="o">)</span>
+</span><span class='line'>  <span class="o">(</span>use <span class="s2">&quot;git checkout -- &lt;file&gt;...&quot;</span> to discard changes in working directory<span class="o">)</span>
+</span><span class='line'>
+</span><span class='line'>    deleted:    Casks/itsycal.rb
+</span><span class='line'>
+</span><span class='line'>no changes added to commit <span class="o">(</span>use <span class="s2">&quot;git add&quot;</span> and/or <span class="s2">&quot;git commit -a&quot;</span><span class="o">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>To repair this got a list of the taps in brew:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="p">|</span> <span class="o">=</span>&gt; brew tap
+</span><span class='line'>caskroom/cask
+</span><span class='line'>homebrew/completions
+</span><span class='line'>homebrew/core
+</span><span class='line'>homebrew/fuse
+</span><span class='line'>homebrew/games
+</span><span class='line'>homebrew/python
+</span><span class='line'>homebrew/science
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Re-tapped the <code>caskroom/cask</code> tap:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="p">|</span> <span class="o">=</span>&gt; brew tap caskroom/cask
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Then I reinstalled ityscal again:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="p">|</span> <span class="o">=</span>&gt; brew cask install <span class="nv">itsycal</span>
+</span><span class='line'><span class="o">==</span>&gt; Downloading https://s3.amazonaws.com/itsycal/Itsycal-0.10.12.zip
+</span><span class='line'><span class="c">######################################################################## 100.0%</span>
+</span><span class='line'><span class="o">==</span>&gt; Verifying checksum <span class="k">for</span> Cask <span class="nv">itsycal</span>
+</span><span class='line'><span class="o">==</span>&gt; Symlinking App <span class="s1">&#39;Itsycal.app&#39;</span> to <span class="s1">&#39;/Users/danijel.james/Applications/Itsycal.app&#39;</span>
+</span><span class='line'>🍺  itsycal staged at <span class="s1">&#39;/opt/homebrew-cask/Caskroom/itsycal/0.10.12&#39;</span> <span class="o">(</span><span class="m">189</span> files, 3.7M<span class="o">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>To run a fix across all your taps <em>(you might not know which one is causing the problems)</em>, just tap into all the taps again:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="k">for</span> i in <span class="k">$(</span>brew tap<span class="k">)</span><span class="p">;</span> <span class="k">do</span> brew tap <span class="s2">&quot;$i&quot;</span><span class="p">;</span> <span class="k">done</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This one liner is your life saver. 😉</p>
+
+<p>Problem solved !</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+May 1st, 2016</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
 
 
     <article class="post">
@@ -773,44 +881,6 @@ Apr 11th, 2016</div>
 
 
 Apr 10th, 2016</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/photography/'>photography</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2016/04/09/blue-nights-in-adelaide/">
-		
-			blue nights in adelaide</a>
-	</h2>
-	<div class="entry-content">
-		<p>Some random shots from my Sat night walking around Adelaide.</p>
-
-<p><img src="/images/2016/04/09/DJW.20160409.600D.0721.P1.jpg" width="800" height="533" title="blue lights under bridge over River Torrens, Adelaide" alt="blue lights under bridge over River Torrens, Adelaide"></p>
-
-<p><img src="/images/2016/04/09/DJW.20160409.600D.0725.P1.jpg" width="800" height="329" title="Adelaide Oval, Adelaide" alt="Adelaide Oval, Adelaide"></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Apr 9th, 2016</div>
 	<div class="tags">
 
 

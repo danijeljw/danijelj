@@ -4,7 +4,7 @@ title: "hello paddy's lantern"
 date: 2016-06-02 10:42:32 +0930
 comments: true
 categories: photography
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 Arriving back here in Adelaide on March 3rd this year, one of the first things I did was take to social platform [Grindr](http://www.grindr.com) to get a feel from everyone where the best coffee shops were. Yesterday I was talking to Jakey and asked him if he's ever heard of [Paddy's Lantern](http://paddyslantern.com.au). Unfortunately not, and I did leave it to the last two of places to still check out.
