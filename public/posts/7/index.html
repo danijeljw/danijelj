@@ -7,9 +7,7 @@
 	<meta name="author" content="Danijel-James Wynyard">
 
 	
-	<meta name="description" content="Bash script that generates 10-char passwords #!/bin/bash
-tmp_pass=0
-if [ $tmp_pass = 0 ]; then tmp_pass=`head -c 10 /dev/random | base64` echo "${ &hellip;">
+	<meta name="description" content="10.11 sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder; say DNS cache flushed 10.10 sudo discoveryutil mdnsflushcache;sudo &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -96,6 +94,82 @@ if [ $tmp_pass = 0 ]; then tmp_pass=`head -c 10 /dev/random | base64` echo "${ &
 		
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2014/02/23/flush-dns-in-mac-os-x/">
+		
+			flush dns in mac os x</a>
+	</h2>
+	<div class="entry-content">
+		<h3>10.11</h3>
+
+<pre><code>sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder; say DNS cache flushed
+</code></pre>
+
+<h3>10.10</h3>
+
+<pre><code>sudo discoveryutil mdnsflushcache;sudo discovertyutil udnsflushcaches
+</code></pre>
+
+<h3>10.9</h3>
+
+<pre><code>dscacheutil -flushcache;sudo killall -HUP mDNSResponder
+</code></pre>
+
+<h3>10.8</h3>
+
+<pre><code>sudo killall -HUP mDNSResponder
+</code></pre>
+
+<h3>10.7</h3>
+
+<pre><code>sudo killall -HUP mDNSResponder
+</code></pre>
+
+<h3>10.6</h3>
+
+<pre><code>dscacheutil -flushcache
+</code></pre>
+
+<h3>10.5</h3>
+
+<pre><code>dscacheutil -flushcache
+</code></pre>
+
+<h3>10.4</h3>
+
+<pre><code>lookupd -flushcache
+</code></pre>
+
+<p>🍖🍖🍖</p>
+
+<p><code>#MigratedPost</code></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Feb 23rd, 2014</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
 
 
     <article class="post">
@@ -560,44 +634,6 @@ Oct 16th, 2013</div>
 
 
 Oct 8th, 2013</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/hacking/'>hacking</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/09/29/disable-enable-spotlight-indexing/">
-		
-			disable enable spotlight indexing</a>
-	</h2>
-	<div class="entry-content">
-		<p>Disable Spotlight indexing across all volumes: <code>sudo mdutil -a -i off</code></p>
-
-<p>Enable Spotlight indexing across all volumes: <code>sudo mdutil -a -i on</code></p>
-
-<p><code>#MigratedPost</code></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Sep 29th, 2013</div>
 	<div class="tags">
 
 

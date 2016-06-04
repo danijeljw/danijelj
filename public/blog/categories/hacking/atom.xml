@@ -4,7 +4,7 @@
   <title><![CDATA[Category: hacking | danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/blog/categories/hacking/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-06-03T12:23:15+09:30</updated>
+  <updated>2016-06-04T21:32:52+09:30</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel-James Wynyard]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[you know your awesome when]]></title>
+    <link href="http://danijelj.com/blog/2016/06/04/you-know-your-awesome-when/"/>
+    <updated>2016-06-04T21:29:27+09:30</updated>
+    <id>http://danijelj.com/blog/2016/06/04/you-know-your-awesome-when</id>
+    <content type="html"><![CDATA[<p>Logged into <a href="https://github.com">GitHub</a> today and noticed that some of my commits have been rolled into a globally used Bootstrap theme ! So much fun !</p>
+
+<p><img src="images/2016/06/0420160504.git-pulls-used.png" width="800" height="176" title="&lsquo;git pulls added&rsquo; &lsquo;git pulls added&rsquo;" ></p>
+
+<p>Fuck yeah !</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[How to Type Symbols for Option]]></title>
@@ -77,72 +90,6 @@ xargs -0 brew install  &lt; &lt;(tr \\n \\0 &lt;file.txt)
 <p>Quit any Java applications before installing this update.</p>
 
 <p><strong>Download:</strong> <a href="http://support.apple.com/downloads/DL1572/en_US/javaforosx.dmg">http://support.apple.com/downloads/DL1572/en_US/javaforosx.dmg</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[restore deleted brew formula]]></title>
-    <link href="http://danijelj.com/blog/2016/05/01/restore-deleted-brew-formula/"/>
-    <updated>2016-05-01T01:06:49+09:30</updated>
-    <id>http://danijelj.com/blog/2016/05/01/restore-deleted-brew-formula</id>
-    <content type="html"><![CDATA[<p>Totally fucked up tonight by deleting Caskroom formula from the system.</p>
-
-<p>Running <code>brew update</code> gave me the following error message:</p>
-
-<pre><code class="bash">| =&gt; brew update
-To restore the stashed changes to /usr/local/Library/Taps/caskroom/homebrew-cask run:
-  'cd /usr/local/Library/Taps/caskroom/homebrew-cask &amp;&amp; git stash pop'
-Already up-to-date.
-</code></pre>
-
-<p>So I do what it asks, then this pops up:</p>
-
-<pre><code class="bash">On branch master
-Your branch is up-to-date with 'origin/master'.
-Changes not staged for commit:
-  (use "git add/rm &lt;file&gt;..." to update what will be committed)
-  (use "git checkout -- &lt;file&gt;..." to discard changes in working directory)
-
-    deleted:    Casks/itsycal.rb
-
-no changes added to commit (use "git add" and/or "git commit -a")
-</code></pre>
-
-<p>To repair this got a list of the taps in brew:</p>
-
-<pre><code class="bash">| =&gt; brew tap
-caskroom/cask
-homebrew/completions
-homebrew/core
-homebrew/fuse
-homebrew/games
-homebrew/python
-homebrew/science
-</code></pre>
-
-<p>Re-tapped the <code>caskroom/cask</code> tap:</p>
-
-<pre><code class="bash">| =&gt; brew tap caskroom/cask
-</code></pre>
-
-<p>Then I reinstalled ityscal again:</p>
-
-<pre><code class="bash">| =&gt; brew cask install itsycal
-==&gt; Downloading https://s3.amazonaws.com/itsycal/Itsycal-0.10.12.zip
-######################################################################## 100.0%
-==&gt; Verifying checksum for Cask itsycal
-==&gt; Symlinking App 'Itsycal.app' to '/Users/danijel.james/Applications/Itsycal.app'
-🍺  itsycal staged at '/opt/homebrew-cask/Caskroom/itsycal/0.10.12' (189 files, 3.7M)
-</code></pre>
-
-<p>To run a fix across all your taps <em>(you might not know which one is causing the problems)</em>, just tap into all the taps again:</p>
-
-<pre><code class="bash">for i in $(brew tap); do brew tap "$i"; done
-</code></pre>
-
-<p>This one liner is your life saver. 😉</p>
-
-<p>Problem solved !</p>
 ]]></content>
   </entry>
   

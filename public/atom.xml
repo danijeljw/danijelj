@@ -4,7 +4,7 @@
   <title><![CDATA[danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-06-03T12:23:15+09:30</updated>
+  <updated>2016-06-04T21:32:52+09:30</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel-James Wynyard]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[you know your awesome when]]></title>
+    <link href="http://danijelj.com/blog/2016/06/04/you-know-your-awesome-when/"/>
+    <updated>2016-06-04T21:29:27+09:30</updated>
+    <id>http://danijelj.com/blog/2016/06/04/you-know-your-awesome-when</id>
+    <content type="html"><![CDATA[<p>Logged into <a href="https://github.com">GitHub</a> today and noticed that some of my commits have been rolled into a globally used Bootstrap theme ! So much fun !</p>
+
+<p><img src="images/2016/06/0420160504.git-pulls-used.png" width="800" height="176" title="git pulls added" alt="git pulls added"></p>
+
+<p>Fuck yeah !</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[hello paddy's lantern]]></title>
@@ -922,25 +935,6 @@
     <id>http://danijelj.com/blog/2016/04/11/providers-of-it-services</id>
     <content type="html"><![CDATA[<blockquote><p>Providers of IT services can no longer afford to focus on technology and their internal organisation; they now have to consider the quality of the services they provide and focus on the relationship with the customer.</p></blockquote>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[eba railway siding]]></title>
-    <link href="http://danijelj.com/blog/2016/04/10/eba-railway-siding/"/>
-    <updated>2016-04-10T17:38:08+09:30</updated>
-    <id>http://danijelj.com/blog/2016/04/10/eba-railway-siding</id>
-    <content type="html"><![CDATA[<h4>A Little Bit of History</h4>
-
-<p>The many settles of Eba built their own school in 1894, south of Eba. The walls of limestone are still upright and the limestone with 1894 etched in it was placed above the main door. It is weathering away and the etched numerals are hard to spot. The Lutheran settlers worshipped here (Section 246 in the Hundred of Eba). Later, a school was built next to the Albert Keough home, Section 188 in the Hundred of Eba, but this was not a satisfactory arrangement, so school was held in one of the empty settler&rsquo;s cottages.</p>
-
-<p>Ebay Railway Siding has only the platform left as a reminder of busier days gone by. The 1984 school was build on Heppner land and is marked on old Morgan Council maps. Eba also boasted a Race Track; this was also on Heppner property. The track was laid around a small hill with the spectators on the mallee shaded hill, Section 201 in the Hundred of Eba. This gave the an unrestricted view of the races. The last Race Train from Kapunda to Eba ran in May of the year 1911.</p>
-
-<p><img src="http://danijelj.com/images/2016/04/10/DJW.20160410.600D.0736.P1.jpg" width="800" height="533" title="luggage left on Eba Railway Siding" alt="luggage left on Eba Railway Siding"></p>
-
-<p><img src="http://danijelj.com/images/2016/04/10/DJW.20160410.600D.0735.P1.jpg" width="533" height="800" title="smiley face badges in a jar" alt="smiley face badges in a jar"></p>
-
-<p><img src="http://danijelj.com/images/2016/04/10/DJW.20160410.600D.0731.P1.jpg" width="800" height="533" title="passenger and dog waiting for last train" alt="passenger and dog waiting for last train"></p>
 ]]></content>
   </entry>
   

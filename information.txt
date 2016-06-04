@@ -1,0 +1,97 @@
+Office 365 SharePoint - 3 years ago moved
+Sharepoint website setup for a client via external services
+managed their own sharepoint site
+
+friday is my day off usually, next week is a bit of an exception but i won't be here in the morning but yes in the afternoon
+
+Breeana and Michelle
+
+it wasn't until April that I started to move things from 
+
+business framework setup so that people can access files externally
+convert mail to office365
+onedrive
+people
+
+have a system with Sharepoint for document and data control
+rolled out that we do the service under ssharepoint and how we can change things
+
+set up a relationship with someone so that we don't know we can go to them and ask
+
+yammer have started to use 
+onenote don't really use
+tasks
+sharepoint sites are huge
+
+basic uses with 
+
+who is the host for this website?
+we do have twitter, linked in, and facebook accounts and how to link them to the icons on the website
+how to change hte font to a bigger size
+we want to be able to do all the web-design ourselves
+how do we change the font
+setup the widgets
+
+we want to be able to setup the environments for our clients and let them take over from there on
+it's about being able to control the services
+
+when we changed from our old server to our new server and the only way i could access through my email online
+couldn't access my email from Outlook
+our info email address isn't working
+
+we used a company called Lavaworks for out marketing services
+but they're being setup to the old server
+
+we want mainly to have easier administration of our services
+we can't advertise that we have an info@ email address because that's not working
+
+we'd like to know more things about SharePoint and Office365 that we're not really aware of
+
+Exchange through Office365 Cloud services - this is where the email is now hosted
+webcity host for their services
+@webcitysupport
+that's where the domain host is melbourneIT
+how can we point that to our domain name
+----.public.sharepoint.com
+
+imap for old email address
+where is this hosted and how do i access this?
+
+how to create users from the office365 environment for new users
+
+Athena Instant Hosting
+
+website has a CMS sitting behind it 
+
+how to best manage the sharepoint website and understand what it is for
+
+
+
+the smart things in Sharepoint - automating some of the processes in Sharepiont to make life easier
+lists by herself in an hour and make it work properly
+confident and competent
+
+
+Check In - Check Out
+how to control the coduments tinto OneDrive for business
+
+how to externally share the files with SharePoint with different people and create the spaces for each client specifically
+so clients would like to be able to access their files - on the hybrid sharepoint service too
+
+
+Software Licence E1
+need an Office365 licence for NFP
+
+
+having all the documnts in one place
+
+What is Yammer ?
+happy with what doing with it
+
+Outlook - sharing hte calendar with Brianna
+sharing calendar and mail with both users
+
+
+the outlook app on the phone can't see the whole week on the phone
+colours in the calendar
+
