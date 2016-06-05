@@ -7,7 +7,7 @@
 	<meta name="author" content="Danijel-James Wynyard">
 
 	
-	<meta name="description" content="Disable Spotlight indexing across all volumes: sudo mdutil -a -i off Enable Spotlight indexing across all volumes: sudo mdutil -a -i on # &hellip;">
+	<meta name="description" content="The Dock is great, but sometimes it gets cluttered with all your favourite apps and you want a way to keep it organised. There is a great Dummies &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -94,6 +94,107 @@
 		
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2013/10/16/add-spacers-to-the-dock/">
+		
+			add spacers to the dock</a>
+	</h2>
+	<div class="entry-content">
+		<p>The <a href="http://en.wikipedia.org/wiki/Dock_(OS_X">Dock</a> is great, but sometimes it gets cluttered with all your favourite apps and you want a way to keep it organised. There is a great <a href="http://www.dummies.com/how-to/content/how-to-work-with-the-mac-dock.html">Dummies article</a> if you are interested in a starting point, but what if you need to “group” your applications together instead?</p>
+
+<p>There is a Terminal command that can add spacers to your Dock. Open Terminal <em>(Applications > Utilities)</em>, then type the following:</p>
+
+<pre><code>defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'
+</code></pre>
+
+<p>This will add a spacer to your Dock. If you need more than one, type it for as many as you need and then type:</p>
+
+<pre><code>killall Dock
+</code></pre>
+
+<p>Your Dock will restart and you’ll see the spacers to the right of your applications. Drag spacers around to create “groups” in your Dock. To remove a spacer, simply drag it off the Dock.</p>
+
+<p>Here is a nice version of the way to automate the process with a shell script. It will prompt you with how many spacers you need and add them, then restart the Dock.</p>
+
+<pre><code>#!/bin/bash
+echo "Enter number of spacers required: "
+read noSpacers
+c=1
+while [ $c -le $noSpacers ]
+do
+  defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'
+  (( c++ ))
+done
+killall Dock
+</code></pre>
+
+<p><code>#MigratedPost</code></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Oct 16th, 2013</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2013/10/08/open-google-chrome-in-kiosk-mode/">
+		
+			open google chrome in kiosk mode</a>
+	</h2>
+	<div class="entry-content">
+		<p>Load Google Chrome in Kiosk Mode and direct it to a URL via Terminal:</p>
+
+<pre><code>open "/Applications/Google Chrome.app" --args --kiosk https://www.google.com.au
+</code></pre>
+
+<p><code>#MigratedPost</code></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Oct 8th, 2013</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
 
 
     <article class="post">
