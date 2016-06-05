@@ -4,7 +4,7 @@
   <title><![CDATA[danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-06-05T18:45:53+09:30</updated>
+  <updated>2016-06-05T18:54:46+09:30</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel-James Wynyard]]></name>
@@ -20,7 +20,7 @@
     <id>http://danijelj.com/blog/2016/06/04/you-know-your-awesome-when</id>
     <content type="html"><![CDATA[<p>Logged into <a href="https://github.com">GitHub</a> today and noticed that some of my commits have been rolled into a globally used Bootstrap theme ! So much fun !</p>
 
-<p><img src="images/2016/06/0420160504.git-pulls-used.png" width="800" height="176" title="git pulls added" alt="git pulls added"></p>
+<p><img src="images/2016/06/04/20160504.git-pulls-used.png" width="800" height="176" title="git pulls added" alt="git pulls added"></p>
 
 <p>Fuck yeah !</p>
 ]]></content>
