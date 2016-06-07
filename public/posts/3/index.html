@@ -7,10 +7,7 @@
 	<meta name="author" content="Danijel-James Wynyard">
 
 	
-	<meta name="description" content="Firstly disable WiFi from menu bar. Navigate to the following path: /Library/Preferences/SystemConfiguration/ Remove the following files: 1
-2
-3
-4 &hellip;">
+	<meta name="description" content="Disk Size Size of RAM Disk is z * 2048, where z is represented in MB A 600MB RAM Disk would be: 1228800 (That is: 600 * 2048 = 1228800) Disk Formats &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -97,6 +94,133 @@
 		
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2016/04/18/create-ram-disk/">
+		
+			create ram disk</a>
+	</h2>
+	<div class="entry-content">
+		<h2>Disk Size</h2>
+
+<p>Size of RAM Disk is <code>z * 2048</code>, where <code>z</code> is represented in MB</p>
+
+<p>A 600MB RAM Disk would be: <code>1228800</code> <em>(That is: 600 * 2048 = 1228800)</em></p>
+
+<h2>Disk Formats Available:</h2>
+
+<table>
+<thead>
+<tr>
+<th style="text-align:left;"> Format </th>
+<th style="text-align:left;"> User Visible Name </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">ExFat </td>
+<td style="text-align:left;"> ExFAT </td>
+</tr>
+<tr>
+<td style="text-align:left;">free </td>
+<td style="text-align:left;"> Free Space </td>
+</tr>
+<tr>
+<td style="text-align:left;">MS-DOS </td>
+<td style="text-align:left;"> MS-DOS (FAT) </td>
+</tr>
+<tr>
+<td style="text-align:left;">MS-DOS FAT12 </td>
+<td style="text-align:left;"> MS-DOS (FAT12) </td>
+</tr>
+<tr>
+<td style="text-align:left;">MS-DOS FAT16 </td>
+<td style="text-align:left;"> MS-DOS (FAT16) </td>
+</tr>
+<tr>
+<td style="text-align:left;">fat32 </td>
+<td style="text-align:left;"> MS-DOS (FAT32) </td>
+</tr>
+<tr>
+<td style="text-align:left;">HFS+ </td>
+<td style="text-align:left;"> Mac OS Extended </td>
+</tr>
+<tr>
+<td style="text-align:left;">hfsx </td>
+<td style="text-align:left;"> Mac OS Extended (Case-sensitive) </td>
+</tr>
+<tr>
+<td style="text-align:left;">jhfsx </td>
+<td style="text-align:left;"> Mac OS Extended (Case-sensitive, Journaled) </td>
+</tr>
+<tr>
+<td style="text-align:left;">jhfs+ </td>
+<td style="text-align:left;"> Mac OS Extended (Journaled) </td>
+</tr>
+</tbody>
+</table>
+
+
+<h2>Keys</h2>
+
+<p><code>$x</code> speficied Format from table above
+<code>$y</code> speficied name of intended volume
+<code>$z</code> specified size of file <em>(once multiplied by 2028)</em></p>
+
+<h2>Mac OS X 10.8, 10.9, 10.10, 10.11</h2>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>diskutil erasevolume <span class="nv">$x</span> <span class="s1">&#39;$y&#39;</span> <span class="sb">`</span>hdiutil attach nomount ram://<span class="nv">$z</span><span class="sb">`</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Mac OS X 10.5, 10.6, 10.7</h2>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>diskutil erasevolume <span class="nv">$x</span> <span class="s1">&#39;$y&#39;</span> <span class="sb">`</span>hdiutil attach -nomount ram://<span class="nv">$z</span><span class="sb">`</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Mac OS X 10.4 and earlier</h2>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>hdid -nomount ram://<span class="nv">$z</span>
+</span><span class='line'>newfs_hfs /dev/disk1
+</span><span class='line'>mkdir /tmp/ramdisk1
+</span><span class='line'>mount -t <span class="nv">$x</span> /dev/disk1 /tmp/ramdisk1
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>In OS X 10.4 and earlier, to unmount the disk type: <code>hdiutil detach /dev/disk1</code></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Apr 18th, 2016</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
 
 
     <article class="post">
@@ -541,118 +665,6 @@ Mar 13th, 2016</div>
 
 
 	<a class='category' href='/blog/categories/photography/'>photography</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2016/03/12/python-escape-sequences/">
-		
-			python escape sequences</a>
-	</h2>
-	<div class="entry-content">
-		<p>Python 2.x &amp; 3.x escape sequences:</p>
-
-<table>
-<thead>
-<tr>
-<th style="text-align:center;"> escape </th>
-<th style="text-align:left;"> function </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center;"> \ </td>
-<td style="text-align:left;"> Backslash () </td>
-</tr>
-<tr>
-<td style="text-align:center;"> \&lsquo; </td>
-<td style="text-align:left;"> Single-quote (&lsquo;) </td>
-</tr>
-<tr>
-<td style="text-align:center;"> \&ldquo; </td>
-<td style="text-align:left;"> Double-quote (&ldquo;) </td>
-</tr>
-<tr>
-<td style="text-align:center;"> \a </td>
-<td style="text-align:left;"> ASCII bell (BEL) </td>
-</tr>
-<tr>
-<td style="text-align:center;"> \b </td>
-<td style="text-align:left;"> ASCII backspace (BS) </td>
-</tr>
-<tr>
-<td style="text-align:center;"> \f </td>
-<td style="text-align:left;"> ASCII formfeed (FF) </td>
-</tr>
-<tr>
-<td style="text-align:center;"> \n </td>
-<td style="text-align:left;"> ASCII linefeed (LF) </td>
-</tr>
-<tr>
-<td style="text-align:center;"> \N{name} </td>
-<td style="text-align:left;"> Character named name in the Unicode database (Unicode only) </td>
-</tr>
-<tr>
-<td style="text-align:center;"> \r </td>
-<td style="text-align:left;"> Carriage Return (CR) </td>
-</tr>
-<tr>
-<td style="text-align:center;"> \t </td>
-<td style="text-align:left;"> Horizontal Tab (TAB) </td>
-</tr>
-<tr>
-<td style="text-align:center;"> \uxxxx </td>
-<td style="text-align:left;"> Character with 16-bit hex value <code>xxxx</code> (Unicode only) </td>
-</tr>
-<tr>
-<td style="text-align:center;"> \Uxxxxxxxx </td>
-<td style="text-align:left;"> Character with 32-bit hex value <code>xxxxxxxx</code> (Unicode only) </td>
-</tr>
-<tr>
-<td style="text-align:center;"> \v </td>
-<td style="text-align:left;"> ASCII vertical tab (VT) </td>
-</tr>
-<tr>
-<td style="text-align:center;"> \ooo </td>
-<td style="text-align:left;"> Character with octal value <code>ooo</code> </td>
-</tr>
-<tr>
-<td style="text-align:center;"> \xhh </td>
-<td style="text-align:left;"> Character with hex value <code>hh</code> </td>
-</tr>
-</tbody>
-</table>
-
-
-<p><br></p>
-
-<hr />
-
-<p>Source: <a href="http://learnpythonthehardway.org/book/ex10.html">Learn Python The Hard Way</a></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Mar 12th, 2016</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/hacking/'>hacking</a>
 
 
 </div>
