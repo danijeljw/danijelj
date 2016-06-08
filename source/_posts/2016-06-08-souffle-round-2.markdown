@@ -4,7 +4,7 @@ title: "soufflé round 2"
 date: 2016-06-08 16:22:36 +0930
 comments: true
 categories: [french, photography]
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 Just got home from a night at Jake's _(awww....😍😘😍)_ and Tom was eagerly awaiting me to make soufflé for him.
