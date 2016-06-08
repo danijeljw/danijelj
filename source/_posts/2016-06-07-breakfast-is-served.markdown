@@ -9,4 +9,4 @@ published: true
 ---
 Who wants breakfast at the Haus of Danni-Jel ? You do, bitches :P
 
-{% img /images/2016/06/0720160607.iPhobne6SPlus.2427.jpg 800 800 'breakfast deluxe' 'breakfast deluxe' %}
+{% img /images/2016/06/07/20160607.iPhobne6SPlus.2427.jpg 800 800 'breakfast deluxe' 'breakfast deluxe' %}
