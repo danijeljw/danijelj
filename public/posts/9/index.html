@@ -7,7 +7,7 @@
 	<meta name="author" content="Danijel-James Wynyard">
 
 	
-	<meta name="description" content="Install MySQL and set a default password for root. Failure to do so is a security leak. Firstly, you need to login to the root user on MySQL: mysql &hellip;">
+	<meta name="description" content="Source for script that spits out WiFi password saved in Windows 7 or 8. Haven’t tested this on XP or Vista. ::===START &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -94,6 +94,56 @@
 		
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2013/08/09/show-saved-wifi-password/">
+		
+			show saved wifi password</a>
+	</h2>
+	<div class="entry-content">
+		<p>Source for script that spits out WiFi password saved in Windows 7 or 8. Haven’t tested this on XP or Vista.</p>
+
+<pre><code>::===START=========================================
+@echo off
+netsh wlan show profiles
+echo.
+echo.
+set /p UserInputPath=" Reveal which WiFi connection password:  "
+netsh wlan show %UserInputPath% key=clear
+netsh wlan show gs key=clear
+pause
+::===END===========================================
+</code></pre>
+
+<p>I cannot claim copyright to this code, as it is pretty much just a mouthful of commands, so it shall be freely available in the Public Domain.</p>
+
+<p><code>#MigratedPost</code></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Aug 9th, 2013</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
 
 
     <article class="post">

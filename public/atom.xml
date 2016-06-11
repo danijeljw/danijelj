@@ -4,7 +4,7 @@
   <title><![CDATA[danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-06-08T22:27:07+09:30</updated>
+  <updated>2016-06-12T09:09:27+09:30</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel-James Wynyard]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[all i know is he loves him]]></title>
+    <link href="http://danijelj.com/blog/2016/06/11/all-i-know-is-he-loves-him/"/>
+    <updated>2016-06-11T13:17:27+09:30</updated>
+    <id>http://danijelj.com/blog/2016/06/11/all-i-know-is-he-loves-him</id>
+    <content type="html"><![CDATA[<p>Today I met Ralf, Jake&rsquo;s dog since he was a kid. Ralf is 9 years old now :-)</p>
+
+<p><img src="http://danijelj.com/source/images/2016/06/11/20160611.ralf2.jpg" width="800" height="600" title="ralf & jake" alt="ralf & jake"></p>
+
+<p>I know they belong together because they both have the same attitude and facials. Could you ask for anymore proof that a dog resembles its' master ?</p>
+
+<p><img src="http://danijelj.com/source/images/2016/06/11/20160611.ralf4.jpg" width="800" height="450" title="all i know is he loves him" alt="all i know is he loves him"></p>
+
+<p>Apart from the kind nature of this <a href="https://en.wikipedia.org/wiki/Shar_Pei">Shar Pei</a>, I cannot fathom what makes him just so adorable ! All I know, is Jake loves him and that touches me softly.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[soufflé round 2]]></title>
@@ -741,104 +758,6 @@
 </pre></td><td class='code'><pre><code class='bash'><span class='line'>shasum -a <span class="m">256</span> /tmp/1.iso
 </span></code></pre></td></tr></table></div></figure>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[common string literals and operations]]></title>
-    <link href="http://danijelj.com/blog/2016/04/20/common-string-literals-and-operations/"/>
-    <updated>2016-04-20T11:31:40+09:30</updated>
-    <id>http://danijelj.com/blog/2016/04/20/common-string-literals-and-operations</id>
-    <content type="html"><![CDATA[<p>Python string basics. Useful as a reminder to myself. Sometimes I forget this kind of basic stuff and end up writing whole methods that don&rsquo;t need to be created.</p>
-
-<table>
-<thead>
-<tr>
-<th style="text-align:left;"> Operation </th>
-<th style="text-align:left;"> Interpretation </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">K = &lsquo;&rsquo; </td>
-<td style="text-align:left;"> Empty string </td>
-</tr>
-<tr>
-<td style="text-align:left;">K = &ldquo;eggs&rsquo;s&rdquo; </td>
-<td style="text-align:left;"> Double quotes, same as single </td>
-</tr>
-<tr>
-<td style="text-align:left;">K = &rsquo;s\nu\tga\x00r' </td>
-<td style="text-align:left;"> Escape sequences </td>
-</tr>
-<tr>
-<td style="text-align:left;">K = &ldquo;&rdquo;&ldquo;&hellip;multiline&hellip;&rdquo; </td>
-<td style="text-align:left;"> Triple-quoted block strings </td>
-</tr>
-<tr>
-<td style="text-align:left;">K = r'\temp\eggs' </td>
-<td style="text-align:left;"> Raw strings (no escapes) </td>
-</tr>
-<tr>
-<td style="text-align:left;">C = c'sp\xc4m' </td>
-<td style="text-align:left;"> Byte strings in 2.6, 2.7, and 3.X </td>
-</tr>
-<tr>
-<td style="text-align:left;">U = u'sp\u00c4m' </td>
-<td style="text-align:left;"> Unicode strings in 2.X and 3.3+ </td>
-</tr>
-<tr>
-<td style="text-align:left;">T1 + T2 </td>
-<td style="text-align:left;"> Concatenate </td>
-</tr>
-<tr>
-<td style="text-align:left;">L * 3 </td>
-<td style="text-align:left;"> Repeat </td>
-</tr>
-<tr>
-<td style="text-align:left;">L[i] </td>
-<td style="text-align:left;"> Index </td>
-</tr>
-<tr>
-<td style="text-align:left;">L[i:j] </td>
-<td style="text-align:left;"> Slice </td>
-</tr>
-<tr>
-<td style="text-align:left;">len(L) </td>
-<td style="text-align:left;"> Length </td>
-</tr>
-<tr>
-<td style="text-align:left;">&ldquo;a %s joke&rdquo; % funny </td>
-<td style="text-align:left;"> String formatting expresion </td>
-</tr>
-<tr>
-<td style="text-align:left;">&ldquo;a {0} joke&rdquo;.format(funny) </td>
-<td style="text-align:left;"> String formatting method in 2.6, 2.7 and 3.X </td>
-</tr>
-<tr>
-<td style="text-align:left;">G.find(&lsquo;ake&rsquo;) </td>
-<td style="text-align:left;"> String method </td>
-</tr>
-<tr>
-<td style="text-align:left;">for i in G: print(i) </td>
-<td style="text-align:left;"> Iteration </td>
-</tr>
-<tr>
-<td style="text-align:left;">&lsquo;ake&rsquo; in J </td>
-<td style="text-align:left;"> Membership </td>
-</tr>
-<tr>
-<td style="text-align:left;">[ i * 2 for i in J ] </td>
-<td style="text-align:left;"> Iteration </td>
-</tr>
-</tbody>
-</table>
-
-
-<hr>
-
-
-<p><em>Attribution: Learning Python, Mark Lutz 978-1-449-35573-9</em></p>
 ]]></content>
   </entry>
   
