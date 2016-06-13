@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://danijelj.com/blog/2016/06/13/a-spider-on-my-cutlery/</loc>
+<lastmod>2016-06-13T11:11:14+09:30</lastmod>
+</url>
+<url>
 <loc>http://danijelj.com/blog/2016/06/11/all-i-know-is-he-loves-him/</loc>
 <lastmod>2016-06-11T13:17:27+09:30</lastmod>
 </url>
@@ -376,6 +380,30 @@
 </url>
 <url>
 <loc>http://danijelj.com/blog/categories/french/</loc>
+</url>
+<url>
+<loc>http://danijelj.com/posts/2/</loc>
+</url>
+<url>
+<loc>http://danijelj.com/posts/3/</loc>
+</url>
+<url>
+<loc>http://danijelj.com/posts/4/</loc>
+</url>
+<url>
+<loc>http://danijelj.com/posts/5/</loc>
+</url>
+<url>
+<loc>http://danijelj.com/posts/6/</loc>
+</url>
+<url>
+<loc>http://danijelj.com/posts/7/</loc>
+</url>
+<url>
+<loc>http://danijelj.com/posts/8/</loc>
+</url>
+<url>
+<loc>http://danijelj.com/posts/9/</loc>
 </url>
 <url>
 <loc>http://danijelj.com/google0a44042c6956002d.html</loc>

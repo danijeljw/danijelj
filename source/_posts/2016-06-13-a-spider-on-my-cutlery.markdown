@@ -4,7 +4,7 @@ title: "a spider on my cutlery"
 date: 2016-06-13 11:11:14 +0930
 comments: true
 categories: [french, photography]
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 Does the saying go _"Waiter, there's a spider in my soup"_ or _"Ma'am, there's a spider on my cutlery"_ ? I always thought it was the former, no ?
