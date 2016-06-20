@@ -7,7 +7,7 @@
 	<meta name="author" content="Danijel-James Wynyard">
 
 	
-	<meta name="description" content="Getting a Permission Denied when trying to run a file in Terminal (OS X or *NIX) can be frustrating, especially if you’re new to this. Try running &hellip;">
+	<meta name="description" content="Connecting Mac OS X to Windows AD via Terminal: dsconfigad –f –a $compName –domain $sub.$domain.$tld –u $ADaccount –p $ADpassword –lu $ladminAcc –lp &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -84,6 +84,57 @@
 		
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2013/09/22/connect-mac-to-active-directory-via-terminal/">
+		
+			connect mac to active directory via terminal</a>
+	</h2>
+	<div class="entry-content">
+		<p>Connecting Mac OS X to Windows AD via Terminal:</p>
+
+<pre><code>dsconfigad –f –a $compName –domain $sub.$domain.$tld –u $ADaccount –p $ADpassword –lu $ladminAcc –lp $ladminPass
+
+$compName = name of the computer _(in quotations if necessary)_
+
+$sub    = subdomain
+$domain = domain
+$tld    = tld
+
+$ADaccount  = AD admin account
+$ADpassword = AD admin password
+
+$ladminAcc  = Mac local admin account
+$ladminPass = Mac local admin password
+</code></pre>
+
+<p><code>#MigratedPost</code></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Sep 22nd, 2013</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
 
 
     <article class="post">

@@ -7,7 +7,7 @@
 	<meta name="author" content="Danijel-James Wynyard">
 
 	
-	<meta name="description" content="Below are the Unicode hex numbers for the most common symbols used to represent Mac control keys. You can type these by finding the numbers in the &hellip;">
+	<meta name="description" content="Jake brought me out for breakfast this morning. We went to the cafe that sits behind the playground he talks so often and fondly of. He bought me &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -84,6 +84,46 @@
 		
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2016/05/28/breakfast-with-jakey/">
+		
+			breakfast with jakey</a>
+	</h2>
+	<div class="entry-content">
+		<p>Jake brought me out for breakfast this morning. We went to the cafe that sits behind the playground he talks so often and fondly of.</p>
+
+<p>He bought me french toast. Yummy ! 😋🇫🇷🍞</p>
+
+<p><img src="/images/2016/05/28/20160528.french_toast_with_jakey.jpg" width="800" height="800"  alt="french toast"></p>
+
+<p>He got a yucky toasted cheese &amp; ham sandwich &lsquo;cos they don&rsquo;t have bacon 😂</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+May 28th, 2016</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/french/'>french</a>, <a class='category' href='/blog/categories/photography/'>photography</a>
+
+
+</div>
+	
+</div>
+</article>
 
 
     <article class="post">
@@ -742,119 +782,6 @@ May 2nd, 2016</div>
 
 
 May 1st, 2016</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/hacking/'>hacking</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2016/04/27/update-brew-cask-pkgs/">
-		
-			update brew cask pkgs</a>
-	</h2>
-	<div class="entry-content">
-		<p>Update brew packages:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'>brew update
-</span><span class='line'>brew upgrade
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Update brew &amp; cask packages:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c">#!/usr/bin/env bash</span>
-</span><span class='line'>
-</span><span class='line'>brew update
-</span><span class='line'>brew cask update
-</span><span class='line'>
-</span><span class='line'><span class="nv">casks</span><span class="o">=(</span> <span class="k">$(</span>brew cask list<span class="k">)</span> <span class="o">)</span>
-</span><span class='line'>
-</span><span class='line'><span class="k">for</span> cask in <span class="k">${</span><span class="nv">casks</span><span class="p">[@]</span><span class="k">}</span>
-</span><span class='line'><span class="k">do</span>
-</span><span class='line'>    <span class="c"># in the first line there is version</span>
-</span><span class='line'>    <span class="nv">current</span><span class="o">=</span><span class="s2">&quot;$(brew cask info $cask | sed -n &#39;1p&#39; | sed -n &#39;s/^.*: \(.*\)$/\1/p&#39;)&quot;</span>
-</span><span class='line'>
-</span><span class='line'>    <span class="nv">installed</span><span class="o">=(</span> <span class="k">$(</span>ls /opt/homebrew-cask/Caskroom/<span class="nv">$cask</span><span class="k">)</span><span class="o">)</span>
-</span><span class='line'>    <span class="k">if</span> <span class="o">(</span>! <span class="o">[[</span> <span class="s2">&quot; ${installed[@]} &quot;</span> <span class="o">==</span> *<span class="s2">&quot; $current &quot;</span>* <span class="o">]])</span><span class="p">;</span> <span class="k">then</span>
-</span><span class='line'>        <span class="o">(</span><span class="nb">set</span> -x<span class="p">;</span> brew cask install <span class="nv">$cask</span> --force<span class="p">;</span><span class="o">)</span>
-</span><span class='line'>    <span class="k">fi</span>
-</span><span class='line'><span class="k">done</span>
-</span><span class='line'>
-</span><span class='line'>brew upgrade
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Reinstall brew &amp; cask packages:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c">#!/usr/bin/env bash</span>
-</span><span class='line'>
-</span><span class='line'>rm -rf <span class="s2">&quot;$(brew --cache)&quot;</span>
-</span><span class='line'>brew update
-</span><span class='line'>brew cask update
-</span><span class='line'>
-</span><span class='line'><span class="k">for</span> app in <span class="k">$(</span>brew cask list<span class="k">)</span><span class="p">;</span> <span class="k">do</span>
-</span><span class='line'>  brew cask install --force <span class="s2">&quot;${app}&quot;</span>
-</span><span class='line'><span class="k">done</span>
-</span><span class='line'>
-</span><span class='line'>brew upgrade
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p><strong>source:</strong> <a href="https://github.com/caskroom/homebrew-cask/issues/309">https://github.com/caskroom/homebrew-cask/issues/309</a></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Apr 27th, 2016</div>
 	<div class="tags">
 
 

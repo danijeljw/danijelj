@@ -7,7 +7,7 @@
 	<meta name="author" content="Danijel-James Wynyard">
 
 	
-	<meta name="description" content="To move images you love to the default Wallpapers section of OS X, move them using Terminal. TO move a file from my desktop called DWAD Danijel.jpg &hellip;">
+	<meta name="description" content="Using DBAN or other tools will not work as they&rsquo;re built for non EFI-based machines. They will also unecessarily write to your SSD and the &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -84,6 +84,62 @@
 		
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2015/12/21/securely-erase-ssd-macbook-air/">
+		
+			securely erase ssd macbook air</a>
+	</h2>
+	<div class="entry-content">
+		<p>Using DBAN or other tools will not work as they&rsquo;re built for non EFI-based machines. They will also unecessarily write to your SSD and the data may still be recoverabe.</p>
+
+<p>Boot MacBook Air from a <a href="https://support.apple.com/kb/dl1433">Recovery USB</a>.</p>
+
+<p>Launch Terminal from <code>Utilities</code> menu.</p>
+
+<p>Find list of hard drives by running <code>diskutil list</code></p>
+
+<pre><code>| =&gt; diskutil list
+/dev/disk0
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *121.3 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                  Apple_HFS Macintosh HD            120.3 GB   disk0s2
+   3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3
+</code></pre>
+
+<p>Erase with US DoE 3-pass secure erase:</p>
+
+<pre><code>diskutil secureErase 4 /dev/disk0
+</code></pre>
+
+<p><code>#MigratedPost</code></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Dec 21st, 2015</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
 
 
     <article class="post">
@@ -583,51 +639,6 @@ fi
 
 
 Feb 18th, 2014</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/hacking/'>hacking</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2014/02/17/convert-audio-to-ogg-format-via-terminal/">
-		
-			convert audio to ogg format via terminal</a>
-	</h2>
-	<div class="entry-content">
-		<p>Ogg is a container format. It typically uses the <a href="http://www.vorbis.com">Vorbis audio codec</a>. You can download a static build of <a href="http://ffmpegmac.net/">ffmpeg</a> and use the bundled libvorbis encoder:</p>
-
-<pre><code>ffmpeg -i input.wav -c:a libvorbis -qscale:a 5 output.ogg
-</code></pre>
-
-<p>According to the Vorbis encoding guide, the quality range is from 0–10, where 10 is the highest quality and 3–6 are a good range to try. In the above example we used 5 as quality.</p>
-
-<p>_Source: <a href="http://apple.stackexchange.com/a/121099/49601_">http://apple.stackexchange.com/a/121099/49601_</a></p>
-
-<p>🍇🍇🍇</p>
-
-<p><code>#MigratedPost</code></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Feb 17th, 2014</div>
 	<div class="tags">
 
 
