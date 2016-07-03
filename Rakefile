@@ -6,7 +6,7 @@ require "stringex"
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
 ssh_user       = "danijelj.com"
 ssh_port       = "22"
-document_root  = "/usr/share/nginx/html/"
+document_root  = "/home/danijeljames/html"
 rsync_delete   = true
 rsync_args     = ""  # Any extra arguments to pass to rsync
 deploy_default = "rsync"
