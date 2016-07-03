@@ -5,7 +5,7 @@ date: 2016-06-20 14:23:35 +0930
 comments: true
 categories: hacking
 author: Danijel-James Wynyard
-published: false
+published: true
 ---
 This might be boring to some of you, but it's a starting script for brew.sh to be updated with!
 

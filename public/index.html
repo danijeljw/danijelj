@@ -221,6 +221,66 @@ Jun 20th, 2016</div>
     <article class="post">
 	<h2 class="title">
 		
+		<a href="/blog/2016/06/20/fullbrewupdate-dot-sh/">
+		
+			fullbrewupdate.sh</a>
+	</h2>
+	<div class="entry-content">
+		<p>This might be boring to some of you, but it&rsquo;s a starting script for brew.sh to be updated with!</p>
+
+<pre><code>fullBrewUpdate(){
+    brew update
+    brew cask update
+
+    casks=( $(brew cask list) )
+
+    for cask in ${casks[@]}
+    do
+        # in the first line there is version
+        current="$(brew cask info $cask | sed -n '1p' | sed -n 's/^.*: \(.*\)$/\1/p')"
+
+        installed=( $(ls /usr/local/Caskroom/$cask))
+        if (! [[ " ${installed[@]} " == *" $current "* ]]); then
+            (set -x; brew cask install $cask --force;)
+        fi
+    done
+
+    brew upgrade
+    brew cleanup
+    echo -e "\e[31mBackup of brew list in action\e[39m"
+    echo "$(brew list)" &gt; ~/Dropbox/Documents/brewlists/brew_list.txt
+    echo -e "\e[92mBackup of brew cask list in action\e[39m"
+    echo "$(brew cask list)" &gt; ~/Dropbox/Documents/brewlists/brew_cask_list.txt
+}
+</code></pre>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Jun 20th, 2016</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
 		<a href="/blog/2016/06/13/i-think-i-found-my-husband/">
 		
 			i think i found my husband</a>
@@ -522,70 +582,6 @@ Jun 2nd, 2016</div>
 
 
 	<a class='category' href='/blog/categories/photography/'>photography</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2016/06/01/car-wash-and-lamb-dinner/">
-		
-			car wash and lamb dinner</a>
-	</h2>
-	<div class="entry-content">
-		<p>Oh no, what&rsquo;s he done ? Jake&rsquo;s given me his car for the day !</p>
-
-<p><img src="/images/2016/06/01/20160601.iPhone6SPlus.095132.jpg" width="800" height="800" title="uh oh spaghetti-o" alt="uh oh spaghetti-o"></p>
-
-<p>This poor man is always tired, stressed or sleeping. What do you think I&rsquo;m gonna do today ? That&rsquo;s easy. I&rsquo;m gonna wash his car for him and surprise him at the end of the day 😄</p>
-
-<p>I went to the RepCo or whatever it&rsquo;s called near my house and got some supplies. When I was young I had a weekend job that saw me travelling to car yards each Saturday morning and I&rsquo;d wash the cars. It wasn&rsquo;t how many cars were washed per hour, it was here&rsquo;s $150, go was as many cars as you can per hour for 3 hours. Not bad when you&rsquo;re 14 !</p>
-
-<p>Men like pink, right ? Well, I&rsquo;m a man and I&rsquo;m not afraid of pink, and I love the bubblegum smell of the detergent I picked for this job too!</p>
-
-<p><img src="/images/2016/06/01/20160601.iPhone6SPlus.110357.jpg" width="800" height="800" title="sweet like bubblegum" alt="sweet like bubblegum"></p>
-
-<p>So how do I go with this job ? Fantastic darling, absolutely fantastic. I remember Jake saying to me that the one time he goes to wash his car, and so does the whole of Adelaide. LOL This is going to be perfect opportunity for me to do something for him, and him alone. It&rsquo;s not a present. It&rsquo;s not something I&rsquo;ve made. It&rsquo;s something I can do for the sake of doing it for him because this is what real love is about. It&rsquo;s what you can do for that person to make their life a little better. Call it a miracle, if you will, I try to perform a miracle each day for Jake. That&rsquo;s always on my agenda.</p>
-
-<p><img src="/images/2016/06/01/20160601.iPhone6SPlus.113541.jpg" width="800" height="800" title="wash wash wash" alt="wash wash wash"></p>
-
-<p>To say that washing his car was worth it would be an understatement. It saved Jake so much time and effort; and now it&rsquo;s one less thing that he can worry about.</p>
-
-<p>But he&rsquo;s coming over for dinner tonight, <em>yeah, it&rsquo;s not like we&rsquo;re never getting married or anything, so may as well show him that I can cook, and well sic.,</em> so what do I make him ? I know&hellip;his favourite dish - Lamb ! Best part is, I&rsquo;ve not cooked lamb for anyone &hellip; EVER !</p>
-
-<p>Obviously it was good when you see someone staring on at their food wanting do devour it, &lsquo;eh ?</p>
-
-<p><img src="/images/2016/06/01/20160601.iPhone6SPlus.2160.jpg" width="800" height="800" title="can i have my lamb now?" alt="can i have my lamb now?"></p>
-
-<p>I think our collaborative effort to make dinner, <em>Jake made the veggies, I made the sauce just for his palate and the lamb to my own style,</em> and it came out pretty swish if you ask me !</p>
-
-<p><img src="/images/2016/06/01/20160601.iPhone6SPlus.2170.jpg" width="800" height="800" title="a dish well made" alt="a dish well made"></p>
-
-<p>Would you say that was a great dinner Jake ? Oh what&rsquo;s that ? 10/10 ? Lee Lin Chin would be proud ! 5 Stars !</p>
-
-<p><img src="/images/2016/06/01/20160601.iPhone6SPlus.202632.jpg" width="800" height="800" title="i love this man" alt="i love this man"></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Jun 1st, 2016</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/french/'>french</a>, <a class='category' href='/blog/categories/photography/'>photography</a>
 
 
 </div>

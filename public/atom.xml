@@ -4,7 +4,7 @@
   <title><![CDATA[danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-06-26T23:19:25+09:30</updated>
+  <updated>2016-07-03T13:27:03+09:30</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel-James Wynyard]]></name>
@@ -92,6 +92,41 @@
 <p><img src="http://danijelj.com/images/2016/06/20/DJW.20160620.iPhone6SPlus.3144.800res.jpg" width="800" height="800" title="bowls are clean" alt="bowls are clean"></p>
 
 <p>A clean bowl is a perfect dish ✌️</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[fullbrewupdate.sh]]></title>
+    <link href="http://danijelj.com/blog/2016/06/20/fullbrewupdate-dot-sh/"/>
+    <updated>2016-06-20T14:23:35+09:30</updated>
+    <id>http://danijelj.com/blog/2016/06/20/fullbrewupdate-dot-sh</id>
+    <content type="html"><![CDATA[<p>This might be boring to some of you, but it&rsquo;s a starting script for brew.sh to be updated with!</p>
+
+<pre><code>fullBrewUpdate(){
+    brew update
+    brew cask update
+
+    casks=( $(brew cask list) )
+
+    for cask in ${casks[@]}
+    do
+        # in the first line there is version
+        current="$(brew cask info $cask | sed -n '1p' | sed -n 's/^.*: \(.*\)$/\1/p')"
+
+        installed=( $(ls /usr/local/Caskroom/$cask))
+        if (! [[ " ${installed[@]} " == *" $current "* ]]); then
+            (set -x; brew cask install $cask --force;)
+        fi
+    done
+
+    brew upgrade
+    brew cleanup
+    echo -e "\e[31mBackup of brew list in action\e[39m"
+    echo "$(brew list)" &gt; ~/Dropbox/Documents/brewlists/brew_list.txt
+    echo -e "\e[92mBackup of brew cask list in action\e[39m"
+    echo "$(brew cask list)" &gt; ~/Dropbox/Documents/brewlists/brew_cask_list.txt
+}
+</code></pre>
 ]]></content>
   </entry>
   
@@ -633,21 +668,6 @@
 <h3>If I wasn&rsquo;t willing to fight for it, then I&rsquo;m sorry&hellip;but Jake deserves better than me.</h3>
 
 <p>And this is the truth that I will settle on. I was wrong. I&rsquo;m not going to let him go without making an effort. He&rsquo;s magical. I love all of him.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[legacy java 6 runtime]]></title>
-    <link href="http://danijelj.com/blog/2016/05/02/legacy-java-6-runtime/"/>
-    <updated>2016-05-02T11:43:44+09:30</updated>
-    <id>http://danijelj.com/blog/2016/05/02/legacy-java-6-runtime</id>
-    <content type="html"><![CDATA[<p>Java for OS X 2015-001 installs the legacy Java 6 runtime for OS X 10.11 El Capitan, OS X 10.10 Yosemite, OS X 10.9 Mavericks, OS X 10.8 Mountain Lion, and OS X 10.7 Lion.</p>
-
-<p>This package is exclusively intended for support of legacy software and installs the same deprecated version of Java 6 included in the 2014-001 and 2013-005 releases.</p>
-
-<p>Quit any Java applications before installing this update.</p>
-
-<p><strong>Download:</strong> <a href="http://support.apple.com/downloads/DL1572/en_US/javaforosx.dmg">http://support.apple.com/downloads/DL1572/en_US/javaforosx.dmg</a></p>
 ]]></content>
   </entry>
   
