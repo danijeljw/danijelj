@@ -17,11 +17,11 @@ Before I left Sydney, I spoke a colleague of mine _(from a different department)
 
 So back to my story - _I get easily side-tracked_ - we met and we went from there. First meeting under the [Semaphore Clock Tower](https://c8.staticflickr.com/4/3633/3366493095_d2d02753ed_b.jpg) we went for a walk down the jetty and then along the foreshore and eventually landed ourselves a table at a local cafe. From there we went to [K-Mart](http://www.kmart.com.au) and picked out some bedsheets for him and then back to each other's respective home.
 
-I saw him again, and again, and again ! What was it that drew me to this person above anyone else that I've met in my life ? Something twinged inside me and for a long time I've never been able to put my thumb on it. All I knew was this was good, and I was happy. I started to open up emotionally and discovered that I could evolve in ways I didn't know existed within the parameters of my soul.
+I saw him again, and again, and again! What was it that drew me to this person above anyone else that I've met in my life? Something twinged inside me and for a long time I've never been able to put my thumb on it. All I knew was this was good, and I was happy. I started to open up emotionally and discovered that I could evolve in ways I didn't know existed within the parameters of my soul.
 
-I've spoken many times in my life about the three aspects that make you human. They are your body, your mind, and your soul. But what about the heart ? Do I try to confuse everyone by saying the soul is the heart ? No. Never. The heart is the fourth aspect of being human, and this is created when two people meet for the first time.
+I've spoken many times in my life about the three aspects that make you human. They are your body, your mind, and your soul. But what about the heart? Do I try to confuse everyone by saying the soul is the heart ? No. Never. The heart is the fourth aspect of being human, and this is created when two people meet for the first time.
 
-How so, I hear you ask ? Well, let me explain.
+How so, I hear you ask? Well, let me explain.
 
 The heart is created the first time two people come together. It's an emotional connection. When you care about someone, the distance between the two of you is the stretch of that connection and that's where the heart is physically born. If you lived on this earth as the only person in existence you would never know the aspect of the heart as it cannot be created by yourself. It's shared from the components the two of you put into the middle.
 
@@ -37,11 +37,11 @@ Though there wouldn't be a story if there wasn't at least one broken heart, a mo
 
 {% img /images/2016/05/18/20160518.lucky_to_say_goodbye.jpg 533 800 'something that makes saying goodbye so hard' 'something that makes saying goodbye so hard' %}
 
-Have you ever felt that it was hard to say goodbye ? Have you ever been so lucky ?
+Have you ever felt that it was hard to say goodbye? Have you ever been so lucky ?
 
-I remember the last time I saw my grandfather in hospital and knew this would be the last time I ever got to see him alive. Did I feel sad ? No. Not really. Call me cold-hearted. I don't care. It's a fact.
+I remember the last time I saw my grandfather in hospital and knew this would be the last time I ever got to see him alive. Did I feel sad? No. Not really. Call me cold-hearted. I don't care. It's a fact.
 
-I celebrated my love for him as my mentor when growing up and showing me the endurance of love through the years that I had with him. See, the situation is a little more tangled that I let you know. So I'll explain. My grandmother had a memory problem and creating short-term and keeping long-term memories was a problem. My memories of my grandparents has always been my grandfather staying close to her, reminding her where she is, and what she's doing. He kept a close eye on her so she didn't get lost and always was safe and sound. It sounds like he was controlling, but not really. He refused to put her in a nursing home. That was his wife who he'd spent all those years of marriage with and he wanted to keep her close to him now in the time of her need. Can anyone else say they've seen this kind of dedication ? I hope so !
+I celebrated my love for him as my mentor when growing up and showing me the endurance of love through the years that I had with him. See, the situation is a little more tangled that I let you know. So I'll explain. My grandmother had a memory problem and creating short-term and keeping long-term memories was a problem. My memories of my grandparents has always been my grandfather staying close to her, reminding her where she is, and what she's doing. He kept a close eye on her so she didn't get lost and always was safe and sound. It sounds like he was controlling, but not really. He refused to put her in a nursing home. That was his wife who he'd spent all those years of marriage with and he wanted to keep her close to him now in the time of her need. Can anyone else say they've seen this kind of dedication? I hope so!
 
 After my grandmother passed away I kind of remember a shift in my grandfather's emotions, he let go. That was his life that had passed away from his hands. Sure, he had three daughters, one of which is [my mother](https://danijelj.com/blog/2016/05/08/happy-mothers-day/) but at some point his heart broke. The only part of his heart that still existed was the memories he shared and created with the heart that was born between the two of them. They're names are Denise and Thelma. I share part of my name with my grandfather. The James component. So regardless of whether I had a heart with him or not, I share something with him eternally. 😁
 
@@ -53,7 +53,7 @@ We didn't do anything wrong. Not at all. It's just that we've got to take some t
 
 Myself, I am an emotionally strong person. I've spent years and years learning how to connect with my emotions and trying to understand them better. I'm an Aries. And yes I do believe firmly in the science of astrology. It's not verbatim, I can't prove this is right or wrong. Just accept it, that's all.
 
-In the past you could say I was a violent person. I would lash out and let my emotions rule and control my behaviour without much room for a buffer. Then I said something to someone one day in a fit of anger and the feeling that came over me after letting those words go showed me that you truly can stab someone _(no pun intended)_ with just words and words alone. I had literally put a knife deep into their soul and cut them. Was I sorry for what I said ? No. And I'm still not. I don't like her. She's a bitch. What I took away from that was that it's now time to sit back, see what I'm doing, what I've done, and look to where I want to be. So, I now control my anger. I don't lash out with horrible words or go break plates or drive my car through shop windows - yes that's a true story and I'll write about it one day too.
+In the past you could say I was a violent person. I would lash out and let my emotions rule and control my behaviour without much room for a buffer. Then I said something to someone one day in a fit of anger and the feeling that came over me after letting those words go showed me that you truly can stab someone _(no pun intended)_ with just words and words alone. I had literally put a knife deep into their soul and cut them. Was I sorry for what I said? No. And I'm still not. I don't like her. She's a bitch. What I took away from that was that it's now time to sit back, see what I'm doing, what I've done, and look to where I want to be. So, I now control my anger. I don't lash out with horrible words or go break plates or drive my car through shop windows - yes that's a true story and I'll write about it one day too.
 
 For many years I've had the pent up emotion inside of me that's been yearning to find a way to express. That emotion can ignite the hearts of stars across the night sky. Fuse rubies in the hearts of planets. Dry entire oceans across the lands. Drench the forests in torrents of waters. There is no limit to this emotion.
 
@@ -75,7 +75,7 @@ After a reflection on the words said to me tonight, I've come to the conclusion 
 
 The first being that this person might be scared of love and never experienced it properly before and they don't know what to do with these feelings. I should have recognised this and let them time to process this and take it slowly and thoughtfully. Yes, I'm well established in my principles and behaviours. I don't like to admit this, but I'm really not perfect. I'd like you to believe I was and write whole books on how to be a respectable person.
 
-> But who am I to instruct you ? I'm not !
+> But who am I to instruct you? I'm not!
 
 The second being this person seems to think the _ONLY_ reason I stay in Adelaide is because of them and I hate it here.
 
@@ -83,15 +83,15 @@ I take these two main instruments and carve them into two lessons for myself.
 
 ###The First Lesson
 
-I'd like to think I've reached the peak of my evolution. But didn't I say that to myself when I was 23 too ? Didn't I stand there in front of a whole group of people saying something stupid like _"There's nothing left for me to learn in this world. I've learned all there is to know."_
+I'd like to think I've reached the peak of my evolution. But didn't I say that to myself when I was 23 too? Didn't I stand there in front of a whole group of people saying something stupid like _"There's nothing left for me to learn in this world. I've learned all there is to know."_
 
-Fucking hell I was a stupid young man. Who ever said there's nothing left to learn ? Well, obviously me. Even just tonight I said something just as selfish and stupid.
+Fucking hell I was a stupid young man. Who ever said there's nothing left to learn? Well, obviously me. Even just tonight I said something just as selfish and stupid.
 
 >I've reached the peak of my evolution, and there's nothing left to aspire to.
 
-FUCK ! NO !
+FUCK! NO !
 
-No on so many levels. Just no. Why ? Because I said that just at the beginning of this year and then what ? Well, along came this person, and I learned something totally new. Emotions. Ways of being. Personality traits. Behaviours. Laughter. Sadness. Anticipation. So many things I can't even being to process them all.
+No on so many levels. Just no. Why? Because I said that just at the beginning of this year and then what ? Well, along came this person, and I learned something totally new. Emotions. Ways of being. Personality traits. Behaviours. Laughter. Sadness. Anticipation. So many things I can't even being to process them all.
 
 ###The Second Lesson
 
@@ -99,11 +99,11 @@ Referring to an email I send to Gillian earlier today whilst waiting out the fro
 
 >...then I remember that this is my home...
 
-That's right. Adelaide is my home. I got off that plane and I made a decision to live here and make my life. I think I've been so bored without work that I'm going crazy in my own mind a little bit and need something to focus on. Because of that I've said some really stupid thoughts which have been stirring around in my mind. I've been hating on Adelaide and that has created an unnecessary pressure on this person and can it be possible that they now feel like I'm only here because of them and I want to leave ?
+That's right. Adelaide is my home. I got off that plane and I made a decision to live here and make my life. I think I've been so bored without work that I'm going crazy in my own mind a little bit and need something to focus on. Because of that I've said some really stupid thoughts which have been stirring around in my mind. I've been hating on Adelaide and that has created an unnecessary pressure on this person and can it be possible that they now feel like I'm only here because of them and I want to leave?
 
 >...I've been so caught up being emotionally moved by him that I forgot to expose him to my other temperaments.
 
-I forgot to show him where my true love lies in Adelaide. The rhythm and the beat of the people. Who knew me in Sydney ? Did you ? Maybe you did and maybe you didn't. What was that one thing I always said I loved about Australia ? It was Adelaide and her people.
+I forgot to show him where my true love lies in Adelaide. The rhythm and the beat of the people. Who knew me in Sydney? Did you ? Maybe you did and maybe you didn't. What was that one thing I always said I loved about Australia ? It was Adelaide and her people.
 
 This person deserved to see my other temperaments and unfortunately I didn't reign back on the prime emotion and look where it's led us now.
 
@@ -119,7 +119,7 @@ Right now I've come to a point with this person where I know there is a possibil
 
 >How lucky I am to have something that makes saying goodbye so hard.
 
-So, did I start this article with the right words ? Clearly not. Let me try that again.
+So, did I start this article with the right words? Clearly not. Let me try that again.
 
 >I've been UNLUCKY enough in my life that I've always been the one to walk away and not regret the choice to do so. 
 

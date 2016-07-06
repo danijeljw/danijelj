@@ -13,7 +13,7 @@ A little while ago I met Jake. To be specific, I met him Saturday April 2<sup>nd
 
 One day since that time until now, Jake asked me a question. A simple question that I took not even more than a moment to reflex an answer from my values.
 
-> Would you fight for me ? 
+> Would you fight for me? 
 
 To go back in history, I'd like to touch on a story about my great aunty and her husband. I don't recall the exact details but I'd very much like to touch on this subject with her one day soon so I can capture the words myself and keep them safe to remind people that love like in [The Notebook](https://en.wikipedia.org/wiki/The_Notebook_(2004_film\)) does exist in real life, and people can have it if you open your heart to it.
 
@@ -23,15 +23,15 @@ I remember my mum quoting my great uncle saying something like:
 
 > Don't marry him, marry me. I'm better than him. I'll love you better and you'll never be unhappy with me in your life. I'll show you the greatest love you can ever have.
 
-So what did he do ? He fought for her love. We live in a day and age when you can say there's not such thing as _"love at first sight"_ but I tend to disagree strongly. He obviously felt like he was in love with her the moment he saw her and I can attest to the love they had lasted many years all through my youth and she loved him too until the day he died.
+So what did he do? He fought for her love. We live in a day and age when you can say there's not such thing as _"love at first sight"_ but I tend to disagree strongly. He obviously felt like he was in love with her the moment he saw her and I can attest to the love they had lasted many years all through my youth and she loved him too until the day he died.
 
 He fought. For her love. And he won. He fought every day for her love. And he won every day that he fought that battle. And my great aunty ne'er regret a single day by choosing the man who was my great uncle. I always admired their love. It was so strong and potent right to the last time they kissed each other goodnight for the endless sleep.
 
-Before you wonder, yes - writing about this brings tears to my eyes. Tears of joy and happiness. I could write articles of the love between all the members of my family that I've grown up with, including my parents. _(That's a story for another time !)_
+Before you wonder, yes - writing about this brings tears to my eyes. Tears of joy and happiness. I could write articles of the love between all the members of my family that I've grown up with, including my parents. _(That's a story for another time!)_
 
-So then, you'll probably be wondering how did I answer Jake ? In the most notably ineffective way ever. Absolutely ever !
+So then, you'll probably be wondering how did I answer Jake? In the most notably ineffective way ever. Absolutely ever!
 
-I've been in a number of relationships that are both long and short, some that even spanned across states. And what did I learn from all these relationships from the past ? Something not great. I generated a reflex action that if someone wants to leave me; I let them go. But why you might ask ? Simple - I'm here. They're there. They want to go, let them go. Celebrate what you had while it's there and enjoy it for the moment. Don't hold on to what you don't have.
+I've been in a number of relationships that are both long and short, some that even spanned across states. And what did I learn from all these relationships from the past? Something not great. I generated a reflex action that if someone wants to leave me; I let them go. But why you might ask ? Simple - I'm here. They're there. They want to go, let them go. Celebrate what you had while it's there and enjoy it for the moment. Don't hold on to what you don't have.
 
 👆 That there, is the worst advice I have ever given, to anyone or myself. Love is not expendable. If you can dispense with your love for someone; then they deserve to be with someone better - you never really truly loved them.
 
@@ -39,11 +39,11 @@ Once upon a time, a friend of mine who can see clearly to the core of who I am s
 
 > You are never truly in love with someone. You just accept them as the current person in your life.
 
-And you know what ? That person was correct. 100% correct. I never truly fell in love with anyone that was in my life. I generated a reflex action to a situation and added that to the core of my beliefs and behaviours. You could even refer to them as _"The Laws of Danijel"_ which I live vehemently by, everyday of my life.
+And you know what? That person was correct. 100% correct. I never truly fell in love with anyone that was in my life. I generated a reflex action to a situation and added that to the core of my beliefs and behaviours. You could even refer to them as _"The Laws of Danijel"_ which I live vehemently by, everyday of my life.
 
-So without a moment's hesitation, I jerked into my usual reflex and answered his question in the most poor of methods. And it's stuck with me since then how I answered. Did I really believe what I was saying ? Why was it resounding in my memory ? Why was my dreams plagued with this question ? What was going on ?
+So without a moment's hesitation, I jerked into my usual reflex and answered his question in the most poor of methods. And it's stuck with me since then how I answered. Did I really believe what I was saying? Why was it resounding in my memory ? Why was my dreams plagued with this question ? What was going on ?
 
-I didn't believe it. Not one word. Nothing. It was all wrong. All of it !
+I didn't believe it. Not one word. Nothing. It was all wrong. All of it!
 
 I can't let Jake walk out of my life. Not without a fight. Not at all. I'm going to fight for him until my last breath. When I stop, it's because he's not reacting to me anymore and our love has died. I can't resuscitate something from the dead once it's gone for good.
 
@@ -67,7 +67,7 @@ He chose me.
 
 {% img /images/2016/04/05/20160405.iPhone5Plus.003021.jpg 800 800 'antartica lost to me' 'antartica lost to me' %}
 
-I didn't know what I would do next. If Jake hadn't chosen me, I quickly needed to find a way to prove to him I was the better choice. I wasn't going to give up that easily. Every single word in his response was going to touch me. I wanted to not let this go. Did I need to press rewind and go back to fix something ? Not this time. Not ever. I'm not going to regret what I've done, but I will make damned sure I do it right in the future.
+I didn't know what I would do next. If Jake hadn't chosen me, I quickly needed to find a way to prove to him I was the better choice. I wasn't going to give up that easily. Every single word in his response was going to touch me. I wanted to not let this go. Did I need to press rewind and go back to fix something? Not this time. Not ever. I'm not going to regret what I've done, but I will make damned sure I do it right in the future.
 
 The next image I sent him was me pointing my tongue at the penguin _(above)_, because I'd won this round, and I was going to win every round from today until the day I kiss him my last goodnight.
 
@@ -83,7 +83,7 @@ I want him. Every day. Every night. I want Jake in my life. I'm going to show hi
 
 It's not true.
 
-Jake is the person that fills my heart with happiness and love. Doesn’t he deserve to be fought for ? Wouldn’t I want him to fight to keep me ? If he’s worth spending your life with, he’s worth fighting for!
+Jake is the person that fills my heart with happiness and love. Doesn’t he deserve to be fought for? Wouldn’t I want him to fight to keep me ? If he’s worth spending your life with, he’s worth fighting for!
 
 {% img /images/2016/04/30/20160430.iPhone6Plus.112909.jpg 481 800 'jake will be my husband one day' 'jake will be my husband one day' %}
 

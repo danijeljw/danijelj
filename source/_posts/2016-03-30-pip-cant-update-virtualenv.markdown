@@ -46,4 +46,4 @@ Finally install the latest version using `PIP` again:
 pip install virtualenv
 {% endcodeblock %}
 
-Problem solved !
+Problem solved!

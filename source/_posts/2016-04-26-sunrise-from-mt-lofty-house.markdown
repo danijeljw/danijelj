@@ -17,4 +17,4 @@ I discovered [Mount Lofty House](http://www.mtloftyhouse.com.au). I might have t
 
 Captured three images, this is the low-res version of one of them.
 
-Good morning everyone !
+Good morning everyone!

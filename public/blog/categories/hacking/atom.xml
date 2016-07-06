@@ -4,7 +4,7 @@
   <title><![CDATA[Category: hacking | danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/blog/categories/hacking/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-07-03T21:18:17+09:30</updated>
+  <updated>2016-07-06T23:37:08+09:30</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel-James Wynyard]]></name>
@@ -53,11 +53,11 @@
     <link href="http://danijelj.com/blog/2016/06/04/you-know-your-awesome-when/"/>
     <updated>2016-06-04T21:29:27+09:30</updated>
     <id>http://danijelj.com/blog/2016/06/04/you-know-your-awesome-when</id>
-    <content type="html"><![CDATA[<p>Logged into <a href="https://github.com">GitHub</a> today and noticed that some of my commits have been rolled into a globally used Bootstrap theme ! So much fun !</p>
+    <content type="html"><![CDATA[<p>Logged into <a href="https://github.com">GitHub</a> today and noticed that some of my commits have been rolled into a globally used Bootstrap theme! So much fun !</p>
 
 <p><img src="images/2016/06/04/20160504.git-pulls-used.png" width="800" height="176" title="&lsquo;git pulls added&rsquo; &lsquo;git pulls added&rsquo;" ></p>
 
-<p>Fuck yeah !</p>
+<p>Fuck yeah!</p>
 ]]></content>
   </entry>
   

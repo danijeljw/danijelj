@@ -9,7 +9,7 @@ published: true
 ---
 Jake brought me out for breakfast this morning. We went to the cafe that sits behind the playground he talks so often and fondly of.
 
-He bought me french toast. Yummy ! 😋🇫🇷🍞
+He bought me french toast. Yummy! 😋🇫🇷🍞
 
 {% img /images/2016/05/28/20160528.french_toast_with_jakey.jpg 800 800 '' 'french toast' %}
 

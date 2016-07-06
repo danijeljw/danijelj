@@ -70,4 +70,4 @@ for i in $(brew tap); do brew tap "$i"; done
 
 This one liner is your life saver. 😉
 
-Problem solved !
+Problem solved!
