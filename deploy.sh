@@ -38,3 +38,5 @@ if [ ! -d "/Volumes/DEVELOPER" ]; then
     echo "###################"
 fi
 
+## UPDATE VIA SSH
+ssh danijelj.com 'sh /home/danijeljames/html.sh'

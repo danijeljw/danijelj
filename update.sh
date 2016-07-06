@@ -42,3 +42,5 @@ fi
 ## Reset Date Clause
 echo "Resetting $todayDate variable"; todayDate="$(date +'%Y%m%d')"; sleep .5
 
+## UPDATE VIA SSH
+ssh danijelj.com 'sh /home/danijeljames/html.sh'
