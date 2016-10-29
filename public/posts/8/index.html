@@ -7,7 +7,7 @@
 	<meta name="author" content="Danijel-James Wynyard">
 
 	
-	<meta name="description" content="10.11 sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder; say DNS cache flushed 10.10 sudo discoveryutil mdnsflushcache;sudo &hellip;">
+	<meta name="description" content="Using the following formats a partition with fat16 on OS X: diskutil partitionDisk /Volumes/NDS 1 MBRFormat "MS-DOS FAT16" "NDS" 1000M That is: / &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -84,6 +84,301 @@
 		
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2014/08/04/format-with-fat16-on-mac-os-x/">
+		
+			format with fat16 on mac os x</a>
+	</h2>
+	<div class="entry-content">
+		<p>Using the following formats a partition with <code>fat16</code> on OS X:</p>
+
+<pre><code>diskutil partitionDisk /Volumes/NDS 1 MBRFormat "MS-DOS FAT16" "NDS" 1000M
+</code></pre>
+
+<p>That is:</p>
+
+<ul>
+<li>/Volumes/NDS: the mount point to partition, could also be /dev/disk1</li>
+<li>1: the number of partitions</li>
+<li>MBRFormat: the partition format, MBR is the usual default for removable storage</li>
+<li>&ldquo;MS-DOS FAT16&rdquo;: partition type</li>
+<li>&ldquo;NDS&rdquo;: partition name</li>
+<li>1000M: 1000 megabytes (size of the partition, if it is the last, it will span to the end of the drive)</li>
+</ul>
+
+
+<p>🍷🍷🍷</p>
+
+<p><code>#MigratedPost</code></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Aug 4th, 2014</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2014/06/17/terminal-colours-mac/">
+		
+			terminal colours mac</a>
+	</h2>
+	<div class="entry-content">
+		<p>Create a new <code>.bash_profile</code> in the users home directory with:</p>
+
+<pre><code>export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
+export PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:[01;34m\]\w\[\033[00m\]\$ '
+</code></pre>
+
+<p>👅👅👅</p>
+
+<p><code>#MigratedPost</code></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Jun 17th, 2014</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2014/04/26/codecademy-battleship-project/">
+		
+			codecademy battleship! project</a>
+	</h2>
+	<div class="entry-content">
+		<p>Been playing with Codecademy to learn some more on Python. Their Battleship! tutorial I must say is one of the hardest I have tried, and instructions aren’t as solid as they should be. Below is the project solution that I used.</p>
+
+<pre><code>from random import randint
+
+board = []
+
+for x in range(5):
+    board.append(["O"] * 5)
+
+def print_board(board):
+    for row in board:
+        print " ".join(row)
+
+print "Let's play Battleship!"
+
+for turn in range(4):
+    print "Turn ", turn + 1
+    print_board(board)
+
+    def random_row(board):
+        return randint(0, len(board) - 1)
+
+    def random_col(board):
+        return randint(0, len(board[0]) - 1)
+
+    ship_row = random_row(board)
+    ship_col = random_col(board)
+    print ship_row
+    print ship_col
+
+    # Everything from here on should go in your for loop!
+    # Be sure to indent four spaces!
+    guess_row = int(raw_input("Guess Row:"))
+    guess_col = int(raw_input("Guess Col:"))
+
+    if guess_row == ship_row and guess_col == ship_col:
+        print "Congratulations! You sunk my battleship!"
+        break
+    else:
+        if (guess_row &lt; 0 or guess_row &gt; 4) or (guess_col &lt; 0 or guess_col &gt; 4):
+            print "Oops, that's not even in the ocean."
+            if turn == int(3):
+                turn = turn - 1
+        elif(board[guess_row][guess_col] == "X"):
+             print "You guessed that one already."
+            if turn == int(3):
+                turn = turn - 1
+        else:
+            print "You missed my battleship!"
+            board[guess_row][guess_col] = "X"
+        # Print (turn + 1) here!
+        print_board(board)
+if turn == int(3):
+    print "Game Over"
+</code></pre>
+
+<p><code>#MigratedPost</code></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Apr 26th, 2014</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2014/03/10/counting-fibonacci-numbers-with-python/">
+		
+			counting fibonacci numbers with python</a>
+	</h2>
+	<div class="entry-content">
+		<p>I want a job at <a href="http://www.google.com.au/about/jobs/">Google</a> which means I need to be good at <a href="http://python.org">Python</a>. Got a bit stuck on the 4th module task, to make a counter of the <a href="http://en.wikipedia.org/wiki/Fibonacci_number">Fibonacci</a> number sequence up to the firs digit beyond 100. This is the simplest solution when I worked it out. Finally.</p>
+
+<pre><code>#!/usr/bin/env python -tt
+##  Fn = Fn[-2] + Fn[-1]
+Fn = [0,1]
+while Fn[-1] &lt; 100:
+  Fn.append(Fn[-2] + Fn[-1])
+  print(Fn)
+</code></pre>
+
+<p>To update that, so the output isn’t so large, modify like so:</p>
+
+<pre><code>#!/usr/bin/env python -tt
+##  Fn = Fn[-2] + Fn[-1]
+Fn = [0,1]
+while Fn[-1] &lt; 100:
+  Fn.append(Fn[-2] + Fn[-1])
+if Fn[-1] &gt; 100:
+  print(Fn)     # prints the whole sequence
+  print(Fn[-1]) # prints only last number above 100
+</code></pre>
+
+<p>Can add further to this, using strings to make it more clear to the end-user (brackets removed for aesthetics in final result):</p>
+
+<pre><code>#!/usr/bin/env python -tt
+##  Fn = Fn[-2] + Fn[-1]
+Fn = [0,1]
+while Fn[-1] &lt; 100:
+  Fn.append(Fn[-2] + Fn[-1])
+if Fn[-1] &gt; 100:
+  print'Fibonacci numbers up to 1st number over 100: ',Fn
+  print'First Fibonacci number over 100: ',Fn[-1]
+</code></pre>
+
+<p><code>#MigratedPost</code></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Mar 10th, 2014</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2014/03/09/using-env-with-shebang/">
+		
+			using env with shebang</a>
+	</h2>
+	<div class="entry-content">
+		<p>Starting a script with <code>#!/bin/bash</code> instead of <code>#!/usr/bin/env</code> bash will assume that the user has <code>bash</code> installed at <code>/bin</code>. This makes the script portable and asks the enviornment to find the correct <code>$PATH</code> to the required interpreter.</p>
+
+<p>Bottom line rule:</p>
+
+<pre><code>#!/usr/bin/env (sh|bash|python|ruby|csh|ksh|tcsh)
+</code></pre>
+
+<p><code>#MigratedPost</code></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Mar 9th, 2014</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
 
 
     <article class="post">
@@ -339,291 +634,6 @@ Feb 9th, 2014</div>
 
 
 Feb 8th, 2014</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/hacking/'>hacking</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2014/02/07/objective-c-data-types/">
-		
-			objective-c data types</a>
-	</h2>
-	<div class="entry-content">
-		<table>
-<thead>
-<tr>
-<th style="text-align:left;"> Type </th>
-<th style="text-align:left;"> Example </th>
-<th style="text-align:left;"> Specifier </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;"> char </td>
-<td style="text-align:left;"> ‘a’, ‘O’, ‘\n’ </td>
-<td style="text-align:left;"> %c </td>
-</tr>
-<tr>
-<td style="text-align:left;"> int </td>
-<td style="text-align:left;"> 14, -14, 780, 0xEEC0, 098 </td>
-<td style="text-align:left;"> %i, %d </td>
-</tr>
-<tr>
-<td style="text-align:left;"> unsigned int </td>
-<td style="text-align:left;"> 10u, 121U, 0xEFu </td>
-<td style="text-align:left;"> %u, %x, %o </td>
-</tr>
-<tr>
-<td style="text-align:left;"> long int </td>
-<td style="text-align:left;"> 18, -2100, 0xfeefL </td>
-<td style="text-align:left;"> %ld </td>
-</tr>
-<tr>
-<td style="text-align:left;"> unsigned long int </td>
-<td style="text-align:left;"> 13UL, 101ul, 0xfefeUL </td>
-<td style="text-align:left;"> %lu, %lx, %lo </td>
-</tr>
-<tr>
-<td style="text-align:left;"> long long int </td>
-<td style="text-align:left;"> 0xe5e5e5LL, 501ll </td>
-<td style="text-align:left;"> %lld </td>
-</tr>
-<tr>
-<td style="text-align:left;"> unsigned long long int </td>
-<td style="text-align:left;"> 10ull, 0xffeeULL </td>
-<td style="text-align:left;"> %llu, %llx, %llo </td>
-</tr>
-<tr>
-<td style="text-align:left;"> float </td>
-<td style="text-align:left;"> 12.30f, 3.2e-5f, 0x2.2p09 </td>
-<td style="text-align:left;"> %f, %e, %g, %a </td>
-</tr>
-<tr>
-<td style="text-align:left;"> double </td>
-<td style="text-align:left;"> 3.1415 </td>
-<td style="text-align:left;"> %f, %e, %g, %a </td>
-</tr>
-<tr>
-<td style="text-align:left;"> long double </td>
-<td style="text-align:left;"> 3.5e-5l </td>
-<td style="text-align:left;"> %Lf, %Le, %Lg, %La </td>
-</tr>
-<tr>
-<td style="text-align:left;"> id </td>
-<td style="text-align:left;"> Nil </td>
-<td style="text-align:left;"> %@ </td>
-</tr>
-</tbody>
-</table>
-
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Feb 7th, 2014</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/hacking/'>hacking</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/11/09/dock-icons-that-wont-go-away/">
-		
-			dock icons that won't go away</a>
-	</h2>
-	<div class="entry-content">
-		<p>A client of mine who minimised an application to their Dock and their iMac crashed. When the computer rebooted, the icon of the minimised application was ever present in their Dock and it wasn’t selectable, repairable, removable – anything!</p>
-
-<p>If you come across such a problem, open Terminal and run the following:</p>
-
-<pre><code>rm -f ~/Library/Preferences/com.apple.dock.plist
-</code></pre>
-
-<p>Restart your Mac, problem solved.</p>
-
-<p><code>#MigratedPost</code></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Nov 9th, 2013</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/hacking/'>hacking</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/10/21/make-os-x-screensaver-your-wallpaper/">
-		
-			make os x screensaver your wallpaper</a>
-	</h2>
-	<div class="entry-content">
-		<p>If you have a fancy screensaver and you want to see it all the time, use then all you need to do is run the following command in Terminal (Applications/Utilities) and it will automatically set the current screensaver to your wallpaper:</p>
-
-<pre><code>/System/Library/Frameworks/Screensaver.framework/Resources/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine -background
-</code></pre>
-
-<p>Then press enter and voila! If it doesn’t work for you right away, you may need to restart your Mac.</p>
-
-<p><code>#MigratedPost</code></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Oct 21st, 2013</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/hacking/'>hacking</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/10/16/add-spacers-to-the-dock/">
-		
-			add spacers to the dock</a>
-	</h2>
-	<div class="entry-content">
-		<p>The <a href="http://en.wikipedia.org/wiki/Dock_(OS_X">Dock</a> is great, but sometimes it gets cluttered with all your favourite apps and you want a way to keep it organised. There is a great <a href="http://www.dummies.com/how-to/content/how-to-work-with-the-mac-dock.html">Dummies article</a> if you are interested in a starting point, but what if you need to “group” your applications together instead?</p>
-
-<p>There is a Terminal command that can add spacers to your Dock. Open Terminal <em>(Applications > Utilities)</em>, then type the following:</p>
-
-<pre><code>defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'
-</code></pre>
-
-<p>This will add a spacer to your Dock. If you need more than one, type it for as many as you need and then type:</p>
-
-<pre><code>killall Dock
-</code></pre>
-
-<p>Your Dock will restart and you’ll see the spacers to the right of your applications. Drag spacers around to create “groups” in your Dock. To remove a spacer, simply drag it off the Dock.</p>
-
-<p>Here is a nice version of the way to automate the process with a shell script. It will prompt you with how many spacers you need and add them, then restart the Dock.</p>
-
-<pre><code>#!/bin/bash
-echo "Enter number of spacers required: "
-read noSpacers
-c=1
-while [ $c -le $noSpacers ]
-do
-  defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'
-  (( c++ ))
-done
-killall Dock
-</code></pre>
-
-<p><code>#MigratedPost</code></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Oct 16th, 2013</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/hacking/'>hacking</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/10/08/open-google-chrome-in-kiosk-mode/">
-		
-			open google chrome in kiosk mode</a>
-	</h2>
-	<div class="entry-content">
-		<p>Load Google Chrome in Kiosk Mode and direct it to a URL via Terminal:</p>
-
-<pre><code>open "/Applications/Google Chrome.app" --args --kiosk https://www.google.com.au
-</code></pre>
-
-<p><code>#MigratedPost</code></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Oct 8th, 2013</div>
 	<div class="tags">
 
 
