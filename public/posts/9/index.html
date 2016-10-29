@@ -7,7 +7,7 @@
 	<meta name="author" content="Danijel-James Wynyard">
 
 	
-	<meta name="description" content="Type Example Specifier char ‘a’, ‘O’, ‘\n’ %c int 14, -14, 780, 0xEEC0, 098 %i, %d unsigned int 10u, 121U, 0xEFu %u, %x, %o long int 18, -2100, &hellip;">
+	<meta name="description" content="Ogg is a container format. It typically uses the Vorbis audio codec. You can download a static build of ffmpeg and use the bundled libvorbis encoder &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -84,6 +84,149 @@
 		
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2014/02/17/convert-audio-to-ogg-format-via-terminal/">
+		
+			convert audio to ogg format via terminal</a>
+	</h2>
+	<div class="entry-content">
+		<p>Ogg is a container format. It typically uses the <a href="http://www.vorbis.com">Vorbis audio codec</a>. You can download a static build of <a href="http://ffmpegmac.net/">ffmpeg</a> and use the bundled libvorbis encoder:</p>
+
+<pre><code>ffmpeg -i input.wav -c:a libvorbis -qscale:a 5 output.ogg
+</code></pre>
+
+<p>According to the Vorbis encoding guide, the quality range is from 0–10, where 10 is the highest quality and 3–6 are a good range to try. In the above example we used 5 as quality.</p>
+
+<p>_Source: <a href="http://apple.stackexchange.com/a/121099/49601_">http://apple.stackexchange.com/a/121099/49601_</a></p>
+
+<p>🍇🍇🍇</p>
+
+<p><code>#MigratedPost</code></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Feb 17th, 2014</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2014/02/09/removing-app-library-files-caches-and-preferences/">
+		
+			Removing App Library Files Caches And Preferences</a>
+	</h2>
+	<div class="entry-content">
+		<p>cd &mdash;
+layout: post
+title: &ldquo;removing app library files&rdquo;
+date: 2014-02-09 07:58:22 +1100
+comments: true
+categories: hacking
+author: Danijel-James Wynyard</p>
+
+<h2>published: true</h2>
+
+<p>Application Support files <em>(can be anything from saved states, preferences, caches, temporary files, etc)</em>:</p>
+
+<pre><code>~/Library/Application Support/(App Name)
+</code></pre>
+
+<p>Preferences are stored at:</p>
+
+<pre><code>~/Library/Preferences/(App Name)
+</code></pre>
+
+<p>Caches are stored in:</p>
+
+<pre><code>~/Library/Caches/(App Name)
+</code></pre>
+
+<p><em><strong>Note:</strong> Sometimes can be referenced by app developer name rather than app name!</em></p>
+
+<p><code>#MigratedPost</code></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Feb 9th, 2014</div>
+	<div class="tags">
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2014/02/08/free-up-ram-in-os-x/">
+		
+			free up ram in os x</a>
+	</h2>
+	<div class="entry-content">
+		<p>Using the <strong>purge(8)</strong> command will force the disk cache to be flushed and emptied.</p>
+
+<pre><code>sudo purge
+</code></pre>
+
+<p>🎾🎾🎾</p>
+
+<p><code>#MigratedPost</code></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Feb 8th, 2014</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
 
 
     <article class="post">
@@ -454,144 +597,6 @@ Sep 29th, 2013</div>
 
 
 Sep 23rd, 2013</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/hacking/'>hacking</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/09/22/connect-mac-to-active-directory-via-terminal/">
-		
-			connect mac to active directory via terminal</a>
-	</h2>
-	<div class="entry-content">
-		<p>Connecting Mac OS X to Windows AD via Terminal:</p>
-
-<pre><code>dsconfigad –f –a $compName –domain $sub.$domain.$tld –u $ADaccount –p $ADpassword –lu $ladminAcc –lp $ladminPass
-
-$compName = name of the computer _(in quotations if necessary)_
-
-$sub    = subdomain
-$domain = domain
-$tld    = tld
-
-$ADaccount  = AD admin account
-$ADpassword = AD admin password
-
-$ladminAcc  = Mac local admin account
-$ladminPass = Mac local admin password
-</code></pre>
-
-<p><code>#MigratedPost</code></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Sep 22nd, 2013</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/hacking/'>hacking</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/08/19/permission-denied-with-terminal/">
-		
-			permission denied with terminal</a>
-	</h2>
-	<div class="entry-content">
-		<p>Getting a Permission Denied when trying to run a file in Terminal <em>(OS X or *NIX)</em> can be frustrating, especially if you’re new to this. Try running the following:</p>
-
-<pre><code>chmod +x FileName
-</code></pre>
-
-<p>Then to run the program/file, type:</p>
-
-<pre><code>./FileName
-</code></pre>
-
-<p>🍐🍐🍐</p>
-
-<p><code>#MigratedPost</code></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Aug 19th, 2013</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/hacking/'>hacking</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/08/10/install-java-jvm-on-os-x-10-dot-8/">
-		
-			install java jvm on os x 10.8</a>
-	</h2>
-	<div class="entry-content">
-		<p>Via Terminal:</p>
-
-<pre><code>java -version
-</code></pre>
-
-<p>🏻👍🏻👍🏻👍🏻</p>
-
-<p><code>#MigratedPost</code></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Aug 10th, 2013</div>
 	<div class="tags">
 
 

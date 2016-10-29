@@ -7,7 +7,7 @@
 	<meta name="author" content="Danijel-James Wynyard">
 
 	
-	<meta name="description" content="February is the #MonthofLove in Darling Harbour, Sydney. #DragAndDrop saw special performances by some of Sydney&rsquo;s hottest drag queens and &hellip;">
+	<meta name="description" content="Gentlemen, may I warn you that when you live by yourself, this is what breakfast will look like if your parents don&rsquo;t teach you to cook for &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -84,6 +84,175 @@
 		
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2016/04/07/breakfast-for-one/">
+		
+			breakfast for one</a>
+	</h2>
+	<div class="entry-content">
+		<p>Gentlemen, may I warn you that when you live by yourself, this is what breakfast will look like if your parents don&rsquo;t teach you to cook for yourself, or you meet an honest husband/wife that you learn to make breakfast for them too. Why? Because you love them!</p>
+
+<p><img src="/images/2016/04/04/20160404.iPhone6Plus.900142.800res.jpg" width="800" height="800" title="toad in the hole" alt="bachelor toad in the hole breakfast"></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Apr 7th, 2016</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/photography/'>photography</a>
+
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2016/03/30/pip-cant-update-virtualenv/">
+		
+			pip can't update virtualenv</a>
+	</h2>
+	<div class="entry-content">
+		<p>Tried to run an upgrade for <code>virtualenv</code> using <code>PIP</code> and got the following error:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>Collecting virtualenv
+</span><span class='line'>  Using cached virtualenv-15.0.1-py2.py3-none-any.whl
+</span><span class='line'>Installing collected packages: virtualenv
+</span><span class='line'>  Found existing installation: virtualenv 15.0.0
+</span><span class='line'>    Uninstalling virtualenv-15.0.0:
+</span><span class='line'>Exception:
+</span><span class='line'>Traceback <span class="o">(</span>most recent call last<span class="o">)</span>:
+</span><span class='line'>  File <span class="s2">&quot;/usr/local/lib/python2.7/site-packages/pip/basecommand.py&quot;</span>, line 209, in main
+</span><span class='line'>    <span class="nv">status</span> <span class="o">=</span> self.run<span class="o">(</span>options, args<span class="o">)</span>
+</span><span class='line'>  File <span class="s2">&quot;/usr/local/lib/python2.7/site-packages/pip/commands/install.py&quot;</span>, line 317, in run
+</span><span class='line'>    <span class="nv">prefix</span><span class="o">=</span>options.prefix_path,
+</span><span class='line'>  File <span class="s2">&quot;/usr/local/lib/python2.7/site-packages/pip/req/req_set.py&quot;</span>, line 726, in install
+</span><span class='line'>    requirement.uninstall<span class="o">(</span><span class="nv">auto_confirm</span><span class="o">=</span>True<span class="o">)</span>
+</span><span class='line'>  File <span class="s2">&quot;/usr/local/lib/python2.7/site-packages/pip/req/req_install.py&quot;</span>, line 746, in uninstall
+</span><span class='line'>    paths_to_remove.remove<span class="o">(</span>auto_confirm<span class="o">)</span>
+</span><span class='line'>  File <span class="s2">&quot;/usr/local/lib/python2.7/site-packages/pip/req/req_uninstall.py&quot;</span>, line 115, in remove
+</span><span class='line'>    renames<span class="o">(</span>path, new_path<span class="o">)</span>
+</span><span class='line'>  File <span class="s2">&quot;/usr/local/lib/python2.7/site-packages/pip/utils/__init__.py&quot;</span>, line 267, in renames
+</span><span class='line'>    shutil.move<span class="o">(</span>old, new<span class="o">)</span>
+</span><span class='line'>  File <span class="s2">&quot;/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/shutil.py&quot;</span>, line 303, in move
+</span><span class='line'>    os.unlink<span class="o">(</span>src<span class="o">)</span>
+</span><span class='line'>OSError: <span class="o">[</span>Errno 13<span class="o">]</span> Permission denied: <span class="s1">&#39;/usr/local/lib/python2.7/site-packages/virtualenv-15.0.0.dist-info/DESCRIPTION.rst&#39;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>To resolve this I had to remove the non-brew installed version of <code>virtualenv</code> from my sytem by:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>sudo rm -rf /usr/local/lib/python2.7/site-packages/virtualenv*
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Finally install the latest version using <code>PIP</code> again:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>pip install virtualenv
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Problem solved!</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Mar 30th, 2016</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2016/03/29/i-want-popsicles/">
+		
+			i want popsicles</a>
+	</h2>
+	<div class="entry-content">
+		<p>I want these popsicles to be recreated for a t-shirt print for my birthay&hellip;</p>
+
+<p><img src="/images/2016/03/2016-summer-popsicles.jpg" width="600" height="600" title="summertime popsicles lyfe" alt="summertime popsicles lyfe"></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+Mar 29th, 2016</div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/photography/'>photography</a>
+
+
+</div>
+	
+</div>
+</article>
 
 
     <article class="post">
@@ -473,143 +642,6 @@ Mar 4th, 2016</div>
 
 
 Mar 3rd, 2016</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/photography/'>photography</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2016/03/02/around-sydney-are-memories/">
-		
-			around sydney are memories</a>
-	</h2>
-	<div class="entry-content">
-		<p>I sometimes feel disconnected from the world around me and find solace with my Canon 600D walking around until it&rsquo;s really late at night just capturing moments of people around me. This can be here in Sydney or any other part of the world. Tonight I conned Jet and Tomas into being dragged around Sydney until the ungodly hours of the morning (I think we finished up around 1?) so I could retrace some places that Grenouille and I had been to on our adventures.</p>
-
-<p>If I were to write a romance novel, it would be the moment I met him for dinner and drinks after work right up until the last we saw each other one last time at Hobart airport. But I don’t want to touch on that yet. Maybe one day I’ll come back to visit that story.</p>
-
-<p>We were retracing all the magical places I’ve never seen before when Grenouille and I walked around. No destination in mind, just leaving the blind to lead the blind. I followed him and he followed me, just anywhere but home.</p>
-
-<p>Looking back on it all, I don’t think there’s a single street I cannot now pass here in Sydney where I wasn’t following Grenouille, even to the deepest parts of the harbor - we saw it all!</p>
-
-<p>Jet and Tomas haven’t been up near the new development that is known as Barangaroo. So we retraced the steps that were taken before across many journeys and it’s sad to say, that I’ll probably not be here to see the final bricks to be laid for the most beautiful buildings.</p>
-
-<p><img src="/images/2016/02/2016-02-27_DJW.0466.800res.jpg" width="800" height="533" title="‘view of Barangaroo’ ‘view of Barangaroo’" ></p>
-
-<p>I think the one on the left is the new casino. I’m not sure? Maybe someone will drop me a line on <a href="https://twitter.com">Twitter</a> to <a href="https://twitter.com/danijeljames">@danijeljames</a> and fill me in ?</p>
-
-<p>The first time we came across Barangaroo was just after being up at the Observatory in the front gardens and we’d kissed under the white wood hut <em>(I don’t have a better description)</em> out the front. I remember leaning in to him and kissing him up his neck and him whispering to me ‘Fuck you, Danijel-James Wynyard Šimunov!’. Glorious!</p>
-
-<p>In short, ’tis a sight to see. I’d like to elaborate more on this article at a later stage and share some of the imagery from that night. I think there was a reflection of blue throughout most of the images and bring together all the important places.</p>
-
-<p>One of the most magical places to visit at night, if you ever get the chance is the Observatory Hill Gazebo. It looks out across the northern side of the harbor, so over Circular Quay, the Harbor Bridge, Sydney Opera House and right out to the ocean. So beautiful the way the light dances off the water at night and captures the essence of love.</p>
-
-<p>We stood there for a while as he taught me words like arbre, blanc, rouge, l’herb, verde. Recounting the objects around us, their names an the colors their transpire from. I still couldn’t say arbre. LOL! Bats are called bald mice, but I can’t remember the words, as it was a mouthful. I just wanted to touch him and give him a kiss the first time we were there. It was before the first time we’d kissed when we went there. From the expressions of Jet and Tomas, I think they enjoyed the night overall, and the gazebo, both never having seen the view before.</p>
-
-<p><img src="/images/2016/02/2016-02-26_DJW.0504.800res.jpg" width="800" height="533" title="from Observatory Hill" alt="view from Observatory Hill overlooking Sydney"></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Mar 2nd, 2016</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/photography/'>photography</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2016/02/28/last-night-photowalk-in-sydney/">
-		
-			last night photowalk in sydney</a>
-	</h2>
-	<div class="entry-content">
-		<p><img src="/images/2016/last_photowalk_in_sydney/DJW.20160227.0464.P1.jpg" width="800" height="533"  >
-<img src="/images/2016/last_photowalk_in_sydney/DJW.20160227.0465.P1.jpg" width="800" height="533"  >
-<img src="/images/2016/last_photowalk_in_sydney/DJW.20160227.0468.P1.jpg" width="533" height="800"  >
-<img src="/images/2016/last_photowalk_in_sydney/DJW.20160227.0471.P1.jpg" width="533" height="800"  >
-<img src="/images/2016/last_photowalk_in_sydney/DJW.20160227.0481.P1.jpg" width="533" height="800"  >
-<img src="/images/2016/last_photowalk_in_sydney/DJW.20160227.0486.P1.jpg" width="800" height="533"  >
-<img src="/images/2016/last_photowalk_in_sydney/DJW.20160227.0504.P1.jpg" width="800" height="533"  >
-<img src="/images/2016/last_photowalk_in_sydney/DJW.20160227.0512.P1.jpg" width="800" height="450"  >
-<img src="/images/2016/last_photowalk_in_sydney/DJW.20160227.0514.P1.jpg" width="800" height="533"  >
-<img src="/images/2016/last_photowalk_in_sydney/DJW.20160227.0517.P1.jpg" width="800" height="533"  >
-<img src="/images/2016/last_photowalk_in_sydney/DJW.20160227.0519.P1.jpg" width="800" height="533"  >
-<img src="/images/2016/last_photowalk_in_sydney/DJW.20160227.0526.P1.jpg" width="800" height="533"  ></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Feb 28th, 2016</div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/photography/'>photography</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2016/02/27/perfect-beach-weather/">
-		
-			perfect beach weather</a>
-	</h2>
-	<div class="entry-content">
-		<p>Sometimes you get lucky, and that test shot happens to be a perfect image!</p>
-
-<p><img src="/images/2016/02/DJW.20160227.600D.0385.P1.jpg" width="800" height="533" title="perfect beach weather, Bondi Beach NSW" alt="perfect beach weather, Bondi Beach NSW 「DJW.20160227.600D.0385.P1」"></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-Feb 27th, 2016</div>
 	<div class="tags">
 
 
