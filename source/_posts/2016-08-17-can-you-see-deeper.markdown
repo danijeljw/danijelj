@@ -4,7 +4,7 @@ title: "can you see deeper?"
 date: 2016-08-17 13:57:09 +1030
 comments: true
 categories: [french]
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 Simply looking down, it's a shopping trolley. With few ingredients. Ricotta, cheese, pasta, broccolini, bread crumbs, milk, celery, and a few other things. It's really so simple, but is it? Can you see deeper into this image?

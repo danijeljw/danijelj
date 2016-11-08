@@ -1,0 +1,11 @@
+---
+layout: post
+title: "🍧🍵 いただきます! 🍡🍰"
+date: 2016-11-08 23:05:12 +1030
+comments: true
+categories: hacking
+author: Danijel-James Wynyard
+published: true
+---
+{% img /images/2016/11/08/kitty_lollipop.gif 500 279 'kitty eat lollipop' 'kitty eat lollipop' %}
+

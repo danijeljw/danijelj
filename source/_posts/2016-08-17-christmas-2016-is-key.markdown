@@ -4,7 +4,7 @@ title: "christmas 2016 is key"
 date: 2016-08-17 13:57:09 +1030
 comments: true
 categories: [french]
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 Even though I've already posted today, this is an amendment. Today Jake sat me down at cibo espresso to write out my resume to write out my resume so I can get myself a new position. I've been really down just recently after the departure from DPC.

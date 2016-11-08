@@ -4,7 +4,7 @@
   <title><![CDATA[Category: hacking | danijelj [p.f.h]]]></title>
   <link href="http://danijelj.com/blog/categories/hacking/atom.xml" rel="self"/>
   <link href="http://danijelj.com/"/>
-  <updated>2016-10-30T00:12:24+10:30</updated>
+  <updated>2016-11-08T23:13:30+10:30</updated>
   <id>http://danijelj.com/</id>
   <author>
     <name><![CDATA[Danijel-James Wynyard]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[🍧🍵 いただきます! 🍡🍰]]></title>
+    <link href="http://danijelj.com/blog/2016/11/08/let-us-eat/"/>
+    <updated>2016-11-08T23:05:12+10:30</updated>
+    <id>http://danijelj.com/blog/2016/11/08/let-us-eat</id>
+    <content type="html"><![CDATA[<p><img src="/images/2016/11/08/kitty_lollipop.gif" width="500" height="279" title="&lsquo;kitty eat lollipop&rsquo; &lsquo;kitty eat lollipop&rsquo;" ></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[fullbrewupdate.sh]]></title>
@@ -90,25 +99,6 @@
     <content type="html"><![CDATA[<p>Convert from MP4 to WebM standard:</p>
 
 <pre><code class="bash">avconv -i inputVideo.mp4 -acodec libvorbis -aq 5 -ac 2 -qmax 25 -threads 2 outputVideo.webm
-</code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[quick brew install tips]]></title>
-    <link href="http://danijelj.com/blog/2016/05/07/quick-brew-install-tips/"/>
-    <updated>2016-05-07T23:42:06+09:30</updated>
-    <id>http://danijelj.com/blog/2016/05/07/quick-brew-install-tips</id>
-    <content type="html"><![CDATA[<p>Sometimes I need to remind myself how to install a list of apps in <a href="http://brew.sh">brew</a> from a textfile named <code>file.txt</code></p>
-
-<pre><code class="bash">sed -i '/^\s*$/d'
-# in place remove blank lines
-
-cat file.txt | while read in; do brew install "$in"; done
-# read each line in 'file.txt' to brew to install
-
-xargs -0 brew install  &lt; &lt;(tr \\n \\0 &lt;file.txt)
-# brew install each line from file.txt
 </code></pre>
 ]]></content>
   </entry>

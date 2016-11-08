@@ -4,7 +4,7 @@ title: "food, football, fun"
 date: 2016-07-07 12:35:04 +1030
 comments: true
 categories: [french, photography]
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 So who would have ever thought that I'd be intersted in sport? Not me, that's for sure. It's Friday and Jake's organised something for us to do. What exactly I'm not sure. But why would I care? As long as I'm spending time with him I just know that my life is the greatest achievement.

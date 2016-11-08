@@ -4,7 +4,7 @@ title: "can't stop the felling"
 date: 2016-08-07 23:40:36 +1030
 comments: true
 categories: [french]
-author: Danijel James
+author: Danijel-James Wynyard
 published: true
 ---
 Has anyone heard that song "Can't Stop The Feeling" by Justin Timberlake? Jake loves that song, because it annoys me...
