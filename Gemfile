@@ -15,5 +15,5 @@ group :development do
   gem 'stringex', '~> 1.4.0'
 end
 
-gem 'sinatra', '~> 1.4.2'
+gem 'sinatra', '~> 2.2.3'
 gem 'font-awesome-sass'
